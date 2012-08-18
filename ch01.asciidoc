@@ -1,5 +1,14 @@
 == Scaffolding
 
+At its core, Bootstrap is an extensible HTML, CSS, and Javascript framework for creating responsive websites. To get this started on your project, there are some build in variables that need to be either known, or changed to match your probject. First is the HTML5 doctype. 
+[source,html]
+------------------
+<!DOCTYPE html>
+<html lang="en">
+&ellips;
+</html>
+------------------
+
 === Global Styles
 
 === Default Grid System
