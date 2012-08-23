@@ -1,13 +1,66 @@
 == Scaffolding
 
-At its core, Bootstrap is an extensible HTML, CSS, and Javascript framework for creating responsive websites. To get this started on your project, there are some build in variables that need to be either known, or changed to match your probject. First is the HTML5 doctype. 
+Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a poroject, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the CSS file, and optionally the javascript file and you are ready to go. First off, there are few thing that you need to do get started.
+
+=== Bootstrap File Structure
+
+----
+ bootstrap/
+  ├── css/
+  │   ├── bootstrap.css
+  │   ├── bootstrap.min.css
+  ├── js/
+  │   ├── bootstrap.js
+  │   ├── bootstrap.min.js
+  ├── img/
+  │   ├── glyphicons-halflings.png
+  │   ├── glyphicons-halflings-white.png
+  └── README.md
+----
+
+The Bootstrap download includes three folders: css, js, and img. For simplicity, add these to the root of your project. Included are also minified versions of the CSS and Javascript. Both the uncompressed and the minified versions do not need to be included. For the sake of brevity, I use the uncompressed during development, and then switch to the compressed version in production.
+
+=== Basic HTML Template
+
+Normally, a web project looks something like this:
+
+.Basic HTML Layout
 [source,html]
-------------------
-<!DOCTYPE html>
-<html lang="en">
-&ellips;
+-------------
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+  </body>
 </html>
-------------------
+-------------
+
+With Bootstrap, we simply include the link to the stylesheet, and the Javascript.
+
+.Basic Bootstrap Template
+[source, html]
+--------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+--------------
+
+.Optional Title
+[NOTE]
+===============================
+*NOTE* Don't forget the HTML 5 Doctype
+===============================
 
 === Global Styles
 
