@@ -68,9 +68,9 @@ With Bootstrap, a number of the items come prebuilt. Instead of using the old re
 Typography and links are given a speacial treatment here. 
 
 * `margin` has been removed from the body
-* 'background-color: white;` on the body
+* `background-color: white;` on the body
 * Bootrap is using the `@baseFontFamily, @baseFontSize, and @baseLineHeight` attributes as our typographyic base
-* Also set the global link color via @linkColor and apply link underlines only on :hover
+* Also set the global link color via `@linkColor` and apply link underlines only on :hover
 
 [NOTE]
 ====
