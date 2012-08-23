@@ -1,5 +1,6 @@
 == Scaffolding
 
+<<<<<<< HEAD
 Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a poroject, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the CSS file, and optionally the javascript file and you are ready to go. First off, there are few thing that you need to do get started.
 
 === Bootstrap File Structure
@@ -61,6 +62,17 @@ With Bootstrap, we simply include the link to the stylesheet, and the Javascript
 ===============================
 *NOTE* Don't forget the HTML 5 Doctype
 ===============================
+=======
+At its core, Bootstrap is an extensible HTML, CSS, and Javascript framework for creating responsive websites. To get this started on your project, there are some build in variables that need to be either known, or changed to match your probject. First is the HTML5 doctype. 
+
+[source,html]
+------------------
+<!DOCTYPE html>
+<html lang="en">
+&ellips;
+</html>
+------------------
+>>>>>>> fa7eb1f0f1b8a58580cae48bd4dfccf743822bfa
 
 === Global Styles
 
