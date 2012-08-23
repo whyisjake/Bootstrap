@@ -56,7 +56,6 @@ With Bootstrap, we simply include the link to the stylesheet, and the Javascript
 </html>
 --------------
 
-.Optional Title
 [NOTE]
 ===============================
 *NOTE* Don't forget the HTML 5 Doctype
@@ -64,7 +63,23 @@ With Bootstrap, we simply include the link to the stylesheet, and the Javascript
 
 === Global Styles
 
+With Bootstrap, a number of the items come prebuilt. Instead of using the old reset block that was part of the Bootstrap 1.0 tree, Bootstrap 2.0 uses http://necolas.github.com/normalize.css/[Normalize.css], a project from http://necolas.github.com/normalize.css/[Nicolas Gallagher] that is part of the HTML5 Boilerplate.
+
+Typography and links are given a speacial treatment here. 
+
+* `margin` has been removed from the body
+* 'background-color: white;` on the body
+* Bootrap is using the `@baseFontFamily, @baseFontSize, and @baseLineHeight` attributes as our typographyic base
+* Also set the global link color via @linkColor and apply link underlines only on :hover
+
+[NOTE]
+====
+Remember, if you don't like the colors, or want to change a default, this can be done in the scaffolding.less.
+====
+
 === Default Grid System
+
+
 
 === Fluid Layouts
 
