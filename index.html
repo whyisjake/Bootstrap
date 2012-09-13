@@ -15,6 +15,7 @@
 			margin-top: 10px;
 			margin-bottom: 20px;
 		}
+
 		.show-grid [class*="span"] { 
 			background-color: #EEE;
 			text-align: center;
@@ -23,6 +24,15 @@
 			border-radius: 3px;
 			min-height: 40px;
 			line-height: 40px;
+		}
+
+		.show-grid .show-grid {
+			margin-bottom:0px;
+		}
+
+		.show-grid .show-grid [class*="span"] {
+			background-color: #CCC;
+			margin-bottom:0px;
 		}
 	</style>
 	<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -162,6 +172,20 @@
 				<div class="span12" data-original-title="">12</div>
 			</div>
 		
+		</div>
+
+		<div class="bs-docs-grid">
+
+			<div class="row-fluid show-grid">
+				<div class="span8">
+					Level 1 of column
+					<div class="row-fluid show-grid">
+						<div class="span6">Level 2</div>
+						<div class="span6">Level 2</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 
 		<footer>

@@ -1,6 +1,6 @@
 == Scaffolding
 
-Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a poroject, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the CSS file, and optionally the javascript file and you are ready to go. First off, there are few thing that you need to do get started.
+Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the CSS file, and optionally the Javascript file and you are ready to go. First off, there are few thing that you need to do get started.
 
 === Bootstrap File Structure
 
@@ -65,11 +65,11 @@ With Bootstrap, we simply include the link to the stylesheet, and the Javascript
 
 With Bootstrap, a number of the items come prebuilt. Instead of using the old reset block that was part of the Bootstrap 1.0 tree, Bootstrap 2.0 uses http://necolas.github.com/normalize.css/[Normalize.css], a project from http://necolas.github.com/normalize.css/[Nicolas Gallagher] that is part of the HTML5 Boilerplate.
 
-Typography and links are given a speacial treatment here. 
+Typography and links are given a special treatment here. 
 
 * `margin` has been removed from the body
 * `background-color: white;` on the body
-* Bootrap is using the `@baseFontFamily, @baseFontSize, and @baseLineHeight` attributes as our typographyic base
+* Bootstrap is using the `@baseFontFamily, @baseFontSize, and @baseLineHeight` attributes as our typographic base
 * Also set the global link color via `@linkColor` and apply link underlines only on :hover
 
 [NOTE]
@@ -99,7 +99,7 @@ To create a simple layout, create a '.row', and add the appropriate amount of '.
 </div>
 ---------------
 
-In the above example, we have span8, and a span4 adding up to 12.
+In the above example, we have '.span8', and a '.span4' adding up to 12.
 
 ==== Offsetting Columns
 
@@ -117,7 +117,63 @@ You can move columns to the right using the '.offset*' class. Each class moves t
 .Offset Grid
 image::images/offset-grid.png[]
 
+==== Nesting columns
 
-=== Fluid Layouts
+To nest your content with the default grid, simply inside of a '.span*', add a new '.row' with enough '.span*' that add up the number of the parent. 
+
+.Nesting Columns
+[source, html]
+--------------
+<div class="row">
+  <div class="span9">
+    Level 1 column
+    <div class="row">
+      <div class="span6">Level 2</div>
+      <div class="span3">Level 2</div>
+    </div>
+  </div>
+</div>
+--------------
+
+.Nesting Grid
+image::images/offset-grid.png[]
+
+
+=== Fluid Grid System
+
+The fluid grid system uses percents instead of pixels for column widths. It has the same responsive capabilities as our fixed grid system, ensuring proper proportions for key screen resolutions and devices. You can make any row "fluid" by changing .row to .row-fluid. The column classes stay the exact same, making it easy to flip between fixed and fluid grids. To offset, you operate in the same way as the fixed grid system works by adding .offset* to any column to offset by that many columns.
+
+.Fluid Column Layout
+[source, html]
+--------------
+<div class="row-fluid">
+  <div class="span4">...</div>
+  <div class="span8">...</div>
+</div>
+
+<div class="row-fluid">
+  <div class="span4">...</div>
+  <div class="span4 offset2">...</div>
+</div>
+--------------
+
+Nesting a fluid grid is a little different. Since we are using percentages, each '.row' resets the count. For example, If you were inside a '.span8', instead of two '.span4' elements to divide the content in half, you would use two '.span6' divs. 
+
+.Nesting Fluid Column Layout
+[source, html]
+--------------
+<div class="row-fluid">
+  <div class="span8">
+	<div class="row">
+		<div class="span6">...</div>
+		<div class="span6">...</div>
+	</div>
+  </div>
+</div>
+--------------
+
+.Nesting Fluid Grid
+image::images/nesting-fluid.png[]
+
 
 === Responsive Design
