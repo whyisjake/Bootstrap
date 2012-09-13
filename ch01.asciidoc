@@ -83,7 +83,7 @@ The default Bootstrap grid system utilizes 12 columns, making for a 940px wide c
 
 .Default Grid
 
-image:images/font/grid.png
+image::images/font/grid.png
 
 === Fluid Layouts
 
