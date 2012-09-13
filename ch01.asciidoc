@@ -79,7 +79,7 @@ Remember, if you don't like the colors, or want to change a default, this can be
 
 === Default Grid System
 
-
+There are a few default.
 
 === Fluid Layouts
 
