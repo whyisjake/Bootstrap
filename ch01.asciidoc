@@ -6,16 +6,16 @@ Starting a project new, Bootstrap comes comes with a handful of useful elements 
 
 ----
  bootstrap/
-  ├── css/
-  │   ├── bootstrap.css
-  │   ├── bootstrap.min.css
-  ├── js/
-  │   ├── bootstrap.js
-  │   ├── bootstrap.min.js
-  ├── img/
-  │   ├── glyphicons-halflings.png
-  │   ├── glyphicons-halflings-white.png
-  └── README.md
+	├── css/
+	│   ├── bootstrap.css
+	│   ├── bootstrap.min.css
+	├── js/
+	│   ├── bootstrap.js
+	│   ├── bootstrap.min.js
+	├── img/
+	│   ├── glyphicons-halflings.png
+	│   ├── glyphicons-halflings-white.png
+	└── README.md
 ----
 
 The Bootstrap download includes three folders: css, js, and img. For simplicity, add these to the root of your project. Included are also minified versions of the CSS and Javascript. Both the uncompressed and the minified versions do not need to be included. For the sake of brevity, I use the uncompressed during development, and then switch to the compressed version in production.
@@ -28,12 +28,12 @@ Normally, a web project looks something like this:
 [source,html]
 -------------
 <html>
-  <head>
-    <title>Bootstrap 101 Template</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+	<head>
+		<title>Bootstrap 101 Template</title>
+	</head>
+	<body>
+		<h1>Hello, world!</h1>
+	</body>
 </html>
 -------------
 
@@ -44,15 +44,15 @@ With Bootstrap, we simply include the link to the stylesheet, and the Javascript
 --------------
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Bootstrap 101 Template</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+	<head>
+		<title>Bootstrap 101 Template</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Hello, world!</h1>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>
 --------------
 
@@ -79,11 +79,14 @@ Remember, if you don't like the colors, or want to change a default, this can be
 
 === Default Grid System
 
-The default Bootstrap grid system utilizes 12 columns, making for a 940px wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px and 1170px wide depending on your viewport. Below 767px viewports, the columns become fluid and stack vertically.
+The default Bootstrap grid system utilizes 12 columns, making for a 940px wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px and 1170px wide depending on your viewport. Below 767px viewports, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide, offset 20 pixels to the left. 
 
 .Default Grid
 image::images/grid.png[]
 
+==== Basic grid HTML
+
+To create a simple layout, create a '.row', and add the appropriate amount of '.span*' columns. 
 
 === Fluid Layouts
 
