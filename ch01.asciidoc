@@ -86,7 +86,37 @@ image::images/grid.png[]
 
 ==== Basic grid HTML
 
-To create a simple layout, create a '.row', and add the appropriate amount of '.span*' columns. 
+To create a simple layout, create a '.row', and add the appropriate amount of '.span*' columns. Since we have 12-column grid, we just need to have the amount of '.span*' columns add up to twelve. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2, we could go on and on, but I think you get the gist.
+
+
+.Basic Grid Layout
+[source, html]
+--------------
+
+<div class="row">
+  <div class="span8">...</div>
+  <div class="span4">...</div>
+</div>
+---------------
+
+In the above example, we have span8, and a span4 adding up to 12.
+
+==== Offsetting Columns
+
+You can move columns to the right using the '.offset*' class. Each class moves the span over that width. So an '.offset4' would move a '.span4' over four columns. 
+
+.Offsetting Columns
+[source, html]
+------------------
+<div class="row">
+  <div class="span2">...</div>
+  <div class="span7 offset2">...</div>
+</div>
+------------------
+
+.Offset Grid
+image::images/offset-grid.png[]
+
 
 === Fluid Layouts
 
