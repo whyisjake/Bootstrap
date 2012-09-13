@@ -175,5 +175,7 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 .Nesting Fluid Grid
 image::images/nesting-fluid.png[]
 
+=== Container Layouts
+
 
 === Responsive Design
