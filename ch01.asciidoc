@@ -136,7 +136,7 @@ To nest your content with the default grid, simply inside of a '.span*', add a n
 --------------
 
 .Nesting Grid
-image::images/offset-grid.png[]
+image::images/nesting-grid.png[]
 
 
 === Fluid Grid System
@@ -165,8 +165,8 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 <div class="row-fluid">
   <div class="span8">
 		<div class="row">
-		  <div class="span6">...</div>
-		  <div class="span6">...</div>
+			<div class="span6">...</div>
+			<div class="span6">...</div>
 		</div>
   </div>
 </div>
