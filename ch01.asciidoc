@@ -164,18 +164,19 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 --------------
 <div class="row-fluid">
   <div class="span8">
-	<div class="row">
-		<div class="span6">...</div>
-		<div class="span6">...</div>
-	</div>
+		<div class="row">
+		  <div class="span6">...</div>
+		  <div class="span6">...</div>
+		</div>
   </div>
 </div>
 --------------
 
 .Nesting Fluid Grid
-image::images/nesting-fluid.png[]
+image::images/nesting-grid.png[]
 
 === Container Layouts
 
+To add a fixed width, centered layout to your page, simply wrap the content in '<div class="conainer">...</div>'. If you would like to use a fluid layout, but want to wrap everything in a container, use the following: '<div class="container-fluid">...</div>'. Using a fluid layout is great when you are building applications, administration screens and other related projects.
 
 === Responsive Design
