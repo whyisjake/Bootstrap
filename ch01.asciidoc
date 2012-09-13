@@ -180,3 +180,21 @@ image::images/nesting-grid.png[]
 To add a fixed width, centered layout to your page, simply wrap the content in '<div class="conainer">...</div>'. If you would like to use a fluid layout, but want to wrap everything in a container, use the following: '<div class="container-fluid">...</div>'. Using a fluid layout is great when you are building applications, administration screens and other related projects.
 
 === Responsive Design
+
+To turn on the responsive features of Bootstrap, you need to add a meta tag to the '<head>' of your webpage. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file.
+
+.Responsive Meta Tag and CSS
+[source, html]
+--------------
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/bootstrap-responsive.css" rel="stylesheet">
+--------------
+
+[NOTE]
+===============================
+*Heads up!* If you get started and are finding that the Bootstrap responsive features aren't working, make sure that you have these tags. The responsive features  aren't added by default at this time because not everything needs to be responsive. Instead of encouraging developers to remove this feature, the authors opted that it was best to enable it as needed.
+===============================
+
+==== What is Responsive Design?
+
+Responsive design is a method for taking all of the existing content that is on the page, and optimizing it for the device that is viewing it. For example, the desktop not only gets the normal version of the website, but might get also get a widescreen layout, optimized for the larger displays that many people have attached to their computers. Tablets get an optimized layout, taking advantage of the portrait or landscape layouts of those devices. And then with phones, you can target the much narrower width of phones. To target these different widths, Bootstrap uses CSS media queries to measure the width of the browser viewport, and then using conditionals, change which parts of the stylesheets are loaded. Using the width of the browser viewport, Bootstrap can then optimize the content using a combination of ratios, widths, but mostly falls on 'min-width' and 'max-width'.
