@@ -258,3 +258,5 @@ Bootstrap also includes a handful of helper classes for doing responsive develop
 |.hidden-tablet	 |Visible |Hidden  |Visible
 |.hidden-desktop |Visible |Visible |Hidden
 |===========================================	
+
+This is a newline that I am writing on the iPad in Diet Coda. 
