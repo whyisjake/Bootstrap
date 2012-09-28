@@ -1,7 +1,63 @@
 == Base CSS
 
+At the core of Bootstrap are a set of basic HTML elements that have been styled in such a way that allow for easy enhancement via classes and user styles.
 
 === Typography
+
+Starting with Typography, with the default font stack, Bootstrap has Helvitica Neau, Helvetica, Arial, and sans-serif. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.
+
+==== Headings
+
+<!-- Add headings image here-->
+
+All six headings have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height. In addition, to add emphasis to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color. In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight, and its color is grey.
+
+[code, css]
+----------
+h1 small {
+	font-size:24px;
+	font-weight:normal;
+	line-height:1;
+	color:#999;
+	}
+----------
+
+===== Lead body copy
+
+To add some emphasis to a paragraph, add `class="lead"`. This will give you larger font size, lighter wieight, and a taller line height. 
+
+<!-- Add image of lead copy here-->
+
+===== Emphasis
+
+In addition to using the `<small>` tag with headings, like I mentioned above, you can also use it with body copy. When doing so, the font becomes 85% of its original size. 
+
+===== Bold
+
+To add emphasis to text, simply add the `<strong>` tag. This will add the `font-weight-bold` to the text. 
+
+===== Italics
+
+For italics, simply add the `<em>` tag to your content. The root of em, is to add emphasis or stress to your text.
+
+.Heads Up!
+NOTE: You might be thinking to yourself, why not just use the `<b>` or `<i>` tags instead of `<em>` or `<strong>`. In HTML5, `<b>` is meant to highlight words or phrases without conveying additional importance while `<i>` is mostyle for voice, technical terms, etc.
+
+===== Empasis classes
+
+With `<strong>` and `<em>`, Boootstrap also offers a few classes that can be used to provide emphasis. 
+
+.Emphasis Classes
+[code, html]
+--------
+<p class="muted">This content is muted</p>
+<p class="text-warning">This content carries a warning class</p>
+<p class="text-error">This content carries an error class</p>
+<p class="text-info">This content carries a info class</p>
+<p class="text-success">This content carries a success class</p>
+<p>This content has <em>emphasis</em>, and can be <strong>bold</strong></p>
+--------
+
 
 === Code
 
