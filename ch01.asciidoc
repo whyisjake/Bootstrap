@@ -199,7 +199,7 @@ To turn on the responsive features of Bootstrap, you need to add a meta tag to t
 
 Responsive design is a method for taking all of the existing content that is on the page, and optimizing it for the device that is viewing it. For example, the desktop not only gets the normal version of the website, but might get also get a widescreen layout, optimized for the larger displays that many people have attached to their computers. Tablets get an optimized layout, taking advantage of the portrait or landscape layouts of those devices. And then with phones, you can target the much narrower width of phones. To target these different widths, Bootstrap uses CSS media queries to measure the width of the browser viewport, and then using conditionals, change which parts of the stylesheets are loaded. Using the width of the browser viewport, Bootstrap can then optimize the content using a combination of ratios, widths, but mostly falls on 'min-width' and 'max-width'.
 
-At the core, Bootstrap supports five different layouts, each relying on CSS media queries. Large displays, where the window width is at least 1200 pixels wide. This layout has columns that are 70 pixels wide each, and gutters that are 30 pixels wide. 
+At the core, Bootstrap supports five different layouts, each relying on CSS media queries. The largest layout has columns that are 70 pixels wide, contrasting the 60 pixels of the normal layout. The tablet layout brings the columns to 42 pixels wide, and when narrower then that, each column goes fluid, making it the full width of the device.
 
 .Responsive Media Queries
 [options="header"]
@@ -212,6 +212,9 @@ At the core, Bootstrap supports five different layouts, each relying on CSS medi
 |Phones				|480px and below 2+^|Fluid columns, no fixed widths
 |=====================================================================
 
+To add custom CSS based on the media query, you can either include all rules in one CSS file, via the media queries below, or use entirely different CSS files.
+
+.CSS media queries in the stylesheet
 [source, css]
 --------------
 /* Large desktop */
@@ -227,9 +230,22 @@ At the core, Bootstrap supports five different layouts, each relying on CSS medi
 @media (max-width: 480px) { ... }
 --------------
 
+For a larger site, you might want to separate them into separate files. In the HTML file, you can call them with the link tag in the head of your document. This is useful for keeping file sizes smaller, but does potentially increase the HTTP requests if being responsive.
+
+.CSS media queries via the link tag
+[source, html]
+--------------
+<link rel="stylesheet" href="base.css" />
+<link rel="stylesheet" media="(min-width:1200px)" href="large.css" />
+<link rel="stylesheet" media="(min-width:768px) and (max-width: 979px)" href="tablet.css" />
+<link rel="stylesheet" media="(max-width: 767px)" href="tablet.css" />
+<link rel="stylesheet" media="(max-width: 480px)" href="phone.css" />
+--------------
+
+
 ===== Helper Classes
 
-Bootstrap also includes a handful of helper classes for doing responsive development. It would be best practive to use this sparingly. A couple of use cases that I have seen fitting involve loading custom elements based on certain layouts. Perhaps you have a really nice header on the main layout, but on mobile you want to pare it down, leaving only a few of the elements. In this scenario, you could use the `.hidden-phone` class to hide either parts, or entire dom elements from the the header.
+Bootstrap also includes a handful of helper classes for doing responsive development. It would be best practice to use these sparingly. A couple of use cases that I have seen involve loading custom elements based on certain layouts. Perhaps you have a really nice header on the main layout, but on mobile you want to pare it down, leaving only a few of the elements. In this scenario, you could use the `.hidden-phone` class to hide either parts, or entire dom elements from the the header.
 
 .Media Queries Helper Classes
 [options="header"]
