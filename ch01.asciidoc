@@ -212,5 +212,32 @@ At the core, Bootstrap supports five different layouts, each relying on CSS medi
 |Phones				|480px and below 2+^|Fluid columns, no fixed widths
 |=====================================================================
 
+[source, css]
+--------------
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+--------------
 
+===== Helper Classes
 
+Bootstrap also includes a handful of helper classes for doing responsive development. It would be best practive to use this sparingly. A couple of use cases that I have seen fitting involve loading custom elements based on certain layouts. Perhaps you have a really nice header on the main layout, but on mobile you want to pare it down, leaving only a few of the elements. In this scenario, you could use the `.hidden-phone` class to hide either parts, or entire dom elements from the the header.
+
+[options="header"]
+|===========================================
+|Class			 |Phones  |Tablets |Desktops
+|.visible-phone	 |Visible |Hidden  |Hidden
+|.visible-tablet |Hidden  |Visible |Hidden
+|.visible-desktop|Hidden  |Hidden  |Visible
+|.hidden-phone	 |Hidden  |Visible |Visible
+|.hidden-tablet	 |Visible |Hidden  |Visible
+|.hidden-desktop |Visible |Visible |Hidden
+|===========================================
