@@ -72,7 +72,7 @@ The HTML `<abbr>` element is to provide markup for abbreviations or acronyms, li
 <abbr title="Real Simple Syndication">RSS</abbr>
 --------
 .Emphasis Classes
-image::images/emphasis-class.png[]
+image::images/abbr.png[]
 
 Add `.initialism` to an `<abbr>` for a slightly smaller font size.
 
@@ -83,7 +83,7 @@ Add `.initialism` to an `<abbr>` for a slightly smaller font size.
 --------
 
 .Emphasis Classes
-image::images/emphasis-class.png[]
+image::images/rotflol.png[]
 
 
 ===== Addresses
@@ -107,7 +107,7 @@ For screen readers, and search engines, adding an `<address>` field to you page 
 --------
 
 .Address Tag
-image::images/emphasis-class.png[]
+image::images/address.png[]
 
 
 ===== Blockquotes
