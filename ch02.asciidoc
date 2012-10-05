@@ -53,10 +53,71 @@ With `<strong>` and `<em>`, Boootstrap also offers a few classes that can be use
 <p class="muted">This content is muted</p>
 <p class="text-warning">This content carries a warning class</p>
 <p class="text-error">This content carries an error class</p>
-<p class="text-info">This content carries a info class</p>
+<p class="text-info">This content carries an info class</p>
 <p class="text-success">This content carries a success class</p>
 <p>This content has <em>emphasis</em>, and can be <strong>bold</strong></p>
 --------
+
+.Emphasis Classes
+image::images/emphasis-class.png[]
+
+===== Abbreviations
+
+The HTML `<abbr>` element is to provide markup for abbreviations or acronyms, like WWW or HTTP. By amrking up abbreviations, you can give useful information to browsers, spell checkers, translation systems or search engines. Bootstrap styles the `<abbr>` tag adding a light dotted border on the bottom, and adding the full lenth context on cover. 
+
+
+.Abbreviation Example
+[code, html]
+--------
+<abbr title="Real Simple Syndication">RSS</abbr>
+--------
+.Emphasis Classes
+image::images/emphasis-class.png[]
+
+Add `.initialism` to an `<abbr>` for a slightly smaller font size.
+
+.Abbreviation Example
+[code, html]
+--------
+<abbr title="Real Simple Syndication">RSS</abbr>
+--------
+
+.Emphasis Classes
+image::images/emphasis-class.png[]
+
+
+===== Addresses
+
+For screen readers, and search engines, adding an `<address>` field to you page can help with the location of physical addresses and phone numbers. It can also be used in the markup of email addresses. Since the `<address>` defaults to `display:block;` all text insde needs to have `<br>` tags if you want line breaks. 
+
+.Address Markup
+[code, html]
+--------
+<address>
+  <strong>O'Reilly Media, Inc.</strong><br>
+  1005 Gravenstein HWY North<br>
+  Sebastopol, CA 95472<br>
+  <abbr title="Phone">P:</abbr> (707) 827-7000
+</address>
+
+<address>
+  <strong>Jake Spurlock</strong><br>
+  <a href="mailto:#">flast@oreilly.com</a>
+</address>
+--------
+
+.Address Tag
+image::images/emphasis-class.png[]
+
+
+===== Blockquotes
+
+
+
+===== Lists
+
+===== Abbreviations
+
 
 
 === Code
