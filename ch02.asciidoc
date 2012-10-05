@@ -12,7 +12,7 @@ Starting with Typography, with the default font stack, Bootstrap has Helvitica N
 
 All six headings have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height. In addition, to add emphasis to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color. In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight, and its color is grey.
 
-[code, css]
+[source, css]
 ----------
 h1 small {
 	font-size:24px;
@@ -48,7 +48,7 @@ NOTE: You might be thinking to yourself, why not just use the `<b>` or `<i>` tag
 With `<strong>` and `<em>`, Boootstrap also offers a few classes that can be used to provide emphasis. 
 
 .Emphasis Classes
-[code, html]
+[source, html]
 --------
 <p class="muted">This content is muted</p>
 <p class="text-warning">This content carries a warning class</p>
@@ -77,7 +77,7 @@ image::images/abbr.png[]
 Add `.initialism` to an `<abbr>` for a slightly smaller font size.
 
 .Abbreviation Example
-[code, html]
+[source, html]
 --------
 <abbr title="Real Simple Syndication">RSS</abbr>
 --------
@@ -91,7 +91,7 @@ image::images/rotflol.png[]
 For screen readers, and search engines, adding an `<address>` field to you page can help with the location of physical addresses and phone numbers. It can also be used in the markup of email addresses. Since the `<address>` defaults to `display:block;` all text insde needs to have `<br>` tags if you want line breaks. 
 
 .Address Markup
-[code, html]
+[source, html]
 --------
 <address>
   <strong>O'Reilly Media, Inc.</strong><br>
@@ -115,7 +115,7 @@ image::images/address.png[]
 If you are going to be quoting blocks of text in your document, add the `<blockquote>` around the text. For best results, and for line breaks, wrap each section in a `<p>` tag. The default styling involves indenting the text, and adding a thick grey border on the left side. To idenify a source, add the `<small>` tag, with the author inside of a `<cite>` tag. When you put it all together, you get something that looks like this: 
 
 .Blockquote Markup
-[code, html]
+[source, html]
 --------
 <blockquote>
 	<p>That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984.</p>
