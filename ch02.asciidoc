@@ -112,7 +112,23 @@ image::images/emphasis-class.png[]
 
 ===== Blockquotes
 
+If you are going to be quoting blocks of text in your document, add the `<blockquote>` around the text. For best results, and for line breaks, wrap each section in a `<p>` tag. The default styling involves indenting the text, and adding a thick grey border on the left side. To idenify a source, add the `<small>` tag, with the author inside of a `<cite>` tag. When you put it all together, you get something that looks like this: 
 
+.Blockquote Markup
+[code, html]
+--------
+<blockquote>
+	<p>That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984.</p>
+	<small>Developer of RSS, <cite title="Source Title">Dave Winer</cite></small>
+</blockquote>
+--------
+
+.Heads Up!
+NOTE: If you would like to have a `<blockquote>` with content that is `right-aligned`, simply add `.pull-right` to the tag. In addition to the right-aligned text, the entire `blockquote` is floated the right. This will create nice pull-quotes in a your content.
+
+
+.Pull-Right Blockquote
+image::images/pull-right-blockquote.png[]
 
 ===== Lists
 
