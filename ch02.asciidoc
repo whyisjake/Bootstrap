@@ -43,7 +43,7 @@ For italics, simply add the `<em>` tag to your content. The root of em, is to ad
 .Heads Up!
 NOTE: You might be thinking to yourself, why not just use the `<b>` or `<i>` tags instead of `<em>` or `<strong>`. In HTML5, `<b>` is meant to highlight words or phrases without conveying additional importance while `<i>` is mostyle for voice, technical terms, etc.
 
-===== Empasis classes
+==== Emphasis classes
 
 With `<strong>` and `<em>`, Boootstrap also offers a few classes that can be used to provide emphasis. 
 
@@ -130,9 +130,11 @@ NOTE: If you would like to have a `<blockquote>` with content that is `right-ali
 .Pull-Right Blockquote
 image::images/pull-right-blockquote.png[]
 
-===== Lists
+==== Lists
 
 Bootstrap offers support and styling for the three main lists that HTML offers; ordered, unordered, and definition lists. An ordered list is a list that doesn't need to have order, and is traditionally styled with bullets. 
+
+===== Unordered List
 
 .Unordered List Markup
 [source, html]
@@ -152,9 +154,14 @@ Bootstrap offers support and styling for the three main lists that HTML offers; 
 
 --------
 
-
 .Unordered List Example
 image::images/ul.png[]
+
+
+===== Ordered List
+
+If you have an ordered list that you would like to remove the bullets from, simply add `class="unstyled"` to the opening `<ul>` tag. Personally, I hold a strong aversion to using the `<br>` tag, and when I want a single spaced line break, I place each line in an unstyled unordered list. As an example, you might want a condensed address box, like the illustration above, you could have each line as a `<li>`. In my mind, this is the more semantic way to markup the text.
+
 
 An ordered list is prefaced by numbers, rather then bullets. This is handy when you want to build a list of numbered items, like a task list, guide items, or even a list of comments on a blog post.
 
@@ -171,14 +178,34 @@ An ordered list is prefaced by numbers, rather then bullets. This is handy when 
 
 --------
 
-
 .Ordered List Example
 image::images/ol.png[]
 
+===== Definition List
 
-===== Abbreviations
+The third type of list with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having block level `<li>` elements, you have the `<dt>` and `<dd>` elements. The `<dt>` is the definition term, and like a dictionary, this is the term that is being defined. Subsequently, the `<dd>` is the defintion of the `<dt>`. A lot of times in markup, you will see people using an unordered list, and then placing an heading, along with other text. This works, but maybe isn't the most semantic way to markup the text. A better idea would be to create a `<dl>` and the style the `<dt>` and `<dd>` as you would the heading and the text. That being said, out of the box, Bootstrap offers some clean default styles, and an option for a horizontal layout.
 
+.Definition List Markup
+[source, html]
+--------
 
+<h3>Common Electronics Parts</h3>
+<dl>
+	<dt>LED</dt>
+	<dd>A light-emitting diode (LED) is a semiconductor light source.</dd>
+	<dt>Servo</dt>
+	<dd>Servos are small, cheap, mass-produced actuators used for radio control and small robotics.</dd>
+</dl>
+
+--------
+
+.Definition List Example
+image::images/dl.png[]
+
+To change the `<dl>` to a horizontal layout, with the `<dt>` on the left side, and the `<dd>` on the right, simply add `class="dl-horizontal"` to the opening tag.
+
+.Horizontal Definition List Example
+image::images/dlz.png[]
 
 === Code
 
