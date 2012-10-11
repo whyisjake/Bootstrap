@@ -132,6 +132,50 @@ image::images/pull-right-blockquote.png[]
 
 ===== Lists
 
+Bootstrap offers support and styling for the three main lists that HTML offers; ordered, unordered, and definition lists. An ordered list is a list that doesn't need to have order, and is traditionally styled with bullets. 
+
+.Unordered List Markup
+[source, html]
+--------
+
+<h3>Favorite Outdoor Activites</h3>
+<ul>
+	<li>Backpacking in Yosemite</li>
+	<li>Hiking in Arches
+		<ul>
+			<li>Delicate Arch</li>
+			<li>Park Avenue</li>
+		</ul>
+	</li>
+	<li>Biking the Flintstones Trail</li>
+</ul>
+
+--------
+
+
+.Unordered List Example
+image::images/ul.png[]
+
+An ordered list is prefaced by numbers, rather then bullets. This is handy when you want to build a list of numbered items, like a task list, guide items, or even a list of comments on a blog post.
+
+.Ordered List Markup
+[source, html]
+--------
+
+<h3>Self-Referential Task List</h3>
+<ol>
+	<li>Turn off the internet.
+	<li>Right the book</li>
+	<li>... Profit?</li>
+</ul>
+
+--------
+
+
+.Ordered List Example
+image::images/ol.png[]
+
+
 ===== Abbreviations
 
 
