@@ -8,7 +8,8 @@ Starting with Typography, with the default font stack, Bootstrap has Helvitica N
 
 ==== Headings
 
-<!-- Add headings image here-->
+.Headings
+image::images/headings.png[]
 
 All six headings have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height. In addition, to add emphasis to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color. In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight, and its color is grey.
 
@@ -26,7 +27,15 @@ h1 small {
 
 To add some emphasis to a paragraph, add `class="lead"`. This will give you larger font size, lighter wieight, and a taller line height. 
 
-<!-- Add image of lead copy here-->
+
+[source, html]
+----------
+<p class="lead">Bacon ipsum dolor sit amet tri-tip pork loin ball tip frankfurter swine boudin meatloaf shoulder short ribs cow drumstick beef jowl. Meatball chicken sausage tail, kielbasa strip steak turducken venison prosciutto. Chuck filet mignon tri-tip ribeye, flank brisket leberkas. Swine turducken turkey shank, hamburger beef ribs bresaola pastrami venison rump.</p>
+----------
+
+.Lead Body COpy Classes
+image::images/lead.png[]
+
 
 ===== Emphasis
 
@@ -188,7 +197,6 @@ The third type of list with Bootstrap is the definition list. The definition lis
 .Definition List Markup
 [source, html]
 --------
-
 <h3>Common Electronics Parts</h3>
 <dl>
 	<dt>LED</dt>
@@ -196,7 +204,6 @@ The third type of list with Bootstrap is the definition list. The definition lis
 	<dt>Servo</dt>
 	<dd>Servos are small, cheap, mass-produced actuators used for radio control and small robotics.</dd>
 </dl>
-
 --------
 
 .Definition List Example
@@ -211,6 +218,20 @@ image::images/dlz.png[]
 NOTE: Horizontal description lists will truncate terms that are too long to fit in the left column with `text-overflow`. In narrower viewports, they will change to the default stacked layout.
 
 === Code
+
+There are two different key ways to display code with Bootstrap. The first is the `<code>` tag, and the second is with the `<pre>` tag. The primary difference to keep in mind is if you are going to be displaying code inline, then you should use the `<code>` tag, and if it needs to be displayed as a block element, or has multiple lines, then you should use the `<pre>` tag. 
+
+[source, html]
+--------
+<p>Instead of always using divs, in HTML5, you can use new elements like <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and <code>&lt;footer&gt;</code>. The html should look something like this:</p>
+<article>
+  <h1>Article Heading</h1>
+</article>
+--------
+.Heads Up!
+NOTE: Make sure that when you use the pre and code tags, that you use the unicode variants for the opening and closing tags. `&lt;` and `&gt;`.
+
+----
 
 === Tables
 
