@@ -80,6 +80,7 @@ The HTML `<abbr>` element is to provide markup for abbreviations or acronyms, li
 --------
 <abbr title="Real Simple Syndication">RSS</abbr>
 --------
+
 .Emphasis Classes
 image::images/abbr.png[]
 
