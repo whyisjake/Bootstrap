@@ -225,9 +225,11 @@ There are two different key ways to display code with Bootstrap. The first is th
 [source, html]
 --------
 <p>Instead of always using divs, in HTML5, you can use new elements like <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and <code>&lt;footer&gt;</code>. The html should look something like this:</p>
-<article>
-  <h1>Article Heading</h1>
-</article>
+<pre>
+  <article>
+    <h1>Article Heading</h1>
+  </article>
+</pre>
 --------
 
 .Heads Up!
