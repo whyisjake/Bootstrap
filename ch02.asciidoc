@@ -229,8 +229,9 @@ There are two different key ways to display code with Bootstrap. The first is th
   <h1>Article Heading</h1>
 </article>
 --------
+
 .Heads Up!
-NOTE: Make sure that when you use the pre and code tags, that you use the unicode variants for the opening and closing tags. `&lt;` and `&gt;`.
+NOTE: Make sure that when you use the pre and code tags, that you use the unicode variants for the opening and closing tags. `&lt;` and `&gt;`
 
 ----
 
