@@ -238,6 +238,46 @@ NOTE: Make sure that when you use the pre and code tags, that you use the unicod
 
 === Tables
 
+One of my favorite parts of Bootstrap is the nice way that tables are handled. I do a lot of work looking at and building tables, and the nice clean layout is nice feature of Bootstrap. Bootstrap supports the folloing elements:
+
+.Table Elements Bootsrap Supports
+[frame="topbot",options="header"]
+|======================
+|Tag           |Description
+|`<table>`     |Wrapping element for displaying data in a tabular format
+|`<thead>`     |Container element for table header rows (`<tr>`) to label table columns
+|`<tbody>`     |Container element for table rows (`<tr>`) in the body of the table
+|`<tr>`        |Container element for a set of table cells (`<td>` or `<th>`) that appears on a single row
+|`<td>`        |Default table cell
+|`<th>`        |Special table cell for column (or row, depending on scope and placement) labels. Must be used within a `<thead>`
+|`<caption>`   |Description or summary of what the table holds, especially useful for screen readers
+|======================
+
+
+At the core, if you want a nice basic style with light padding, and only horizontal dividers, add the base class `.table` to any table.
+
+
+
+.Table Base Class
+[source, html]
+--------
+<table class="table">
+  <caption>...</caption>
+  <thead>
+    <tr>
+      <th>...</th>
+      <th>...</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
+--------
+
 === Forms
 
 === Buttons
