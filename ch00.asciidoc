@@ -1,3 +1,0 @@
--Welcome
-
-I wanted to say thanks for picking up a copy of Bootstrap. Over the last year, I have grown quite fond of Bootstap, and I think that it can make a huge difference in how people build websites.
