@@ -9,7 +9,7 @@ Starting with Typography, with the default font stack, Bootstrap has Helvitica N
 ==== Headings
 
 .Headings
-image::images/headings.png[]
+image::images/heading.png[]
 
 All six headings have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height. In addition, to add emphasis to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color. In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight, and its color is grey.
 
@@ -33,7 +33,7 @@ To add some emphasis to a paragraph, add `class="lead"`. This will give you larg
 <p class="lead">Bacon ipsum dolor sit amet tri-tip pork loin ball tip frankfurter swine boudin meatloaf shoulder short ribs cow drumstick beef jowl. Meatball chicken sausage tail, kielbasa strip steak turducken venison prosciutto. Chuck filet mignon tri-tip ribeye, flank brisket leberkas. Swine turducken turkey shank, hamburger beef ribs bresaola pastrami venison rump.</p>
 ----------
 
-.Lead Body COpy Classes
+.Lead Body Copy Classes
 image::images/lead.png[]
 
 
