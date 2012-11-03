@@ -286,10 +286,30 @@ At the core, if you want a nice basic style with light padding, and only horizon
 |`.info        |Used as an alternative to the default styles.
 |======================
 
-.Definition List Example
+.Table Row Classes Example
 image::images/tr.png[]
 
 === Forms
+
+Another one of the highlights of using Bootstrap is the attention that is paid to forms. As a web developer, one of my least favorite things to do is style forms. With Bootstrap, that is easy to do with the simple markup, and extended classes for sifferent styles of forms.
+
+.Basic Form Structure
+[source, html]
+----
+<form>
+	<fieldset>
+		<legend>Legend</legend>
+			<label>Label name</label>
+			<input type="text" placeholder="Type something…">
+			<span class="help-block">Example block-level help text here.</span>
+			<label class="checkbox">
+				<input type="checkbox"> Check me out
+			</label>
+		<button type="submit" class="btn">Submit</button>
+	</fieldset>
+</form>
+----
+
 
 === Buttons
 
