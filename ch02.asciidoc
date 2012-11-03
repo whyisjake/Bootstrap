@@ -256,8 +256,6 @@ One of my favorite parts of Bootstrap is the nice way that tables are handled. I
 
 At the core, if you want a nice basic style with light padding, and only horizontal dividers, add the base class `.table` to any table.
 
-
-
 .Table Base Class
 [source, html]
 --------
@@ -277,6 +275,19 @@ At the core, if you want a nice basic style with light padding, and only horizon
   </tbody>
 </table>
 --------
+
+.Optional Table Row Classes
+[frame="topbot",options="header"]
+|======================
+|Class         |Description
+|`.success`    |Indicates a successful or positive action.
+|`.error`      |Indicates a dangerous or potentially negative action.
+|`.warning`    |Indicates a warning that might need attention.
+|`.info        |Used as an alternative to the default styles.
+|======================
+
+.Definition List Example
+image::images/tr.png[]
 
 === Forms
 
