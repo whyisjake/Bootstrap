@@ -295,6 +295,10 @@ Another one of the highlights of using Bootstrap is the attention that is paid t
 
 The basic form structure creates styled markup, without needing to add any extra helper classes.
 
+
+.Basic Form
+image::images/basic-form.png[]
+
 .Basic Form Structure
 [source, html]
 ----
@@ -312,11 +316,44 @@ The basic form structure creates styled markup, without needing to add any extra
 </form>
 ----
 
-.Table Row Classes Example
-image::images/basic-form.png[]
+==== Optional Form Layouts
+
+===== Search Form
+
+With a few helper classes, you can dynamically update the layout of your form. In the first case, simply add `.form-search` to the `form` tag, and then `.search-query` to the `<input>` for an input with rounded corners, and an inline submit button.
+
+.Basic Form Structure
+[source, html]
+----
+<form class="form-search">
+  <input type="text" class="input-medium search-query">
+  <button type="submit" class="btn">Search</button>
+</form>
+----
+
+.Search Form
+image::images/form-sarch.png[]
+
+===== Inline Form
+
+To create a form where all of the elements are inline, and labels are along side, add the class `.form-horizontal` to the `form tag.
 
 
+.Horizontal Form
+[source, html]
+----
+<form class="form-inline">
+	<input type="text" class="input-small" placeholder="Email">
+	<input type="password" class="input-small" placeholder="Password">
+	<label class="checkbox">
+		<input type="checkbox"> Remember me
+	</label>
+	<button type="submit" class="btn">Sign in</button>
+</form>
+----
 
+.Horizontal Form Example
+image::images/form-horizontal.png[]
 
 === Buttons
 
