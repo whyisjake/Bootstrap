@@ -332,7 +332,7 @@ With a few helper classes, you can dynamically update the layout of your form. I
 ----
 
 .Search Form
-image::images/form-sarch.png[]
+image::images/form-search.png[]
 
 ===== Inline Form
 
