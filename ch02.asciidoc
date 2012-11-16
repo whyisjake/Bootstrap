@@ -339,7 +339,7 @@ image::images/form-sarch.png[]
 To create a form where all of the elements are inline, and labels are along side, add the class `.form-horizontal` to the `form tag.
 
 
-.Horizontal Form
+.Inline Form
 [source, html]
 ----
 <form class="form-inline">
@@ -352,8 +352,49 @@ To create a form where all of the elements are inline, and labels are along side
 </form>
 ----
 
+.Inline Form Example
+image::images/form-inline.png[]
+
+===== Horizonatal Form
+
+Bootstrap offers the markup for a horizontal form that stands apart from the others in not only the amount of markup, but but in the presentation of the form. Traditionally if you wanted a form layout like this, you would use a table, but Bootstrap manages to do it without, and if using the responsive CSS, will be adapt to smaller layouts by stacking the controls.
+
+To create a form with the horizontal layout, do the following:
+
+* Add `.form-horizontal` to the form
+* Wrap labels and controls in `.control-group`
+* Add `.control-label` to the label
+* Wrap any associated controls in `.controls` for proper alignment
+
 .Horizontal Form Example
 image::images/form-horizontal.png[]
+
+.Horizontal Form Example
+[source, html]
+----
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="inputEmail">Email</label>
+    <div class="controls">
+      <input type="text" id="inputEmail" placeholder="Email">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Password</label>
+    <div class="controls">
+      <input type="password" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox"> Remember me
+      </label>
+      <button type="submit" class="btn">Sign in</button>
+    </div>
+  </div>
+</form>
+----
 
 === Buttons
 
