@@ -312,6 +312,9 @@ The basic form structure creates styled markup, without needing to add any extra
 </form>
 ----
 
+.Table Row Classes Example
+image::images/basic-form.png[]
+
 
 
 
