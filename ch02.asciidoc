@@ -424,13 +424,81 @@ The `textarea` is used when you need to have multiple lines of input. The main c
 .Both the `:active`, and the default `textarea`
 image::images/textarea.png[]
 
-
 .Textarea Example
 [source,html]
 ----
 <textarea rows="3"></textarea>
 ----
 
+===== Checkboxes and radios
+
+When building a form, use the `checkbox` if you want the user to select from many options, and the `radio` if you just want them to select one.
+
+.Radio and Checkbox example
+image::images/radio.png[]
+
+.Radio and Checkbox Code Example
+[source,html]
+----
+<label class="checkbox">
+  <input type="checkbox" value="">
+  Option one is this and that—be sure to include why it's great
+</label>
+ 
+<label class="radio">
+  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+  Option one is this and that—be sure to include why it's great
+</label>
+<label class="radio">
+  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+  Option two can be something else and selecting it will deselect option one
+</label>
+----
+
+.Inline Checkboxes
+image::images/radio.png[]
+
+If you want checkboxes to appear on the same line, simply add the `.inline` class to a series of checkboxes or radios.
+
+[source,html]
+----
+<label class="checkbox inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+</label>
+<label class="checkbox inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+</label>
+<label class="checkbox inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+</label>
+----
+
+===== Selects
+
+A select is used when you want to allow the user to pick from multiple options. Use `multiple="multiple"` to allow the user to select more then one option.
+
+.Select Example
+image::images/select.png[]
+
+.Select Code Example
+[source,html]
+----
+<select>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+ 
+<select multiple="multiple">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+----
 
 
 
