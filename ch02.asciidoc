@@ -417,6 +417,20 @@ image::images/input.png[]
 NOTE: Of note, when using both `input`, and `textarea`, in the `:active` state, the default to a nice blue glow.
 image::images/input-active.png[]
 
+===== Textarea
+
+The `textarea` is used when you need to have multiple lines of input. The main control that you can modify is changing the `rows` attribute to the amount of rows that you need to support.
+
+.Both the `:active`, and the default `textarea`
+image::images/textarea.png[]
+
+
+.Textarea Example
+[source,html]
+----
+<textarea rows="3"></textarea>
+----
+
 
 
 
