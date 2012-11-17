@@ -339,7 +339,7 @@ image::images/form-search.png[]
 To create a form where all of the elements are inline, and labels are along side, add the class `.form-horizontal` to the `form tag.
 
 
-.Inline Form
+.Inline Form Code
 [source, html]
 ----
 <form class="form-inline">
@@ -369,7 +369,7 @@ To create a form with the horizontal layout, do the following:
 .Horizontal Form Example
 image::images/form-horizontal.png[]
 
-.Horizontal Form Example
+.Horizontal Form Code
 [source, html]
 ----
 <form class="form-horizontal">
@@ -395,6 +395,30 @@ image::images/form-horizontal.png[]
   </div>
 </form>
 ----
+
+==== Supported Form Controls
+
+Bootstap natively supports the most common form controls. Chief among them, `input`, `textarea`, `checkbox` and `radio`, and `select`. 
+
+===== Inputs
+
+The most common text field is the input. Bootstrap offers support for all native HTML5 types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
+
+.Input Example
+image::images/input.png[]
+
+.Input Code
+[source, html]
+----
+<input type="text" placeholder="Text input">
+----
+
+.Heads Up!
+NOTE: Of note, when using both `input`, and `textarea`, in the `:active` state, the default to a nice blue glow.
+image::images/input-active.png[]
+
+
+
 
 === Buttons
 
