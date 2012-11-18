@@ -539,6 +539,23 @@ image::images/both.png[]
 </div>
 ----
 
+Rather then using a `<span>`, you can use a `btn` class, and attach a button or two to the input.
+
+.Attach multiple buttons to an input
+image::images/multiple.png[]
+
+.Attach Multiple Buttons Code Example
+[source,html]
+----
+<div class="input-prepend input-append">
+  <span class="add-on">$</span>
+  <input class="span2" id="appendedPrependedInput" type="text">
+  <span class="add-on">.00</span>
+</div>
+----
+
+
+
 === Buttons
 
 === Images
