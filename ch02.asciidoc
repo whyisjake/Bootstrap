@@ -556,7 +556,24 @@ image::images/multiple.png[]
 </div>
 ----
 
+If you are appending the a button to a search form, you will get the same nice rounded corners that you would expect. 
 
+.Append Button to Search Form
+image::images/search-append.png[]
+
+[source,html]
+----
+<form class="form-search">
+  <div class="input-append">
+    <input type="text" class="span2 search-query">
+    <button type="submit" class="btn">Search</button>
+  </div>
+  <div class="input-prepend">
+    <button type="submit" class="btn">Search</button>
+    <input type="text" class="span2 search-query">
+  </div>
+</form>
+----
 
 === Buttons
 
