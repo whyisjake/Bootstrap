@@ -415,7 +415,9 @@ image::images/input.png[]
 
 .Heads Up!
 NOTE: Of note, when using both `input`, and `textarea`, in the `:active` state, the default to a nice blue glow.
+
 image::images/input-active.png[]
+
 
 ===== Textarea
 
