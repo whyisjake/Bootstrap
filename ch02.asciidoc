@@ -559,7 +559,7 @@ image::images/multiple.png[]
 If you are appending the a button to a search form, you will get the same nice rounded corners that you would expect. 
 
 .Append Button to Search Form
-image::images/search-append.png[]
+image::images/search-appended.png[]
 
 [source,html]
 ----
