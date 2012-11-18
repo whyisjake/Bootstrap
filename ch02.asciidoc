@@ -506,7 +506,7 @@ In addition to the basic form controls listed in the previous section, Bootstrap
 
 ===== Prepended and Appended Inputs
 
-With adding prepended and appended content to an input, you can add common elements like the dollar symbol, the `@` for a Twitter username or anything else that might be common for your application interface. To use, simply place a `<span>` with an `.add-on` class either before or after an input to append it to the input.
+With adding prepended and appended content to an input, you can add common elements like the dollar symbol, the `@` for a Twitter username or anything else that might be common for your application interface. To use, wrap the input with `.input-prepend` or `.input-append` and simply place a `<span>` with an `.add-on` class either before or after an input to append it to the input.
 
 .Append and Prepend Example
 image::images/append.png[]
@@ -524,6 +524,20 @@ image::images/append.png[]
 </div>
 ----
 
+If you combine both of them, you simply need to add both the `.input-prepend` and `.input-append` class to the parent `<div>`.
+
+.Using both the append and prepend
+image::images/both.png[]
+
+.Append and Prepend Code Example
+[source,html]
+----
+<div class="input-prepend input-append">
+  <span class="add-on">$</span>
+  <input class="span2" id="appendedPrependedInput" type="text">
+  <span class="add-on">.00</span>
+</div>
+----
 
 === Buttons
 
