@@ -660,7 +660,7 @@ image::images/input-uneditable.png[]
 At the bottom of a `horizontal-form` you can place the form actions. Then inputs will correctly line up with the floated form controls.
 
 .Form Controls
-images::images/form-controls.png[]
+image::images/form-controls.png[]
 
 [source,html]
 ----
@@ -675,15 +675,15 @@ images::images/form-controls.png[]
 Bootstrap form controls can have either block or inline text that flows with the inputs.
 
 .Inline Help
-images::images/help-inline.png[]
+image::images/help-inline.png[]
 
 [source,html]
 ----
 <input type="text"><span class="help-inline">Inline help text</span>
 ----
 
-.BLock Help
-images::images/help-block.png[]
+.Block Help
+image::images/help-block.png[]
 
 [source,html]
 ----
