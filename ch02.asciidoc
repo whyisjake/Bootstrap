@@ -575,6 +575,87 @@ image::images/search-appended.png[]
 </form>
 ----
 
+==== Form Control Sizing
+
+With the default grid system that is inherit in Bootstrap, you can use the `.span*` system for sizing form controls. In additions to the span method, you can also use the a handful of classes that take a relative approavh to sizing. 
+
+.Block Level Input
+image::images/input-block.png[]
+
+[source,html]
+----
+<input class="input-block-level" type="text" placeholder=".input-block-level">
+----
+
+===== Relative Input Controls
+
+image::images/input-relative.png[]
+
+[source,html]
+----
+<input class="input-mini" type="text" placeholder=".input-mini">
+<input class="input-small" type="text" placeholder=".input-small">
+<input class="input-medium" type="text" placeholder=".input-medium">
+<input class="input-large" type="text" placeholder=".input-large">
+<input class="input-xlarge" type="text" placeholder=".input-xlarge">
+<input class="input-xxlarge" type="text" placeholder=".input-xxlarge">
+----
+
+.Heads Up!
+NOTE: In future versions of Bootstrap, these input classes will be altered to match the button sizes. For example, `.input-large` will increase the padding and font-size of an input.
+
+===== Grid Sizing
+
+Use can use any `.span` from `.span1` to `.span12` for form control sizing.
+
+image::images/input-span.png[]
+
+[source,html]
+----
+<input class="span1" type="text" placeholder=".span1">
+<input class="span2" type="text" placeholder=".span2">
+<input class="span3" type="text" placeholder=".span3">
+<select class="span1">
+  ...
+</select>
+<select class="span2">
+  ...
+</select>
+<select class="span3">
+  ...
+</select>
+----
+
+If you want to use multiple inputs on a line, simply use the `.controls-row` modifier class to apply the proper spacing. If floats the inputs to collapse the white space, and set the correct margins, and like the `.row` class, it also clears the float.
+
+.Control Row
+image::images/control-row.png[]
+
+[source,html]
+----
+<div class="controls">
+  <input class="span5" type="text" placeholder=".span5">
+</div>
+<div class="controls controls-row">
+  <input class="span4" type="text" placeholder=".span4">
+  <input class="span1" type="text" placeholder=".span1">
+</div>
+...
+----
+
+===== Uneditable Text
+
+If you want to present a form control, but not have it editable, simple add the class `.uneditable-input`.
+
+.Uneditable Input
+image::images/control-row.png[]
+
+[source,html]
+----
+<span class="input-xlarge uneditable-input">Some value here</span>
+----
+
+
 === Buttons
 
 === Images
