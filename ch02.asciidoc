@@ -629,7 +629,7 @@ image::images/input-span.png[]
 If you want to use multiple inputs on a line, simply use the `.controls-row` modifier class to apply the proper spacing. If floats the inputs to collapse the white space, and set the correct margins, and like the `.row` class, it also clears the float.
 
 .Control Row
-image::images/control-row.png[]
+image::images/controls-row.png[]
 
 [source,html]
 ----
@@ -648,13 +648,47 @@ image::images/control-row.png[]
 If you want to present a form control, but not have it editable, simple add the class `.uneditable-input`.
 
 .Uneditable Input
-image::images/control-row.png[]
+image::images/input-uneditable.png[]
 
 [source,html]
 ----
 <span class="input-xlarge uneditable-input">Some value here</span>
 ----
 
+===== Form Actions
+
+At the bottom of a `horizontal-form` you can place the form actions. Then inputs will correctly line up with the floated form controls.
+
+.Form Controls
+images::images/form-controls.png[]
+
+[source,html]
+----
+<div class="form-actions">
+  <button type="submit" class="btn btn-primary">Save changes</button>
+  <button type="button" class="btn">Cancel</button>
+</div>
+----
+
+===== Help Text
+
+Bootstrap form controls can have either block or inline text that flows with the inputs.
+
+.Inline Help
+images::images/help-inline.png[]
+
+[source,html]
+----
+<input type="text"><span class="help-inline">Inline help text</span>
+----
+
+.BLock Help
+images::images/help-block.png[]
+
+[source,html]
+----
+<input type="text"><span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+----
 
 === Buttons
 
