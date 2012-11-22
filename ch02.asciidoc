@@ -782,14 +782,14 @@ Now, buttons, and links can all look alike with Bootstrap, anything that is give
 [options="header"]
 |=======================
 |Buttons                          |Class              |Description
-|image::images/btn.png[]          |`btn`              |Standard gray button with gradient
-|image::images/btn-primary.png[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons
-|image::images/btn-info.png[]     |`btn btn-info`     |Used as an alternative to the default styles
-|image::images/btn-success.png[]  |`btn-success`      |Indicates a successful or positive action
-|image::images/btn-warning.png[]  |`btn btn-warning`  |Standard gray button with gradient
-|image::images/btn-danger.png[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action
-|image::images/btn-inverse.png[]  |`btn btn-inverse`  |Alternate dark gray button, not tied to a semantic action or use
-|image::images/btn-link.png[]     |`btn btn-link`     |Deemphasize a button by making it look like a link while maintaining button behavior
+|image::images/btn.jpg[]          |`btn`              |Standard gray button with gradient
+|image::images/btn-primary.jpg[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons
+|image::images/btn-info.jpg[]     |`btn btn-info`     |Used as an alternative to the default styles
+|image::images/btn-success.jpg[]  |`btn-success`      |Indicates a successful or positive action
+|image::images/btn-warning.jpg[]  |`btn btn-warning`  |Standard gray button with gradient
+|image::images/btn-danger.jpg[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action
+|image::images/btn-inverse.jpg[]  |`btn btn-inverse`  |Alternate dark gray button, not tied to a semantic action or use
+|image::images/btn-link.jpg[]     |`btn btn-link`     |Deemphasize a button by making it look like a link while maintaining button behavior
 |=======================
 
 .Heads Up!
