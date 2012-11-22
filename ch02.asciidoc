@@ -795,7 +795,7 @@ Now, buttons, and links can all look alike with Bootstrap, anything that is give
 .Heads Up!
 NOTE: There are issues with Internet Explorer 9 not cropping background gradients on rounded corners, so buttons aren't shows. Also, Internet Exporer does work well with disabled button elements. The rendered text is gray with a nasty text-shadow that currently hasn't been fixed.
 
-===== Button Sizes
+==== Button Sizes
 
 If you need larger or smaller buttons, simply add `.btn-large`, `.btn-small`, or `.btn-mini` to links or buttons.
 
@@ -833,7 +833,32 @@ image::images/btn-block.png[]
 <button class="btn btn-large btn-block" type="button">Block level button</button>
 ----
 
+==== Disabled Button Styling
 
+For anchor elements, simply add the class of `.disabled` to the tag, and the link will drop back in color, and will lose the gradient. 
+
+.Heads Up!
+NOTE: The `.disabled` class is being used much like the `.active` class. So, no `.btn` prefix, and remember, this is only for looks, to truly disable the link, you will want to use some javascript to really disable the link.
+
+,Disabled Link
+image::images/disabled-link.png[]
+
+[source,html]
+----
+<a href="#" class="btn btn-large btn-primary disabled">Primary link</a>
+<a href="#" class="btn btn-large disabled">Link</a>
+----
+
+For a button, simply add the disabled attribute to the button. This will actually disable the button, so javascript is not directly needed.
+
+.Disabled Button
+image::images/disabled-button.png[]
+
+[source,html]
+----
+<button type="button" class="btn btn-large btn-primary disabled" disabled="disabled">Primary button</button>
+<button type="button" class="btn btn-large" disabled>Button</button>
+----
 
 
 === Images
