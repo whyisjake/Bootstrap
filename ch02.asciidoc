@@ -690,6 +690,37 @@ image::images/help-block.png[]
 <input type="text"><span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
 ----
 
+==== Form Control States
+
+In addition to the `:focus` state, Bootstrap offers styling for disabled inputs, and classes for form validation.
+
+===== Input Focus
+
+When an input receives `:focus`, that is to say, a user clicks into the input, or tabs into it, the outline of the input is removed, and a `box-shadow` is applied. I remember the firs time that I saw this on Twitter's site, it blew me away, and I had to dig into the code to see how they did it. In WebKit, this accomlished in the following manner:
+
+[code, css]
+----
+input {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: box-shadow linear 0.2s;
+}
+
+input:focus {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+----
+
+The `<input>` has a small inset `box-shadow`, this gives the appearence that the input sits lower then the page. When `:focus` is applied, an 8px light blue code is applied. The `webkit-transition` tells the browser to apply the effect in a linera manner over 0.2 seconds. Nice and subtle, a great effect. 
+
+.Focused Input
+image::images/input-focused.png[]
+
+[source,html]
+----
+<input class="input-xlarge" id="focusedInput" type="text" value="This is focused...">
+----
+
+
 === Buttons
 
 === Images
