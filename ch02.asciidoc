@@ -721,6 +721,20 @@ image::images/input-focused.png[]
 ----
 
 
+===== Disabled Input
+
+If you need to disable an input, simply add the disabled attribute to not only disable it, but change the styling, and the mouse cursor when it hover over the element.
+
+.Disabled Input
+image::images/input-disabled.png[]
+
+[source,html]
+----
+<input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+----
+
+===== Validation States
+
 === Buttons
 
 === Images
