@@ -769,7 +769,10 @@ image::images/input-validation.png[]
 
 One of my favorite features of Bootstrap is the way that buttons are styled. Dave Winer, inventor of RSS, and big fan of Bootstrap has this to say about it:
 
-> That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984. 
+[quote, Dave Winer, http://scripting.com/stories/2012/03/07/whyBootstrapMightBeVeryImp.html]
+____
+That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984. 
+____
 
 I like to think that Bootstrap is doing that, unifying the web, and allowing a unified experience of what an interface can look like across the web. With the advent of Bootstrap, you can spot the sites that have taken it up ususally first by the buttons that they use. A grid layout, and many of the other features fade into the background, but buttons, forms and other uniying elements are a key part of Bootstrap. Maybe I'm the only person that does this, but when I come across a site that is using Bootstrap, I want to give a high five to whomever answers the webmaster email at that domain, as they probably just get it. It reminds me of a few years ago I would do the same thing when I would see `wp-content` in the HTML of sites that I would visit.
 
