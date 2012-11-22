@@ -765,9 +765,35 @@ image::images/input-validation.png[]
 </div>
 ----
 
-
-
 === Buttons
+
+One of my favorite features of Bootstrap is the way that buttons are styled. Dave Winer, inventor of RSS, and big fan of Bootstrap has this to say about it:
+
+> That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984. 
+
+I like to think that Bootstrap is doing that, unifying the web, and allowing a unified experience of what an interface can look like across the web. With the advent of Bootstrap, you can spot the sites that have taken it up ususally first by the buttons that they use. A grid layout, and many of the other features fade into the background, but buttons, forms and other uniying elements are a key part of Bootstrap. Maybe I'm the only person that does this, but when I come across a site that is using Bootstrap, I want to give a high five to whomever answers the webmaster email at that domain, as they probably just get it. It reminds me of a few years ago I would do the same thing when I would see `wp-content` in the HTML of sites that I would visit.
+
+Now, buttons, and links can all look alike with Bootstrap, anything that is given that class of `btn` will inherit the default look of a grey button with rounded corners. Adding extra classes will add colors to the buttons.
+
+.Button Color Examples
+[options="header"]
+|=======================
+|Buttons                          |Class              |Description
+|image::images/btn.png[]          |`btn`              |Standard gray button with gradient
+|image::images/btn-primary.png[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons
+|image::images/btn-info.png[]     |`btn btn-info`     |Used as an alternative to the default styles
+|image::images/btn-success.png[]  |`btn-success`      |Indicates a successful or positive action
+|image::images/btn-warning.png[]  |`btn btn-warning`  |Standard gray button with gradient
+|image::images/btn-danger.png[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action
+|image::images/btn-inverse.png[]  |`btn btn-inverse`  |Alternate dark gray button, not tied to a semantic action or use
+|image::images/btn-link.png[]     |`btn btn-link`     |Deemphasize a button by making it look like a link while maintaining button behavior
+|=======================
+
+.Heads Up!
+NOTE: There are issues with Internet Explorer 9 not cropping background gradients on rounded corners, so buttons aren't shows. Also, Internet Exporer does work well with disabled button elements. The rendered text is gray with a nasty text-shadow that currently hasn't been fixed.
+
+
+
 
 === Images
 
