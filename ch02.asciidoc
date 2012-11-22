@@ -735,6 +735,38 @@ image::images/input-disabled.png[]
 
 ===== Validation States
 
+Bootstrap includes validation styles for error, warning, info, and success messages. To use, simply add the appropriate class to the surrounding `.control-group`.
+
+.Validation Stats
+image::images/input-validation.png[]
+
+[source,html]
+----
+<div class="control-group warning">
+  <label class="control-label" for="inputWarning">Input with warning</label>
+  <div class="controls">
+    <input type="text" id="inputWarning">
+    <span class="help-inline">Something may have gone wrong</span>
+  </div>
+</div>
+<div class="control-group error">
+  <label class="control-label" for="inputError">Input with error</label>
+  <div class="controls">
+    <input type="text" id="inputError">
+    <span class="help-inline">Please correct the error</span>
+  </div>
+</div>
+<div class="control-group success">
+  <label class="control-label" for="inputSuccess">Input with success</label>
+  <div class="controls">
+    <input type="text" id="inputSuccess">
+    <span class="help-inline">Woohoo!</span>
+  </div>
+</div>
+----
+
+
+
 === Buttons
 
 === Images
