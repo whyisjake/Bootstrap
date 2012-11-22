@@ -76,7 +76,7 @@ The HTML `<abbr>` element is to provide markup for abbreviations or acronyms, li
 
 
 .Abbreviation Example
-[code, html]
+[source, html]
 --------
 <abbr title="Real Simple Syndication">RSS</abbr>
 --------
@@ -698,7 +698,7 @@ In addition to the `:focus` state, Bootstrap offers styling for disabled inputs,
 
 When an input receives `:focus`, that is to say, a user clicks into the input, or tabs into it, the outline of the input is removed, and a `box-shadow` is applied. I remember the firs time that I saw this on Twitter's site, it blew me away, and I had to dig into the code to see how they did it. In WebKit, this accomlished in the following manner:
 
-[code, css]
+[source, css]
 ----
 input {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -769,7 +769,7 @@ image::images/input-validation.png[]
 
 One of my favorite features of Bootstrap is the way that buttons are styled. Dave Winer, inventor of RSS, and big fan of Bootstrap has this to say about it:
 
-[quote, Dave Winer, http://scripting.com/stories/2012/03/07/whyBootstrapMightBeVeryImp.html[Scripting News]]
+[quote, Dave Winer, scripting.com]
 ____
 That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984. 
 ____
@@ -802,7 +802,7 @@ If you need larger or smaller buttons, simply add `.btn-large`, `.btn-small`, or
 .Different Button Sizes
 image::images/btn-sizes.png[]
 
-[code,html]
+[source,html]
 ----
 <p>
   <button class="btn btn-large btn-primary" type="button">Large button</button>
@@ -824,9 +824,10 @@ image::images/btn-sizes.png[]
 
 If you want to create buttons that display like a `block` level element, simply add the `btn-block` class. These buttons will display at 100% width.
 
-image::images/btn-block.png[Block Level Button]
+.Block Level Button
+image::images/btn-block.png[]
 
-[code,html]
+[source,html]
 ----
 <button class="btn btn-large btn-block btn-primary" type="button">Block level button</button>
 <button class="btn btn-large btn-block" type="button">Block level button</button>
