@@ -795,6 +795,43 @@ Now, buttons, and links can all look alike with Bootstrap, anything that is give
 .Heads Up!
 NOTE: There are issues with Internet Explorer 9 not cropping background gradients on rounded corners, so buttons aren't shows. Also, Internet Exporer does work well with disabled button elements. The rendered text is gray with a nasty text-shadow that currently hasn't been fixed.
 
+===== Button Sizes
+
+If you need larger or smaller buttons, simply add `.btn-large`, `.btn-small`, or `.btn-mini` to links or buttons.
+
+.Different Button Sizes
+image::images/btn-sizes.png[]
+
+[code,html]
+----
+<p>
+  <button class="btn btn-large btn-primary" type="button">Large button</button>
+  <button class="btn btn-large" type="button">Large button</button>
+</p>
+<p>
+  <button class="btn btn-primary" type="button">Default button</button>
+  <button class="btn" type="button">Default button</button>
+</p>
+<p>
+  <button class="btn btn-small btn-primary" type="button">Small button</button>
+  <button class="btn btn-small" type="button">Small button</button>
+</p>
+<p>
+  <button class="btn btn-mini btn-primary" type="button">Mini button</button>
+  <button class="btn btn-mini" type="button">Mini button</button>
+</p>
+----
+
+If you want to create buttons that display like a `block` level element, simply add the `btn-block` class. These buttons will display at 100% width.
+
+image::images/btn-block.png[Block Level Button]
+
+[code,html]
+----
+<button class="btn btn-large btn-block btn-primary" type="button">Block level button</button>
+<button class="btn btn-large btn-block" type="button">Block level button</button>
+----
+
 
 
 
