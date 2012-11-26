@@ -860,7 +860,20 @@ image::images/disabled-button.png[]
 <button type="button" class="btn btn-large" disabled>Button</button>
 ----
 
-
 === Images
+
+Images have three classes to apply some simple styles. They are `.img-rounded` that adds `border-radius:6px` to give the image rounded corners, `.img-circle` that adds makes the entire image a circle by adding `border-radius:500px` making the image round, and lastly, `ing-polaroid`, that adds a bit of padding and a grey border. 
+
+.Images
+image::images/images.png[]
+
+[source,html]
+----
+<img src="..." class="img-rounded">
+<img src="..." class="img-circle">
+<img src="..." class="img-polaroid">
+----
+
+
 
 === Icons
