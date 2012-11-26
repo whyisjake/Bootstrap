@@ -840,7 +840,7 @@ For anchor elements, simply add the class of `.disabled` to the tag, and the lin
 .Heads Up!
 NOTE: The `.disabled` class is being used much like the `.active` class. So, no `.btn` prefix, and remember, this is only for looks, to truly disable the link, you will want to use some javascript to really disable the link.
 
-,Disabled Link
+.Disabled Link
 image::images/disabled-link.png[]
 
 [source,html]
