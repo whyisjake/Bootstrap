@@ -22,9 +22,10 @@ image::images/dropdown.png[]
 
 ==== Options
 
+===== Right align the dropdown
+
 Add .pull-right to a .dropdown-menu to right align the dropdown menu.
 
-===== Right align the dropdown
 [source, html]
 ----
 <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
