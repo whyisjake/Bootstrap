@@ -1,6 +1,54 @@
 == Components
 
-=== Dropdowns
+In addtion to all of the markup provided in the previous chapter, Bootstrap provides a toolkit of flexible components. 
+
+=== Dropdown Menus
+
+Dropdown menus are a toggleable, contextual menu for displaying links in a list format. To make this interactive, you need to use either the dropdown JavaScript plugin, or the full compiled Bootstrap plugin.
+
+.Basic Dropdown Menu
+image::images/dropdown.png[]
+
+[source, html]
+----
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+  <li><a tabindex="-1" href="#">Action</a></li>
+  <li><a tabindex="-1" href="#">Another action</a></li>
+  <li><a tabindex="-1" href="#">Something else here</a></li>
+  <li class="divider"></li>
+  <li><a tabindex="-1" href="#">Separated link</a></li>
+</ul>
+----
+
+==== Options
+
+Add .pull-right to a .dropdown-menu to right align the dropdown menu.
+
+.Right align the dropdown
+[source, html]
+----
+<ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
+  ...
+</ul>
+----
+
+If you would like to add a second layer of dropdowns, simply add `.dropdown-submenu` to any `<li>` in an existing dropdown menu for automatic styling.
+
+.Dropdown Submenu
+image:images/dropdown-sub.png[]
+
+[souce,html]
+----
+<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+  ...
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">More options</a>
+    <ul class="dropdown-menu">
+      ...
+    </ul>
+  </li>
+</ul>
+----
 
 === Button groups
 
