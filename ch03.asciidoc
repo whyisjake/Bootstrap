@@ -115,9 +115,63 @@ image::images/btn-group-vertical.png[]
 To have the checkboes function as radio buttons where only one can be selected at a time, or checkboxes where multiple can be selected, simply use simply need to add some extra markup and the Bootsrap JavaScript will provide the rest. 
 
 .Heads Up!
-NOTE: To use a button with a dropdown, they must be individually wrapped in their own `btn-group` within a `btn-toolbar` for proper rendering. 
+NOTE: To use a button with a dropdown, they must be individually wrapped in their own `btn-group` within a `btn-toolbar` for proper rendering.
 
-=== Button dropdowns
+
+
+=== Buttons With Dropdowns
+
+To add a dropdown to a button, simply wrap a button and a dropdown menu in a `.btn-group`. You can also use a `<span class="caret"></span>` to act as an indicator that the button is a dropwdown. 
+
+.Button with a Dropdown
+image::images/btn-dropdown.png[]
+
+.Button Dropdown Code
+[source,html]
+----------------------------------------------------------------------
+<div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+    Action
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a href="#">First Link</a>
+    <li><a href="#">Second Link</a>
+    <li class="divider">First Link</li>
+    <li><a href="#">Third Link</a>
+  </ul>
+</div>
+----------------------------------------------------------------------
+
+You can use the dropdowns with any button size, `.btn-large` `.btn`, `.btn-small` and `.btn-mini`.
+
+.Button Dropdown Sizes
+image::images/btn-dropdown-sizes.png[]
+
+==== Split Button Dropdowns
+
+Using the same general styles of the dropdown button, but adding a primary action along with the dropdown, split buttons have the primary action on the left, and the a toggle on the right for the dropdown.
+
+.Split Button Dropdown
+image::images/btn-split-dropdown.png[]
+
+.Split Button Dropdown Code Example
+[source,html]
+----
+<div class="btn-group">
+  <button class="btn">Action</button>
+  <button class="btn dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <!-- dropdown menu links -->
+  </ul>
+</div>
+----
+
+http://jsfiddle.net/vSHkJ/
+
+
 
 === Navs
 
