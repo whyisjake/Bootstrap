@@ -276,6 +276,9 @@ At the core, if you want a nice basic style with light padding, and only horizon
 </table>
 --------
 
+<!-- I need to do a lot more here... Just noticed that I was missing a bunch of the table classes/layouts. Whoops! -->
+
+
 .Optional Table Row Classes
 [frame="topbot",options="header"]
 |======================
@@ -889,7 +892,7 @@ ____
 
 ==== Usage
 
-To use the icons, simply use an `<i>` tag with the namespace `.icon-` class. For example, if you wanted to use the edit icon, you would simply add the `.icon-edit` class to the `<i>` tag.
+To use the icons, simply use an `<i>` tag with the namespaced `.icon-` class. For example, if you wanted to use the edit icon, you would simply add the `.icon-edit` class to the `<i>` tag.
 
 [source, html]
 ----

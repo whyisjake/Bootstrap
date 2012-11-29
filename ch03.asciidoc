@@ -253,6 +253,32 @@ image::images/nav-disabled.png[]
 </ul>
 ----
 
+==== Stackable Navs
+
+Both tabs and pills are horizontal by default, to make them stackable, just add the `.nav-stacked` class to make them appear vertically stacked.
+
+.Stacked Tabs
+image::images/stacked-tabs.png[]
+
+.Stacked Tabs Code Example
+[source, html]
+----
+<ul class="nav nav-tabs nav-stacked">
+  ...
+</ul>
+----
+
+
+.Stacked Pills
+image::images/stacked-pills.png[]
+
+.Stacked Pills Code Example
+[source, html]
+----
+<ul class="nav nav-pills nav-stacked">
+  ...
+</ul>
+----
 
 
 
