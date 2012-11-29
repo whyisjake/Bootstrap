@@ -194,7 +194,67 @@ image::images/btn-dropup.png[]
 
 jsfiddle::http://jsfiddle.net/DyfSZ/3/embedded/result/[width="100%", height="300px"]
 
-=== Navs
+=== Navigation Elements
+
+Bootstrap provides a few different opportunities for styling naviagation elements. All of them share the same markup and base class `.nav`. 
+
+==== Tabular Navigation
+
+To create a tabbed navigation menu, start with a basic unordered list with the base class of `.nav` and add `.nav-tabs`.
+
+.Tabbed Navigation
+image::images/nav-tabs.png[]
+
+.Tabbed Navigation Code Example
+[source, html]
+----
+<ul class="nav nav-tabs">
+  <li class="active">
+    <a href="#">Home</a>
+  </li>
+  <li><a href="#">...</a></li>
+  <li><a href="#">...</a></li>
+</ul>
+----
+
+==== Basic Pills Navigation
+
+To turn the tabs into pills, instead of using the `.nav-tabs` use `.nav-pills`.
+
+.Tabbed Navigation
+image::images/nav-pills.png[]
+
+.Tabbed Navigation Code Example
+[source, html]
+----
+<ul class="nav nav-pills">
+  <li class="active">
+    <a href="#">Home</a>
+  </li>
+  <li><a href="#">...</a></li>
+  <li><a href="#">...</a></li>
+</ul>
+----
+
+===== Disabled Class
+
+For each of the `.nav` classes, if you add the `.disabled` class, it will create gray link that also disables the hover state. The link is still clickable unless the `href` is removed, with javascript or some other method.
+
+.Disabled Navigation
+image::images/nav-disabled.png[]
+
+.Disabled Navigation Code Example
+[source, html]
+----
+<ul class="nav nav-pills">
+  ...
+  <li class="disabled"><a href="#">Home</a></li>
+  ...
+</ul>
+----
+
+
+
 
 === Navbar
 
