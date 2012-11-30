@@ -1,0 +1,22 @@
+<publisher>
+	<publishername>O'Reilly Media</publishername>
+	<address format="linespecific">
+		<street>1005 Gravenstein Highway</street>
+		<city>Sebastopol</city>
+		<state>CA</state>
+		<postcode>95472</postcode>
+	</address>
+</publisher>
+<editor>
+	<firstname>Jake</firstname>
+	<surname>Spurlock</surname>
+</editor>
+<editor>
+	<firstname>Andrew</firstname>
+	<surname>Odewahn</surname>
+</editor>
+<mediaobject role="cover">
+	<imageobject role="front-large" remap="lrg">
+		<imagedata format="PNG" fileref="images/cover.png"/>
+	</imageobject>
+</mediaobject>
