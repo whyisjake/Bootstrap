@@ -110,7 +110,7 @@ image::images/btn-group-vertical.png[]
 </div>
 ----
 
-===== Button Groups as Radio and Checkboxes
+==== Button Groups as Radio and Checkboxes
 
 To have the checkboes function as radio buttons where only one can be selected at a time, or checkboxes where multiple can be selected, simply use simply need to add some extra markup and the Bootsrap JavaScript will provide the rest. 
 
