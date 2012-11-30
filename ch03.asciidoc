@@ -280,7 +280,7 @@ image::images/stacked-pills.png[]
 </ul>
 ----
 
-
+Here is some more content for chapter 3.
 
 === Navbar
 
