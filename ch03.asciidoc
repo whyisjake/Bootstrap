@@ -347,6 +347,7 @@ image::images/nav-list.png[]
 	<li class="divider"></li>
 	<li><a href="#">Contact</a></li>
 </ul>
+----
 
 To create a divider, much like an `<hr />`, use an empty `<li>` with a class of `.divider`.
 
