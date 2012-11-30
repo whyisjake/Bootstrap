@@ -280,7 +280,77 @@ image::images/stacked-pills.png[]
 </ul>
 ----
 
-Here is some more content for chapter 3.
+==== Dropdowns
+
+Navigation menus share a similir syntax to dropdown menus. By default, you have a list item that has an anchor that works in conjuntion with some `data-` attributes to trigger an unodered list with a `.dropdown-menu` class. 
+
+<!-- Add a screenshot of the tabbed dropdown here.-->
+.Tabbed Navigation with a Dropdown Menu
+image::images/tab-dropdown.png[]
+
+.Tabbed Navigation Dropdown Code Example
+[source, html]
+----
+<ul class="nav nav-tabs">
+	<li class="dropdown">
+		<a class="dropdown-toggle"
+			data-toggle="dropdown"
+			href="#">
+			Dropdown
+			<b class="caret"></b>
+		</a>
+		<ul class="dropdown-munu">
+			<!--links-->
+		</ul>
+	</li>
+</ul>
+----
+
+To do the same thing with pills, simply swap the `.nav-tabs` class with `.nav-pills`.
+
+.Pill Navigation with Dropdowns
+image::images/pill-dropdown.png[]
+
+.Pill Navigation Dropdown Code Example
+[source, html]
+----
+<ul class="nav nav-pills">
+	<li class="dropdown">
+		<a class="dropdown-toggle"
+			data-toggle="dropdown"
+			href="#">
+			Dropdown
+			<b class="caret"></b>
+		</a>
+		<ul class="dropdown-munu">
+			<!--links-->
+		</ul>
+	</li>
+</ul>
+----
+
+==== Navigation Lists
+
+Navigation lists are useful when you need to display a group of navigation links. This type of interface element is common when building admin interfaces in websites. In the MAKE admin interface, I have one of these on the sidebar of every page with quick links to common pages. A form of this is what that Bootstrap developers use for their documentation. Like all of the lists that we have discusses thus far, this is simply an unordered list with the `.nav` class, and to give it it's specific styling, we add the `.nav-list` class.
+
+.Navigation List
+image::images/nav-list.png[]
+<!-- Add the nav-list images here -->	
+
+.Navigation List Code Example
+[source, html]
+----
+<ul class="nav nav-list">
+	<li class="nav-header">List Header</li>
+	<li class="active"><a href="/">Home</a></li>
+	<li><a href="#">Blog</a></li>
+	<li class="divider"></li>
+	<li><a href="#">Contact</a></li>
+</ul>
+
+To create a divider, much like an `<hr />`, use an empty `<li>` with a class of `.divider`.
+
+
 
 === Navbar
 
