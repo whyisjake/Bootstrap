@@ -370,6 +370,7 @@ image::images/tabbable-top.png[]
 
 .Tabble Navigation Code Example
 [source, html]
+----
 <div class="tabbable">
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
