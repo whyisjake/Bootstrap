@@ -452,6 +452,53 @@ NOTE: As a footnote here to the tabbable elements, you can use the markup here t
 			
 === Navbar
 
+The Navbar is a nice feature, and one of the prominant features of Bootstrap sites. At the core, the navbar includes styling for site names, and basic navigation. It can later be extended by adding form specific controls, and specialized dropdowns. To be sure that the navbar is constrained to the width of the content of the page, either place it inside of a `.span12` or the `.container` class.
+
+.Basic Navbar Example
+image::images/navbar.png[]
+
+.Basic Navbar Code Example
+[source, html]
+----
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Title</a>
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+</div>
+----
+
+In the code above, note the `.brand` class, this will give the text a lighter `font-weight` and slightly larger size.
+
+.Brand Class Example
+[source, html]
+----
+<a class="brand" href="#">Project name</a>
+----
+
+==== Nav Links
+
+To add links to the navbar, simply add an unordered list with the class of `.nav`.
+
+.Nav Links
+image::images/navbar-links.png[]
+
+.Navbar Links Code Example
+[source, html]
+----
+<ul class="nav">
+  <li class="active">
+    <a href="#">Home</a>
+  </li>
+  <li><a href="#">Link</a></li>
+  <li><a href="#">Link</a></li>
+</ul>
+----
+
 === Breadcrumbs
 
 === Pagination
