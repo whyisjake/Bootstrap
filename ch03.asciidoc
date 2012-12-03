@@ -391,6 +391,61 @@ jsfiddle::http://jsfiddle.net/JUqAT/embedded/result/[width="100%", height="300px
 
 If you want to make the tabs fade when switching, add `.fade` to each `.tab-pane`.
 
+===== Tab Position
+
+The tabs are fully positionable, you can have them above, below, or on the sides of the content. 
+
+.Bottom Tabs
+image::images/tab-bottom.png[]
+
+.Bottom Tab Example
+[source,html]
+----
+<div class="tabbable tabs-below">
+  <div class="tab-content">
+    ...
+  </div>
+  <ul class="nav nav-tabs">
+    ...
+  </ul>
+</div>
+----
+
+Tabs on the left get the `.tabs-left` class.
+
+.Left Tabs
+image::images/tab-left.png[]
+
+.Left Tab Example
+[source,html]
+----
+<div class="tabbable tabs-left">
+  <div class="tab-content">
+    ...
+  </div>
+  <ul class="nav nav-tabs">
+    ...
+  </ul>
+</div>
+----
+
+Tabs on the right get the `.tabs-right` class.
+
+.Right Tabs
+image::images/tab-right.png[]
+
+.Right Tab Example
+[source,html]
+----
+<div class="tabbable tabs-right">
+  <div class="tab-content">
+    ...
+  </div>
+  <ul class="nav nav-tabs">
+    ...
+  </ul>
+</div>
+----
 			
 === Navbar
 
