@@ -486,31 +486,27 @@ To add links to the navbar, simply add an unordered list with the class of `.nav
 
 .Nav Links
 image::images/navbar-links.png[]
-//This needs to be updated so that it shows a divider.
 
 .Navbar Links Code Example
 [source, html]
 ----
 <ul class="nav">
-  <li class="active">
-    <a href="#">Home</a>
-  </li>
+  <li class="active"><a href="#">Home</a></li>
   <li><a href="#">First Link</a></li>
   <li><a href="#">Second Link</a></li>
-  <li><a class="divider-vertical"></li>
+  <li class="divider-vertical"></li>
   <li><a href="#">Third Link</a></li> 
 </ul>
 ----
 
 ==== Forms
 
-Instead of using the deafault, class based forms from chapter 2, forms that are in the navbar use the `.navbar-form` class. This ensures that the forms margins are properly set, and match the nav stylings. Of note, `.pull-left`, and `.pull-right` helper classes can help move the form in the proper position. 
+Instead of using the default, class based forms from chapter 2, forms that are in the navbar use the `.navbar-form` class. This ensures that the forms margins are properly set, and match the nav stylings. Of note, `.pull-left`, and `.pull-right` helper classes may help move the form in the proper position. 
 
 .Default Navbar Form
 image::images/navbar-form.png[]
 
 .Default Navbar Form Styling
-.Heading
 [source, html]
 ----
 <form class="navbar-form pull-right">
@@ -525,7 +521,6 @@ To add rounded corners, taking style cues from the search inputs of iOS devices,
 image::images/navbar-search.png[]
 
 .Navbar Search Input Code Example
-.Heading
 [source, html]
 ----
 <form class="navbar-search"  accept-charset="utf-8">
@@ -542,9 +537,6 @@ The Bootstrap navbar can be dynamic in it's positioning. By default, it is a blo
 If you want the navbar fixed to the top, simply add `.navbar-fixed-top` to the `.navbar` class. To prevent the navbar from sitting on top of other content in the body of the page, add at least 40 pixels of `padding` to the `<body>` tag.
 
 .Fixed Top Navbar
-image::image/navbar-fixed-top.png[]
-
-.Fixed Top Navbar
 [source, html]
 ----
 <div class="navbar navbar-fixed-top">
@@ -557,9 +549,6 @@ image::image/navbar-fixed-top.png[]
 To affix the navbar to the bottom of the page, simply add `.fixed-navbar-bottom` class to the navbar. Once again, to prevent overlap, add at least 40 pixels of `padding` to the `<body>` tag.
 
 .Fixed Bottom Navbar
-image::image/navbar-fixed-bottom.png[]
-
-.Fixed Bottom Navbar
 [source, html]
 ----
 <div class="navbar navbar-fixed-bottom">
@@ -570,9 +559,6 @@ image::image/navbar-fixed-bottom.png[]
 ===== Static Top Navbar
 
 To create a navbar that scrolls with the page, add the `.navbar-static-top` class. This class does not require adding the padding to the body.
-
-.Static Top Navbar
-image::image/navbar-static-top.png[]
 
 .Static Top Navbar
 [source, html]
