@@ -1,7 +1,5 @@
 = Bootstrap
 
-include::book-docinfo.xml[]
-
 include::ch01.asciidoc[]
 
 include::ch02.asciidoc[]
