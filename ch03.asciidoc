@@ -600,6 +600,21 @@ image::images/navbar-responsive.png[]
 </div>
 ----
 
+===== Inverted Navbar
+
+To created an inverted navbar, where the background is black, with white text, simply add `.navbar-inverse` to the `.navbar` class. 
+
+.Inverted Navbar
+image::images/navbar-invert.png[]
+
+.Inverted Navbar Code Example
+[source, html]
+----
+<div class="navbar navbar-inverse">
+	...
+</div>
+----
+
 === Breadcrumbs
 
 === Pagination
