@@ -605,7 +605,7 @@ image::images/navbar-responsive.png[]
 To created an inverted navbar, where the background is black, with white text, simply add `.navbar-inverse` to the `.navbar` class. 
 
 .Inverted Navbar
-image::images/navbar-inverse.png[]
+image::images/navbar-invert.png[]
 
 .Inverted Navbar Code Example
 [source, html]
@@ -615,9 +615,23 @@ image::images/navbar-inverse.png[]
 </div>
 ----
 
-This is a change.
-
 === Breadcrumbs
+
+Breadcrumbs are a great way to show hierarchy based information for a site. In the case of blogs, it could show the dates of publishing, categories or tags, or for a full CMS, any type of information. A breadcrumb in Bootstrap is simply an unordered list with a class of `.breadcrumb`. There is a also a helper class of `.divider` that mutes the colors and makes the text a little smaller too. You could use forward slashes, arrows, or any divided that you choose.
+
+.Breadcrumb Example
+image::images/breadcrumb.png[]
+
+.Breadcrumb Code Example
+[source, html]
+----
+<ul class="breadcrumb">
+	<li><a href="#">Home</a> <span class="divider">/</span></li>
+	<li><a href="#">2012</a> <span class="divider">/</span></li>
+	<li><a href="#">December</a> <span class="divider">/</span></li>
+	<li><a href="#">5</a></li>
+</ul>
+----
 
 === Pagination
 
