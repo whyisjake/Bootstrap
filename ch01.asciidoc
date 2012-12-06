@@ -72,6 +72,8 @@ Typography and links are given a special treatment here.
 * Bootstrap is using the `@baseFontFamily, @baseFontSize, and @baseLineHeight` attributes as our typographic base
 * Also set the global link color via `@linkColor` and apply link underlines only on :hover
 
+// This could be a great place for a video where you walk through these changes, and show what effect they have on the resulting website. -NM
+
 [NOTE]
 ====
 Remember, if you don't like the colors, or want to change a default, this can be done in the scaffolding.less file, or overwritten in the users stylesheet. 
@@ -80,6 +82,8 @@ Remember, if you don't like the colors, or want to change a default, this can be
 === Default Grid System
 
 The default Bootstrap grid system utilizes 12 columns, making for a 940px wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px and 1170px wide depending on your viewport. Below 767px viewports, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide, offset 20 pixels to the left. 
+
+// I think this would be a great place for a jsfiddle, showing a resizable frame using the responsive grid that users can resize and see change. Basically, just an embedded responsive frame. Fallback for print, epub, etc, would be an image showing both default grid and responsive grid. -NM
 
 .Default Grid
 image::images/grid.png[]
@@ -101,6 +105,8 @@ To create a simple layout, create a '.row', and add the appropriate amount of '.
 
 In the above example, we have '.span8', and a '.span4' adding up to 12.
 
+// I'm not sure if this is feasible yet, but it would be cool to have an interactive frame where readers could try different combinations of span numbers and see the effect. Maybe even just a very short video where you walk through a few different combinations, showing the code as well, with a fallback image that compares a few combinations side by side. -NM
+
 ==== Offsetting Columns
 
 You can move columns to the right using the '.offset*' class. Each class moves the span over that width. So an '.offset4' would move a '.span4' over four columns. 
@@ -120,6 +126,8 @@ image::images/offset-grid.png[]
 ==== Nesting columns
 
 To nest your content with the default grid, simply inside of a '.span*', add a new '.row' with enough '.span*' that add up the number of the parent. 
+
+// Could be a good place for a challenge/solution. "Given a parent span9, what values could you use in the child row?". Prepopulate the box with everything but the child span*'s, and then the pop-out solution would show the following code. -NM
 
 .Nesting Columns
 [source, html]
@@ -142,6 +150,8 @@ image::images/nesting-grid.png[]
 === Fluid Grid System
 
 The fluid grid system uses percents instead of pixels for column widths. It has the same responsive capabilities as our fixed grid system, ensuring proper proportions for key screen resolutions and devices. You can make any row "fluid" by changing .row to .row-fluid. The column classes stay the exact same, making it easy to flip between fixed and fluid grids. To offset, you operate in the same way as the fixed grid system works by adding .offset* to any column to offset by that many columns.
+
+// I'd love to see some kind of demo of how changing from fixed to fluid changes the display of the website. Could be a video or a couple of jsfiddles. -NM
 
 .Fluid Column Layout
 [source, html]
@@ -174,6 +184,8 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 
 .Nesting Fluid Grid
 image::images/nesting-grid.png[]
+
+// This is a little confusing. Some kind of demo or expanded explanation would be cool, but I'm not sure what just yet. -NM
 
 === Container Layouts
 
