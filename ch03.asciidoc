@@ -724,7 +724,7 @@ image::images/pager.png[]
 To left/right align the different links, you just need to add the `.previous` and `.next` class to the list-items. Also, like `.pagination` above, you can add the disabled class for a muted look.
 
 .Aligned Page Links
-image::images/page-aligned.png[]
+image::images/pager-aligned.png[]
 
 .Aligned Page Links Code Example
 [source, html]
