@@ -635,6 +635,78 @@ image::images/breadcrumbs.png[]
 
 === Pagination
 
+Bootstrap handles pagination like a lot of interface elements, an unordered list, with wrapper `<div>` that has a specific class that identifies the element. In the basic form, adding `.pagination` do the parent `<div>` creates a row of bordered links. Each of the list items can be additionaly styled by using the `.disabled` or `.active` class.
+
+.Basic Pagination Example
+image::images/pagination.png[]
+
+.Basic Pagination Code Exampl
+[source, html]
+----
+<div class="pagination">
+  <ul>
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
+----
+
+.Pagination with helper classes
+images::images/pagination-centered.png[]
+
+.Paginatio with helper classes code example
+[source, html]
+----
+
+<div class="pagination pagination-centered">
+  <ul>
+    <li class="disabled"><a href="#">«</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">»</a></li>
+  </ul>
+</div>
+----
+
+In addition to the `.active` and `.disabled` classes for list items, you can also add `.pagination-centerd` to the parent `<div>`. This will center the contents of the div. If you want the items right aligned in the `<div>` add  `.pagination-right`. For sizing, in addition to the normal size, there are three other sizes, applied by adding a class to the wrapper `<div>`. They are: `.pagination-large`, `pagination-small` and `pagination-mini`.
+
+.Pagination Sizes
+image::images/pagination-sizes.png[]
+
+.Pagination Code Example
+[source, html]
+----
+<div class="pagination pagination-large">
+  <ul>
+    ...
+  </ul>
+</div>
+<div class="pagination">
+  <ul>
+    ...
+  </ul>
+</div>
+<div class="pagination pagination-small">
+  <ul>
+    ...
+  </ul>
+</div>
+<div class="pagination pagination-mini">
+  <ul>
+    ...
+  </ul>
+</div>
+----
+
+
+
 === Labels and badges
 
 === Typography
