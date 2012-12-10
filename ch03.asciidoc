@@ -739,9 +739,42 @@ image::images/pager-aligned.png[]
 </ul>
 ----
 
+=== Labels and Badges
 
+Labels and Badges are great for offering counts, tips, or other markup for pages. Another one of my favorite little Bootstrap touches.
 
-=== Labels and badges
+.Labels
+image::images/labels.png[]
+
+.Label Markup
+[source, html]
+----
+<span class="label">Default</span>
+<span class="label label-success">Success</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-important">Important</span>
+<span class="label label-info">Info</span>
+<span class="label label-inverse">Inverse</span>
+----
+
+==== Badges
+
+Badges are similar to Labels, the primary difference is that they have more rounded corners. The colors of badges reflect the same classes as labels.
+
+.Badges
+image::images/badges.png[]
+
+.Badges Code Example
+[source, html]
+----
+<span class="badge">1</span>
+<span class="badge badge-success">2</span>
+<span class="badge badge-warning">4</span>
+<span class="badge badge-important">6</span>
+<span class="badge badge-info">8</span>
+<span class="badge badge-inverse">10</span>
+----
+
 
 === Typography
 
