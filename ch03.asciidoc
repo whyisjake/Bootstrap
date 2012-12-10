@@ -759,7 +759,7 @@ image::images/labels.png[]
 
 ==== Badges
 
-Badges are similar to Labels, the primary difference is that they have more rounded corners. The colors of badges reflect the same classes as labels.
+Badges are similar to labels, the primary difference is that they have more rounded corners. The colors of badges reflect the same classes as labels.
 
 .Badges
 image::images/badges.png[]
@@ -774,6 +774,8 @@ image::images/badges.png[]
 <span class="badge badge-info">8</span>
 <span class="badge badge-inverse">10</span>
 ----
+
+
 
 
 === Typography
