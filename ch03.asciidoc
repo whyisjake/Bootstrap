@@ -705,6 +705,40 @@ image::images/pagination-sizes.png[]
 </div>
 ----
 
+==== Pager
+
+If you need to create simple pagination links that go beyond text, the pager can work quite well. Like the pagination links, the markup is an unodered list that sheds the wrapper `<div>`. By default, the links are centered.
+
+.Basic Pager
+image::images/pager.png[]
+
+.Basic Pager Code Example
+[source, html]
+----
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+----
+
+To left/right align the different links, you just need to add the `.previous` and `.next` class to the list-items. Also, like `.pagination` above, you can add the disabled class for a muted look.
+
+.Aligned Page Links
+image::images/page-aligned.png[]
+
+.Aligned Page Links Code Example
+[source, html]
+----
+<ul class="pager">
+  <li class="previous">
+    <a href="#">&larr; Older</a>
+  </li>
+  <li class="next">
+    <a href="#">Newer &rarr;</a>
+  </li>
+</ul>
+----
+
 
 
 === Labels and badges
