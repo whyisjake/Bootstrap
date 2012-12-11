@@ -776,9 +776,24 @@ image::images/badges.png[]
 ----
 
 
+=== Typographic Elements
 
+In addition to buttons, labels, forms, tables and tabs, Bootstrap has a few more elements for basic page layout. The hero unit is a large, content area that increased the size of headings, and adds a lot of margin for landing page content. To use, simply create a container `<div>` with the class of '.hero-unit'. In addition to a larger `<h1>`, all the `font-weight` is reduced to 200.
 
-=== Typography
+.Hero Unit
+image::images/hero-unit.png[]
+
+.Hero Unit Code Example
+[source, html]
+----
+<div class="hero-unit">
+  <h1>Heading</h1>
+  <p>Tagline</p>
+  <p>
+    <a class="btn btn-primary btn-large">Learn more</a>
+  </p>
+</div>
+----
 
 === Thumbnails
 
