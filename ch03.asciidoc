@@ -812,6 +812,45 @@ image::images/page-header.png[]
 
 === Thumbnails
 
+A lot of sites need a way to layout images in a grid, and Bootstrap has an easy way to do this. At the simplest, you add an `<a>` tag with the class of `.thumbnail` around an image. This adds four pixels of padding, and a grey border. On hover, an animated glow is added around the image.
+
+.Basic Thumbnail
+image::images/thumbnail.png[]
+
+.Thumbnail Code Example
+[source, html]
+----
+<a href="#" class="thumbnail">
+  <img alt="Kittens!" style="" src="http://placekitten.com/300/250">
+</a>
+----
+
+To add more content to the markup, as an example, you could add headings, buttons and more, swap the `<a>` tag that has a class of `.thumbnail` to be a `<div>`. Inside of that `<div>`, you can add anything you need. Since this is a `<div>` we can use the default span based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to left.
+
+.Extended Thumbnail
+.image::images/thumbnail-group.png[]
+
+.Customizable Code Example
+[source, html]
+----
+<ul class="thumbnails">
+  <li class="span4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x200" alt="300x200" style="">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Bacon ipsum dolor sit amet sirloin pancetta shoulder tongue doner, shank sausage.</p>
+        <p><a href="#" class="btn btn-primary">Bacon</a> <a href="#" class="btn">Sausage</a></p>
+      </div>
+    </div>
+  </li>
+  <li>
+    ...
+  </li>
+</ul>
+----
+
+
 === Alerts
 
 === Progress bars
