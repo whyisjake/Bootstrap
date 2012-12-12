@@ -828,7 +828,7 @@ image::images/thumbnail.png[]
 To add more content to the markup, as an example, you could add headings, buttons and more, swap the `<a>` tag that has a class of `.thumbnail` to be a `<div>`. Inside of that `<div>`, you can add anything you need. Since this is a `<div>` we can use the default span based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to left.
 
 .Extended Thumbnail
-.image::images/thumbnail-group.png[]
+image::images/thumbnail-group.png[]
 
 .Customizable Code Example
 [source, html]
