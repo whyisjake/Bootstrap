@@ -855,4 +855,8 @@ image::images/thumbnail-group.png[]
 
 === Progress bars
 
+=== Media Object
+
+When you look at social sites like Facebook, Twitter and others, strip away some of the text, and the abstract of the content that is displayed you will see the basis of the media object. Introduced in Bootstrap 2.2, the Media element adds 
+
 === Misc
