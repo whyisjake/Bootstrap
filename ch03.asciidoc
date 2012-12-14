@@ -857,7 +857,7 @@ image::images/thumbnail-group.png[]
 
 === Media Object
 
-When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelinesm, and you will see the Media Object. Driven by the Bootstrap community, and based on principles from the (oocss)[http://oocss.org/] community, the goal of the media element is to make the code for developing these blocks drastically shorter. Nicole Sullivan-Hass shares a few elemement of the media object like this on her site:
+When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelinesm, and you will see the Media Object. Driven by the Bootstrap community, and based on principles from the oocss[http://oocss.org/] community, the goal of the media element is to make the code for developing these blocks drastically shorter. Nicole Sullivan-Hass shares a few elemement of the media object like this on her site:
 
 .Media Object Examples
 image::images/media-object-nicole.png[]
