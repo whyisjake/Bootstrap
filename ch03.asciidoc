@@ -857,6 +857,60 @@ image::images/thumbnail-group.png[]
 
 === Media Object
 
-When you look at social sites like Facebook, Twitter and others, strip away some of the text, and the abstract of the content that is displayed you will see the basis of the media object. Introduced in Bootstrap 2.2, the Media element adds 
+When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelinesm, and you will see the Media Object. Driven by the Bootstrap community, and based on principles from the (oocss)[http://oocss.org/] community, the goal of the media element is to make the code for developing these blocks drastically shorter. Nicole Sullivan-Hass shares a few elemement of the media object like this on her site:
+
+.Media Object Examples
+image::images/media-object-nicole.png[]
+
+Bootstrap leaves the design and formatting to you, but provides a simple way to get going. Like a lot of other tools in Bootstrap, the markup is light, and the end goal is reached by applying classes to some simple markup. There are two forms to the media object, the `.media`, and the `.media-list`. If you are preparing a list where the items would be part of an unorderded list, use the `.media-list`. Using just `<div>` elements, use the `.media` object.
+
+.Default Media Object
+image::images/media-object.png[]
+
+.Media Object Code Example
+[source, html]
+----
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" data-src="holder.js/64x64">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+ 
+    <!-- Nested media object -->
+    <div class="media">
+      ...
+    </div>
+  </div>
+</div>
+----
+
+To use the media list, change the container `<div>` to an `<ul>` and add the class `.media-list`. Since you can nest media objects, it makes it handy markup for comments, or other lists.
+
+.Media List Example
+image::images/media-list.png[]
+
+.Media List Code Example
+[source, html]
+----
+<ul class="media-list">
+  <li class="media">
+    <a class="pull-left" href="#">
+      <img class="media-object" data-src="holder.js/64x64">
+    </a>
+    <div class="media-body">
+      <h4 class="media-heading">Media heading</h4>
+      ...
+ 
+      <!-- Nested media object -->
+      <div class="media">
+        ...
+     </div>
+    </div>
+  </li>
+</ul>
+----
+
 
 === Misc
