@@ -1,6 +1,10 @@
 == Javascript 
 
+The most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plugins.
+
 === Overview
+
+
 
 === Transitions
 
