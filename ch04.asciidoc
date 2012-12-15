@@ -134,7 +134,7 @@ Options can either be passed in via data attributes, or with Javascript. To use 
 ===== Options
 Activates your content as a modal. Accepts an optional options object.
 
-.modal(options)
+..modal(options)
 [source, js]
 ----
 $('#myModal').modal({
@@ -145,7 +145,7 @@ $('#myModal').modal({
 ===== Toggle
 Manually toggles a modal.
 
-.modal('toggle')
+..modal('toggle')
 [source, js]
 ----
 $('#myModal').modal('toggle')
@@ -154,7 +154,7 @@ $('#myModal').modal('toggle')
 ===== Show
 Manually opens a modal.
 
-.modal('show')
+..modal('show')
 [source, js]
 ----
 $('#myModal').modal('show')
@@ -163,7 +163,7 @@ $('#myModal').modal('show')
 ===== Hide
 Manually hides a modal.
 
-.modal('hide')
+..modal('hide')
 [source, js]
 ----
 $('#myModal').modal('hide')
