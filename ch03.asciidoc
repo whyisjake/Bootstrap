@@ -928,7 +928,7 @@ image::images/progress-bar-animated.gif[]
 In addition to the blue progress bar, there are options for green, yellow, and red by using the `.bar-success`, `bar-warning`, and `bar-danger` classes. Progress bars can be stacked, indicating a graph of sorts by adding multiple elemnts together like so:
 
 .Stacked Progress Bar
-image::images/progress-bar-stacked[]
+image::images/progress-bar-stacked.png[]
 
 .Stacked Progress Bar Example
 [source, html]
