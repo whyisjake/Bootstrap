@@ -853,7 +853,95 @@ image::images/thumbnail-group.png[]
 
 === Alerts
 
+Like the modals described in the next chapter, alerts provide a way to style messages to the user. The default alert is created by creating a wrapper `<div>` and adding a class of `.alert`.
+
+
+.Basic Alert
+image::images/alert.png[]
+
+.Basic Alert Code Example
+[source, html]
+----
+<div class="alert">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>Warning!</strong> Not to be alarmest, but you have now been alerted.
+</div>
+----
+
+The alert uses the alerts jquery plugin that is covered in chapter 4. To close the alert, you can use a button that contains the `data-dismiss="alert"` attribute. Mobile Safari, and Mobile Opera browers require an `href="#"` to close.
+
+If you have a longer message in your alert, you can use the `.alert-block` class. This provides a little more padding above and below the content contained in the alert, particulary useful for multi page lines of content.
+
+.Alert Block
+image::images/alert.png[]
+
+There are also three other color options, to help provide a more semantic method for the alert. They are added by adding either `.alert-error`, `.alert-success`, or `alert-info`.
+
+.Alert Color Options
+image::images/alert-options.png[]
+
+
 === Progress bars
+
+The purpose of progress bars is to show that assets are loading, in progress, or that there is action taking place regarding elements on the page. Personally, I think that these elements are more an excercise in markup, and have little purpose beyond that in the Bootstrap framework. That being said, with thousand of people using Bootstrap, there are likely a few outliers that have a good reason. By nature, these are static elements, and need some sort of Javascript interaction to provide any interaction.
+
+The default progress bar has a light background and a blue progress bar. To create, add a `<div>` with a class of `.progress`. And then inside, add an empty `<div>` with a class of `.bar`. Add a style attribute with the width in percentage. In the case below, I added `style="60%";` to indicate that the progress bar was at 60%.
+
+
+.Default Progress Bar
+image::images/progress-bar.png[]
+
+.Progress Bar Example
+[source, html]
+----
+<div class="progress">
+  <div class="bar" style="width: 60%;"></div>
+</div>
+----
+
+To create a striped progress bar, just add `.progress-striped` to the container `<div>`. Of note, striped progress bars are not available in Internext Explorer 7 and 8.
+
+.Striped Progress Bar
+image::iamges/progress-bar-striped[]
+
+.Striped Progress Bar Code Example
+[source, html]
+----
+<div class="progress progress-striped">
+  <div class="bar" style="width: 20%;"></div>
+</div>
+----
+
+Like the striped version of the progress bar, you can animate the stripes, making them look like the blue light special barbershop pole.
+
+.Animated Progress Bar
+image::images/progress-bar-animated.gif[]
+
+.Progres Bar Code Example
+[source, html]
+----
+<div class="progress progress-striped active">
+  <div class="bar" style="width: 40%;"></div>
+</div>
+----
+
+In addition to the blue progress bar, there are options for green, yellow, and red by using the `.bar-success`, `bar-warning`, and `bar-danger` classes. Progress bars can be stacked, indicating a graph of sorts by adding multiple elemnts together like so:
+
+.Stacked Progress Bar
+image::images/progress-bar-stacked[]
+
+.Stacked Progress Bar Example
+[source, html]
+----
+<div class="progress">
+  <div class="bar bar-success" style="width: 35%;"></div>
+  <div class="bar bar-warning" style="width: 20%;"></div>
+  <div class="bar bar-danger" style="width: 10%;"></div>
+</div>
+----
+
+.Progress Bar Color Examples
+image::images/progress-bar-colors.png[]
 
 === Media Object
 
