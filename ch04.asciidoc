@@ -186,7 +186,7 @@ If you need specific events during the firing events of Bootstrap's modals, you 
 [source, js]
 ----
 $('#myModal').on('hidden', function () {
-   alert('That modal is totally hidden...');
+   alert('Hey girl, I heard you like modals...');
 })
 ----
 
