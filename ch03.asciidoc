@@ -1037,3 +1037,61 @@ image::images/well-options.png[]
 
 </div>
 ----
+
+==== Heler Classes
+
+===== Pull Left
+
+To float an element to the left, use the `.pull-left` class.
+
+[source, html]
+----
+class="pull-left"
+----
+
+[source, css]
+----
+.pull-left {
+  float: left;
+}
+----
+
+===== Pull Right
+
+To float an element to the right, use the `.pull-right` class.
+
+[source, html]
+----
+class="pull-right"
+----
+
+[source, css]
+----
+.pull-right {
+  float: right;
+}
+----
+
+===== Clearfix
+
+To clear the float of any element, use the `.clearfix` class.
+
+[source, html]
+----
+class="clearfix"
+----
+
+[source, css]
+----
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+----
