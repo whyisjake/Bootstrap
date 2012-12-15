@@ -8,7 +8,7 @@ Bootstrap cand be included on your site in two forms, either compiled or raw. Bo
 
 If you need to turn off the data API, you can unbind the attributes by adding this line of Javascript.
 
-.Disable Bootstrap Javascript
+.Disable Bootstrap Javascript Data API
 [source, js]
 ----
 $('body').off('.data-api')
@@ -35,9 +35,9 @@ All methods should accept an optional options object, a string which targets a p
 
 [source, js]
 ----
-$("#myModal").modal()                       // initialized with defaults
-$("#myModal").modal({ keyboard: false })   	// initialized with no keyboard
-$("#myModal").modal('show')                	// initializes and invokes show immediately
+$("#myModal").modal()						// initialized with defaults
+$("#myModal").modal({ keyboard: false })	// initialized with no keyboard
+$("#myModal").modal('show')					// initializes and invokes show immediately
 ----
 
 === Transitions
