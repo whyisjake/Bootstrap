@@ -134,7 +134,7 @@ Options can either be passed in via data attributes, or with Javascript. To use 
 .modal(options)
 Activates your content as a modal. Accepts an optional options object.
 
-[code, js]
+[source, js]
 ----
 $('#myModal').modal({
   keyboard: false
@@ -144,7 +144,7 @@ $('#myModal').modal({
 .modal('toggle')
 Manually toggles a modal.
 
-[code, js]
+[source, js]
 ----
 $('#myModal').modal('toggle')
 ----
@@ -152,7 +152,7 @@ $('#myModal').modal('toggle')
 .modal('show')
 Manually opens a modal.
 
-[code, js]
+[source, js]
 ----
 $('#myModal').modal('show')
 ----
@@ -160,7 +160,7 @@ $('#myModal').modal('show')
 .modal('hide')
 Manually hides a modal.
 
-[code,js]
+[source, js]
 ----
 $('#myModal').modal('hide')
 ----
@@ -179,7 +179,7 @@ If you need specific events during the firing events of Bootstrap's modals, you 
 |hidden	|This event is fired when the modal has finished being hidden from the user (will wait for css transitions to complete).		|
 |=======================
 
-[source, html]
+[source, js]
 ----
 $('#myModal').on('hidden', function () {
    alert('That modal is totally hidden...');
