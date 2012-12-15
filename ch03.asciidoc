@@ -1044,6 +1044,7 @@ image::images/well-options.png[]
 
 To float an element to the left, use the `.pull-left` class.
 
+.Pull Left HTML
 [source, html]
 ----
 <div class="pull-left">
@@ -1051,6 +1052,7 @@ To float an element to the left, use the `.pull-left` class.
 </div>
 ----
 
+.Pull Left CSS
 [source, css]
 ----
 .pull-left {
@@ -1062,6 +1064,7 @@ To float an element to the left, use the `.pull-left` class.
 
 To float an element to the right, use the `.pull-right` class.
 
+.Pull Right CSS
 [source, html]
 ----
 <div class="pull-right">
@@ -1069,6 +1072,7 @@ To float an element to the right, use the `.pull-right` class.
 </div>
 ----
 
+.Pull Right CSS
 [source, css]
 ----
 .pull-right {
@@ -1080,11 +1084,13 @@ To float an element to the right, use the `.pull-right` class.
 
 To clear the float of any element, use the `.clearfix` class.
 
+.Clearfix HTML
 [source, html]
 ----
 <div class="clearfix"></div>
 ----
 
+.Clearfix CSS
 [source, css]
 ----
 .clearfix {
