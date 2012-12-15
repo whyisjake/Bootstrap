@@ -1046,7 +1046,9 @@ To float an element to the left, use the `.pull-left` class.
 
 [source, html]
 ----
-class="pull-left"
+<div class="pull-left">
+  ...
+</div>
 ----
 
 [source, css]
@@ -1062,7 +1064,9 @@ To float an element to the right, use the `.pull-right` class.
 
 [source, html]
 ----
-class="pull-right"
+<div class="pull-right">
+  ...
+</div>
 ----
 
 [source, css]
@@ -1078,7 +1082,7 @@ To clear the float of any element, use the `.clearfix` class.
 
 [source, html]
 ----
-class="clearfix"
+<div class="clearfix"></div>
 ----
 
 [source, css]
