@@ -51,6 +51,140 @@ The transition plugin provides simple transition effects. A few examples include
 
 === Modal
 
+Modals are windows that overlay the content of the page. They can provide information, provide interaction, or do anything else that you desire. I have used that as a window for holding slideshows, login/registration information, and more. Probably one of my favorite Bootstrap features.
+
+To create a static example, use the code below.
+
+.Static Modal Window
+image::images/modal.png[]
+
+.Static Modal Modal Window Code Example
+[source, html]
+----
+<div class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div>
+</div>
+----
+
+To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you wiwll see that the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you yo load multiple modals, and then have different triggers for each of them.
+
+[source, html]
+----
+<!-- Button to trigger modal -->
+<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+----
+
+==== Modal Usage
+
+===== Via Data Attributes
+
+Using the Bootstrap Javascript Data API, you simply need to pass a few data attributes to toggle the slideshow. To start with, set `data-toggle="modal"` on the link or button that you want to use to invoke the modal and then `data-target="#foo"` to the ID of the modal that you'd like to use.
+
+====== Via Javascript
+
+To call a modal with `id="myModal"` with a single line of JavaScript:
+
+[source, js]
+----
+$('#myModal').modal(options)
+----
+
+==== Modal Options
+
+Options can either be passed in via data attributes, or with Javascript. To use the data attributes, prepend `data-` to the option name, like, `data-backdrop=""`.
+
+.Modal Options
+[options="header"]
+|=======================
+|Name 		|Type       |Default 	|Description
+|backdrop 	|boolean	|true		|Includes a modal-backdrop element. Alternatively, specify static for a backdrop which doesn't close the modal on click.
+|keyboard 	|boolean	|true		|Closes the modal when escape key is pressed
+|show 		|boolean	|true		|Shows the modal when initialized.
+|remote 	|path 		|false		|If a remote url is provided, content will be loaded via jQuery's load method and injected into the .modal-body. If you're using the data api, you may alternatively use the href tag to specify the remote source.
+|=======================
+
+
+==== Methods
+
+.modal(options)
+Activates your content as a modal. Accepts an optional options object.
+
+[code, js]
+----
+$('#myModal').modal({
+  keyboard: false
+})
+----
+
+.modal('toggle')
+Manually toggles a modal.
+
+[code, js]
+----
+$('#myModal').modal('toggle')
+----
+
+.modal('show')
+Manually opens a modal.
+
+[code, js]
+----
+$('#myModal').modal('show')
+----
+
+.modal('hide')
+Manually hides a modal.
+
+[code,js]
+----
+$('#myModal').modal('hide')
+----
+
+==== Events
+
+If you need specific events during the firing events of Bootstrap's modals, you can use the folloing events.
+
+.Modal Events
+[options="header"]
+|=======================
+|Event 	|Description
+|show	|This event fires immediately when the `show` instance method is called.
+|shown	|This event is fired when the modal has been made visible to the user (will wait for css transitions to complete).
+|hide	|This event is fired immediately when the `hide` instance method has been called.
+|hidden	|This event is fired when the modal has finished being hidden from the user (will wait for css transitions to complete).		|
+|=======================
+
+[source, html]
+----
+$('#myModal').on('hidden', function () {
+   alert('That modal is totally hidden...');
+})
+----
 
 
 === Dropdown
