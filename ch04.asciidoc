@@ -42,7 +42,16 @@ $("#myModal").modal('show')					// initializes and invokes show immediately
 
 === Transitions
 
+The transition plugin provides simple transition effects. A few examples include:
+
+* Sliding or fading in modals
+* Fading out tabs
+* Fading out alerts
+* Sliding carousel panes
+
 === Modal
+
+
 
 === Dropdown
 
