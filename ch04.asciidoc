@@ -186,12 +186,68 @@ If you need specific events during the firing events of Bootstrap's modals, you 
 [source, js]
 ----
 $('#myModal').on('hidden', function () {
-   alert('Hey girl, I heard you like modals...');
+   alert('Hey girl, I heard you like modals...c');
 })
 ----
 
 
 === Dropdown
+
+The dropdown was covered extensively in chapter 3, but then, the interaction was simply glossed over. As a refresher, dropdowns can be added to the the navbar, pills, tabs and buttons.
+
+==== Dropdown Usage via the Data API
+
+To use, add use `data-toggle="dropdown"` to a link or button to toggle the dropdown.
+
+.Dropdown Within Navbar 
+image::images/dropdown-javascript.png[]
+
+.Dropdown Code Example with Data Attributes
+[source, html]
+----
+<div class="dropdown">
+  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown trigger</a>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    ...
+  </ul>
+</div>
+----
+
+If you need to keep links entact, useful if the browser is not enabling Javascript, use the `data-target` attribute instead of `href="#"`.
+
+.Dropdown via the `data-target` Attribute
+[source, html]
+----
+<div class="dropdown">
+  <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+    Dropdown
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    ...
+  </ul>
+</div>
+----
+
+==== Dropdown Usage via Javascript
+
+To call the dropdown toggle via Javascript, use the following method.
+
+.Dropdown via Javascript
+[source, js]
+----
+$('.dropdown-toggle').dropdown()
+----
+
+==== Methods
+
+The dropdown toggle has a simple method to toggle the dropdown. There are no options.
+
+[source, js]
+----
+$().dropdown('toggle')
+----
+
 
 === Scrollspy
 
