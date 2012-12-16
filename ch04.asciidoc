@@ -251,6 +251,80 @@ $().dropdown('toggle')
 
 === Scrollspy
 
+The scrollspy plugin allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll you can add active classes to the nav bar based on the scroll postion. To add the scrollspy plugin via data attributes, add `data-spy="scroll"` to the element you want to spy on (most typically this would be the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. 
+
+==== Usage
+
+.Body Configuration for Scrollspy
+[source, html]
+----
+<body data-spy="scroll" data-target=".navbar">...</body>
+----
+
+In the navbar, you will need to have page anchors that will serve as indicators for the element to spy on. 
+
+.Navbar Setup for Scrollspy
+[source, html]
+----
+<div class="navbar">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="brand" href="#">Jake's BBQ</a>
+			<div class="nav-collapse">
+				<ul class="nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#pork">Pork</a></li>
+					<li><a href="#beef">Beef</a></li>
+					<li><a href="#chicken">Chicken</a></li>
+				</ul>
+			</div><!-- /.nav-collapse -->
+		</div>
+	</div><!-- /navbar-inner -->
+</div>
+----
+
+===== Usage via Javascript
+
+.Javascript Usage
+[source, js]
+----
+$('#navbar').scrollspy()
+----
+
+==== Scrollspy Methods
+
+===== .scrollspy('refresh')
+
+When calling the scrollspy via the Javascript method, you will need to call the .refresh method to update the DOM.
+
+[source, js]
+----
+$('[data-spy="scroll"]').each(function () {
+  var $spy = $(this).scrollspy('refresh')
+});
+----
+
+==== Options
+
+Options can be passed via data attributes or JavaScript. For data attributes, append the option name to data-, as in data-offset="".
+
+
+.Scrollspy Options
+[options="header"]
+|=======================
+|Name	|type	|default	|description
+|offset	|number	|10			|Pixels to offset from top when calculating position of scroll.
+|=======================
+
+==== Events
+
+[options="header"]
+|=======================
+|Event		|Description
+|activate	|This event fires whenever a new item becomes activated by the scrollspy.
+|=======================
+
+
 === Tab
 
 === Tooltip
