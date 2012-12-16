@@ -253,6 +253,8 @@ $().dropdown('toggle')
 
 The scrollspy plugin allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll you can add active classes to the nav bar based on the scroll postion. To add the scrollspy plugin via data attributes, add `data-spy="scroll"` to the element you want to spy on (most typically this would be the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. 
 
+image::images/scrollspy.png[]
+
 ==== Usage
 
 .Body Configuration for Scrollspy
