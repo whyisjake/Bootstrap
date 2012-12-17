@@ -422,11 +422,11 @@ Like all of the plugins, there are options that can be added via the Bootstrap D
 |Name 		|type 				|default 	|description
 |animation 	|boolean			|true		|apply a css fade transition to the tooltip
 |html 		|boolean			|false		|Insert html into the tooltip. If false, jquery's `text` method will be used to insert content into the dom. Use text if you're worried about XSS attacks.
-|placement	|string/function 	|'top'		|how to position the tooltip - top/bottom/left/right
+|placement	|string/function 	|\'top\'		|how to position the tooltip - top/bottom/left/right
 |selector	|string				|false		|If a selector is provided, tooltip objects will be delegated to the specified targets.
 |title		|string/function	|''			|default title value if `title` tag isn't present
-|trigger	|string				|'hover'	|how tooltip is triggered - click | hover | focus | manual
-|delay 		|number/object		|0 			|delay showing and hiding the tooltip (ms) - does not apply to manual trigger type If a number is supplied, delay is applied to both hide/show Object structure is: delay: { show: 500, hide: 100 }
+|trigger	|string				|\'hover\'	|how tooltip is triggered - click | hover | focus | manual
+|delay 		|number/object		|0 			|delay showing and hiding the tooltip (ms) - does not apply to manual trigger type If a number is supplied, delay is applied to both hide/show Object structure is: `delay: { show: 500, hide: 100 }`
 |=======================
 
 
