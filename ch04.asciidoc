@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 == Javascript 
 
 Most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plugins that that extend the features, and can add more interaction to your sute.
@@ -990,4 +989,3 @@ $('#element').tooltip('destroy')
 === Typeahead
 
 === Affix
->>>>>>> Fixing the table layout.
