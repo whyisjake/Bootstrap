@@ -327,7 +327,71 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
 |=======================
 
 
-=== Tab
+=== Toggleable Tabs
+
+That tabbable tabs were introduced back in chapter 3. Combing a few data attributes, you can easily create a tabbed interface. To do so, create the nav interface, and then wrap the content of the tabs inside a `<div>` with a class of `.tab-content`.
+
+.Toggleable Tabs
+image::images/toggleable-tabs.png[]
+
+.Basic Markup of Toggleable Tabs
+[source, html]
+----
+<ul class="nav nav-tabs">
+  <li><a href="#home" data-toggle="tab">Home</a></li>
+  <li><a href="#profile" data-toggle="tab">Profile</a></li>
+  <li><a href="#messages" data-toggle="tab">Messages</a></li>
+  <li><a href="#settings" data-toggle="tab">Settings</a></li>
+</ul>
+ 
+<div class="tab-content">
+  <div class="tab-pane active" id="home">...</div>
+  <div class="tab-pane" id="profile">...</div>
+  <div class="tab-pane" id="messages">...</div>
+  <div class="tab-pane" id="settings">...</div>
+</div>
+----
+
+==== Usage
+
+To enable the tabs, you can use the Bootstrap Data API, or using Javascript directly. With the Data API, you need to add `data-toggle` to the anchors. The target of the anchors will activate the content of that `<div>`. Alternatively, instead of using the `href="#"`, you can also use `data-target=""` with the ID of the `.tab-pane` that you want to target.
+
+.Enable Tabs via Javascript
+[source, js]
+----
+ $('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+----
+
+.Example of different ways to activate tabs
+[source, js]
+----
+$('#myTab a[href="#profile"]').tab('show'); // Select tab by name
+$('#myTab a:first').tab('show'); // Select first tab
+$('#myTab a:last').tab('show'); // Select last tab
+$('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
+----
+
+==== Events
+
+[options="header"]
+|=======================
+|Event 	|Description
+|show	This event fires on tab show, but before the new tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available) respectively.
+|shown 	|This event fires on tab show after a tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available) respectively.
+|=======================
+
+.Example of shown method
+[source, html]
+----
+$('a[data-toggle="tab"]').on('shown', function (e) {
+  e.target // activated tab
+  e.relatedTarget // previous tab
+})
+----
+
 
 === Tooltip
 
