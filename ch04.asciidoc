@@ -397,7 +397,7 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
 Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the jQuery.tipsy plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap Javascript API.
 
 .Tooltip Placement
-image::images/tooltip.png[]
+image::images/tooltips.png[]
 
 ==== Usage
 
