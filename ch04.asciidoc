@@ -379,7 +379,7 @@ $('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 [options="header"]
 |=======================
 |Event 	|Description
-|show	This event fires on tab show, but before the new tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available) respectively.
+|show	|This event fires on tab show, but before the new tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available) respectively.
 |shown 	|This event fires on tab show after a tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available) respectively.
 |=======================
 
