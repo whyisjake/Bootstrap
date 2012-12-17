@@ -384,7 +384,7 @@ $('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 |=======================
 
 .Example of shown method
-[source, html]
+[source, js]
 ----
 $('a[data-toggle="tab"]').on('shown', function (e) {
   e.target // activated tab
@@ -392,8 +392,93 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
 })
 ----
 
+=== Tooltips
 
-=== Tooltip
+Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the jQuery.tipsy plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap Javascript API.
+
+.Tooltip Placement
+image::images/tooltip.png[]
+
+==== Usage
+
+.Bootstrap Data API
+[source, js]
+----
+<a href="#" rel="tooltip" title="This is the tooltip">Tooltip Example</a>
+----
+
+.Javasscript
+[source, js]
+----
+$('#example').tooltip(options)
+----
+
+==== Options
+
+Like all of the plugins, there are options that can be added via the Bootstrap Data API, or invoked via Javascript.
+
+[options="header"]
+|=======================
+|Name 		|type 				|default 	|description
+|animation 	|boolean			|true		|apply a css fade transition to the tooltip
+|html 		|boolean			|false		|Insert html into the tooltip. If false, jquery's `text` method will be used to insert content into the dom. Use text if you're worried about XSS attacks.
+|placement	|string/function 	|'top'		|how to position the tooltip - top | bottom | left | right
+|selector	|string				|false		|If a selector is provided, tooltip objects will be delegated to the specified targets.
+|title		|string/function	|''			|default title value if `title` tag isn't present
+|trigger	|string				|'hover'	|how tooltip is triggered - click | hover | focus | manual
+|delay 		|number/object		|0 			|delay showing and hiding the tooltip (ms) - does not apply to manual trigger type If a number is supplied, delay is applied to both hide/show Object structure is: delay: { show: 500, hide: 100 }
+|=======================
+
+
+==== Methods
+
+===== Options
+
+Attaches a tooltip handler to an element collection.
+
+[source, html]
+----
+$().tooltip(options)
+----
+
+
+==== Show
+
+Reveals an element's tooltip.
+
+[source, html]
+----
+$('#element').tooltip('show')
+----
+
+===== Hide
+
+Hides an element's tooltip.
+
+[source, js]
+----
+$('#element').tooltip('hide')
+----
+
+===== Toggle
+
+Toggles an element's tooltip.
+
+[source, js]
+----
+$('#element').tooltip('toggle')
+----
+
+===== Destroy
+
+Hides and destroys an element's tooltip.
+
+[source, js]
+----
+$('#element').tooltip('destroy')
+----
+
+
 
 === Popover
 
