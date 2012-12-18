@@ -674,9 +674,118 @@ $('#my-alert').bind('closed', function () {
 })
 ----
 
+=== Buttons
 
+Buttons were introduced in chapter 3, and you don't need to do anything to make them work as links, and as buttons in forms. There is some additional interaction that you can add with the plugin, notably loading states, and adding toolbar like functionality to button groups.
 
-=== Button
+==== Loading State
+
+To add a loading state to a button, simply add `data-loading-text="Loading..."` as an attribute to the button. When the button is clicked, the `.disabled` class is added, giving the apearence that it can no longer be clicked.
+
+image::button-loading.png[]
+
+[source, html]
+----
+<button type="button" class="btn btn-primary" data-loading-text="Loading...">Submit!</button>
+----
+
+==== Single Toggle
+
+When clicking on a button with the `data-toggle="button"` attribute, a class of `.active` is added.
+
+image::images/button-toggle.png[]
+
+[source, html]
+----
+<button type="button" class="btn btn-primary" data-toggle="button">Toggle</button>
+----
+
+==== Checkbox Buttons
+
+Buttons can work like checkboxes, where you can select many of the options in a button group. To add this function, add `data-toggle="buttons-checkbox"` for checkbox style toggling on `btn-group`.
+
+.Checkbox Buttons
+image::images/button-checkbox.png[]
+
+[source, html]
+----
+<div class="btn-group" data-toggle="buttons-checkbox">
+  <button type="button" class="btn btn-primary">Left</button>
+  <button type="button" class="btn btn-primary">Middle</button>
+  <button type="button" class="btn btn-primary">Right</button>
+</div>
+----
+
+==== Radio Buttons
+
+Radio buttons function similarily to checkboxes, the primary difference is that a radio button doesn't allow for multiple selections, only one in the group. To add this function, add `data-toggle="buttons-radio"` for radio style toggling on `btn-group`.
+
+.Radio Buttons
+image::images/button-radio.png[]
+
+[source, html]
+----
+<div class="btn-group" data-toggle="buttons-radio">
+  <button type="button" class="btn btn-primary">Left</button>
+  <button type="button" class="btn btn-primary">Middle</button>
+  <button type="button" class="btn btn-primary">Right</button>
+</div>
+----
+
+==== Usage
+
+To enable all buttons via Javascript, add this code:
+
+[source, js]
+----
+$('.nav-tabs').button()
+----
+
+==== Methods
+
+===== Toggle
+
+Toggles push state. Gives the button the appearance that it has been activated.
+
+[source, js]
+----
+$().button('toggle')
+----
+
+===== Loading
+
+Sets button state to loading - disables button and swaps text to loading text. Loading text should be defined on the button element using the data attribute data-loading-text.
+
+[source, html]
+----
+<button type="button" class="btn" data-loading-text="loading stuff..." >...</button>
+----
+
+===== Reset
+
+Resets button state, bringing the original content back to the text. Useful when you need to return the button back to the primary state.
+
+[source, js]
+----
+$().button('reset')
+----
+
+===== String
+
+To reset the button state, and bring in new content, use the string method.
+
+[source, js]
+----
+$().button('string')
+----
+
+[source, html]
+----
+<button type="button" class="btn" data-complete-text="finished!" >...</button>
+<script>
+  $('.btn').button('complete')
+</script>
+----
 
 === Collapse
 
