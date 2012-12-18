@@ -503,21 +503,6 @@ $('#example').popover(options)
 
 All options can be passed via the Boostrap Data API, or directly with Javascript.
 
-[options="header"]
-|=======================
-|Name  type  default description
-|animation|boolean          |true     |apply a css fade transition to the tooltip
-|html     |boolean          |false    |Insert html into the popover. If false, jquery's text method will be used to insert content into the dom. Use text if you're worried about XSS attacks.
-|placement|string/function  |'right'  |how to position the popover - top/bottom/left/right
-|selector |string           |false    |if a selector is provided, tooltip objects will be delegated to the specified targets
-|trigger  |string           |'click'  |how popover is triggered - click/hover/focus/manual
-|title    |string/function  |''       |default title value if `title` attribute isn't present
-|content  |string/function  |''       |default content value if `data-content` attribute isn't present
-|delay    |number/object    |0 				|Delay showing and hiding the popover (ms) - does not apply to manual trigger type. If a number is supplied, delay is applied to both hide/show. Object structure is: `delay: { show: 500, hide: 100 }`.
-|=======================
-
-
-
 ++++
 <table class="table table-bordered table-striped">
   <thead>
@@ -576,9 +561,9 @@ All options can be passed via the Boostrap Data API, or directly with Javascript
      <td>number | object</td>
      <td>0</td>
      <td>
-      <p>delay showing and hiding the popover (ms) - does not apply to manual trigger type</p>
-      <p>If a number is supplied, delay is applied to both hide/show</p>
-      <p>Object structure is: <code>delay: { show: 500, hide: 100 }</code></p>
+      delay showing and hiding the popover (ms) - does not apply to manual trigger type
+      If a number is supplied, delay is applied to both hide/show
+      Object structure is: <code>delay: { show: 500, hide: 100 }</code>
      </td>
    </tr>
   </tbody>
@@ -687,7 +672,6 @@ There are two event that can be tied to Bootstrap's alert class.
 $('#my-alert').bind('closed', function () {
   // do something…
 })
-
 ----
 
 
