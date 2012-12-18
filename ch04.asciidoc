@@ -563,7 +563,45 @@ Hides and destroys an element's popover.
 $('#element').popover('destroy')
 ----
 
-=== Alert
+=== Alerts
+
+With the Data APi, it is easy to add dismiss functionality to alert messages. 
+
+image::images/alert-error.png[]
+
+==== Usage
+
+.Dismiss Via Javascript
+[source, js]
+----
+$(".alert").alert()
+----
+
+.Dismiss Via Data API
+[source, js]
+----
+<a class="close" data-dismiss="alert" href="#">&times;</a>
+----
+
+==== Methods
+
+[source, js]
+----
+$().alert()
+----
+
+To enable all alerts to be ale to be closed, add the above method. To enable alerts to animate out when closed, make sure they have the `.fade` and `.in` class already applied to them.
+
+
+===== Close
+
+Closes an alert.
+
+[source, html]
+----
+$(".alert").alert('close')
+----
+
 
 === Button
 
