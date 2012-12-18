@@ -515,8 +515,52 @@ All options can be passed via the Boostrap Data API, or directly with Javascript
 |content  |string/function  |''       |default content value if `data-content` attribute isn't present
 |delay    |number/object    |0 				|Delay showing and hiding the popover (ms) - does not apply to manual trigger type. If a number is supplied, delay is applied to both hide/show. Object structure is: `delay: { show: 500, hide: 100 }`.
 
+==== Methods
 
+===== Options
 
+Initializes popovers for an element collection.
+
+[source, js]
+----
+$().popover(options)
+----
+
+===== Show
+
+Reveals an elements popover.
+
+[source, js]
+----
+$('#element').popover('show')
+----
+
+===== Hide
+
+Hides an elements popover.
+
+[source, js]
+----
+$('#element').popover('hide')
+----
+
+===== Toggle
+
+Toggles an elements popover.
+
+[source, js]
+----
+$('#element').popover('toggle')
+----
+
+===== Destroy
+
+Hides and destroys an element's popover.
+
+[source, js]
+----
+$('#element').popover('destroy')
+----
 
 === Alert
 
