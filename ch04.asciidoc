@@ -514,6 +514,7 @@ All options can be passed via the Boostrap Data API, or directly with Javascript
 |title    |string/function  |''       |default title value if `title` attribute isn't present
 |content  |string/function  |''       |default content value if `data-content` attribute isn't present
 |delay    |number/object    |0 				|Delay showing and hiding the popover (ms) - does not apply to manual trigger type. If a number is supplied, delay is applied to both hide/show. Object structure is: `delay: { show: 500, hide: 100 }`.
+|=======================
 
 ==== Methods
 
