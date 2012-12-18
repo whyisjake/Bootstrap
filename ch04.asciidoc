@@ -602,6 +602,26 @@ Closes an alert.
 $(".alert").alert('close')
 ----
 
+==== Events
+
+There are two event that can be tied to Bootstrap's alert class.
+
+[options="header"]
+|=======================
+|Event 	|Description
+|close	|This event fires immediately when the close instance method is called.
+|closed	|This event is fired when the alert has been closed (will wait for css transitions to complete).
+|=======================
+
+[source, js]
+----
+$('#my-alert').bind('closed', function () {
+  // do something…
+})
+
+----
+
+
 
 === Button
 
