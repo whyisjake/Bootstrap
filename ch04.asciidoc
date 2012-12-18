@@ -62,17 +62,17 @@ image::images/modal.png[]
 [source, html]
 ----
 <div class="modal hide fade">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    <h3>Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-  <div class="modal-footer">
-    <a href="#" class="btn">Close</a>
-    <a href="#" class="btn btn-primary">Save changes</a>
-  </div>
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3>Modal header</h3>
+	</div>
+	<div class="modal-body">
+		<p>One fine body…</p>
+	</div>
+	<div class="modal-footer">
+		<a href="#" class="btn">Close</a>
+		<a href="#" class="btn btn-primary">Save changes</a>
+	</div>
 </div>
 ----
 
@@ -85,17 +85,17 @@ To invoke the modal window, you need to have some kind of a trigger. Normally I 
  
 <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <button class="btn btn-primary">Save changes</button>
-  </div>
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">Modal header</h3>
+	</div>
+	<div class="modal-body">
+		<p>One fine body…</p>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		<button class="btn btn-primary">Save changes</button>
+	</div>
 </div>
 ----
 
@@ -138,7 +138,7 @@ Activates your content as a modal. Accepts an optional options object.
 [source, js]
 ----
 $('#myModal').modal({
-  keyboard: false
+	keyboard: false
 })
 ----
 
@@ -186,7 +186,7 @@ If you need specific events during the firing events of Bootstrap's modals, you 
 [source, js]
 ----
 $('#myModal').on('hidden', function () {
-   alert('Hey girl, I heard you like modals...c');
+	 alert('Hey girl, I heard you like modals...c');
 })
 ----
 
@@ -206,10 +206,10 @@ image::images/dropdown-javascript.png[]
 [source, html]
 ----
 <div class="dropdown">
-  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown trigger</a>
-  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    ...
-  </ul>
+	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown trigger</a>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+		...
+	</ul>
 </div>
 ----
 
@@ -219,13 +219,13 @@ If you need to keep links entact, useful if the browser is not enabling Javascri
 [source, html]
 ----
 <div class="dropdown">
-  <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
-    Dropdown
-    <b class="caret"></b>
-  </a>
-  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-    ...
-  </ul>
+	<a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+		Dropdown
+		<b class="caret"></b>
+	</a>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+		...
+	</ul>
 </div>
 ----
 
@@ -302,7 +302,7 @@ When calling the scrollspy via the Javascript method, you will need to call the 
 [source, js]
 ----
 $('[data-spy="scroll"]').each(function () {
-  var $spy = $(this).scrollspy('refresh')
+	var $spy = $(this).scrollspy('refresh')
 });
 ----
 
@@ -338,17 +338,17 @@ image::images/toggleable-tabs.png[]
 [source, html]
 ----
 <ul class="nav nav-tabs">
-  <li><a href="#home" data-toggle="tab">Home</a></li>
-  <li><a href="#profile" data-toggle="tab">Profile</a></li>
-  <li><a href="#messages" data-toggle="tab">Messages</a></li>
-  <li><a href="#settings" data-toggle="tab">Settings</a></li>
+	<li><a href="#home" data-toggle="tab">Home</a></li>
+	<li><a href="#profile" data-toggle="tab">Profile</a></li>
+	<li><a href="#messages" data-toggle="tab">Messages</a></li>
+	<li><a href="#settings" data-toggle="tab">Settings</a></li>
 </ul>
  
 <div class="tab-content">
-  <div class="tab-pane active" id="home">...</div>
-  <div class="tab-pane" id="profile">...</div>
-  <div class="tab-pane" id="messages">...</div>
-  <div class="tab-pane" id="settings">...</div>
+	<div class="tab-pane active" id="home">...</div>
+	<div class="tab-pane" id="profile">...</div>
+	<div class="tab-pane" id="messages">...</div>
+	<div class="tab-pane" id="settings">...</div>
 </div>
 ----
 
@@ -360,8 +360,8 @@ To enable the tabs, you can use the Bootstrap Data API, or using Javascript dire
 [source, js]
 ----
  $('#myTab a').click(function (e) {
-  e.preventDefault();
-  $(this).tab('show');
+	e.preventDefault();
+	$(this).tab('show');
 })
 ----
 
@@ -387,8 +387,8 @@ $('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 [source, js]
 ----
 $('a[data-toggle="tab"]').on('shown', function (e) {
-  e.target // activated tab
-  e.relatedTarget // previous tab
+	e.target // activated tab
+	e.relatedTarget // previous tab
 })
 ----
 
@@ -422,7 +422,7 @@ Like all of the plugins, there are options that can be added via the Bootstrap D
 |Name 		|type 				|default 	|description
 |animation 	|boolean			|true		|apply a css fade transition to the tooltip
 |html 		|boolean			|false		|Insert html into the tooltip. If false, jquery's `text` method will be used to insert content into the dom. Use text if you're worried about XSS attacks.
-|placement	|string/function 	|\'top\'		|how to position the tooltip - top/bottom/left/right
+|placement	|string/function 	|\'top\'	|how to position the tooltip - top/bottom/left/right
 |selector	|string				|false		|If a selector is provided, tooltip objects will be delegated to the specified targets.
 |title		|string/function	|''			|default title value if `title` tag isn't present
 |trigger	|string				|\'hover\'	|how tooltip is triggered - click | hover | focus | manual
@@ -478,9 +478,45 @@ Hides and destroys an element's tooltip.
 $('#element').tooltip('destroy')
 ----
 
-
-
 === Popover
+
+The popover is a sibling of the tooltip, offering an entended view, complete with a heading. For the popver to activate, a person just needs to hover over the element. The content of the popver can be populated entirely using the Bootstrap Data API.
+
+.Popover Placement
+image::images/popover.png[]
+
+[source, html]
+----
+<a href="#" class="btn" rel="popover" title="Using Popover" data-content="Just add content to the data-content attribute.">Click Me!</a>
+----
+
+
+==== Usage
+
+.Enable with Javascript
+[source, js]
+----
+$('#example').popover(options)
+----
+
+==== Options
+
+All options can be passed via the Boostrap Data API, or directly with Javascript.
+
+[options="header"]
+|=======================
+|Name  type  default description
+|animation|boolean          |true     |apply a css fade transition to the tooltip
+|html     |boolean          |false    |Insert html into the popover. If false, jquery's text method will be used to insert content into the dom. Use text if you're worried about XSS attacks.
+|placement|string/function  |'right'  |how to position the popover - top/bottom/left/right
+|selector |string           |false    |if a selector is provided, tooltip objects will be delegated to the specified targets
+|trigger  |string           |'click'  |how popover is triggered - click/hover/focus/manual
+|title    |string/function  |''       |default title value if `title` attribute isn't present
+|content  |string/function  |''       |default content value if `data-content` attribute isn't present
+|delay    |number/object    |0 				|Delay showing and hiding the popover (ms) - does not apply to manual trigger type. If a number is supplied, delay is applied to both hide/show. Object structure is: `delay: { show: 500, hide: 100 }`.
+
+
+
 
 === Alert
 
