@@ -772,22 +772,159 @@ $().button('reset')
 
 ===== String
 
-To reset the button state, and bring in new content, use the string method.
-
 [source, js]
 ----
 $().button('string')
 ----
 
+To reset the button state, and bring in new content, use the string method.
+
 [source, html]
 ----
 <button type="button" class="btn" data-complete-text="finished!" >...</button>
+
 <script>
   $('.btn').button('complete')
 </script>
 ----
 
 === Collapse
+
+The collapse plugin makes it easy to make collapsing divs. Whether you use it to build accordian naviation or content boxes, it allows for a lot of content options.
+
+.Example Accordian
+image::collapse.png[]
+
+.Accordian Code
+[source, html]
+----
+<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse in">
+      <div class="accordion-inner">
+        Anim pariatur cliche...
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+        Anim pariatur cliche...
+      </div>
+    </div>
+  </div>
+</div>
+...
+----
+
+You can also use the data attributes to make all content collapsable.
+
+[source, html]
+----
+<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+  simple collapsible
+</button>
+ 
+<div id="demo" class="collapse in"> … </div>
+----
+
+==== Usage
+
+===== Via Data Attributes
+
+Like all of the plugins that use the data attributes API, you can add all needed markup without writing any Javascript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a css selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, add the additional class `.in`.
+
+To add accordion-like group management to a collapsible control, add the data attribute data-parent="#selector".
+
+===== Via Javascript
+
+[source, js]
+----
+$(".collapse").collapse()
+----
+
+==== Options
+
+Options can be passed via data attributes, or with Javascript. 
+
+[options="header"]
+|=======================
+|Name	|type		|default	|description
+|parent	|selector	|false		|If selector then all collapsible elements under the specified parent will be closed when this collapsible item is shown. (similar to traditional accordion behavior)
+|toggle	|boolean	|true		|Toggles the collapsible element on invocation
+|=======================
+
+==== Methods
+
+===== Options
+
+Activates your content as a collapsible element. Accepts an optional options object.
+
+[source, js]
+----
+.collapse(options)
+----
+
+===== Toggle 
+
+Toggles a collapsible element to shown or hidden.
+
+[source, js]
+----
+$('#myCollapsible').collapse({
+  toggle: false
+})
+.collapse('toggle')
+----
+
+===== Show
+
+Shows a collapsible element.
+
+[code, js]
+----
+.collapse('show')
+----
+
+===== Hide
+
+Hides a collapsible element.
+
+[source, js]
+----
+.collapse('hide')
+----
+
+==== Events
+
+There are four events that can be hooked into with the collapse plugin.
+
+[options="header"]
+|=======================
+|Event	|Description
+|show	|This event fires immediately when the `show` instance method is called.
+|shown	|This event is fired when a collapse element has been made visible to the user (will wait for css transitions to complete).
+|hide	| This event is fired immediately when the `hide` method has been called.
+|hidden	|This event is fired when a collapse element has been hidden from the user (will wait for css transitions to complete).
+|=======================
+
+[source, js]
+----
+$('#myCollapsible').on('hidden', function () {
+  // do something…
+})
+----
+
 
 === Carousel
 
