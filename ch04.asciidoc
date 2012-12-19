@@ -1079,7 +1079,17 @@ $('.typeahead').typeahead()
 ----
 
 ==== Options
-
+[options="header"]
+|===========================
+|Name       |type           |default                                      |description                                                                                                                                                                                                                                                                                                              
+|source     |array, function|[ ]                                          |The data source to query against. May be an array of strings or a function. The function is passed two arguments, the query value in the input field and the process callback. The function may be used synchronously by returning the data source directly or asynchronously via the process callback's single argument.
+|items      |number         |8                                            |The max number of items to display in the dropdown.                                                                                                                                                                                                                                                                      
+|minLength  |number         |1                                            |The minimum character length needed before triggering autocomplete suggestions                                                                                                                                                                                                                                           
+|matcher    |function       |case insensitive                             |The method used to determine if a query matches an item. Accepts a single argument, the item against which to test the query. Access the current query with this.query. Return a boolean true if query is a match.                                                                                                       
+|sorter     |function       |exact match, case sensitive, case insensitive|Method used to sort autocomplete results. Accepts a single argument items and has the scope of the typeahead instance. Reference the current query with this.query.                                                                                                                                                      
+|updater    |function       |returns selected item                        |The method used to return selected item. Accepts a single argument, the item and has the scope of the typeahead instance.                                                                                                                                                                                                
+|highlighter|function       |highlights all default matches               |Method used to highlight autocomplete results. Accepts a single argument item and has the scope of the typeahead instance. Should return html.                                                                                                                                                                           
+|===========================
 
 
 === Affix
