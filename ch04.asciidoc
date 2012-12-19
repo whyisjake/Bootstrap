@@ -1042,4 +1042,44 @@ The carousel has two events that you can hook into.
 
 === Typeahead
 
+Typeahead allows you to easily create typeahead inputs in forms. Example, you could preload states in a state field, or using some Javascript, get search results using some ajax calls.
+
+.Typeahead Example
+image::images/typeahead.png[]
+
+==== Usage
+
+Using data API, you can add sources via the `data-source` attribute. Items should be listed in either a JSON array, or a function.
+
+.Typeahead Code Example
+[source, html]
+----
+<input 
+	type="text" 
+	class="span3" 
+	data-provide="typeahead" 
+	data-items="4" 
+	data-source="[
+		'Alabama',
+		'Alaska',
+		'Arizona',
+		'Arkansas',
+		'California',
+		...
+		]"
+>
+----
+
+To call directly with Javascript, use the following method.
+
+.Javscipt Method
+[source, js]
+----
+$('.typeahead').typeahead()
+----
+
+==== Options
+
+
+
 === Affix
