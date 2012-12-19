@@ -1094,3 +1094,23 @@ $('.typeahead').typeahead()
 
 
 === Affix
+
+The affix plugin allows you to allow a `div` to become affixed to a location on the page. A common example of this is social icons on a page. They will start in a location, but as the page hits a certain mark, the `div` will become locked in place and will stop scrolling with the rest of the page.
+
+==== Usage
+
+To apply the affix plugin to a `div`, you can use either data attributes, or use Javascript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calcualte the position of the scroll.
+
+[source, html]
+----
+<div data-spy="affix" data-offset-top="200">
+	...
+</div>
+----
+ 
+==== Options
+
+[options="header"]
+|===========================
+|Name	|type						|default	|description
+|offset	|number/function/object		|10			|Pixels to offset from screen when calculating position of scroll. If a single number is provided, the offset will be applied in both top and left directions. To listen for a single direction, or multiple unique offsets, just provide an object `offset: { x: 10 }`. Use a function when you need to dynamically provide an offset (useful for some responsive designs).
