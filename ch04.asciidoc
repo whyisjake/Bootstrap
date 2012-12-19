@@ -793,7 +793,7 @@ To reset the button state, and bring in new content, use the string method.
 The collapse plugin makes it easy to make collapsing divs. Whether you use it to build accordian naviation or content boxes, it allows for a lot of content options.
 
 .Example Accordian
-image::collapse.png[]
+image::images/collapse.png[]
 
 .Accordian Code
 [source, html]
@@ -925,8 +925,120 @@ $('#myCollapsible').on('hidden', function () {
 })
 ----
 
-
 === Carousel
+
+The Bootstrap carousel is a flexible, responsive way to add a slider to your site. In addiotn to being responsive, the content is flexible enough to allow images, iframes, video, or likely anytime of content that you might want.
+
+.Carousel Example
+image::images/carousel.png[]
+
+.Carousel Code Example
+[source, html]
+----
+<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">…</div>
+    <div class="item">…</div>
+    <div class="item">…</div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+----
+
+==== Usage
+
+To implement the carousel, you just need to add the code with the markup above. No need for data atrributes, just simple class based development. To call the carousel with Javascript, you can do it manually with the following code:
+
+[source, js]
+----
+$('.carousel').carousel()
+----
+
+==== Options
+
+Options can be passed through data attributes, or through Javascript.
+
+
+[options="header"]
+|=======================
+|Name		|type	|default	|description
+|interval	|number	|5000		|The amount of time to delay between automatically cycling an item. If false, carousel will not automatically cycle.
+|pause		|string	|"hover"	|Pauses the cycling of the carousel on mouseenter and resumes the cycling of the carousel on mouseleave.
+|=======================
+
+
+==== Methods
+
+===== Options
+
+Initializes the carousel with an optional options object and starts cycling through items.
+
+[source, js]
+----
+$('.carousel').carousel({
+  interval: 2000
+})
+----
+
+===== Cycle
+
+Cycles through the carousel items from left to right.
+
+[source, js]
+----
+.carousel('cycle')
+----
+
+===== Pause
+
+Stops the carousel from cycling through items.
+
+[source, js]
+----
+.carousel('pause')
+----
+
+===== Number
+
+Cycles the carousel to a particular frame (0 based, similar to an array).
+
+[source, js]
+----
+.carousel(number)
+----
+
+===== Prev
+
+Cycles to the previous item.
+
+[source, js]
+----
+.carousel('prev')
+----
+
+===== Next
+
+Cycles to the next item.
+
+[source, js]
+----
+.carousel('next')
+----
+
+
+==== Events
+
+The carousel has two events that you can hook into.
+
+[options="header"]
+|=======================
+|Event 	|Description
+|slide 	|This event fires immediately when the slide instance method is invoked.
+|slid 	|This event is fired when the carousel has completed its slide transition.
+|=======================
 
 === Typeahead
 
