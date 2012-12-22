@@ -1,4 +1,7 @@
-== Using LESS with Bootstrap
+== Using Bootstrap
+
+=== Github Project
+
 
 
 === Built with Bootstrap
