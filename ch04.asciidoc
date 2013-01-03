@@ -682,7 +682,7 @@ Buttons were introduced in chapter 3, and you don't need to do anything to make 
 
 To add a loading state to a button, simply add `data-loading-text="Loading..."` as an attribute to the button. When the button is clicked, the `.disabled` class is added, giving the apearence that it can no longer be clicked.
 
-image::button-loading.png[]
+image::images/button-loading.png[]
 
 [source, html]
 ----
