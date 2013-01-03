@@ -13,6 +13,16 @@ $ git clone https://github.com/twitter/bootstrap.git
 
 Cloning the Rootstrap will give you a full download of all the files, not just the CSS/Javascript but also all of the documentation pages, and the LESS files for the dynamic Javascript elements.
 
+==== Text Snippets
+
+
+
+==== Photoshop Templates
+
+==== Themes
+
+==== WordPress Themes
+
 === Built with Bootstrap
 
 === Variables
