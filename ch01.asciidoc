@@ -107,6 +107,11 @@ In the above example, we have '.span8', and a '.span4' adding up to 12.
 
 // I'm not sure if this is feasible yet, but it would be cool to have an interactive frame where readers could try different combinations of span numbers and see the effect. Maybe even just a very short video where you walk through a few different combinations, showing the code as well, with a fallback image that compares a few combinations side by side. -NM
 
+// Starting work on this. 
+
+jsfiddle::http://jsfiddle.net/whyisjake/b3X7n/embedded/result/[width="100%", height="300px"]
+
+
 ==== Offsetting Columns
 
 You can move columns to the right using the '.offset*' class. Each class moves the span over that width. So an '.offset4' would move a '.span4' over four columns. 
@@ -125,9 +130,15 @@ image::images/offset-grid.png[]
 
 ==== Nesting columns
 
-To nest your content with the default grid, simply inside of a '.span*', add a new '.row' with enough '.span*' that add up the number of the parent. 
+To nest your content with the default grid, simply inside of a '.span*', add a new '.row' with enough '.span*' that add up the number of the parent.
 
 // Could be a good place for a challenge/solution. "Given a parent span9, what values could you use in the child row?". Prepopulate the box with everything but the child span*'s, and then the pop-out solution would show the following code. -NM
+
+So, let's say that you have a two columns layout, with a span8, and a span4, and you want to embed a two column layout inside of the layout, what spans would you use? For a four column layout?
+
+// Nellie, what is the format for somthing like this? Just a normal paragraph? 
+
+
 
 .Nesting Columns
 [source, html]
@@ -146,12 +157,17 @@ To nest your content with the default grid, simply inside of a '.span*', add a n
 .Nesting Grid
 image::images/nesting-grid.png[]
 
+jsfiddle::http://jsfiddle.net/whyisjake/EEWQ2/embedded/result/[width="100%", height="300px"]
+
 
 === Fluid Grid System
 
 The fluid grid system uses percents instead of pixels for column widths. It has the same responsive capabilities as our fixed grid system, ensuring proper proportions for key screen resolutions and devices. You can make any row "fluid" by changing .row to .row-fluid. The column classes stay the exact same, making it easy to flip between fixed and fluid grids. To offset, you operate in the same way as the fixed grid system works by adding .offset* to any column to offset by that many columns.
 
 // I'd love to see some kind of demo of how changing from fixed to fluid changes the display of the website. Could be a video or a couple of jsfiddles. -NM
+
+jsfiddle::http://jsfiddle.net/whyisjake/327R3/embedded/result/[width="100%", height="600px"]
+
 
 .Fluid Column Layout
 [source, html]
