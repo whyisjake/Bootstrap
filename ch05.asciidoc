@@ -35,9 +35,3 @@ Lastly, you have the LESS variables that you can configure. Everything from colu
 ==== WordPress Themes
 
 === Built with Bootstrap
-
-=== Variables
-
-=== Mixins
-
-=== Compiling Bootstrap
