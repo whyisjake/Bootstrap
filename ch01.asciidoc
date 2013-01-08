@@ -263,7 +263,7 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 .Nesting Fluid Grid
 image::images/nesting-grid.png[]
 
-// This is a little confusing. Some kind of demo or expanded explanation would be cool, but I'm not sure what just yet. -NM
+// This is a little confusing. Some kind of demo or expanded explanation would be cool, but I'm not sure what just yet. Or maybe just a note about how it's kind of confusing to use the same span number scheme while working with percentages ("span6" = 50% of the parent, or something). -NM
 
 === Container Layouts
 
