@@ -297,7 +297,7 @@ Responsive design is a method for taking all of the existing content that is on 
 
 // maybe include some examples of a website that is responsive, and how it displays at various sizes/on different devices. -NM
 
-At the core, Bootstrap supports five different layouts, each relying on CSS media queries. The largest layout has columns that are 70 pixels wide, contrasting the 60 pixels of the normal layout. The tablet layout brings the columns to 42 pixels wide, and when narrower then that, each column goes fluid, making it the full width of the device.
+At the core, Bootstrap supports five different layouts, each relying on CSS media queries. The largest layout has columns that are 70 pixels wide, contrasting the 60 pixels of the normal layout. The tablet layout brings the columns to 42 pixels wide, and when narrower then that, each column goes fluid, meaning the columns are stacked vertically and each column is the full width of the device.
 
 .Responsive Media Queries
 [options="header"]
