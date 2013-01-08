@@ -295,6 +295,8 @@ To turn on the responsive features of Bootstrap, you need to add a meta tag to t
 
 Responsive design is a method for taking all of the existing content that is on the page, and optimizing it for the device that is viewing it. For example, the desktop not only gets the normal version of the website, but might get also get a widescreen layout, optimized for the larger displays that many people have attached to their computers. Tablets get an optimized layout, taking advantage of the portrait or landscape layouts of those devices. And then with phones, you can target the much narrower width of phones. To target these different widths, Bootstrap uses CSS media queries to measure the width of the browser viewport, and then using conditionals, change which parts of the stylesheets are loaded. Using the width of the browser viewport, Bootstrap can then optimize the content using a combination of ratios, widths, but mostly falls on 'min-width' and 'max-width'.
 
+// maybe include some examples of a website that is responsive, and how it displays at various sizes/on different devices. -NM
+
 At the core, Bootstrap supports five different layouts, each relying on CSS media queries. The largest layout has columns that are 70 pixels wide, contrasting the 60 pixels of the normal layout. The tablet layout brings the columns to 42 pixels wide, and when narrower then that, each column goes fluid, making it the full width of the device.
 
 .Responsive Media Queries
