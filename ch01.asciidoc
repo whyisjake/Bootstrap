@@ -2,6 +2,8 @@
 
 Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the CSS file, and optionally the Javascript file and you are ready to go. First off, there are few things that you need to do get started.
 
+// "the CSS file, and optionally the Javascript file" is a little confusing right off the bat, though you do explain it a bit later. I wasn't sure if this was something I should make and add, or default files that come with bootstrap. Maybe just add a few words to make it a tiny bit clearer? -NM
+
 === Bootstrap File Structure
 
 ----
