@@ -146,7 +146,7 @@ image::images/offset-grid.png[]
 
 ==== Nesting columns
 
-To nest your content with the default grid, simply inside of a '.span*', add a new '.row' with enough '.span*' that add up the number of the parent.
+To nest your content with the default grid, inside of a '.span*', simply add a new '.row' with enough '.span*' that add up the number of the parent.
 
 // Could be a good place for a challenge/solution. "Given a parent span9, what values could you use in the child row?". Prepopulate the box with everything but the child span*'s, and then the pop-out solution would show the following code. -NM
 
