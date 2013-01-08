@@ -71,12 +71,18 @@ With Bootstrap, we simply include the link to the CSS stylesheet, and the Javasc
 
 With Bootstrap, a number of items come prebuilt. Instead of using the old reset block that was part of the Bootstrap 1.0 tree, Bootstrap 2.0 uses http://necolas.github.com/normalize.css/[Normalize.css], a project from http://necolas.github.com/normalize.css/[Nicolas Gallagher] that is part of the HTML5 Boilerplate.
 
-Typography and links are given a special treatment here. 
+// Is this all in the file that's included in the css folder by default? -NM
+
+In particular, these default styles give special treatment to typography and links. 
 
 * `margin` has been removed from the body
-* `background-color: white;` on the body
+* `background-color: white;` is applied to the body
 * Bootstrap is using the `@baseFontFamily, @baseFontSize, and @baseLineHeight` attributes as our typographic base
-* Also set the global link color via `@linkColor` and apply link underlines only on :hover
+* Bootstrap sets the global link color via `@linkColor` and applies link underlines only on :hover
+
+// re: margin: does this mean the body content bleeds all the way to the edge of the window? -NM
+
+// re: typographic base: do you expand on this later in the book, and if so, can we add a cross reference to that section? If not, maybe add some external links or a sentence or two explaining what this is. -NM
 
 // This could be a great place for a video where you walk through these changes, and show what effect they have on the resulting website. -NM
 
