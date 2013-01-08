@@ -154,6 +154,52 @@ So, let's say that you have a two columns layout, with a span8, and a span4, and
 
 // Nellie, what is the format for somthing like this? Just a normal paragraph? 
 
+// Here's an example I pulled from another book. If you build the HTML and view it, you can see how it works. -NM
+
+==== Excercise 1
+
+
+Create a table that looks like this:
+
+.ORM Employees
+[options="header"]
+|=======================
+|First|Last
+|Sanders|Kleinfeld
+|Karen|Tripp
+|Adam|Zaremba
+|=======================
+
+Write your solution here:
+
+[condition="editable"]
+[source, asciidoc]
+----
+First Last
+Sanders Kleinfeld
+Karen Tripp
+Adam Zaremba
+----
+
+
+[role="solution"]
+.Solution
+****
+Your markup should look something like this:
+
+----
+.ORM Employees
+[options="header"]
+|=======================
+|First   | Last
+|Sanders | Kleinfeld
+|Karen   | Tripp
+|Adam    | Zaremba
+|=======================
+----
+
+****
+
 
 
 .Nesting Columns
