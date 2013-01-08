@@ -154,7 +154,7 @@ So, let's say that you have a two columns layout, with a span8, and a span4, and
 
 // Nellie, what is the format for somthing like this? Just a normal paragraph? 
 
-// Here's an example I pulled from another book. If you build the HTML and view it, you can see how it works. -NM
+// Here's an example I pulled from another book. If you build the HTML and view it, you can see how it works. It may not be totally perfect, but I think it works alright. Let me know if you envision something else, though, and I can see how tricky it would be to implement. -NM
 
 ==== Excercise 1
 
