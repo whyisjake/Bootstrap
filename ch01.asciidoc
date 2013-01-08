@@ -22,6 +22,8 @@ Starting a project new, Bootstrap comes comes with a handful of useful elements 
 
 The Bootstrap download includes three folders: css, js, and img. For simplicity, add these to the root of your project. Included are also minified versions of the CSS and Javascript. Both the uncompressed and the minified versions do not need to be included. For the sake of brevity, I use the uncompressed during development, and then switch to the compressed version in production.
 
+// It might be cool to have a little screencast here, where you start up a new bootstrap project, and just show a finder window where you walk through the file structure and defaults. -NM
+
 === Basic HTML Template
 
 Normally, a web project looks something like this:
@@ -39,7 +41,7 @@ Normally, a web project looks something like this:
 </html>
 -------------
 
-With Bootstrap, we simply include the link to the stylesheet, and the Javascript.
+With Bootstrap, we simply include the link to the CSS stylesheet, and the Javascript.
 
 .Basic Bootstrap Template
 [source, html]
