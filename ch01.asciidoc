@@ -69,7 +69,7 @@ With Bootstrap, we simply include the link to the CSS stylesheet, and the Javasc
 
 === Global Styles
 
-With Bootstrap, a number of the items come prebuilt. Instead of using the old reset block that was part of the Bootstrap 1.0 tree, Bootstrap 2.0 uses http://necolas.github.com/normalize.css/[Normalize.css], a project from http://necolas.github.com/normalize.css/[Nicolas Gallagher] that is part of the HTML5 Boilerplate.
+With Bootstrap, a number of items come prebuilt. Instead of using the old reset block that was part of the Bootstrap 1.0 tree, Bootstrap 2.0 uses http://necolas.github.com/normalize.css/[Normalize.css], a project from http://necolas.github.com/normalize.css/[Nicolas Gallagher] that is part of the HTML5 Boilerplate.
 
 Typography and links are given a special treatment here. 
 
