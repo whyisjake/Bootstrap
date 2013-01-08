@@ -1,8 +1,10 @@
 = Bootstrap
 
 [preface]
-Example Preface
----------------
+
+Foreward
+--------
+
 I was a software developer before there was a Mac, so I remember something not a lot of programmers do. I remember how the tech industry reacted to it. And for the most part, it was with a fair amount of skepticism. And the interesting thing is that the negative things people say about Bootstrap today sound exactly like the negative things people said about the Mac in 1984. And in both cases, the things that people didn't like were what made them important.
 
 What the Mac realized is that there are a set of things that all software has to do, so why shouldn't they all do them the same way? If they did, software would be easier to develop and debug, but more important -- it would be easier to use. If there was only one way to do menus, then once a user learned how to use the menus of one app, they'd already know how to use the menus of all others. Same with scrollbars, windows, the keyboard, the mouse, printing, sound.
