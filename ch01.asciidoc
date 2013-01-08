@@ -1,6 +1,6 @@
 == Scaffolding
 
-Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the CSS file, and optionally the Javascript file and you are ready to go. First off, there are few thing that you need to do get started.
+Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the CSS file, and optionally the Javascript file and you are ready to go. First off, there are few things that you need to do get started.
 
 === Bootstrap File Structure
 
