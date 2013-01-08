@@ -65,6 +65,8 @@ With Bootstrap, we simply include the link to the CSS stylesheet, and the Javasc
 *NOTE* Don't forget the HTML 5 Doctype
 ===============================
 
+// Is it important that the Javascript is included in the body, instead of in the head? -NM
+
 === Global Styles
 
 With Bootstrap, a number of the items come prebuilt. Instead of using the old reset block that was part of the Bootstrap 1.0 tree, Bootstrap 2.0 uses http://necolas.github.com/normalize.css/[Normalize.css], a project from http://necolas.github.com/normalize.css/[Nicolas Gallagher] that is part of the HTML5 Boilerplate.
