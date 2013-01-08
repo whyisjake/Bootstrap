@@ -91,6 +91,8 @@ In particular, these default styles give special treatment to typography and lin
 Remember, if you don't like the colors, or want to change a default, this can be done in the scaffolding.less file, or overwritten in the users stylesheet. 
 ====
 
+// what is the scaffolding .less file, and what is the users stylesheet? is that different than the default stylesheet? -NM
+
 === Default Grid System
 
 The default Bootstrap grid system utilizes 12 columns, making for a 940px wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px and 1170px wide depending on your viewport. Below 767px viewports, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide, offset 20 pixels to the left. 
