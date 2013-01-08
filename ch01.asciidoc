@@ -65,7 +65,7 @@ With Bootstrap, we simply include the link to the CSS stylesheet, and the Javasc
 *NOTE* Don't forget the HTML 5 Doctype
 ===============================
 
-// Is it important that the Javascript is included in the body, instead of in the head? -NM
+// Is it important that the Javascript is included in the body, instead of in the head? Also is that Bootstrap comment in the head important? -NM
 
 === Global Styles
 
