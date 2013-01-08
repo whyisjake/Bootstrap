@@ -275,6 +275,8 @@ To add a fixed width, centered layout to your page, simply wrap the content in '
 
 To turn on the responsive features of Bootstrap, you need to add a meta tag to the '<head>' of your webpage. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file.
 
+// I might add the complete head markup in the example below, just to give people a little extra orientation. Also, why wouldn't they have downloaded the compiled source, and how do they add the CSS file in that case? -NM
+
 .Responsive Meta Tag and CSS
 [source, html]
 --------------
