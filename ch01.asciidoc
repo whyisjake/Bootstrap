@@ -330,7 +330,7 @@ To add custom CSS based on the media query, you can either include all rules in 
 
 For a larger site, you might want to separate them into separate files. In the HTML file, you can call them with the link tag in the head of your document. This is useful for keeping file sizes smaller, but does potentially increase the HTTP requests if being responsive.
 
-// maybe just spell out that last sentence a bit more, like "this means the server has to load more files, which could make the response time slower" or something. -NM
+// maybe just spell out that last sentence a bit more, like "this means the server has to serve more files, which could make the response time slower" or something. -NM
 
 .CSS media queries via the link tag in the HTML <head>
 [source, html]
