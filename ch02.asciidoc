@@ -652,7 +652,7 @@ NOTE: In future versions of Bootstrap, these input classes will be altered to ma
 
 ===== Grid Sizing
 
-Use can use any `.span` from `.span1` to `.span12` for form control sizing.
+You can use any `.span` from `.span1` to `.span12` for form control sizing.
 
 image::images/input-span.png[]
 
