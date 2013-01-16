@@ -354,9 +354,11 @@ image::images/basic-form.png[]
 
 ==== Optional Form Layouts
 
+With a few helper classes, you can dynamically update the layout of your form.
+
 ===== Search Form
 
-With a few helper classes, you can dynamically update the layout of your form. In the first case, simply add `.form-search` to the `form` tag, and then `.search-query` to the `<input>` for an input with rounded corners, and an inline submit button.
+Add `.form-search` to the `form` tag, and then `.search-query` to the `<input>` for an input box with rounded corners, and an inline submit button.
 
 .Basic Form Structure
 [source, html]
