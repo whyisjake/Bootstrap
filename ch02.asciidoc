@@ -4,7 +4,7 @@ At the core of Bootstrap are a set of basic HTML elements that have been styled 
 
 === Typography
 
-Starting with Typography, with the default font stack, Bootstrap has Helvitica Neau, Helvetica, Arial, and sans-serif. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.
+Starting with Typography, with the default font stack, Bootstrap has Helvetica Neue, Helvetica, Arial, and sans-serif. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.
 
 ==== Headings
 
