@@ -401,10 +401,10 @@ Bootstrap also comes with a pre-baked horizontal form; this one stands apart fro
 
 To create a form that uses the horizontal layout, do the following:
 
-* Add `.form-horizontal` to the form
-* Wrap labels and controls in `.control-group`
-* Add `.control-label` to the label
-* Wrap any associated controls in `.controls` for proper alignment
+* Add `.form-horizontal` to the parent `<form>` element
+* Wrap labels and controls in a div with class `control-group`
+* Add a class of `control-label` to the labels
+* Wrap any associated controls in a div with class `controls` for proper alignment
 
 .Horizontal Form Example
 image::images/form-horizontal.png[]
