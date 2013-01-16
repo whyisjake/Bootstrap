@@ -474,7 +474,7 @@ image::images/textarea.png[]
 
 ===== Checkboxes and radios
 
-When building a form, use the `checkbox` if you want the user to select from many options, and the `radio` if you just want them to select one.
+Checkboxes and radio buttons are great for when you want users to be able to choose from a list of preset options. When building a form, use `checkbox` if you want the user to select any number of options from a list, and `radio` if you want to limit them to just one selection.
 
 .Radio and Checkbox example
 image::images/radio.png[]
