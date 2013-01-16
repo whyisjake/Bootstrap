@@ -519,6 +519,8 @@ If you want multiple checkboxes to appear on the same line together, simply add 
 
 A select is used when you want to allow the user to pick from multiple options. Use `multiple="multiple"` to allow the user to select more then one option.
 
+// Wait...how is this different from radios? -NM
+
 .Select Example
 image::images/select.png[]
 
