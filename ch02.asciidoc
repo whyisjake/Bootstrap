@@ -33,7 +33,9 @@ h1 small {
 
 ===== Lead body copy
 
-To add some emphasis to a paragraph, add `class="lead"`. This will give you larger font size, lighter weight, and a taller line height. 
+To add some emphasis to a paragraph, add `class="lead"`. This will give you larger font size, lighter weight, and a taller line height. This is usually used for the first few paragraphs in a section, but can really be used anywhere.
+
+// Added a sentence about historic usage of ledes above. -NM
 
 
 [source, html]
@@ -47,7 +49,9 @@ image::images/lead.png[]
 
 ===== Emphasis
 
-In addition to using the `<small>` tag with headings, like I mentioned above, you can also use it with body copy. When doing so, the font becomes 85% of its original size. 
+In addition to using the `<small>` tag within headings, as discussed above, you can also use it with body copy. When `<small>` is applied to body text, the font shrinks to 85% of its original size. 
+
+// just tidied up some of the phrasing. -NM
 
 ===== Bold
 
