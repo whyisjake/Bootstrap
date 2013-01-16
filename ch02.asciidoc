@@ -264,7 +264,9 @@ There are two different key ways to display code with Bootstrap. The first is th
 --------
 
 .Heads Up!
-NOTE: Make sure that when you use the pre and code tags, that you use the unicode variants for the opening and closing tags. `&lt;` and `&gt;`
+NOTE: Make sure that when you use the `<pre>` and `<code>` tags, you use the unicode variants for the opening and closing tags. `&lt;` and `&gt;`
+
+// Hm I don't think I use the unicode codes for tags in my code blocks. Is this necessary? What does it do? -NM
 
 
 === Tables
