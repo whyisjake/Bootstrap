@@ -90,7 +90,7 @@ image::images/emphasis-class.png[]
 
 ===== Abbreviations
 
-The HTML `<abbr>` element is to provide markup for abbreviations or acronyms, like WWW or HTTP. By amrking up abbreviations, you can give useful information to browsers, spell checkers, translation systems or search engines. Bootstrap styles the `<abbr>` tag adding a light dotted border on the bottom, and adding the full lenth context on cover. 
+The HTML `<abbr>` element provides markup for abbreviations or acronyms, like WWW or HTTP. By marking up abbreviations, you can give useful information to browsers, spell checkers, translation systems or search engines. Bootstrap styles `<abbr>` elements with a light dotted border along the bottom, and reveals the full text on hover (as long as you add that text to the `<abbr>` title attribute). 
 
 
 .Abbreviation Example
