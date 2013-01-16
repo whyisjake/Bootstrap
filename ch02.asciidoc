@@ -189,9 +189,12 @@ Bootstrap offers support and styling for the three main list types that HTML off
 .Unordered List Example
 image::images/ul.png[]
 
+[NOTE]
+=====================================================================
 If you have an ordered list that you would like to remove the bullets from, simply add `class="unstyled"` to the opening `<ul>` tag. Personally, I hold a strong aversion to using the `<br>` tag, and when I want a single spaced line break, I place each line in an unstyled unordered list. As an example, you might want a condensed address box, like the illustration above, you could have each line as a `<li>`. In my mind, this is the more semantic way to markup the text.
+=====================================================================
 
-// it seemed like this para belonged in the unordered list section, so i moved it. -NM
+// it seemed like this para belonged in the unordered list section, so i moved it. I also tagged it as a note, because it felt like a note to me, but feel free to change. -NM
 
 ===== Ordered List
 
