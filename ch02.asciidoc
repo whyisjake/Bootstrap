@@ -401,7 +401,7 @@ Bootstrap also comes with a pre-baked horizontal form; this one stands apart fro
 
 To create a form that uses the horizontal layout, do the following:
 
-* Add `.form-horizontal` to the parent `<form>` element
+* Add a class of `form-horizontal` to the parent `<form>` element
 * Wrap labels and controls in a div with class `control-group`
 * Add a class of `control-label` to the labels
 * Wrap any associated controls in a div with class `controls` for proper alignment
@@ -438,7 +438,7 @@ image::images/form-horizontal.png[]
 
 ==== Supported Form Controls
 
-Bootstap natively supports the most common form controls. Chief among them, `input`, `textarea`, `checkbox` and `radio`, and `select`. 
+Bootstrap natively supports the most common form controls. Chief among them, `input`, `textarea`, `checkbox` and `radio`, and `select`. 
 
 ===== Inputs
 
