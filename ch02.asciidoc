@@ -271,7 +271,7 @@ NOTE: Make sure that when you use the `<pre>` and `<code>` tags, you use the uni
 
 === Tables
 
-One of my favorite parts of Bootstrap is the nice way that tables are handled. I do a lot of work looking at and building tables, and the nice clean layout is nice feature of Bootstrap. Bootstrap supports the folloing elements:
+One of my favorite parts of Bootstrap is the nice way that tables are handled. I do a lot of work looking at and building tables, and the clean layout is great feature that's included in Bootstrap right off the bat. Bootstrap supports the following elements:
 
 .Table Elements Bootsrap Supports
 [frame="topbot",options="header"]
