@@ -116,20 +116,22 @@ image::images/rotflol.png[]
 
 ===== Addresses
 
-For screen readers, and search engines, adding an `<address>` field to you page can help with the location of physical addresses and phone numbers. It can also be used in the markup of email addresses. Since the `<address>` defaults to `display:block;` all text insde needs to have `<br>` tags if you want line breaks. 
+Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text. It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br />` tags to add line breaks to the enclosed address text (for example, to split the street address and city onto separate lines). 
+
+// I added the / to the br tags here to make it valid xhtml, but you can ditch them if you dont want them there. -NM
 
 .Address Markup
 [source, html]
 --------
 <address>
-  <strong>O'Reilly Media, Inc.</strong><br>
-  1005 Gravenstein HWY North<br>
-  Sebastopol, CA 95472<br>
+  <strong>O'Reilly Media, Inc.</strong><br />
+  1005 Gravenstein HWY North<br />
+  Sebastopol, CA 95472<br />
   <abbr title="Phone">P:</abbr> (707) 827-7000
 </address>
 
 <address>
-  <strong>Jake Spurlock</strong><br>
+  <strong>Jake Spurlock</strong><br />
   <a href="mailto:#">flast@oreilly.com</a>
 </address>
 --------
