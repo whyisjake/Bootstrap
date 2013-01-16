@@ -461,7 +461,7 @@ image::images/input-active.png[]
 
 ===== Textarea
 
-The `textarea` is used when you need multiple lines of input. You'll find you mainly modify the `rows` attribute, changing it to the number of rows that you need to support.
+The `textarea` is used when you need multiple lines of input. You'll find you mainly modify the `rows` attribute, changing it to the number of rows that you need to support (fewer rows = smaller box, more rows = bigger box).
 
 .Both the `:active`, and the default `textarea`
 image::images/textarea.png[]
