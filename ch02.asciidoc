@@ -70,7 +70,9 @@ NOTE: You might be thinking to yourself, why not just use the `<b>` or `<i>` tag
 
 ==== Emphasis classes
 
-With `<strong>` and `<em>`, Boootstrap also offers a few classes that can be used to provide emphasis. 
+Along with `<strong>` and `<em>`, Boootstrap offers a few other classes that can be used to provide emphasis. 
+
+// Do these classes have to be applied at the paragraph level, or can they be applied to spans as well? -NM
 
 .Emphasis Classes
 [source, html]
