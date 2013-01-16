@@ -142,9 +142,9 @@ image::images/address.png[]
 
 ===== Blockquotes
 
-If you are going to be quoting blocks of text in your document, add the `<blockquote>` around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text, and adds a thick grey border along the left side. To identify the source of the quote, add the `<small>` tag, and inside that, add the source's name wrapped in a `<cite>` tag. When you put it all together, you get something that looks like this: 
+To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text, and adds a thick grey border along the left side. To identify the source of the quote, add the `<small>` tag, and inside that, add the source's name wrapped in a `<cite>` tag. When you put it all together, you get something that looks like this: 
 
-// Do they have to use the small tag, or is that just a stylistic suggestion? -NM
+// Do they have to use the small tag for the source, or is that just a stylistic suggestion? -NM
 
 .Blockquote Markup
 [source, html]
