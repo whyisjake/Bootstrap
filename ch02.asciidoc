@@ -500,7 +500,7 @@ image::images/radio.png[]
 .Inline Checkboxes
 image::images/radio.png[]
 
-If you want checkboxes to appear on the same line, simply add the `.inline` class to a series of checkboxes or radios.
+If you want multiple checkboxes to appear on the same line together, simply add the `.inline` class to a series of checkboxes or radios.
 
 [source,html]
 ----
