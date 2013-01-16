@@ -327,7 +327,7 @@ image::images/tr.png[]
 
 === Forms
 
-Another one of the highlights of using Bootstrap is the attention that is paid to forms. As a web developer, one of my least favorite things to do is style forms. With Bootstrap, that is easy to do with the simple markup, and extended classes for sifferent styles of forms.
+Another one of the highlights of using Bootstrap is the attention that is paid to forms. As a web developer, one of my least favorite things to do is style forms. Bootstrap makes it easy to do with the simple HTML markup and extended classes for different styles of forms.
 
 The basic form structure creates styled markup, without needing to add any extra helper classes.
 
