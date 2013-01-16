@@ -585,7 +585,7 @@ image::images/both.png[]
 </div>
 ----
 
-Rather then using a `<span>`, you can instead use a `btn` class to attach a button or two to the input.
+Rather then using a `<span>`, you can instead use `<button>` with a class of `btn` to attach (surprise!) a button or two to the input.
 
 .Attach multiple buttons to an input
 image::images/multiple.png[]
