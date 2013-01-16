@@ -442,7 +442,7 @@ Bootstrap natively supports the most common form controls. Chief among them, `in
 
 ===== Inputs
 
-The most common text field is the input. Bootstrap offers support for all native HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
+The most common form text field is the input--this is where users will enter most of the essential form data. Bootstrap offers support for all native HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
 
 .Input Example
 image::images/input.png[]
@@ -454,7 +454,7 @@ image::images/input.png[]
 ----
 
 .Heads Up!
-NOTE: Of note, when using both `input`, and `textarea`, in the `:active` state, the default to a nice blue glow.
+NOTE: Both `input` and `textarea` default to a nice blue glow when in the `:active` state.
 
 image::images/input-active.png[]
 
