@@ -164,7 +164,7 @@ image::images/pull-right-blockquote.png[]
 
 ==== Lists
 
-Bootstrap offers support and styling for the three main lists that HTML offers; ordered, unordered, and definition lists. An ordered list is a list that doesn't need to have order, and is traditionally styled with bullets. 
+Bootstrap offers support and styling for the three main list types that HTML offers: ordered, unordered, and definition lists. An unordered list is a list that doesn't have any particular order, and is traditionally styled with bullets. 
 
 ===== Unordered List
 
@@ -189,11 +189,11 @@ Bootstrap offers support and styling for the three main lists that HTML offers; 
 .Unordered List Example
 image::images/ul.png[]
 
-
-===== Ordered List
-
 If you have an ordered list that you would like to remove the bullets from, simply add `class="unstyled"` to the opening `<ul>` tag. Personally, I hold a strong aversion to using the `<br>` tag, and when I want a single spaced line break, I place each line in an unstyled unordered list. As an example, you might want a condensed address box, like the illustration above, you could have each line as a `<li>`. In my mind, this is the more semantic way to markup the text.
 
+// it seemed like this para beloned in the unordered list section, so i moved it. -NM
+
+===== Ordered List
 
 An ordered list is prefaced by numbers, rather then bullets. This is handy when you want to build a list of numbered items, like a task list, guide items, or even a list of comments on a blog post.
 
