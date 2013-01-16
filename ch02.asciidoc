@@ -287,7 +287,7 @@ One of my favorite parts of Bootstrap is the nice way that tables are handled. I
 |======================
 
 
-At the core, if you want a nice basic style with light padding, and only horizontal dividers, add the base class `.table` to any table.
+If you want a nice basic table style with just some light padding and  horizontal dividers only, add the base class of `table` to any table.
 
 .Table Base Class
 [source, html]
