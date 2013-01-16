@@ -220,7 +220,11 @@ image::images/ol.png[]
 
 ===== Definition List
 
-The third type of list with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having block level `<li>` elements, you have the `<dt>` and `<dd>` elements. The `<dt>` is the definition term, and like a dictionary, this is the term that is being defined. Subsequently, the `<dd>` is the defintion of the `<dt>`. A lot of times in markup, you will see people using an unordered list, and then placing an heading, along with other text. This works, but maybe isn't the most semantic way to markup the text. A better idea would be to create a `<dl>` and the style the `<dt>` and `<dd>` as you would the heading and the text. That being said, out of the box, Bootstrap offers some clean default styles, and an option for a horizontal layout.
+The third type of list you get with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having a block level `<li>` element, each list item can consist of both the `<dt>` and the `<dd>` elements. `<dt>` stands for "definition term," and like a dictionary, this is the term (or phrase) that is being defined. Subsequently, the `<dd>` is the definition of the `<dt>`. 
+
+A lot of times in markup, you will see people using an unordered list, and then placing an heading, along with other text. This works, but maybe isn't the most semantic way to markup the text. A better idea would be to create a `<dl>` and then style the `<dt>` and `<dd>` as you would the heading and the text. That being said, out of the box, Bootstrap offers some clean default styles, and an option for a horizontal layout.
+
+// A little unclear on the above paragraph: people use ul's instead of dl's? And the heading is inside the ul? -NM
 
 .Definition List Markup
 [source, html]
