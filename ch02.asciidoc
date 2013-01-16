@@ -200,7 +200,7 @@ Personally, I hold a strong aversion to using the `<br>` tag, and when I want a 
 
 ===== Ordered List
 
-An ordered list is prefaced by numbers, rather then bullets. This is handy when you want to build a list of numbered items, like a task list, guide items, or even a list of comments on a blog post.
+An ordered list is a list that falls in some sort of sequential order, and is prefaced by numbers rather then bullets. This is handy when you want to build a list of numbered items, like a task list, guide items, or even a list of comments on a blog post.
 
 .Ordered List Markup
 [source, html]
