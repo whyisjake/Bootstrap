@@ -621,7 +621,7 @@ image::images/search-appended.png[]
 
 ==== Form Control Sizing
 
-With the default grid system that is inherent in Bootstrap, you can use the `.span*` system for sizing form controls. In addition to the span method, you can also use a handful of classes that take a relative approach to sizing. 
+With the default grid system that is inherent in Bootstrap, you can use the `.span*` system for sizing form controls. In addition to the span column-sizing method, you can also use a handful of classes that take a relative approach to sizing. 
 
 .Block Level Input
 image::images/input-block.png[]
@@ -630,6 +630,8 @@ image::images/input-block.png[]
 ----
 <input class="input-block-level" type="text" placeholder=".input-block-level">
 ----
+
+// Seems like this section needs to be fleshed out a little bit. -NM
 
 ===== Relative Input Controls
 
