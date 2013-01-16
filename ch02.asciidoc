@@ -546,11 +546,11 @@ image::images/select.png[]
 
 ==== Extending Form Controls
 
-In addition to the basic form controls listed in the previous section, Bootstrap offers other form components that can be very nice to use. The first batch is prepended and appended inputs.
+In addition to the basic form controls listed in the previous section, Bootstrap offers a few other form components to complement the standard HTML form elements; for example, it lets you easily prepend and append content to inputs.
 
 ===== Prepended and Appended Inputs
 
-With adding prepended and appended content to an input, you can add common elements like the dollar symbol, the `@` for a Twitter username or anything else that might be common for your application interface. To use, wrap the input with `.input-prepend` or `.input-append` and simply place a `<span>` with an `.add-on` class either before or after an input to append it to the input.
+By adding prepended and appended content to an input field, you can add common elements to the text users input, like the dollar symbol, the `@` for a Twitter username or anything else that might be common for your application interface. To use, wrap the input in a div with class `input-prepend` (to add the extra content before the user input) or `input-append` (to add it after). Then, within that same div, place your extra content inside a `<span>` with an `add-on` class (it doesn't matter if you add it before or after the `<input>`).
 
 .Append and Prepend Example
 image::images/append.png[]
