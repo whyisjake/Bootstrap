@@ -2,6 +2,8 @@
 
 At the core of Bootstrap are a set of basic HTML elements that have been styled in such a way that allow for easy enhancement via classes and user styles.
 
+// just tidied up some of the phrasing throughout this chap. -NM
+
 //I'm thinking for this chapter I'd love to see like a series of image slideshows for each section, showing the rendered html, the source html, and the css for whatever is being discussed. I envision these floating out into the margin of the chimera page a bit, and running alongside the text. I need to come up with a way to tag these in Atlas etc, but it seems very doable to me. We could also have them render in the other formats, as well (epub, mobi, print), but just display each image linearly. Thoughts? -NM
 
 === Typography
@@ -53,17 +55,13 @@ image::images/lead.png[]
 
 In addition to using the `<small>` tag within headings, as discussed above, you can also use it with body copy. When `<small>` is applied to body text, the font shrinks to 85% of its original size. 
 
-// just tidied up some of the phrasing. -NM
-
 ===== Bold
 
 To add emphasis to text, simply wrap it in a `<strong>` tag. This will add `font-weight-bold` to the selected text. 
 
-// just tidied up some of the phrasing. -NM
-
 ===== Italics
 
-For italics, simply add the `<em>` tag to your content. The root of em, is to add emphasis or stress to your text.
+For italics, wrap your content in the `<em>` tag. The root of em, is to add emphasis or stress to your text.
 
 .Heads Up!
 NOTE: You might be thinking to yourself, why not just use the `<b>` or `<i>` tags instead of `<em>` or `<strong>`. In HTML5, `<b>` is meant to highlight words or phrases without conveying additional importance while `<i>` is mostyle for voice, technical terms, etc.
