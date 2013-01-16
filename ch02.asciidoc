@@ -397,7 +397,7 @@ image::images/form-inline.png[]
 
 ===== Horizontal Form
 
-Bootstrap also comes with a pre-baked horizontal form; this one stands apart from the others not only in the amount of markup, but also in the presentation of the form. Traditionally if you wanted a form layout like this, you would use a table, but Bootstrap manages to do it without, and if using the responsive CSS, will be adapt to smaller layouts by stacking the controls.
+Bootstrap also comes with a pre-baked horizontal form; this one stands apart from the others not only in the amount of markup, but also in the presentation of the form. Traditionally you'd use a table to get a form layout like this, but Bootstrap manages to do it without, and if using the responsive CSS, will  adapt to smaller layouts by stacking the controls.
 
 To create a form with the horizontal layout, do the following:
 
