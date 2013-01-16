@@ -31,6 +31,8 @@ h1 small {
 	}
 ----------
 
+//Should all the sections that follow this comment actually be level 4 headings, not level 5? -NM
+
 ===== Lead body copy
 
 To add some emphasis to a paragraph, add `class="lead"`. This will give you larger font size, lighter weight, and a taller line height. This is usually used for the first few paragraphs in a section, but can really be used anywhere.
