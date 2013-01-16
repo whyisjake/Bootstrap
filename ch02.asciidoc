@@ -13,9 +13,9 @@ Starting with Typography, with the default font stack, Bootstrap uses Helvetica 
 .Headings
 image::images/heading.png[]
 
-All six headings have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height (for reference, body text is TKTK pixels in height by default). In addition, to add emphasis to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color. In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight, and its color is grey.
+All six headings have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height (for reference, body text is TKTK pixels in height by default). In addition, to add emphasis to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color. In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight (i.e., not bold), and gray instead of black.
 
-// Added a place holder above for body text font size, to give the heading sizes a frame of reference. -NM
+// Added a place holder above for body text font size, to give the heading sizes a frame of reference. Also tweaked the last sentence to make it a little clearer. -NM
 
 [source, css]
 ----------
