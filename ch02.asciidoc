@@ -128,7 +128,7 @@ image::images/address.png[]
 
 ===== Blockquotes
 
-If you are going to be quoting blocks of text in your document, add the `<blockquote>` around the text. For best results, and for line breaks, wrap each section in a `<p>` tag. The default styling involves indenting the text, and adding a thick grey border on the left side. To idenify a source, add the `<small>` tag, with the author inside of a `<cite>` tag. When you put it all together, you get something that looks like this: 
+If you are going to be quoting blocks of text in your document, add the `<blockquote>` around the text. For best results, and for line breaks, wrap each section in a `<p>` tag. The default styling involves indenting the text, and adding a thick grey border on the left side. To identify a source, add the `<small>` tag, with the author inside of a `<cite>` tag. When you put it all together, you get something that looks like this: 
 
 .Blockquote Markup
 [source, html]
