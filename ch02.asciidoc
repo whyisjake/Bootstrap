@@ -550,7 +550,7 @@ In addition to the basic form controls listed in the previous section, Bootstrap
 
 ===== Prepended and Appended Inputs
 
-By adding prepended and appended content to an input field, you can add common elements to the text users input, like the dollar symbol, the `@` for a Twitter username or anything else that might be common for your application interface. To use, wrap the input in a div with class `input-prepend` (to add the extra content before the user input) or `input-append` (to add it after). Then, within that same div, place your extra content inside a `<span>` with an `add-on` class, and place the span either before or after the `<input>` element.
+By adding prepended and appended content to an input field, you can add common elements to the text users input, like the dollar symbol, the `@` for a Twitter username or anything else that might be common for your application interface. To use, wrap the input in a div with class `input-prepend` (to add the extra content before the user input) or `input-append` (to add it after). Then, within that same `<div>`, place your extra content inside a `<span>` with an `add-on` class, and place the `<span>` either before or after the `<input>` element.
 
 // touched up this paragraph a bit -NM
 
@@ -570,7 +570,7 @@ image::images/append.png[]
 </div>
 ----
 
-If you combine both of them, you simply need to add both the `.input-prepend` and `.input-append` class to the parent `<div>`.
+If you combine both of them, you simply need to add both the `.input-prepend` and `.input-append` classes to the parent `<div>`.
 
 .Using both the append and prepend
 image::images/both.png[]
