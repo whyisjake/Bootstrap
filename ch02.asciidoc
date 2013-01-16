@@ -376,6 +376,8 @@ image::images/form-search.png[]
 
 To create a form where all of the elements are inline, and labels are along side, add the class `.form-horizontal` to the `form tag.
 
+// So, does this make just each input and its label inline, or are all the form elements in one long line? -NM
+
 
 .Inline Form Code
 [source, html]
