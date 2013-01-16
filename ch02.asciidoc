@@ -156,7 +156,7 @@ To add blocks of quoted text to your document--or for any quotation that you wan
 --------
 
 .Heads Up!
-NOTE: If you would like to have a `<blockquote>` with content that is `right-aligned`, simply add `.pull-right` to the tag. In addition to the right-aligned text, the entire `blockquote` is floated to the right. This will create nice pull-quotes in your content.
+NOTE: If you want a `<blockquote>` with content that is `right-aligned`, simply add `.pull-right` to the tag. In addition to the right-aligned text, the entire `blockquote` is floated to the right. This creates nice pull-quotes in your content.
 
 
 .Pull-Right Blockquote
