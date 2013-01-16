@@ -354,7 +354,7 @@ image::images/basic-form.png[]
 
 ==== Optional Form Layouts
 
-With a few helper classes, you can dynamically update the layout of your form.
+With a few helper classes, you can dynamically update the layout of your form. Bootstrap comes with a few preset styles you can use.
 
 ===== Search Form
 
