@@ -140,7 +140,7 @@ If you are going to be quoting blocks of text in your document, add the `<blockq
 --------
 
 .Heads Up!
-NOTE: If you would like to have a `<blockquote>` with content that is `right-aligned`, simply add `.pull-right` to the tag. In addition to the right-aligned text, the entire `blockquote` is floated the right. This will create nice pull-quotes in a your content.
+NOTE: If you would like to have a `<blockquote>` with content that is `right-aligned`, simply add `.pull-right` to the tag. In addition to the right-aligned text, the entire `blockquote` is floated to the right. This will create nice pull-quotes in a your content.
 
 
 .Pull-Right Blockquote
