@@ -2,6 +2,8 @@
 
 At the core of Bootstrap are a set of basic HTML elements that have been styled in such a way that allow for easy enhancement via classes and user styles.
 
+//I'm thinking for this chapter I'd love to see like a series of image slideshows for each sections, showing the rendered html, the source html, and the css for whatever is being discussed. I envision these floating out into the margin of the chimera page a bit, and running alongside the text. I need to come up with a way to tag these in Atlas etc, but it seems very doable to me. We could also have them render in the other formats, as well (epub, mobi, print), but just display each image linearly. Thoughts? -NM
+
 === Typography
 
 Starting with Typography, with the default font stack, Bootstrap uses Helvetica Neue, Helvetica, Arial, and sans-serif. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.
