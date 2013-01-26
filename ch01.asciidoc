@@ -1,4 +1,4 @@
-== Scaffolding
+== Scaffolding Test.
 
 Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the CSS file, and optionally the Javascript file and you are ready to go. First off, there are few things that you need to do get started.
 
@@ -50,7 +50,6 @@ With Bootstrap, we simply include the link to the CSS stylesheet, and the Javasc
 <html>
 	<head>
 		<title>Bootstrap 101 Template</title>
-		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
@@ -66,6 +65,7 @@ With Bootstrap, we simply include the link to the CSS stylesheet, and the Javasc
 ===============================
 
 // Is it important that the Javascript is included in the body, instead of in the head? Also is that Bootstrap comment in the head important? -NM
+// Updated -JS
 
 === Global Styles
 
