@@ -1,29 +1,24 @@
-<publisher>
-	<publishername>O'Reilly Media</publishername>
-	<address format="linespecific">
-		<street>1005 Gravenstein Highway</street>
-		<city>Sebastopol</city>
-		<state>CA</state>
-		<postcode>95472</postcode>
-	</address>
-</publisher>
-<author>
-    <firstname>Jake</firstname>
-    <surname>Spurlock</surname>
-    <authorblurb>
-      <para>Geek, designer, HTML+CSS lover. Taker of photos, and sometimes skiing and biking...</para>
-    </authorblurb>
-  </author>
-<editor>
-	<firstname>Jake</firstname>
-	<surname>Spurlock</surname>
-</editor>
-<editor>
-	<firstname>Andrew</firstname>
-	<surname>Odewahn</surname>
-</editor>
 <mediaobject role="cover">
 	<imageobject role="front-large" remap="lrg">
 		<imagedata format="PNG" fileref="images/cover.png"/>
 	</imageobject>
-</mediaobject>
+</mediaobject><publisher>
+	<publishername>O'Reilly Media</publishername>
+  <address format="linespecific">
+    <street>1005 Gravenstein Highway</street>
+    <city>Sebastopol</city>
+    <state>CA</state>
+    <postcode>95472</postcode>
+  </address>
+</publisher>
+<author>
+  <firstname>Jake</firstname>
+  <surname>Spurlock</surname>
+  <authorblurb>
+    <para>Geek, designer, HTML+CSS lover. Taker of photos, and sometimes skiing and biking...</para>
+  </authorblurb>
+</author>
+<editor>
+  <firstname>Jake</firstname>
+  <surname>Spurlock</surname>
+</editor>
