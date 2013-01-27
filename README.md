@@ -18,5 +18,3 @@ Find Jake on these social networks:
 * [@whyisjake](http://twitter.com/whyisjake)
 * [Facebook](http://facebook.com/whyisjake)
 * [G+](http://gplus.to/whyisjake)
-
-// Test...
