@@ -15,6 +15,6 @@ About the Author
 
 Find Jake on these social networks:
 
+* [@whyisjake](http://twitter.com/whyisjake)
 * [Facebook](http://facebook.com/whyisjake)
-* [Twitter](http://twitter.com/whyisjake)
 * [G+](http://gplus.to/whyisjake)
