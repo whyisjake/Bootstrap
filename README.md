@@ -1,4 +1,4 @@
-Bootstrap
+Bootstrap - Responsive Web Development
 =========
 
 The Bootstrap Book
