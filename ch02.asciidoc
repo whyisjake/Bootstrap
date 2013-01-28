@@ -8,18 +8,21 @@ At the core of Bootstrap are a set of basic HTML elements that have been styled 
 
 === Typography
 
-Starting with Typography, with the default font stack, Bootstrap uses Helvetica Neue, Helvetica, Arial, and sans-serif. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.
+Starting with Typography, with the default font stack, Bootstrap uses Helvetica Neue, Helvetica, Arial, and sans-serif. These are all standard fonts, and included as defaults on all major cpmputers, falling back to `sans-serif`, the catch all to tell the browser to use the default font that the user has decided. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.
 
 //RE: the base font families, maybe just add a few words or a sentence about how these are just standard web/system fonts, and not special font files that live in bootstrap or anything...unless they are... -NM
+// Good point, added another line. -JS
 
 ==== Headings
 
 .Headings
 image::images/heading.png[]
 
-All six standard heading levels have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height (for reference, body text is TKTK pixels in height by default). In addition, to add emphasis to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color. 
-//Bit weird to call this "adding emphasis"--I usually think of emphasis as bolder or italic or bigger, but not smaller and lighter. Is there another way to describe this effect? -NM
+All six standard heading levels have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height (for reference, body text is 14 pixels in height by default). In addition, to add an inline sub-heading to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color.
 In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight (i.e., not bold), and gray instead of black.
+
+// Bit weird to call this "adding emphasis"--I usually think of emphasis as bolder or italic or bigger, but not smaller and lighter. Is there another way to describe this effect? -NM
+// I'm now calling it an inline sub-heading. -JS
 
 // Added a place holder above for body text font size, to give the heading sizes a frame of reference. Also tweaked the last sentence to make it a little clearer. -NM
 
@@ -33,7 +36,8 @@ h1 small {
 	}
 ----------
 
-//Should all the sections that follow this comment actually be level 4 headings, not level 5? -NM
+// Should all the sections that follow this comment actually be level 4 headings, not level 5? -NM
+// Not sure I follow here... -JS
 
 ===== Lead body copy
 
@@ -70,7 +74,7 @@ NOTE: You might be thinking to yourself, why not just use the `<b>` or `<i>` tag
 
 ==== Emphasis classes
 
-Along with `<strong>` and `<em>`, Boootstrap offers a few other classes that can be used to provide emphasis. 
+Along with `<strong>` and `<em>`, Boootstrap offers a few other classes that can be used to provide emphasis. These could be applied to paragraphs, or spans.
 
 // Do these classes have to be applied at the paragraph level, or can they be applied to spans as well? -NM
 
@@ -116,9 +120,11 @@ image::images/rotflol.png[]
 
 ===== Addresses
 
-Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text. It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br />` tags to add line breaks to the enclosed address text (for example, to split the street address and city onto separate lines). 
+Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text. It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br>` tags to add line breaks to the enclosed address text (for example, to split the street address and city onto separate lines). 
 
 // I added the / to the br tags here to make it valid xhtml, but you can ditch them if you dont want them there. Also added a little extra to the end of the paragraph. -NM
+// I'm going to stick with the <br>. I normally write them the other way, but to stick to the spec, it would be this way.
+// http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-br-element
 
 .Address Markup
 [source, html]
@@ -145,7 +151,7 @@ image::images/address.png[]
 To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text, and adds a thick grey border along the left side. To identify the source of the quote, add the `<small>` tag, and inside that, add the source's name wrapped in a `<cite>` tag. When you put it all together, you get something that looks like this: 
 
 // Do they have to use the small tag for the source, or is that just a stylistic suggestion? -NM
-// It is a stylistic suggestion. There is some CSS that supports it.
+// It is a stylistic suggestion. There is some CSS that supports it. -JS
 
 .Blockquote Markup
 [source, html]
@@ -199,6 +205,8 @@ Personally, I hold a strong aversion to using the `<br>` tag, and when I want a 
 
 // it seemed like this para belonged in the unordered list section, so i moved it. I also split it, since it seemed like there were two different thoughts there. Also it seems like you're still working out the second thought (which I tagged as a note, because it felt like it was going to be a note to me, but feel free to change). -NM
 
+// Thanks. -JS
+
 ===== Ordered List
 
 An ordered list is a list that falls in some sort of sequential order, and is prefaced by numbers rather then bullets. This is handy when you want to build a list of numbered items, like a task list, guide items, or even a list of comments on a blog post.
@@ -223,9 +231,10 @@ image::images/ol.png[]
 
 The third type of list you get with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having a block level `<li>` element, each list item can consist of both the `<dt>` and the `<dd>` elements. `<dt>` stands for "definition term," and like a dictionary, this is the term (or phrase) that is being defined. Subsequently, the `<dd>` is the definition of the `<dt>`. 
 
-A lot of times in markup, you will see people using an unordered list, and then placing an heading, along with other text. This works, but maybe isn't the most semantic way to markup the text. A better idea would be to create a `<dl>` and then style the `<dt>` and `<dd>` as you would the heading and the text. That being said, out of the box, Bootstrap offers some clean default styles, and an option for a side-by-side layout of each definition.
+A lot of times in markup, you will see people using headings inside an unordered list. This works, but maybe isn't the most semantic way to markup the text. A better idea would be to create a `<dl>` and then style the `<dt>` and `<dd>` as you would the heading and the text. That being said, out of the box, Bootstrap offers some clean default styles, and an option for a side-by-side layout of each definition.
 
 // A little unclear on the above paragraph: people use ul's instead of dl's? And the heading is inside the ul? wha? -NM
+// Changed the first sentence in the second paragraph. Make a little more sense? -JS
 
 .Definition List Markup
 [source, html]
@@ -268,7 +277,6 @@ There are two different key ways to display code with Bootstrap. The first is th
 NOTE: Make sure that when you use the `<pre>` and `<code>` tags, you use the unicode variants for the opening and closing tags. `&lt;` and `&gt;`
 
 // Hm I don't think I use the unicode codes for tags inside my code blocks. Is this necessary? What does it do? -NM
-
 // If you don't use the unicode, the browser will try to use them as normal HTML variants. -JS
 
 
