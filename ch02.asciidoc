@@ -145,6 +145,7 @@ image::images/address.png[]
 To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text, and adds a thick grey border along the left side. To identify the source of the quote, add the `<small>` tag, and inside that, add the source's name wrapped in a `<cite>` tag. When you put it all together, you get something that looks like this: 
 
 // Do they have to use the small tag for the source, or is that just a stylistic suggestion? -NM
+// It is a stylistic suggestion. There is some CSS that supports it.
 
 .Blockquote Markup
 [source, html]
@@ -257,9 +258,9 @@ There are two different key ways to display code with Bootstrap. The first is th
 --------
 <p>Instead of always using divs, in HTML5, you can use new elements like <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and <code>&lt;footer&gt;</code>. The html should look something like this:</p>
 <pre>
-  <article>
-    <h1>Article Heading</h1>
-  </article>
+  &lt;article&gt;
+    &lt;h1&gt;Article Heading&lt;/h1&gt;
+  &lt;/article&gt;
 </pre>
 --------
 
@@ -267,6 +268,8 @@ There are two different key ways to display code with Bootstrap. The first is th
 NOTE: Make sure that when you use the `<pre>` and `<code>` tags, you use the unicode variants for the opening and closing tags. `&lt;` and `&gt;`
 
 // Hm I don't think I use the unicode codes for tags inside my code blocks. Is this necessary? What does it do? -NM
+
+// If you don't use the unicode, the browser will try to use them as normal HTML variants. -JS
 
 
 === Tables
@@ -329,7 +332,7 @@ image::images/tr.png[]
 
 Another one of the highlights of using Bootstrap is the attention that is paid to forms. As a web developer, one of my least favorite things to do is style forms. Bootstrap makes it easy to do with the simple HTML markup and extended classes for different styles of forms.
 
-The basic form structure comes styled in Bootstrap, without needing to add any extra helper classes.
+The basic form structure comes styled in Bootstrap, without needing to add any extra helper classes. If you use the placeholder, it is only supported in newer browsers. In older ones, no text will be displayed.
 
 
 .Basic Form
@@ -341,11 +344,11 @@ image::images/basic-form.png[]
 <form>
 	<fieldset>
 		<legend>Legend</legend>
-			<label>Label name</label>
-			<input type="text" placeholder="Type something…">
+			<label for="name">Label name</label>
+			<input type="text" id="name" placeholder="Type something…">
 			<span class="help-block">Example block-level help text here.</span>
-			<label class="checkbox">
-				<input type="checkbox"> Check me out
+			<label class="checkbox" for="checkbox">
+				<input type="checkbox" id="checkbox"> Check me out
 			</label>
 		<button type="submit" class="btn">Submit</button>
 	</fieldset>
@@ -374,9 +377,10 @@ image::images/form-search.png[]
 
 ===== Inline Form
 
-To create a form where all of the elements are inline, and labels are along side, add the class `.form-horizontal` to the `form tag.
+To create a form where all of the elements are inline, and labels are along side, add the class `.form-inline` to the `form` tag. To have the label and the input on the same line, use the horizontal form below.
 
 // So, does this make just each input and its label inline, or are all the form elements in one long line? -NM
+// All of the labels and inputs are in one line. I thine the screenshot shows the difference between this and the horizontal.
 
 
 .Inline Form Code
@@ -504,22 +508,23 @@ If you want multiple checkboxes to appear on the same line together, simply add 
 
 [source,html]
 ----
-<label class="checkbox inline">
-  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+<label for="option1" class="checkbox inline">
+  <input id="option1" type="checkbox" id="inlineCheckbox1" value="option1"> 1
 </label>
-<label class="checkbox inline">
-  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+<label for="option2" class="checkbox inline">
+  <input id="option2" type="checkbox" id="inlineCheckbox2" value="option2"> 2
 </label>
-<label class="checkbox inline">
-  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+<label for="option3" class="checkbox inline">
+  <input id="option3" type="checkbox" id="inlineCheckbox3" value="option3"> 3
 </label>
 ----
 
 ===== Selects
 
-A select is used when you want to allow the user to pick from multiple options. Use `multiple="multiple"` to allow the user to select more then one option.
+A select is used when you want to allow the user to pick from multiple options, but by default it only allows one. It’s best to use `<select>` for list options of which the user is familiar such as states or numbers. Use `multiple="multiple"` to allow the user to select more then one option. If you only want the user to choose one option, use `type="radio"`.
 
 // Wait...how is this different from radios? -NM
+// Added another line.
 
 .Select Example
 image::images/select.png[]
@@ -554,10 +559,10 @@ By adding prepended and appended content to an input field, you can add common e
 
 // touched up this paragraph a bit -NM
 
-.Append and Prepend Example
+.Prepend and Append Example
 image::images/append.png[]
 
-.Append and Prepend Code Example
+.Prepend and Append Code Example
 [source,html]
 ----
 <div class="input-prepend">
@@ -593,10 +598,10 @@ image::images/multiple.png[]
 .Attach Multiple Buttons Code Example
 [source,html]
 ----
-<div class="input-prepend input-append">
-  <span class="add-on">$</span>
-  <input class="span2" id="appendedPrependedInput" type="text">
-  <span class="add-on">.00</span>
+<div class="input-append">
+  <input class="span2" id="appendedInputButtons" type="text">
+  <button class="btn" type="button">Search</button>
+  <button class="btn" type="button">Options</button>
 </div>
 ----
 
@@ -621,7 +626,7 @@ image::images/search-appended.png[]
 
 ==== Form Control Sizing
 
-With the default grid system that is inherent in Bootstrap, you can use the `.span*` system for sizing form controls. In addition to the span column-sizing method, you can also use a handful of classes that take a relative approach to sizing. 
+With the default grid system that is inherent in Bootstrap, you can use the `.span*` system for sizing form controls. In addition to the span column-sizing method, you can also use a handful of classes that take a relative approach to sizing. If you want the input to act as a block level element, you can add `.input-block-level` and it will be the full width of the container element.
 
 .Block Level Input
 image::images/input-block.png[]
@@ -632,6 +637,7 @@ image::images/input-block.png[]
 ----
 
 // Seems like this section needs to be fleshed out a little bit. -NM
+// Added another line to clear it up a bit.
 
 ===== Relative Input Controls
 
@@ -672,7 +678,7 @@ image::images/input-span.png[]
 </select>
 ----
 
-If you want to use multiple inputs on a line, simply use the `.controls-row` modifier class to apply the proper spacing. If floats the inputs to collapse the white space, and set the correct margins, and like the `.row` class, it also clears the float.
+If you want to use multiple inputs on a line, simply use the `.controls-row` modifier class to apply the proper spacing. It floats the inputs to collapse the white space, and set the correct margins, and like the `.row` class, it also clears the float.
 
 .Control Row
 image::images/controls-row.png[]
@@ -827,7 +833,7 @@ Now, buttons, and links can all look alike with Bootstrap, anything that is give
 .Button Color Examples
 [options="header"]
 |=======================
-|Buttons                          |Class              |Description
+|Buttons                         |Class              |Description
 |image:images/btn.jpg[]          |`btn`              |Standard gray button with gradient
 |image:images/btn-primary.jpg[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons
 |image:images/btn-info.jpg[]     |`btn btn-info`     |Used as an alternative to the default styles
@@ -969,7 +975,7 @@ image::images/btn-group.png[]
 
 ===== Navigation
 
-When you are using icons next to a string of text, make sure to add a space to provide the proper alignment of the image.
+When you are using icons next to a string of text, make sure to add a space to provide the proper alignment of the image. More of navigation code will be covered in the next chapter.
 
 image::images/btn-nav.png[]
 
