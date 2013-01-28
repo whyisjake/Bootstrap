@@ -645,7 +645,7 @@ image::images/input-block.png[]
 ----
 
 // Seems like this section needs to be fleshed out a little bit. -NM
-// Added another line to clear it up a bit.
+// Added another line to clear it up a bit. -JS
 
 ===== Relative Input Controls
 

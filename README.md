@@ -11,7 +11,7 @@ Just about to be published, preorder [here on Amazon](http://www.amazon.com/Boot
 About the Author
 ----------------
 
-[Jake Spurlock](http://jakespurlock.com) is a developer for O’Reilly Media where he works for MAKE magazine. MAKE publishes a DIY magazine, produces Maker Faire, and is trying to make the world a better place by teaching people that they can make things. Jake is a Utah native, but a year and a half ago was grafted into the California wine country.
+[Jake Spurlock](http://jakespurlock.com) is a developer for O’Reilly Media where he works for MAKE magazine. MAKE publishes a DIY magazine, produces Maker Faire, and is trying to make the world a better place by teaching people that they can make things. Jake is a Utah native, but was recently grafted into the California wine country.
 
 Find Jake on these social networks:
 
