@@ -517,7 +517,7 @@ In the code above, note the `.brand` class, this will give the text a lighter `f
 
 ==== Nav Links
 
-To add links to the navbar, simply add an unordered list with the class of `.nav`. If you want to add a divided to your links, you can do that by adding an empty list item with a class of `.divider-vertical`. 
+To add links to the navbar, simply add an unordered list with the class of `.nav`. If you want to add a divider to your links, you can do that by adding an empty list-item with a class of `.divider-vertical`. 
 
 .Nav Links
 image::images/navbar-links.png[]
@@ -544,7 +544,7 @@ image::images/navbar-form.png[]
 .Default Navbar Form Styling
 [source, html]
 ----
-<form class="navbar-form pull-right">
+<form class="navbar-form pull-left">
 	<input type="text" class="span2" id="fname">
 	<button type="submit" class="btn">
 </form>
@@ -575,7 +575,14 @@ If you want the navbar fixed to the top, simply add `.navbar-fixed-top` to the `
 [source, html]
 ----
 <div class="navbar navbar-fixed-top">
-  ...	
+  <div class="navbar-inner">
+    <a class="brand" href="#">Title</a>
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
 </div>
 ----
 
@@ -587,7 +594,14 @@ To affix the navbar to the bottom of the page, simply add `.fixed-navbar-bottom`
 [source, html]
 ----
 <div class="navbar navbar-fixed-bottom">
-  ...	
+ <div class="navbar-inner">
+    <a class="brand" href="#">Title</a>
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
 </div>
 ----
 
@@ -599,13 +613,20 @@ To create a navbar that scrolls with the page, add the `.navbar-static-top` clas
 [source, html]
 ----
 <div class="navbar navbar-static-top">
-  ...	
+  <div class="navbar-inner">
+    <a class="brand" href="#">Title</a>
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
 </div>
 ----
 
 ===== Responsive Navbar
 
-Like the rest of Bootstrap, the navbar can be totally responsive. To add the responsive features, the content that you want to be collapsed needs to be wrapped in a `<div>` with `.nav-collapse.collapse` as a class. The collapsing nature is tripped by a button that has a the class of `.btn-navbar` and then features two `data-` elements. The first, `data-toggle` is used to tell the JavaScript what to do with the button, and the second, `data-target` tells which element to toggle. In the example below, three `<spans>` with a class of `.icon-bar` create what I like to call the hamburger button. This will toggle the elements that in the `.nav-collapse` `<div>`.
+Like the rest of Bootstrap, the navbar can be totally responsive. To add the responsive features, the content that you want to be collapsed needs to be wrapped in a `<div>` with `.nav-collapse.collapse` as a class. The collapsing nature is tripped by a button that has a the class of `.btn-navbar` and then features two `data-` elements. The first, `data-toggle` is used to tell the JavaScript what to do with the button, and the second, `data-target` tells which element to toggle. In the example below, three `<spans>` with a class of `.icon-bar` create what I like to call the hamburger button. This will toggle the elements that in the `.nav-collapse` `<div>`. For this to work, the `bootstrap-responsive.css`, and either the `collapse.js` or the full `bootrap.js` files must be included for this feature to work.
 
 .Responsive Navbar
 image::images/navbar-responsive.png[]
@@ -652,7 +673,7 @@ image::images/navbar-inverse.png[]
 
 === Breadcrumbs
 
-Breadcrumbs are a great way to show hierarchy based information for a site. In the case of blogs, it could show the dates of publishing, categories or tags, or for a full CMS, any type of information. A breadcrumb in Bootstrap is simply an unordered list with a class of `.breadcrumb`. There is a also a helper class of `.divider` that mutes the colors and makes the text a little smaller too. You could use forward slashes, arrows, or any divided that you choose.
+Breadcrumbs are a great way to show hierarchy based information for a site. In the case of blogs, it could show the dates of publishing, categories or tags, or for a full CMS, any type of information. A breadcrumb in Bootstrap is simply an unordered list with a class of `.breadcrumb`. There is a also a helper class of `.divider` that mutes the colors and makes the text a little smaller too. You could use forward slashes, arrows, or any divided that you choose. Note that the divider here in the breadcrumbs has slightly differnt markup the the navbar example.
 
 .Breadcrumb Example
 image::images/breadcrumbs.png[]
@@ -665,6 +686,19 @@ image::images/breadcrumbs.png[]
 	<li><a href="#">2012</a> <span class="divider">/</span></li>
 	<li><a href="#">December</a> <span class="divider">/</span></li>
 	<li><a href="#">5</a></li>
+</ul>
+
+<ul class="breadcrumb">
+  <li><a href="#">Home</a> <span class="divider">&rarr;</span></li>
+  <li><a href="#">Dinner Menu</a> <span class="divider">&rarr;</span></li>
+  <li><a href="#">Specials</a> <span class="divider">&rarr;</span></li>
+  <li><a href="#">Steaks</a></li>
+</ul>
+
+<ul class="breadcrumb">
+  <li><a href="#">Home</a> <span class="divider">&raquo;</span></li>
+  <li><a href="#">Electronics</a> <span class="divider">&raquo;</span></li>
+  <li><a href="#">Raspberry Pi</a></li>
 </ul>
 ----
 
@@ -691,9 +725,9 @@ image::images/pagination.png[]
 ----
 
 .Pagination with helper classes
-images::images/pagination-centered.png[]
+image::images/pagination-centered.png[]
 
-.Pagination with helper classes code example
+.Pagination with helper classes code examples
 [source, html]
 ----
 
@@ -875,11 +909,11 @@ image::images/thumbnail-group.png[]
       <div class="caption">
         <h3>Thumbnail label</h3>
         <p>Bacon ipsum dolor sit amet sirloin pancetta shoulder tongue doner, shank sausage.</p>
-        <p><a href="#" class="btn btn-primary">Bacon</a> <a href="#" class="btn">Sausage</a></p>
+        <p><a href="#" class="btn btn-primary">Eat now!</a> <a href="#" class="btn">Later...</a></p>
       </div>
     </div>
   </li>
-  <li>
+  <li class="span4">
     ...
   </li>
 </ul>
@@ -908,7 +942,7 @@ The alert uses the alerts jquery plugin that is covered in chapter 4. To close t
 If you have a longer message in your alert, you can use the `.alert-block` class. This provides a little more padding above and below the content contained in the alert, particulary useful for multi page lines of content.
 
 .Alert Block
-image::images/alert.png[]
+image::images/alert-block.png[]
 
 There are also three other color options, to help provide a more semantic method for the alert. They are added by adding either `.alert-error`, `.alert-success`, or `alert-info`.
 
@@ -952,7 +986,7 @@ Like the striped version of the progress bar, you can animate the stripes, makin
 .Animated Progress Bar
 image::images/progress-bar-animated.gif[]
 
-.Progres Bar Code Example
+.Animated Progress Bar Code Example
 [source, html]
 ----
 <div class="progress progress-striped active">
@@ -980,7 +1014,7 @@ image::images/progress-bar-colors.png[]
 
 === Media Object
 
-When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelinesm, and you will see the Media Object. Driven by the Bootstrap community, and based on principles from the oocss[http://oocss.org/] community, the goal of the media element is to make the code for developing these blocks drastically shorter. Nicole Sullivan-Hass shares a few elemement of the media object like this on her site:
+When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelines, and you will see the Media Object. Driven by the Bootstrap community, and based on principles from the oocss[http://oocss.org/] community, the goal of the media element is to make the code for developing these blocks of imformation drastically shorter. Nicole Sullivan-Hass shares a few elemement of the media object like this on her site http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/[stubbornella.org]. The media object is designed to literally save hundreds of lines of code, making it easy to customize.
 
 .Media Object Examples
 image::images/media-object-nicole.png[]
@@ -999,7 +1033,7 @@ image::images/media-object.png[]
   </a>
   <div class="media-body">
     <h4 class="media-heading">Media heading</h4>
-    ...
+    <p>...</p>
  
     <!-- Nested media object -->
     <div class="media">
@@ -1024,6 +1058,7 @@ image::images/media-list.png[]
     </a>
     <div class="media-body">
       <h4 class="media-heading">Media heading</h4>
+      <p>...</p>
       ...
  
       <!-- Nested media object -->
@@ -1053,7 +1088,7 @@ image::images/well.png[]
 </div>
 ----
 
-There are two additional classes that can be used in conjuntion with `.well, `.well-large` and `.well-small`.
+There are two additional classes that can be used in conjuntion with `.well, `.well-large` and `.well-small`. These affect the padding, making the well larger or smaller depending on the class.
 
 .Well Optional Classes
 image::images/well-options.png[]
@@ -1073,7 +1108,7 @@ image::images/well-options.png[]
 </div>
 ----
 
-==== Heler Classes
+==== Helper Classes
 
 ===== Pull Left
 
@@ -1117,7 +1152,7 @@ To float an element to the right, use the `.pull-right` class.
 
 ===== Clearfix
 
-To clear the float of any element, use the `.clearfix` class.
+To clear the float of any element, use the `.clearfix` class. When you have to elements that are floated alongside each other that are different sizes, it is necessary to force the following elements below, or to _clear_ the preceding content. You can do this with a simple emty `<div>` the class of `.clearfix`.
 
 .Clearfix HTML
 [source, html]
