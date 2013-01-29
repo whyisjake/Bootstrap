@@ -1,10 +1,10 @@
 == Components
 
-In addtion to all of the markup provided in the previous chapter, Bootstrap provides a toolkit of flexible components that can be used in designing application interfaces, web features and more.
+In addtion to all of the markup provided in the previous chapter, Bootstrap provides a toolkit of flexible components that can be used in designing application interfaces, web features and more. Each of the plugins are available in a seperate Javascript file, combined all together, or, using the Bootstrap customizer, you can pick and choose which plugins you want. Personally, on the projects that I build, I lump them all together. That way I have options.
 
 === Dropdown Menus
 
-Dropdown menus are a toggleable, contextual menu for displaying links in a list format. To make this interactive, you need to use either the dropdown JavaScript plugin, or the full compiled Bootstrap plugin.
+Dropdown menus are a toggleable, contextual menu for displaying links in a list format. The dropdowns can be used on a variety of different elements, navs, buttons, and more. You can have a single dropdown, or extend the dropdown into another sub-menu.
 
 .Basic Dropdown Menu
 image::images/dropdown.png[]
@@ -24,7 +24,7 @@ image::images/dropdown.png[]
 
 ===== Right align the dropdown
 
-Add .pull-right to a .dropdown-menu to right align the dropdown menu.
+Add .pull-right to a .dropdown-menu to right-align the dropdown menu to the parent object.
 
 [source, html]
 ----
@@ -53,10 +53,10 @@ image:images/dropdown-sub.png[]
 
 === Button Groups
 
-Button groups allow multiple buttons to be stacked together. This is useful like the example below when you want to place items like alignment buttons together. Simply, to create a button group, simply wrap a series of anchors or buttons with a class of `.btn` with a `<div>` that has `.btn-group` as a class.
+Button groups allow multiple buttons to be stacked together. This is useful like the example below when you want to place items like alignment buttons together. Simply, to create a button group, simply wrap a series of anchors or buttons with a class of `.btn` with a `<div>` that has `.btn-group` as a class. 
 
 .Inline Button Group
-image::images/btn-group.new.png
+image::images/btn-group-new.png
 
 .Inline Button Group Code Example
 [source,html]
@@ -68,7 +68,7 @@ image::images/btn-group.new.png
 </div>
 ----
 
-If you have multiple button groups that you want to align on a single line, wrap multiple `.btn-group` with `.btn-toolbar`.
+If you have multiple button groups that you want to align on a single line, wrap multiple `.btn-group` with `.btn-toolbar`. For more information about using icons with buttons, follow the examples in chapter 2.
 
 .Button Toolbar
 image::images/btn-toolbar.png[]
@@ -112,12 +112,10 @@ image::images/btn-group-vertical.png[]
 
 ==== Button Groups as Radio and Checkboxes
 
-To have the checkboes function as radio buttons where only one can be selected at a time, or checkboxes where multiple can be selected, simply use simply need to add some extra markup and the Bootsrap JavaScript will provide the rest. 
+To have the checkboxes function as radio buttons where only one can be selected at a time, or checkboxes where multiple can be selected, you simply need to add some extra markup and the Bootsrap JavaScript will provide the rest. This will be covered in detail in chapter 4.
 
 .Heads Up!
 NOTE: To use a button with a dropdown, they must be individually wrapped in their own `btn-group` within a `btn-toolbar` for proper rendering.
-
-
 
 === Buttons With Dropdowns
 
@@ -130,15 +128,16 @@ image::images/btn-dropdown.png[]
 [source,html]
 ----------------------------------------------------------------------
 <div class="btn-group">
-  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-    Action
+  <button class="btn btn-danger">Danger</button>
+  <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
     <span class="caret"></span>
-  </a>
+  </button>
   <ul class="dropdown-menu">
-    <li><a href="#">First Link</a>
-    <li><a href="#">Second Link</a>
-    <li class="divider">First Link</li>
-    <li><a href="#">Third Link</a>
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
   </ul>
 </div>
 ----------------------------------------------------------------------
@@ -173,7 +172,7 @@ jsfiddle::http://jsfiddle.net/vSHkJ/embedded/result/[width="100%", height="300px
 
 ==== Dropup Menus
 
-Menus can also be built to dropup, rather then down. To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pullup from the right hand side, add `.pull-right` to the `.dropdown-menu`.
+Menus can also be built to dropup, rather then down. To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pullup from the right hand side, add `.pull-right` to the `.dropdown-menu`. Take notice, the caret is now pointed up, as the menu will be going up instead of down.
 
 .Dropup Menu
 image::images/btn-dropup.png[]
@@ -198,6 +197,8 @@ jsfiddle::http://jsfiddle.net/DyfSZ/3/embedded/result/[width="100%", height="300
 
 Bootstrap provides a few different opportunities for styling naviagation elements. All of them share the same markup and base class `.nav`. 
 
+Bootstrap also provides a helper class, `.active`. In principal, it generally adds distinction to the current element, and sets it apart from the the rest of the navigation elements. You could add this class to the home page links, or add it to the links of the page that you are currently on.
+
 ==== Tabular Navigation
 
 To create a tabbed navigation menu, start with a basic unordered list with the base class of `.nav` and add `.nav-tabs`.
@@ -212,8 +213,8 @@ image::images/nav-tabs.png[]
   <li class="active">
     <a href="#">Home</a>
   </li>
-  <li><a href="#">...</a></li>
-  <li><a href="#">...</a></li>
+  <li><a href="#">Profile</a></li>
+  <li><a href="#">Messages</a></li>
 </ul>
 ----
 
@@ -231,8 +232,8 @@ image::images/nav-pills.png[]
   <li class="active">
     <a href="#">Home</a>
   </li>
-  <li><a href="#">...</a></li>
-  <li><a href="#">...</a></li>
+  <li><a href="#">Profile</a></li>
+  <li><a href="#">Messages</a></li>
 </ul>
 ----
 
@@ -298,9 +299,13 @@ image::images/tab-dropdown.png[]
 			Dropdown
 			<b class="caret"></b>
 		</a>
-		<ul class="dropdown-munu">
-			<!--links-->
-		</ul>
+		<ul class="dropdown-menu">
+      <li><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Separated link</a></li>
+    </ul>
 	</li>
 </ul>
 ----
@@ -373,15 +378,15 @@ image::images/tabbable-top.png[]
 ----
 <div class="tabbable">
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-		<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+		<li class="active"><a href="#tab1" data-toggle="tab">Meats</a></li>
+		<li><a href="#tab2" data-toggle="tab">More Meats</a></li>
 	</ul>
 	<div class="tab-content">
 		<div class="tab-pane active" id="tab1">
-			<p>I'm in section 1, howdy howdy howdy...</p>
+			<p>Bacon ipsum dolor sit amet jerky flank...</p>
 		</div>
 		<div class="tab-pane" id="tab2">
-			<p>I'm in section 2, you can call me Bruce.</p>
+			<p>Beef ribs, turducken ham hock...</p>
 		</div>
 	</div>
 </div>
@@ -398,15 +403,25 @@ The tabs are fully positionable, you can have them above, below, or on the sides
 .Bottom Tabs
 image::images/tab-bottom.png[]
 
-.Bottom Tab Example
+.Bottom Tab Code Example
 [source,html]
 ----
 <div class="tabbable tabs-below">
   <div class="tab-content">
-    ...
+    <div class="tab-pane active" id="tab1">
+      <p>I'm in section A.</p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>I'm in section B.</p>
+    </div>
+    <div class="tab-pane" id="tab3">
+      <p>I'm in section C.</p>
+    </div>
   </div>
   <ul class="nav nav-tabs">
-    ...
+    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+    <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
   </ul>
 </div>
 ----
@@ -416,15 +431,25 @@ Tabs on the left get the `.tabs-left` class.
 .Left Tabs
 image::images/tab-left.png[]
 
-.Left Tab Example
+.Left Tab Code Example
 [source,html]
 ----
 <div class="tabbable tabs-left">
   <div class="tab-content">
-    ...
+    <div class="tab-pane active" id="tab1">
+      <p>I'm in section A.</p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>I'm in section B.</p>
+    </div>
+    <div class="tab-pane" id="tab3">
+      <p>I'm in section C.</p>
+    </div>
   </div>
   <ul class="nav nav-tabs">
-    ...
+    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+    <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
   </ul>
 </div>
 ----
@@ -434,15 +459,25 @@ Tabs on the right get the `.tabs-right` class.
 .Right Tabs
 image::images/tab-right.png[]
 
-.Right Tab Example
+.Right Tab Code Example
 [source,html]
 ----
 <div class="tabbable tabs-right">
   <div class="tab-content">
-    ...
+    <div class="tab-pane active" id="tab1">
+      <p>I'm in section A.</p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>I'm in section B.</p>
+    </div>
+    <div class="tab-pane" id="tab3">
+      <p>I'm in section C.</p>
+    </div>
   </div>
   <ul class="nav nav-tabs">
-    ...
+    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+    <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
   </ul>
 </div>
 ----
