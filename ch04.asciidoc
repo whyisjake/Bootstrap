@@ -215,7 +215,7 @@ If you need specific events during the firing events of Bootstrap's modals, you 
 [source, js]
 ----
 $('#myModal').on('hidden', function () {
-	 alert('Hey girl, I heard you like modals...c');
+	 alert('Hey girl, I heard you like modals...');
 })
 ----
 
@@ -427,6 +427,8 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
 })
 ----
 
+For more information about the jQuery `.on` method, read more at the jQuery website. http://api.jquery.com/on/[jQuery .on]
+
 === Tooltips
 
 Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the jQuery.tipsy plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap Javascript API.
@@ -450,7 +452,7 @@ $('#example').tooltip(options)
 
 ==== Options
 
-Like all of the plugins, there are options that can be added via the Bootstrap Data API, or invoked via Javascript.
+Like all of the plugins, there are options that can be added via the Bootstrap Data API, or invoked via Javascript. All options need to have have `data-` appended to them. So, the `title` option would become `data-title`.
 
 [options="header"]
 |=======================
@@ -515,7 +517,7 @@ $('#element').tooltip('destroy')
 
 === Popover
 
-The popover is a sibling of the tooltip, offering an entended view, complete with a heading. For the popver to activate, a person just needs to hover over the element. The content of the popver can be populated entirely using the Bootstrap Data API.
+The popover is a sibling of the tooltip, offering an entended view, complete with a heading. For the popver to activate, a person just needs to hover over the element. The content of the popver can be populated entirely using the Bootstrap Data API. This method required tooltip.
 
 .Popover Placement
 image::images/popover.png[]
@@ -717,6 +719,7 @@ Buttons were introduced in chapter 3, and you don't need to do anything to make 
 
 To add a loading state to a button, simply add `data-loading-text="Loading..."` as an attribute to the button. When the button is clicked, the `.disabled` class is added, giving the apearence that it can no longer be clicked.
 
+.Loading Button
 image::images/button-loading.png[]
 
 [source, html]
@@ -728,6 +731,7 @@ image::images/button-loading.png[]
 
 When clicking on a button with the `data-toggle="button"` attribute, a class of `.active` is added.
 
+.Toggle Button
 image::images/button-toggle.png[]
 
 [source, html]
@@ -769,7 +773,7 @@ image::images/button-radio.png[]
 
 ==== Usage
 
-To enable all buttons via Javascript, add this code:
+The `.button` method can be applied to any class or ID that you want. To enable all buttons in the `.nav-tabs` via Javascript, add this code:
 
 [source, js]
 ----
@@ -806,6 +810,8 @@ $().button('reset')
 ----
 
 ===== String
+
+String in this method is referring to any string decalred by the user.
 
 [source, js]
 ----
