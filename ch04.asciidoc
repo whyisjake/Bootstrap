@@ -1,12 +1,39 @@
 == Javascript 
 
-Most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plugins that that extend the features, and can add more interaction to your sute.
+Most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plugins that that extend the features, and can add more interaction to your site. To get started with the Bootstrap Javascript plugins, you don't need to be an advanced Javascript developer. In fact, most of the plugins can be enacted without writing a single line of code by utilizing the Bootstrap data API.
 
 === Overview
 
-Bootstrap cand be included on your site in two forms, either compiled or raw. Bootstrap 2.2.2 the uncompressed file is 59kb, and the minimized version is only 32kb. All of the Bootstrap plugins are accessible entirely using the included data API, with this, you don't need to include a single line of javascript to invoke any of the plugins features.
+Bootstrap cand be included on your site in two forms, either compiled or raw. Bootstrap 2.2.2 the uncompressed file is 59kb, and the minimized version is only 32kb. All of the Bootstrap plugins are accessible entirely using the included data API, with this, you don't need to include a single line of javascript to invoke any of the plugins features. 
 
-If you need to turn off the data API, you can unbind the attributes by adding this line of Javascript.
+Typically, Javascript lies in a either a seperate file, or at the bottom of the page before the closing `</body>` tag. You can either use the `src` atttribute to link to another file, or write the contents of the file between the opening and closing tags.
+
+.Javascript Usage
+[source, html]
+----
+<!-- To reference another Javascript file -->
+<script src="assets/js/javascript.js"></script>
+
+<!-- To write Javascript to the page -->
+<script type="text/javascript">
+	function js_alert{
+		alert('Page has loaded');
+	}
+</script>
+----
+
+Generally, it is best to include all Javascript calls into check that ensures that the DOM has been loaded on the page. As the browser parses the page, if you have the Javascript trying to fire earlier, it may miss elements. With jQuery, this is easily done by selecting the `document`, or the entire content of the page, an then applying the `.ready()` method.
+
+.jQuery Ready Method
+[source, javascript]
+----
+$(document).ready(function(){
+	alert('Page has loaded');
+	// Once the page has loaded, and is ready, an alert will fire.
+});
+----
+
+Like I mentioned above, Bootstrap has a data API where you can write data attributes into the HTML of the page. If you need to turn off the data API, you can unbind the attributes by adding this line of Javascript.
 
 .Disable Bootstrap Javascript Data API
 [source, js]
@@ -76,7 +103,7 @@ image::images/modal.png[]
 </div>
 ----
 
-To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you wiwll see that the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you yo load multiple modals, and then have different triggers for each of them.
+To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you will see that the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you yo load multiple modals, and then have different triggers for each of them.
 
 [source, html]
 ----
