@@ -78,7 +78,7 @@ The transition plugin provides simple transition effects. A few examples include
 
 === Modal
 
-Modals are windows that overlay the content of the page. They can provide information, provide interaction, or do anything else that you desire. I have used that as a window for holding slideshows, login/registration information, and more. Probably one of my favorite Bootstrap features.
+A modal is a child window that layered over its parent window. Typically, the point is to display content from a separate source that can have some interaction without leaving the parent window. They can provide information, interaction, or more for a page.. I have used that as a window for holding slideshows, login/registration information, and more. The Modal plugins is probably one of my favorite Bootstrap features.
 
 To create a static example, use the code below.
 
@@ -103,7 +103,9 @@ image::images/modal.png[]
 </div>
 ----
 
-To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you will see that the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you yo load multiple modals, and then have different triggers for each of them.
+To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you will see that the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you to create multiple modals on the page, and then have different triggers for each of them. Now, to be clear, you don't load multiple modals at the same time, but can create many on the page to be loaded at different times.
+
+There are three classes to take note of in the modal. The first is `modal`. This should make sense, but this is identifying the content of the `div` as a modal. The second is `hide`. This tells the browser to hide the content of the `div` until we are ready to invoke it. And last, the `fade` class. When the modal is toggled, it will cause the content to fade in and out.
 
 [source, html]
 ----
@@ -232,15 +234,19 @@ image::images/dropdown-javascript.png[]
 .Dropdown Code Example with Data Attributes
 [source, html]
 ----
-<div class="dropdown">
-	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown trigger</a>
-	<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-		...
+<li class="dropdown">
+	<a href="#" id="drop" role="button" class="dropdown-toggle" data-toggle="dropdown">Word <b class="caret"></b></a>
+	<ul class="dropdown-menu" role="menu" aria-labelledby="drop">
+		<li><a tabindex="-1" href="#">MAKE magazine</a></li>
+		<li><a tabindex="-1" href="#">WordPress DevelopmentS</a></li>
+		<li><a tabindex="-1" href="#">Speaking Engagements</a></li>
+		<li class="divider"></li>
+		<li><a tabindex="-1" href="#">Social Media</a></li>
 	</ul>
-</div>
+</li>
 ----
 
-If you need to keep links entact, useful if the browser is not enabling Javascript, use the `data-target` attribute instead of `href="#"`.
+If you need to keep links entact, useful if the browser is not enabling Javascript, use the `data-target` attribute along with `href="#"`.
 
 .Dropdown via the `data-target` Attribute
 [source, html]
@@ -268,7 +274,7 @@ $('.dropdown-toggle').dropdown()
 
 ==== Methods
 
-The dropdown toggle has a simple method to toggle the dropdown. There are no options.
+The dropdown toggle has a simple method to show or hide the dropdown. There are no options.
 
 [source, js]
 ----
@@ -278,7 +284,7 @@ $().dropdown('toggle')
 
 === Scrollspy
 
-The scrollspy plugin allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll you can add active classes to the nav bar based on the scroll postion. To add the scrollspy plugin via data attributes, add `data-spy="scroll"` to the element you want to spy on (most typically this would be the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. 
+The scrollspy plugin allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll you can add active classes to the nav bar based on the scroll postion. To add the scrollspy plugin via data attributes, add `data-spy="scroll"` to the element you want to spy on (most typically this would be the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. For this to work, you must have elements in the body of the page that have matching ids of the links that you are spying on.
 
 image::images/scrollspy.png[]
 
@@ -324,7 +330,7 @@ $('#navbar').scrollspy()
 
 ===== .scrollspy('refresh')
 
-When calling the scrollspy via the Javascript method, you will need to call the .refresh method to update the DOM.
+When calling the scrollspy via the Javascript method, you will need to call the .refresh method to update the DOM. This is helpful if any elements of the DOM have changed.
 
 [source, js]
 ----
@@ -342,8 +348,10 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
 [options="header"]
 |=======================
 |Name	|type	|default	|description
-|offset	|number	|10			|Pixels to offset from top when calculating position of scroll.
+|offset	|number	|10			|Pixels to offset from top of page when calculating position of scroll.
 |=======================
+
+The offset option is handy when you are using a fixed navbar. You will want to offset the scroll by about 50 pixels so that it reads at the correct time.
 
 ==== Events
 
@@ -381,7 +389,7 @@ image::images/toggleable-tabs.png[]
 
 ==== Usage
 
-To enable the tabs, you can use the Bootstrap Data API, or using Javascript directly. With the Data API, you need to add `data-toggle` to the anchors. The target of the anchors will activate the content of that `<div>`. Alternatively, instead of using the `href="#"`, you can also use `data-target=""` with the ID of the `.tab-pane` that you want to target.
+To enable the tabs, you can use the Bootstrap Data API, or using Javascript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the the element that has the .tab-pane class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action. 
 
 .Enable Tabs via Javascript
 [source, js]
