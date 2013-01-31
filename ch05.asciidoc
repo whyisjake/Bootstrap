@@ -26,7 +26,34 @@ When you use the customize page, you decide what components you need, you might 
 
 Lastly, you have the LESS variables that you can configure. Everything from column count, to typography colors can be modified here. When you have the options included that you can download a customized build of Bootstrap.
 
+==== Using LESS
+
+.Using Bootstrap with LESS
+image::images/less-popover.png[]
+
+There are a few different ways to use LESS with Bootstrap. The first, and perhaps the easiest is to use a preprocessor like Codekit, or SimpLess. Using these tools, you can set them up to watch certain files or folders. Then when you save any of those files, they build the master CSS files. In addition to using traditional CSS techiniques, you can use advanced features like mixins and functions to dynamically change the look of your site just by changing some variables.
+
+
+// Is there a LESS book that O'Reilly publishes?
+// I might know someone to write one... Want to include something like the following line:
+// This book doesn't mean to be the exclusive look at using LESS, for that checkout #### book by ####, which is a great resource for learning more about LESS.
+
+.Codekit and the Bootstrap code base
+image::images/less.png[]
+
 ==== Text Snippets
+
+To rapidly develop Bootstrap sites, I like to use http://www.sublimetext.com/2[Sublime Text 2], and the Bootstrap snippets from https://github.com/devtellect[DEVtellect] on https://github.com/devtellect/sublime-twitter-bootstrap-snippets/[Github]. This makes any componant easy as a keyboard shortcut to add to the page.
+
+.Bootstrap Snippets
+image::images/snippets.png[]
+
+To install the snippets, clone the git repository into your packages folder.
+
+[source, bash]
+----
+git clone git@github.com:devtellect/sublime-twitter-bootstrap-snippets.git
+----
 
 ==== Photoshop Templates
 
