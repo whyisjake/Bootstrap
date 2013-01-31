@@ -5,9 +5,9 @@
 Bootstrap is an Open Source product from Mark Otto and Jacob Thornton who, when initially released were both employees at Twitter. There was a need to standardize the front end toolsets of engineers across the company. In the launch blog post, Mark Otto introduces the project like this:
 
 [quote, Mark Otto, https://dev.twitter.com/blog/bootstrap-twitter]
-----
+____
 In the earlier days of Twitter, engineers used almost any library they were familiar with to meet front-end requirements. Inconsistencies among the individual applications made it difficult to scale and maintain them. Bootstrap began as an answer to these challenges and quickly accelerated during Twitter’s first Hackweek. By the end of Hackweek, we had reached a stable version that engineers could use across the company.
-----
+____
 
 Since Bootstrap launched in August, 2011 it has taken off in popularity. It has evolved away from being an entirely CSS drivin project to include a host of Javascript plugins, and icons that go hand in hand with forms and buttons. At its base, it allows for responsive web design, and features a robust 12 column, 940px wide grid. One of the highlights is the build tool on [Bootstrap's](http://getbootstrap.com) website where you can customize the build to suit your needs, choosing what CSS and Javascript features that you want to include on your site. All of this, allows front-end web developement to be catapulted forward, building on a stable foundation of forward-looking design, and developement. Getting started with Bootstrap is as simple as dropping some CSS and Javascript into the root of your site. 
 
