@@ -15,7 +15,7 @@ Cloning the Rootstrap will give you a full download of all the files, not just t
 
 If desired, using the LESS files, you can compile your own version of Bootstrap with the features, or customizations that you desire. 
 
-==== Customizing Bootstrap
+=== Customizing Bootstrap
 
 You can download the source, or if you want to easily customize a few of the colors, sizing, or plugins, you can cater the Bootstrap to your needs via the [Bootstrap website](http://twitter.github.com/bootstrap/customize.html).
 
@@ -73,6 +73,8 @@ The PSD, is free, but the author requests that you pay with a tweet. Kind a new 
 
 ==== Themes
 
-==== WordPress Themes
+If you have a vanilla installation of Bootstrap, but want to add a bit of panache, there are few different ways to find free, and premium themes for Bootstrap. My two favorites are https://wrapbootstrap.com/[{Wrap}Bootstrap], and http://bootswatch.com/[Bootswatch]. Both have some great options, and make it easy to get a new style on your site.
 
 === Built with Bootstrap
+
+If you are looking for even more inspiration, check out http://builtwithbootstrap.com/[Built with Bootstrap], a Tumblr that features screen grabs of user-submitted Bootstrap sites. Fun way to see the varying ways that people are using Bootstrap.
