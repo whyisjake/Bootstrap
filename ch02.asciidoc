@@ -4,7 +4,7 @@ At the core of Bootstrap are a set of basic HTML elements that have been styled 
 
 // tidied up some of the phrasing throughout this chap. -NM
 
-//I'm thinking for this chapter I'd love to see like a series of image slideshows for each section, showing the rendered html, the source html, and the css for whatever is being discussed. I envision these floating out into the margin of the chimera page a bit, and running alongside the text. I need to come up with a way to tag these in Atlas etc, but it seems very doable to me. We could also have them render in the other formats, as well (epub, mobi, print), but just display each image linearly. Thoughts? -NM
+//I'm thinking for this chapter I'd love to see like a series of image slideshows for each section, showing the rendered html, the source html, and the CSS for whatever is being discussed. I envision these floating out into the margin of the chimera page a bit, and running alongside the text. I need to come up with a way to tag these in Atlas etc, but it seems very doable to me. We could also have them render in the other formats, as well (epub, mobi, print), but just display each image linearly. Thoughts? -NM
 
 === Typography
 
@@ -218,7 +218,7 @@ An ordered list is a list that falls in some sort of sequential order, and is pr
 <h3>Self-Referential Task List</h3>
 <ol>
 	<li>Turn off the internet.
-	<li>Right the book</li>
+	<li>Write the book</li>
 	<li>... Profit?</li>
 </ul>
 

@@ -933,7 +933,7 @@ image::images/alert.png[]
 ----
 <div class="alert">
     <a href="#" class="close" data-dismiss="alert">&times;</a>
-    <strong>Warning!</strong> Not to be alarmest, but you have now been alerted.
+    <strong>Warning!</strong> Not to be alarmist, but you have now been alerted.
 </div>
 ----
 
