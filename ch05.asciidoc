@@ -78,3 +78,11 @@ If you have a vanilla installation of Bootstrap, but want to add a bit of panach
 === Built with Bootstrap
 
 If you are looking for even more inspiration, check out http://builtwithbootstrap.com/[Built with Bootstrap], a Tumblr that features screen grabs of user-submitted Bootstrap sites. Fun way to see the varying ways that people are using Bootstrap.
+
+=== Conclusion
+
+So, to conclude, whatever the project, Bootstrap can fill the needs of just about any web project. It's blend of responsive framework, extensive Javascript plugins and robust interface components make developing easy, fast, and feature rich. It has been great working with the project over the last year, and I look forward to the future development of the project. Cheers, kudos, and all of the accolades to Jacob Thornton and Mark Otto for creating a project that is so versatile, and fun to develop around.
+
+Thanks from me, 
+
+Jake Spurlock
