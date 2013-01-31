@@ -59,7 +59,17 @@ There are clippings for lots of popular IDEs/Text Editors.
 
 ==== Photoshop Templates
 
+In addition to snippets, there have been a few Photoshop PSDs of all of the Bootstrap markup elements. My favorite comes from http://gui.repixdesign.com/#bootstrap[Repix design]. 
 
+image::images/psd.png[]
+
+*Features:*
+
+* Adjustable colors
+* Separate layers
+* Vector based
+
+The PSD, is free, but the author requests that you pay with a tweet. Kind a new spin on the free as in free speech mantra of Open Source programming.
 
 ==== Themes
 
