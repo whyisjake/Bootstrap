@@ -1,5 +1,7 @@
 = Bootstrap
 
+== Responsive Web Development
+
 include::ch00.asciidoc[]
 
 include::foreward.asciidoc[]
