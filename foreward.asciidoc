@@ -1,6 +1,7 @@
-= Foreward
+[preface]
 
-== Dave Winer
+Foreward
+--------
 
 I was a software developer before there was a Mac, so I remember something not a lot of programmers do. I remember how the tech industry reacted to it. And for the most part, it was with a fair amount of skepticism. And the interesting thing is that the negative things people say about Bootstrap today sound exactly like the negative things people said about the Mac in 1984. And in both cases, the things that people didn't like were what made them important.
 
