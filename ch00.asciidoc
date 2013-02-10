@@ -3,89 +3,48 @@
 Preface
 -------
 
-Erlang has long been a mysterious dark corner of the programming universe, visited mostly  by developers who need extreme reliability or scalability and people who want to stretch their brains. 
-
-Developed at Ericsson to serve on telephone switching equipment, it seemed like a strangely special-purpose language until recently, when our computer and network architectures came to look a lot more like massively parallel telephone-switching equipment. Thanks to the rise of NoSQL data stores CouchDB and Riak, you may already be using Erlang without realizing it, and Erlang is moving out into many more fields.
-
-Exploring Erlang, if you come from pretty much any background other than functional programming, will require you to clear your mind of many techniques used in other programming languages.  Forget classes, forget variables that change values - even forget the conventions of how assigning values to variables works.
-
-Instead, you're going to have to think about pattern matching, message passing, and establishing pathways for data rather than telling it where to go.  Erlang programming can feel like making a key whose teeth set the tumblers on a lock just right for the key to pass, or playing pachinko and watching the balls fall through a maze.
-
-Sound strange?  It is - but also enjoyable, powerful, and fun.
-
-My first explorations of Erlang confused me and excited me at the same time.  I'd had some experience with what I'd called "invariant variables", variables that can only be bound to a value once, in XSLT.  That had created a lot of headaches for me until I realized I was coming at the problems all wrong, and then it suddenly made sense.
-
+Bootstrap is a front-end framework for building responsive websites. Whether it is application frameworks, blogs, or other CMS applications, Bootstrap can be a good fit as it can be as vanilla as you like. It's combination of HTML, CSS, and Javascript make it easy to build robust sites, without adding a lot of code. With a default grid system, layouts come together with ease, and the styling of buttons, navs, and tables make basic markup look great from the get go. A dozen or so Javascript plugins catapult you into adding interactive elements to your site.
 
 
 Who This Book is For
 ~~~~~~~~~~~~~~~~~~~~
 
-This book is mostly for people who've been programming in other languges who want to look around.  Maybe you're being very practical, and Erlang's distributed model and the resulting scale and resilence advantages appeal to you.  Maybe you want to see what this "functional programming" stuff is all about.  Or maybe you're just going for a hike, taking your mind to a new place.
-
-I suspect that functional programming is more approachable as a first language, before you've learned to program in other paradigms.  However, getting started in Erlang - sometimes even just installing it - requires a fair amount of computing skill.  If you're a complete newcomer to programming, welcome, but there will be a few challenges along the way.
+This books is mostly for people that have a good handle on HTML/CSS and Javascript, and are curious to get started with building responsive sites, adding the Bootstrap Javascript plugins, or building sites faster by using this popular open-source framework.
 
 
 Who This Book is Not For
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-This book is not for people in a hurry to get things done.
-
-If you already know Erlang, you don't likely need this book unless you're looking for a slow brush-up.
-
-If you're already familiar with functional languages, you may find the pacing of this "Gentle Introduction" hopelessly slow.  Definitely feel welcome to jump to another book that moves faster if you get bored.  Come back if you find the others go too fast, and definitely feel welcome to use this as a companion guide or reference with the other books.
-
+This book is not for people that get all they need out of the Bootstrap online documentation. Like a lot of people, the online docs are where I got started, building my first site with Bootstrap 1.3, and then upgrading it to Bootstrap 1.4. After that, a big project was built with Bootstrap 2.0 and on. If you are comfortable writing semantic HTML, then jumping into Bootstrap should be easy for you to get started with.
 
 What This Book Will Do For You
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In _Seven Languages in Seven Weeks_, Bruce Tate suggests that "Erlang makes hard things easy and easy things hard."  This book will get you through the "easy things hard" part, and show you a bit of the promised land of "hard things easy".
-
-In practical terms, you'll learn to write simple Erlang programs.  You'll understand why Erlang makes it easier to build resilient programs that can scale up and down with ease.  Perhaps most importantly, you'll be able to read other Erlang resources that assume a fair amount of experience and make sense of them.
-
-In more theoretical terms, you'll get to know functional programming.  You'll learn how to design programs around message-passing and recursion, creating process-oriented programs focused more on data flow.
-
-You'll also be better prepared to read other books and conversations about Erlang.
+With some background in writing HTML/CSS, and Javascript, this book will help you get off the ground writing some flexible code for responsive websites. In practical terms, the concepts and code sntax should come easily as it follows the patterns for writing coode code anyways. 
 
 
 How This Book Works
 ~~~~~~~~~~~~~~~~~~~
 
-This book tries to tell a story with Erlang.  This means that you'll probably get the most out of it if you read it in order at least the first time, though you're always welcome to come back to find whatever bits and pieces you need.
+This book tries to built a site with Bootstrap, starting at the foundation of the project, the file structure, moving up through the grid system, and layout types into HTML elements and styling like forms, tables, and buttons. Once the walls are up, we move into the aesthetic elements like navbars, breadcrumbs, and media objects. After that, into the Javascript elements that provide the interaction for a site like dropdowns, the carousel, and modals.
 
-You'll start by getting Erlang installed and running, and look around its shell.  You'll spend a lot of time in the shell, so get cozy.  Next, you'll start loading code into the shell to make it easier to write programs, and you'll learn how to call that code and mix it up.
-
-Next, you'll take a close look at numbers, because they're an easy place to get familiar with Erlang's basic structures.  Next you'll learn about atoms, pattern-matching, and guards - the likely foundations of your program structure.    After that you'll learn about strings, lists, and the recursion at the heart of much Erlang processing.  Once you've gone a few million recursions down and back, it'll be time to look at processes, a key part of Erlang that relies on the message-passing model to support concurrency and resilience.
-
-Once you have the foundation set, you can take a closer look at debugging and data storage, and then get a quick look at a toolset which is likely at the heart of your long-term development with Erlang: the Open Telecom Platform (OTP), which is about much much more than telephones.
-
-Some people want to learn programming languages through a dictionary.  Here's a list of operators, here's a list of control structures, these are the datatypes - and then smash them together.  Those lists are here, but they're in <<APPENDIX>>, not the main flow of the book.
-
-The main point you should get from this book is that you can program in Erlang.  If you don't get that, let me know!
 
 Why I Wrote This Book
 ~~~~~~~~~~~~~~~~~~~~~
 
-I'm not an Erlang expert hoping to create more Erlang experts to get a lot of work done.  
+I'm not an Bootstrap expert hoping to create more Bootstrap experts to get a lot of work done.  
 
-I'm a developer and writer who encountered Erlang, thought it was the programming language I'd been seeking for a long time, and felt compelled to share some of that.  I'm hoping that the path I followed will work for other people, probably with variations, and that a book written from a beginner's perspective (and vetted by experts) would help more people find and enjoy Erlang.
+I'm a developer and writer who encountered Bootstrap through a post on Dave Winer's blog, and I thought that it would be cool to apply it to a new site that I was working on and since felt compelled to share some of that. I'm hoping that the path I followed will work for other people, probably with variations, and that a book written from a beginner's perspective (and vetted by experts) would help more people find and enjoy Bootstrap.
 
 
 Other Resources
 ~~~~~~~~~~~~~~~
 
-This book may not be the best way for you to learn Erlang.  It all depends on what you want to learn and why.  
+This book may not be the best way for you to learn Bootstrap.  It all depends on what you want to learn and why.  
 
-If your primary interest in learning Erlang is to break out of a programming rut,  you should definitely explore Bruce Tate's wild tour of _Seven Languages in Seven Weeks_ (Pragmatic Publishers), which explores Ruby, Io, Prolog, Scala, Erlang, Clojure, and Haskell.  Erlang only gets (an excellent) 37 pages, but that might be what you want.
+If your primary interest is to get started building Bootstrap websites, the online documentation at http://twitter.github.com/bootstrap/ may likely suit you perfectly. The authors, Jacob Thornton and Mark Otto have been meticulous in providing examples of the codebase, and HTML code samples, and more to kick start your project. It is top notch, and where I have gathered the structure for this book. 
 
-For an online experience (soon to be in print from No Starch Books) with more snark and much funnier illustrations, you should explore Fred Hebert's _Learn You Some Erlang for Great Good!_, at  http://learnyousomeerlang.com/.  While much longer than Tate's telling, it certainly moves faster and may feel more like an experienced programmer's guide to Erlang.
-
-The two classic general books on Erlang are the similarly-titled _Programming Erlang_ (Pragmatic Publishers), by Erlang creator Joe Armstrong, and _Erlang Programming_ (O'Reilly Media, Inc.) by Francesco Cesarini and Simon Thompson.  They cover a lot of similar and overlapping terrain, and both may be good places to start if this moves too slowly or you need more reference material.  _Erlang Programming_ goes further into what you can do with Erlang, while _Programming Erlang_ provides a lot of detail on setting up an Erlang programming environment.
-
-On the more advanced side, _Erlang and OTP in Action_ (Manning), by Martin Logan, Eric Merritt, and Richard Carlsson, opens with a high-speed 72-page introduction to Erlang and then spends most of its time applying the Open Telecom Platform, Erlang's framework for building upgradeable and maintainable concurrent applications.
-
-If you want to focus on connecting Erlang to the Web, you should definitely also explore _Building Erlang Web Applications_ (O'Reilly), by Zachary Kessin.
-
-You'll also want to visit the main Erlang web site, http://www.erlang.org/, for updates, downloads, documentation, and more.
+If you want to contribute to the work of the open source project, you can submit pull requests, or use the issue tracker on the Github project, http://github.com/twitter/bootstrap/, for updates, downloads, documentation, and more.
 
 Are You Sure You Want Erlang?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
