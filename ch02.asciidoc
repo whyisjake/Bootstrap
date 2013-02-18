@@ -300,7 +300,10 @@ One of my favorite parts of Bootstrap is the nice way that tables are handled. I
 
 If you want a nice basic table style with just some light padding and  horizontal dividers only, add the base class of `table` to any table.
 
-.Table Base Class
+.Basic Table Class
+image::images/table-base.png[]
+
+.Table Base Class Example
 [source, html]
 --------
 <table class="table">
@@ -320,7 +323,7 @@ If you want a nice basic table style with just some light padding and  horizonta
 </table>
 --------
 
-<!-- I need to do a lot more here... Just noticed that I was missing a bunch of the table classes/layouts. Whoops! -->
+With the base table markup, and adding the `.table` class, there are few additional clases that you can add to style the markup.
 
 
 .Optional Table Row Classes
