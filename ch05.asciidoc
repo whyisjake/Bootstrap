@@ -40,12 +40,12 @@ In the `variables.less` file, you will find all of the global variables for Boot
 [source, css]
 ----
 /* Old Code */
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:			#08c;
+@linkColorHover:	darken(@linkColor, 15%);
 
 /* New Code */
-@linkColor:             #7d00cc;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:			#7d00cc;
+@linkColorHover:	darken(@linkColor, 15%);
 ----
 
 Now, all links are changed to a purple color, and buttons, and buttons and other interface elements that call for @linkColor will be updated all over your site.

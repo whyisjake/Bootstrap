@@ -32,7 +32,7 @@ This book tries to built a site with Bootstrap, starting at the foundation of th
 Why I Wrote This Book
 ~~~~~~~~~~~~~~~~~~~~~
 
-I'm not an Bootstrap expert hoping to create more Bootstrap experts to get a lot of work done.  
+I'm not an Bootstrap expert hoping to create more Bootstrap experts to get a lot of work done. 
 
 I'm a developer and writer who encountered Bootstrap through a post on Dave Winer's blog, and I thought that it would be cool to apply it to a new site that I was working on and since felt compelled to share some of that. I'm hoping that the path I followed will work for other people, probably with variations, and that a book written from a beginner's perspective (and vetted by experts) would help more people find and enjoy Bootstrap.
 
@@ -40,7 +40,7 @@ I'm a developer and writer who encountered Bootstrap through a post on Dave Wine
 Other Resources
 ~~~~~~~~~~~~~~~
 
-This book may not be the best way for you to learn Bootstrap.  It all depends on what you want to learn and why.  
+This book may not be the best way for you to learn Bootstrap. It all depends on what you want to learn and why. 
 
 If your primary interest is to get started building Bootstrap websites, the online documentation at http://twitter.github.com/bootstrap/ may likely suit you perfectly. The authors, Jacob Thornton and Mark Otto have been meticulous in providing examples of the codebase, and HTML code samples, and more to kick start your project. It is top notch, and where I have gathered the structure for this book. 
 
@@ -49,13 +49,8 @@ If you want to contribute to the work of the open source project, you can submit
 Are You Sure You Want Bootstrap?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you are simply looking for Javscript plugins, or a CSS reset, Bootstrap maybe overkill. If you aren't in love with some of the default interface elements that can be overwritten easily, or just strip out the associated tags. 
+If you are simply looking for Javscript plugins, or a CSS reset, Bootstrap maybe overkill. If you aren't in love with some of the default interface elements that can be overwritten easily, or just strip out the associated tags. If you are looking for an easy way to build fast, responsive websites, Bootstrap is a great way to get going. I use it on all of my projects, and I'm really happy with it.
 
-
-Erlang Will Change You
-~~~~~~~~~~~~~~~~~~~~~~
-
-Before you go deeper, you should know that working in Erlang may change, irrevocably, the way you look at programs.  Its combination of functional code, process-orientation, and distributed development may seem alien at first.  However, once it sinks in, Erlang can transform the way you solve problems, and potentially make it difficult to return to other languages, environments, and programming cultures.
 
 Conventions Used in This Book
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -72,55 +67,46 @@ _++Constant width italic++_:: Shows text that should be replaced with user-suppl
 
 NOTE: This icon signifies a tip, suggestion, or general note.
 
-
 WARNING: This icon indicates a warning or caution.
-
-
-A Note on Erlang Syntax
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Erlang's syntax seems to be a sticking point for a lot of people.  It doesn't look like the C family of languages.  Punctuation is different and capitalization matters.  Periods even get used as conclusions rather than connectors!
-
-To me, Erlang syntax mostly feels natural, and I'm especially happy that it's different from the other languages I typically use.  I make a lot fewer mix-ups that way.
-
-Rather than dwell on syntax, I've chosen just to present it as it is.  Comparing it to other languages doesn't seem likely to be helpful, especially when different readers may come from different programming backgrounds.  Hopefully you will find Erlang syntax as pleasant as I do.
 
 Examples
 ~~~~~~~~
 
-The examples in this book are meant to teach basic concepts in small bites.  While you may certainly borrow code and reuse it as you see fit, you won't be able to take the code of this book and build a stupendous application instantly (unless perhaps you have an unusual fondness for calculating the speeds of falling objects).  You should, however, be able to figure out the steps you need to take to build a great application.
+The examples in this book are meant to teach basic concepts in small bites. While you may certainly borrow code and reuse it as you see fit, you won't be able to take the code of this book and build a stupendous application instantly (unless perhaps you have an unusual fondness for bacon and cats). You should, however, be able to figure out the steps you need to take to build a great website.
 
-You can download the code from the Examples link on the book's page at http://shop.oreilly.com/product/0636920025818.do .
+You can download the code from the Examples link on the book's page at hhttp://shop.oreilly.com/product/0636920027867.do.
 
 This book is here to help you get your job done. In general, you may use the code in this book in your programs and documentation. You do not need to contact us for permission unless you are reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O'Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product's documentation does require permission.
 
-We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: "_Introducing Erlang_, by Simon St.Laurent (O'Reilly). Copyright 2012 Simon St.Laurent, 9781449331764."  
+We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: "_Bootstrap, Responsive Web Development_, by Jake Spurlock (O'Reilly). Copyright 2013 Jake Spurlock, 0636920027867." 
+
+// Not sure what that last number is. I left it as is...
 
 If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at pass:[<email>permissions@oreilly.com</email>].
 
 Help This Book Grow
 ~~~~~~~~~~~~~~~~~~~
 
-While I hope that you will enjoy reading this book and learn from it, I also hope that you can contribute to helping other readers learn Erlang here.  You can help your fellow readers in a number of ways:
+While I hope that you will enjoy reading this book and learn from it, I also hope that you can contribute to helping other readers learn Bootstrap here. You can help your fellow readers in a number of ways:
 
-* If you find specific technical problems, bad explanations, or things that can be improved, please report them through the errata system at http://oreilly.com/catalog/errata.csp?isbn=0636920025818.
+* If you find specific technical problems, bad explanations, or things that can be improved, please report them through the errata system at http://oreilly.com/catalog/errata.csp?isbn=0636920027867.
 
-* If you like (or don't like) the book, please leave reviews.  The most visible places to do so are on Amazon.com (or its international sites) and at the O'Reilly page for the book at http://shop.oreilly.com/product/0636920025818.do.  Detailed explanations of what worked and what didn't work for you (and the broader target audience of programmers new to Erlang) are helpful to other readers and to me.
+* If you like (or don't like) the book, please leave reviews. The most visible places to do so are on Amazon.com (or its international sites) and at the O'Reilly page for the book at http://shop.oreilly.com/product/0636920027867.do. Detailed explanations of what worked and what didn't work for you (and the broader target audience of programmers new to Erlang) are helpful to other readers and to me.
 
-* If you find you have much more you want to say about Erlang, please consider sharing it, whether on the Web, in a book of your own, in training classes, or in whatever form you find easiest.
+* If you find you have much more you want to say about Bootstrap, please consider sharing it, whether on the Web, in a book of your own, in training classes, or in whatever form you find easiest.
 
-I'll update the book for errata, and try to address issues raised in reviews. Even once the book is 'complete', I may still add some extra pieces to it.  If you purchased it as an ebook, you'll receive these updates for free at least up to the point where it's time for a whole new edition.  I don't expect that new edition declaration to come quickly, however, unless the Erlang world changes substantially.
+I'll update the book for errata, and try to address issues raised in reviews. Even once the book is 'complete', I may still add some extra pieces to it. If you purchased it as an ebook, you'll receive these updates for free at least up to the point where it's time for a whole new edition. I don't expect that new edition declaration to come quickly, however, unless the Bootstrap world changes substantially.
 
 Hopefully this book will engage you enough to make you consider sharing.
 
 Please Use It For Good
 ~~~~~~~~~~~~~~~~~~~~~~
 
-I'll let you determine what "good" means, but think about it.  Please try to use Erlang's power for projects that make the world a better place, or at least not a worse place.
+I'll let you determine what "good" means, but think about it. Please try to use Bootstrap's power for projects that make the world a better place, or at least not a worse place.
 
 Acknowledgments
 ~~~~~~~~~~~~~~~
 
-Many thanks to Zachary Kessin for interesting me in Erlang in the first place, and to him and Francesco Cesarini for encouraging me to write this.  Detailed feedback from Steve Vinoski and Fred Hebert has made it possible, I hope, for this book to get readers started on the right track.  J. David Eisenberg and Chuck Ha helped make it especially possible for beginners to get started right, pointing out gaps and issues in my prose.
+Many thanks to Dave Winer for interesting me in Bootstrap in the first place, and to Simon St. Laurent for the opportunity to write this. Detailed feedback from my friends Roseanne Fallin, and Tony Quartorolo has made it possible, I hope, for this book to get readers started on the right track. Thanks to Melissa Morgan for letting my take a few risks and develop the way that I like at MAKE too.
 
-In particular, thanks to my wife Angelika for encouraging me to finish this, to my son Konrad for not throwing the printouts around too much, and to my daughter Sungiva for understanding that I needed to go back downstairs after I told her her story about Ned and Ernie, adventuring snakes, for the night.
+In particular, thanks to my wife Melissa for putting up with me, and encouraging me to finish. To my son Rush for understanding that I needed to "Work", and to my daughter Hailey for the warm smiles and huge hugs in the morning.
