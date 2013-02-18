@@ -20,7 +20,7 @@ This book is not for people that get all they need out of the Bootstrap online d
 What This Book Will Do For You
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-With some background in writing HTML/CSS, and Javascript, this book will help you get off the ground writing some flexible code for responsive websites. In practical terms, the concepts and code sntax should come easily as it follows the patterns for writing coode code anyways. 
+With some background in writing HTML/CSS, and Javascript, this book will help you get off the ground writing some flexible code for responsive websites. In practical terms, the concepts and code syntax should come easily as it follows the patterns for writing semantic HTML and CSS anyways.
 
 
 How This Book Works
@@ -46,22 +46,11 @@ If your primary interest is to get started building Bootstrap websites, the onli
 
 If you want to contribute to the work of the open source project, you can submit pull requests, or use the issue tracker on the Github project, http://github.com/twitter/bootstrap/, for updates, downloads, documentation, and more.
 
-Are You Sure You Want Erlang?
+Are You Sure You Want Bootstrap?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Though they've been obscure for a long time, there's a crowd of functional languages rising into greater popularity.
+If you are simply looking for Javscript plugins, or a CSS reset, Bootstrap maybe overkill. If you aren't in love with some of the default interface elements that can be overwritten easily, or just strip out the associated tags. 
 
-Three of them in particular - Clojure, F#, and Haskell - may be more appealing than Erlang if you have specific needs.  
-
-* Clojure runs on the Java Virtual Machine (JVM), making it insanely portable, and has access to Java libraries as a result.  ClojureScript does the same with JavaScript, too. (Erjang makes it possible to run Erlang on the JVM, but it's not a core part of the language.) 
-
-* F# runs on the .NET Common Language Runtime (CLR), making it very portable in the Microsoft ecosystem, and again, has access to .NET libraries.
-
-* Haskell doesn't run on a virtual machine, but also offers a stronger type system and a different kind of discipline (and laziness).
-
-Personally, I got my start with these concepts in XSLT.  It's a very different kind of language, meant for a specific domain of document transformation, but many of the same ideas flow through it.
-
-You don't, of course, have to decide if Erlang is your life's dream now.  You can learn concepts in Erlang and apply them elsewhere if it turns out to be a better idea for your work.
 
 Erlang Will Change You
 ~~~~~~~~~~~~~~~~~~~~~~

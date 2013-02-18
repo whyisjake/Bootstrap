@@ -127,13 +127,13 @@ To create a simple layout, create a container with a `div` that has a class of '
 
 .Basic Grid Layout
 [source, html]
---------------
+----
 
 <div class="row">
   <div class="span8">...</div>
   <div class="span4">...</div>
 </div>
----------------
+----
 
 In the above example, we have '.span8', and a '.span4' adding up to 12.
 
@@ -150,12 +150,12 @@ You can move columns to the right using the '.offset*' class. Each class moves t
 
 .Offsetting Columns
 [source, html]
-------------------
+----
 <div class="row">
   <div class="span2">...</div>
   <div class="span7 offset2">...</div>
 </div>
-------------------
+----
 
 .Offset Grid
 image::images/offset-grid.png[]
@@ -222,7 +222,7 @@ Your markup should look something like this:
 
 .Nesting Columns
 [source, html]
---------------
+----
 <div class="row">
   <div class="span9">
     Level 1 column
@@ -232,7 +232,7 @@ Your markup should look something like this:
     </div>
   </div>
 </div>
---------------
+----
 
 .Nesting Grid
 image::images/nesting-grid.png[]
@@ -251,7 +251,7 @@ jsfiddle::http://jsfiddle.net/whyisjake/327R3/embedded/result/[width="100%", hei
 
 .Fluid Column Layout
 [source, html]
---------------
+----
 <div class="row-fluid">
   <div class="span4">...</div>
   <div class="span8">...</div>
@@ -261,13 +261,13 @@ jsfiddle::http://jsfiddle.net/whyisjake/327R3/embedded/result/[width="100%", hei
   <div class="span4">...</div>
   <div class="span4 offset2">...</div>
 </div>
---------------
+----
 
 Nesting a fluid grid is a little different. Since we are using percentages, each '.row' resets the column count to 12. For example, If you were inside a '.span8', instead of two '.span4' elements to divide the content in half, you would use two '.span6' divs. This is the case for responsive content, as we want the content to fill 100% of the container.
 
 .Nesting Fluid Column Layout
 [source, html]
---------------
+----
 <div class="row-fluid">
   <div class="span8">
 		<div class="row">
@@ -276,7 +276,7 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 		</div>
   </div>
 </div>
---------------
+----
 
 .Nesting Fluid Grid
 image::images/nesting-grid.png[]
@@ -297,7 +297,7 @@ To turn on the responsive features of Bootstrap, you need to add a meta tag to t
 
 .Responsive Meta Tag and CSS
 [source, html]
---------------
+----
 <!DOCTYPE html>
 <html>
 	<head>
@@ -306,7 +306,7 @@ To turn on the responsive features of Bootstrap, you need to add a meta tag to t
 		<link href="/css/bootstrap.css" rel="stylesheet">
 		<link href="/css/bootstrap-responsive.css" rel="stylesheet">
 	</head>
---------------
+----
 
 [NOTE]
 ===============================
@@ -359,13 +359,13 @@ For a larger site, you might want to separate them into separate files. In the H
 
 .CSS media queries via the link tag in the HTML <head>
 [source, html]
---------------
+----
 <link rel="stylesheet" href="base.css" />
 <link rel="stylesheet" media="(min-width:1200px)" href="large.css" />
 <link rel="stylesheet" media="(min-width:768px) and (max-width: 979px)" href="tablet.css" />
 <link rel="stylesheet" media="(max-width: 767px)" href="tablet.css" />
 <link rel="stylesheet" media="(max-width: 480px)" href="phone.css" />
---------------
+----
 
 
 ===== Helper Classes
