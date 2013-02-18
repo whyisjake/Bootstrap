@@ -85,7 +85,7 @@ To create a static example, use the code below.
 .Static Modal Window
 image::images/modal.png[]
 
-.Static Modal Modal Window Code Example
+.Static Modal Window Code Example
 [source, html]
 ----
 <div class="modal hide fade">
