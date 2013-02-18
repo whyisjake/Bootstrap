@@ -298,7 +298,7 @@ One of my favorite parts of Bootstrap is the nice way that tables are handled. I
 |======================
 
 
-If you want a nice basic table style with just some light padding and  horizontal dividers only, add the base class of `.table` to any table.
+If you want a nice basic table style with just some light padding and  horizontal dividers only, add the base class of `.table` to any table. The basic layout has a top border on all of the `<td>` elements.
 
 .Basic Table Class
 image::images/table-base.png[]
@@ -323,10 +323,42 @@ image::images/table-base.png[]
 </table>
 --------
 
-==== Optional Tables Classes
+==== Optional Table Classes
 
-With the base table markup, and adding the `.table` class, there are few additional clases that you can add to style the markup. 
+With the base table markup, and adding the `.table` class, there are few additional clases that you can add to style the markup. There are three classes, `.table-striped`, `.table-bordered`, `.table-hover`, and `.table-condensed`.
 
+===== Striped Table
+
+By adding the `.table-striped` class, you will get stripes on rows within the `<tbody>`. This is done via the CSS `:nth-child` selector which is not available on Internet Explorer 7-8. 
+
+.Striped Table Class
+image::images/table-striped.png[]
+
+===== Bordered Table
+
+If you add the `.table-bordered` class, you will get borders surrounding every element, and rounded corners around the entire table.
+
+.Bordered Table Class
+image::images/table-bordered.png[]
+
+===== Hover Table
+
+If you add the `.table-hover` class, when you hover over a row, a light grey background will be added to rows while the user hovers over them.
+
+.Hover Table Class
+image::images/table-hover.png[]
+
+===== Condensed Table
+
+If you add the `.table-condensed` class, padding is cut in half on rows to condense the table. Useful if you want denser information.
+
+.Condensed Table Class
+image::images/table-condensed.png[]
+
+
+==== Table Row Classes
+
+If you want to style the table rows, you could add the following classes to change the background color. 
 
 .Optional Table Row Classes
 [frame="topbot",options="header"]
