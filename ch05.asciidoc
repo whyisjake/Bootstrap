@@ -33,6 +33,25 @@ image::images/less-popover.png[]
 
 There are a few different ways to use LESS with Bootstrap. The first, and perhaps the easiest is to use a preprocessor like Codekit, or SimpLess. Using these tools, you can set them up to watch certain files or folders. Then when you save any of those files, they build the master CSS files. In addition to using traditional CSS techiniques, you can use advanced features like mixins and functions to dynamically change the look of your site just by changing some variables.
 
+LESS is a dyanic stylesheet language for writing CSS. It allows you to write variables, functions, and mixins for your CSS. The Bootstrap `/less/` folder has a few files, but for setting globals, check the `variables.less` file and `mixins.less`.
+
+In the `variables.less` file, you will find all of the global variables for Bootstrap. Let's say you wanted to change the color of all of the links. You would simply update the following, update LESS to compile the CSS, and all of the links would change color.
+
+[source, css]
+----
+/* Old Code */
+@linkColor:             #08c;
+@linkColorHover:        darken(@linkColor, 15%);
+
+/* New Code */
+@linkColor:             #7d00cc;
+@linkColorHover:        darken(@linkColor, 15%);
+----
+
+Now, all links are changed to a purple color, and buttons, and buttons and other interface elements that call for @linkColor will be updated all over your site.
+
+In the beginning, I was really hesitant to use LESS, after all, I have been writing CSS for a long time, and didn't feel the need to change. The nesting alone is such a huge timesaver, I'm really glad to have added it to my workflow. 
+
 
 // Is there a LESS book that O'Reilly publishes?
 // I might know someone to write one... Want to include something like the following line:
