@@ -204,10 +204,10 @@ If you need specific events during the firing events of Bootstrap's modals, you 
 [options="header"]
 |=======================
 |Event 	|Description
-|show	|This event fires immediately when the `show` instance method is called.
-|shown	|This event is fired when the modal has been made visible to the user (will wait for css transitions to complete).
-|hide	|This event is fired immediately when the `hide` instance method has been called.
-|hidden	|This event is fired when the modal has finished being hidden from the user (will wait for css transitions to complete).		|
+|show	|Fired after the `show` method is called. 
+|shown	|Fired when the modal has been made visible to the user.
+|hide	|Fired when the `hide` instance method has been called.
+|hidden	|Fired when the modal has finished being hidden from the user.
 |=======================
 
 [source, js]
