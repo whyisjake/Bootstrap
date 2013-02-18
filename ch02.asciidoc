@@ -367,7 +367,7 @@ If you want to style the table rows, you could add the following classes to chan
 |`.success`    |Indicates a successful or positive action.				|Green
 |`.error`      |Indicates a dangerous or potentially negative action.	|Red
 |`.warning`    |Indicates a warning that might need attention.			|Yellow
-|`.info        |Used as an alternative to the default styles.			|Blue
+|`.info`       |Used as an alternative to the default styles.			|Blue
 |======================
 
 .Table Row Classes Example
@@ -978,6 +978,8 @@ Bootstrap bundles 140 icons into one sprite that can be used with buttons, links
 image::images/icons.png[]
 
 ==== Glyphicon Attribution
+
+Users of Bootstrap are fortunate to use the Glyphicons free of use on Bootstrap projects. The developers have asked that you use a link back to Glyphicons when practical.
 
 [quote, Bootstrap Documentation, http://getbootstrap.com]
 ____

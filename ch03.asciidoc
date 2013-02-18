@@ -56,7 +56,7 @@ image:images/dropdown-sub.png[]
 Button groups allow multiple buttons to be stacked together. This is useful like the example below when you want to place items like alignment buttons together. Simply, to create a button group, simply wrap a series of anchors or buttons with a class of `.btn` with a `<div>` that has `.btn-group` as a class. 
 
 .Inline Button Group
-image::images/btn-group-new.png
+image::images/btn-group-new.png[]
 
 .Inline Button Group Code Example
 [source,html]
