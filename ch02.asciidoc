@@ -298,7 +298,7 @@ One of my favorite parts of Bootstrap is the nice way that tables are handled. I
 |======================
 
 
-If you want a nice basic table style with just some light padding and  horizontal dividers only, add the base class of `table` to any table.
+If you want a nice basic table style with just some light padding and  horizontal dividers only, add the base class of `.table` to any table.
 
 .Basic Table Class
 image::images/table-base.png[]
@@ -323,17 +323,19 @@ image::images/table-base.png[]
 </table>
 --------
 
-With the base table markup, and adding the `.table` class, there are few additional clases that you can add to style the markup.
+==== Optional Tables Classes
+
+With the base table markup, and adding the `.table` class, there are few additional clases that you can add to style the markup. 
 
 
 .Optional Table Row Classes
 [frame="topbot",options="header"]
 |======================
-|Class         |Description
-|`.success`    |Indicates a successful or positive action.
-|`.error`      |Indicates a dangerous or potentially negative action.
-|`.warning`    |Indicates a warning that might need attention.
-|`.info        |Used as an alternative to the default styles.
+|Class         |Description 											|Background Color
+|`.success`    |Indicates a successful or positive action.				|Green
+|`.error`      |Indicates a dangerous or potentially negative action.	|Red
+|`.warning`    |Indicates a warning that might need attention.			|Yellow
+|`.info        |Used as an alternative to the default styles.			|Blue
 |======================
 
 .Table Row Classes Example
