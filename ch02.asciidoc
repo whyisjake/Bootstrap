@@ -153,6 +153,9 @@ To add blocks of quoted text to your document--or for any quotation that you wan
 // Do they have to use the small tag for the source, or is that just a stylistic suggestion? -NM
 // It is a stylistic suggestion. There is some CSS that supports it. -JS
 
+.Basic Blockquote
+image::images/blockquote.png[]
+
 .Blockquote Markup
 [source, html]
 --------
