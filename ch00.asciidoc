@@ -107,6 +107,6 @@ I'll let you determine what "good" means, but think about it. Please try to use 
 Acknowledgments
 ~~~~~~~~~~~~~~~
 
-Many thanks to Dave Winer for interesting me in Bootstrap in the first place, and to Simon St. Laurent for the opportunity to write this. Detailed feedback from my friends Roseanne Fallin, and Tony Quartorolo has made it possible, I hope, for this book to get readers started on the right track. Thanks to Melissa Morgan for letting my take a few risks and develop the way that I like at MAKE too.
+Many thanks to Dave Winer for interesting me in Bootstrap in the first place, and to Simon St. Laurent for the opportunity to write this. Detailed feedback from my friends Roseanne Fallin, and Tony Quartorolo has made it possible, I hope that this book can get readers started on the right track. Thanks to Melissa Morgan for letting my take a few risks and develop the way that I like at MAKE too.
 
-In particular, thanks to my wife Melissa for putting up with me, and encouraging me to finish. To my son Rush for understanding that I needed to "Work", and to my daughter Hailey for the warm smiles and huge hugs in the morning.
+In particular, thanks to my wonderful wife Melissa for putting up with me, and encouraging me to finish. To my son Rush for understanding that I needed to "Work", and to my daughter Hailey for the warm smiles and huge hugs.
