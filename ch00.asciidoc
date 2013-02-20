@@ -99,11 +99,6 @@ I'll update the book for errata, and try to address issues raised in reviews. Ev
 
 Hopefully this book will engage you enough to make you consider sharing.
 
-Please Use It For Good
-~~~~~~~~~~~~~~~~~~~~~~
-
-I'll let you determine what "good" means, but think about it. Please try to use Bootstrap's power for projects that make the world a better place, or at least not a worse place.
-
 Acknowledgments
 ~~~~~~~~~~~~~~~
 
