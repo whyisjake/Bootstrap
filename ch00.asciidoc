@@ -91,7 +91,7 @@ While I hope that you will enjoy reading this book and learn from it, I also hop
 
 * If you find specific technical problems, bad explanations, or things that can be improved, please report them through the errata system at http://oreilly.com/catalog/errata.csp?isbn=0636920027867.
 
-* If you like (or don't like) the book, please leave reviews. The most visible places to do so are on Amazon.com (or its international sites) and at the O'Reilly page for the book at http://shop.oreilly.com/product/0636920027867.do. Detailed explanations of what worked and what didn't work for you (and the broader target audience of programmers new to Erlang) are helpful to other readers and to me.
+* If you like (or don't like) the book, please leave reviews. The most visible places to do so are on Amazon.com (or its international sites) and at the O'Reilly page for the book at http://shop.oreilly.com/product/0636920027867.do. Detailed explanations of what worked and what didn't work for you (and the broader target audience of programmers new to Bootstrap) are helpful to other readers and to me.
 
 * If you find you have much more you want to say about Bootstrap, please consider sharing it, whether on the Web, in a book of your own, in training classes, or in whatever form you find easiest.
 
