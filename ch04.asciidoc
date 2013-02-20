@@ -1,4 +1,4 @@
-== Javascript 
+== Bootstrap Javascript Plugins
 
 Most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plugins that that extend the features, and can add more interaction to your site. To get started with the Bootstrap Javascript plugins, you don't need to be an advanced Javascript developer. In fact, most of the plugins can be enacted without writing a single line of code by utilizing the Bootstrap data API.
 

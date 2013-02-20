@@ -1,4 +1,4 @@
-== Scaffolding
+== Bootstrap Scaffolding
 
 === What is Bootstrap
 

@@ -1,4 +1,4 @@
-== Base CSS
+== Bootstrap CSS
 
 At the core of Bootstrap are a set of basic HTML elements that have been styled in such a way that allow for easy enhancement via classes and user styles.
 
