@@ -32,7 +32,7 @@ This book tries to built a site with Bootstrap, starting at the foundation of th
 Why I Wrote This Book
 ~~~~~~~~~~~~~~~~~~~~~
 
-I'm not an Bootstrap expert hoping to create more Bootstrap experts to get a lot of work done. 
+I'm not an Bootstrap expert hoping to create more Bootstrap experts to get a lot of work done.
 
 I'm a developer and writer who encountered Bootstrap through a post on Dave Winer's blog, and I thought that it would be cool to apply it to a new site that I was working on and since felt compelled to share some of that. I'm hoping that the path I followed will work for other people, probably with variations, and that a book written from a beginner's perspective (and vetted by experts) would help more people find and enjoy Bootstrap.
 
@@ -40,9 +40,9 @@ I'm a developer and writer who encountered Bootstrap through a post on Dave Wine
 Other Resources
 ~~~~~~~~~~~~~~~
 
-This book may not be the best way for you to learn Bootstrap. It all depends on what you want to learn and why. 
+This book may not be the best way for you to learn Bootstrap. It all depends on what you want to learn and why.
 
-If your primary interest is to get started building Bootstrap websites, the online documentation at http://twitter.github.com/bootstrap/ may likely suit you perfectly. The authors, Jacob Thornton and Mark Otto have been meticulous in providing examples of the codebase, and HTML code samples, and more to kick start your project. It is top notch, and where I have gathered the structure for this book. 
+If your primary interest is to get started building Bootstrap websites, the online documentation at http://twitter.github.com/bootstrap/ may likely suit you perfectly. The authors, Jacob Thornton and Mark Otto have been meticulous in providing examples of the codebase, and HTML code samples, and more to kick start your project. It is top notch, and where I have gathered the structure for this book.
 
 If you want to contribute to the work of the open source project, you can submit pull requests, or use the issue tracker on the Github project, http://github.com/twitter/bootstrap/, for updates, downloads, documentation, and more.
 
@@ -65,22 +65,26 @@ _Italic_:: Indicates new terms, URLs, email addresses, filenames, and file exten
 
 _++Constant width italic++_:: Shows text that should be replaced with user-supplied values or by values determined by context.
 
-NOTE: This icon signifies a tip, suggestion, or general note.
+[TIP]
+====
+This icon signifies a tip, suggestion, or general note.
+====
 
-WARNING: This icon indicates a warning or caution.
+[WARNING]
+====
+This icon indicates a warning or caution.
+====
 
-Examples
-~~~~~~~~
+Using Code Examples
+~~~~~~~~~~~~~~~~~~~
 
 The examples in this book are meant to teach basic concepts in small bites. While you may certainly borrow code and reuse it as you see fit, you won't be able to take the code of this book and build a stupendous application instantly (unless perhaps you have an unusual fondness for bacon and cats). You should, however, be able to figure out the steps you need to take to build a great website.
 
 You can download the code from the Examples link on the book's page at hhttp://shop.oreilly.com/product/0636920027867.do.
 
-This book is here to help you get your job done. In general, you may use the code in this book in your programs and documentation. You do not need to contact us for permission unless you are reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O'Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product's documentation does require permission.
+This book is here to help you get your job done. In general, if this book includes code examples, you may use the code in this book in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
 
-We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: "_Bootstrap, Responsive Web Development_, by Jake Spurlock (O'Reilly). Copyright 2013 Jake Spurlock, 0636920027867." 
-
-// Not sure what that last number is. I left it as is...
+We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: "_Bootstrap, Responsive Web Development_, by Jake Spurlock (O'Reilly). Copyright 2013 Jake Spurlock, 9781449343910."
 
 If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at pass:[<email>permissions@oreilly.com</email>].
 
@@ -98,6 +102,49 @@ While I hope that you will enjoy reading this book and learn from it, I also hop
 I'll update the book for errata, and try to address issues raised in reviews. Even once the book is 'complete', I may still add some extra pieces to it. If you purchased it as an ebook, you'll receive these updates for free at least up to the point where it's time for a whole new edition. I don't expect that new edition declaration to come quickly, however, unless the Bootstrap world changes substantially.
 
 Hopefully this book will engage you enough to make you consider sharing.
+
+=== Safari® Books Online
+
+[role = "safarienabled"]
+[NOTE]
+====
+pass:[<ulink role="orm:hideurl:ital" url="http://my.safaribooksonline.com/?portal=oreilly">Safari Books Online</ulink>] is an on-demand digital library that delivers expert pass:[<ulink role="orm:hideurl" url="http://www.safaribooksonline.com/content">content</ulink>] in both book and video form from the world&#8217;s leading authors in technology and business.
+====
+
+Technology professionals, software developers, web designers, and business and creative professionals use Safari Books Online as their primary resource for research, problem solving, learning, and certification training.
+
+Safari Books Online offers a range of pass:[<ulink role="orm:hideurl" url="http://www.safaribooksonline.com/subscriptions">product mixes</ulink>] and pricing programs for pass:[<ulink role="orm:hideurl" url="http://www.safaribooksonline.com/organizations-teams">organizations</ulink>], pass:[<ulink role="orm:hideurl" url="http://www.safaribooksonline.com/government">government agencies</ulink>], and pass:[<ulink role="orm:hideurl" url="http://www.safaribooksonline.com/individuals">individuals</ulink>]. Subscribers have access to thousands of books, training videos, and prepublication manuscripts in one fully searchable database from publishers like O’Reilly Media, Prentice Hall Professional, Addison-Wesley Professional, Microsoft Press, Sams, Que, Peachpit Press, Focal Press, Cisco Press, John Wiley & Sons, Syngress, Morgan Kaufmann, IBM Redbooks, Packt, Adobe Press, FT Press, Apress, Manning, New Riders, McGraw-Hill, Jones & Bartlett, Course Technology, and dozens pass:[<ulink role="orm:hideurl" url="http://www.safaribooksonline.com/publishers">more</ulink>]. For more information about Safari Books Online, please visit us pass:[<ulink role="orm:hideurl" url="http://www.safaribooksonline.com/">online</ulink>].
+
+=== How to Contact Us
+
+Please address comments and questions concerning this book to the publisher:
+
+++++
+<simplelist>
+<member>O’Reilly Media, Inc.</member>
+<member>1005 Gravenstein Highway North</member>
+<member>Sebastopol, CA 95472</member>
+<member>800-998-9938 (in the United States or Canada)</member>
+<member>707-829-0515 (international or local)</member>
+<member>707-829-0104 (fax)</member>
+</simplelist>
+++++
+
+We have a web page for this book, where we list errata, examples, and any additional information. You can access this page at link:$$http://www.oreilly.com/catalog/<catalog page>$$[].
+
+++++
+<remark>Don't forget to update the link above.</remark>
+++++
+
+To comment or ask technical questions about this book, send email to pass:[<email>bookquestions@oreilly.com</email>].
+
+For more information about our books, courses, conferences, and news, see our website at link:$$http://www.oreilly.com$$[].
+
+Find us on Facebook: link:$$http://facebook.com/oreilly$$[]
+
+Follow us on Twitter: link:$$http://twitter.com/oreillymedia$$[]
+
+Watch us on YouTube: link:$$http://www.youtube.com/oreillymedia$$[]
 
 Acknowledgments
 ~~~~~~~~~~~~~~~
