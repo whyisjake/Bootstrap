@@ -20,7 +20,7 @@ If desired, using the LESS files, you can compile your own version of Bootstrap 
 You can download the source, or if you want to easily customize a few of the colors, sizing, or plugins, you can cater the Bootstrap to your needs via the [Bootstrap website](http://twitter.github.com/bootstrap/customize.html).
 
 .Customize Page
-image::images/customize.png[]
+image::images/boot_0501.png[]
 
 When you use the customize page, you decide what components you need, you might choose to leave off all of the responsive features, or maybe leave off the button classes if they conflict with styles that you already have. Then you can opt out of any of the jQuery plugins. If you know that you aren't going to be using the modals, or the carousel, you could leave it out of the build so that you a smaller file to request.
 
@@ -29,7 +29,7 @@ Lastly, you have the LESS variables that you can configure. Everything from colu
 ==== Using LESS
 
 .Using Bootstrap with LESS
-image::images/less-popover.png[]
+image::images/boot_0502.png[]
 
 There are a few different ways to use LESS with Bootstrap. The first, and perhaps the easiest is to use a preprocessor like Codekit, or SimpLess. Using these tools, you can set them up to watch certain files or folders. Then when you save any of those files, they build the master CSS files. In addition to using traditional CSS techiniques, you can use advanced features like mixins and functions to dynamically change the look of your site just by changing some variables.
 
@@ -58,14 +58,14 @@ In the beginning, I was really hesitant to use LESS, after all, I have been writ
 // This book doesn't mean to be the exclusive look at using LESS, for that checkout #### book by ####, which is a great resource for learning more about LESS.
 
 .Codekit and the Bootstrap code base
-image::images/less.png[]
+image::images/boot_0503.png[]
 
 ==== Text Snippets
 
 To rapidly develop Bootstrap sites, I like to use http://www.sublimetext.com/2[Sublime Text 2], and the Bootstrap snippets from https://github.com/devtellect[DEVtellect] on https://github.com/devtellect/sublime-twitter-bootstrap-snippets/[Github]. This makes any componant easy as a keyboard shortcut to add to the page.
 
 .Bootstrap Snippets
-image::images/snippets.png[]
+image::images/boot_0504.png[]
 
 To install the snippets, clone the git repository into your packages folder.
 
@@ -80,7 +80,7 @@ There are clippings for lots of popular IDEs/Text Editors.
 
 In addition to snippets, there have been a few Photoshop PSDs of all of the Bootstrap markup elements. My favorite comes from http://gui.repixdesign.com/#bootstrap[Repix design]. 
 
-image::images/psd.png[]
+image::images/boot_05in01.png[]
 
 *Features:*
 

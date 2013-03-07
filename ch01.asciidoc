@@ -118,7 +118,7 @@ The default Bootstrap grid system utilizes 12 columns, making for a 940px wide c
 // I think this would be a great place for a jsfiddle, showing a resizable frame using the responsive grid that users can resize and see change. Basically, just an embedded responsive frame. Fallback for print, epub, etc, would be an image showing both default grid and responsive grid. -NM
 
 .Default Grid
-image::images/grid.png[]
+image::images/boot_0101.png[]
 
 ==== Basic grid HTML
 
@@ -158,7 +158,7 @@ You can move columns to the right using the '.offset*' class. Each class moves t
 ----
 
 .Offset Grid
-image::images/offset-grid.png[]
+image::images/boot_0102.png[]
 
 ==== Nesting columns
 
@@ -235,7 +235,7 @@ Your markup should look something like this:
 ----
 
 .Nesting Grid
-image::images/nesting-grid.png[]
+image::images/boot_0103.png[]
 
 jsfiddle::http://jsfiddle.net/whyisjake/EEWQ2/embedded/result/[width="100%", height="300px"]
 
@@ -279,7 +279,7 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 ----
 
 .Nesting Fluid Grid
-image::images/nesting-grid.png[]
+image::images/boot_0103.png[]
 
 // This is a little confusing. Some kind of demo or expanded explanation would be cool, but I'm not sure what just yet. Or maybe just a note about how it's kind of confusing to use the same span number scheme while working with percentages ("span6" = 50% of the parent, or something). -NM
 

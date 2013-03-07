@@ -83,7 +83,7 @@ A modal is a child window that layered over its parent window. Typically, the po
 To create a static example, use the code below.
 
 .Static Modal Window
-image::images/modal.png[]
+image::images/boot_0401.png[]
 
 .Static Modal Window Code Example
 [source, html]
@@ -227,7 +227,7 @@ The dropdown was covered extensively in chapter 3, but then, the interaction was
 To use, add use `data-toggle="dropdown"` to a link or button to toggle the dropdown.
 
 .Dropdown Within Navbar 
-image::images/dropdown-javascript.png[]
+image::images/boot_0402.png[]
 
 .Dropdown Code Example with Data Attributes
 [source, html]
@@ -284,7 +284,7 @@ $().dropdown('toggle')
 
 The scrollspy plugin allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll you can add active classes to the nav bar based on the scroll postion. To add the scrollspy plugin via data attributes, add `data-spy="scroll"` to the element you want to spy on (most typically this would be the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. For this to work, you must have elements in the body of the page that have matching ids of the links that you are spying on.
 
-image::images/scrollspy.png[]
+image::images/boot_04in01.png[]
 
 ==== Usage
 
@@ -365,7 +365,7 @@ The offset option is handy when you are using a fixed navbar. You will want to o
 That tabbable tabs were introduced back in chapter 3. Combing a few data attributes, you can easily create a tabbed interface. To do so, create the nav interface, and then wrap the content of the tabs inside a `<div>` with a class of `.tab-content`.
 
 .Toggleable Tabs
-image::images/toggleable-tabs.png[]
+image::images/boot_0403.png[]
 
 .Basic Markup of Toggleable Tabs
 [source, html]
@@ -432,7 +432,7 @@ For more information about the jQuery `.on` method, read more at the jQuery webs
 Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the jQuery.tipsy plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap Javascript API.
 
 .Tooltip Placement
-image::images/tooltips.png[]
+image::images/boot_0404.png[]
 
 ==== Usage
 
@@ -518,7 +518,7 @@ $('#element').tooltip('destroy')
 The popover is a sibling of the tooltip, offering an entended view, complete with a heading. For the popver to activate, a person just needs to hover over the element. The content of the popver can be populated entirely using the Bootstrap Data API. This method required tooltip.
 
 .Popover Placement
-image::images/popover.png[]
+image::images/boot_0405.png[]
 
 [source, html]
 ----
@@ -656,7 +656,7 @@ $('#element').popover('destroy')
 
 With the Data APi, it is easy to add dismiss functionality to alert messages. 
 
-image::images/alert-error.png[]
+image::images/boot_04in02.png[]
 
 ==== Usage
 
@@ -718,7 +718,7 @@ Buttons were introduced in chapter 3, and you don't need to do anything to make 
 To add a loading state to a button, simply add `data-loading-text="Loading..."` as an attribute to the button. When the button is clicked, the `.disabled` class is added, giving the apearence that it can no longer be clicked.
 
 .Loading Button
-image::images/button-loading.png[]
+image::images/boot_0406.png[]
 
 [source, html]
 ----
@@ -730,7 +730,7 @@ image::images/button-loading.png[]
 When clicking on a button with the `data-toggle="button"` attribute, a class of `.active` is added.
 
 .Toggle Button
-image::images/button-toggle.png[]
+image::images/boot_0407.png[]
 
 [source, html]
 ----
@@ -742,7 +742,7 @@ image::images/button-toggle.png[]
 Buttons can work like checkboxes, where you can select many of the options in a button group. To add this function, add `data-toggle="buttons-checkbox"` for checkbox style toggling on `btn-group`.
 
 .Checkbox Buttons
-image::images/button-checkbox.png[]
+image::images/boot_0408.png[]
 
 [source, html]
 ----
@@ -758,7 +758,7 @@ image::images/button-checkbox.png[]
 Radio buttons function similarily to checkboxes, the primary difference is that a radio button doesn't allow for multiple selections, only one in the group. To add this function, add `data-toggle="buttons-radio"` for radio style toggling on `btn-group`.
 
 .Radio Buttons
-image::images/button-radio.png[]
+image::images/boot_0409.png[]
 
 [source, html]
 ----
@@ -832,7 +832,7 @@ To reset the button state, and bring in new content, use the string method.
 The collapse plugin makes it easy to make collapsing divs. Whether you use it to build accordian naviation or content boxes, it allows for a lot of content options.
 
 .Example Accordian
-image::images/collapse.png[]
+image::images/boot_0410.png[]
 
 .Accordian Code
 [source, html]
@@ -969,7 +969,7 @@ $('#myCollapsible').on('hidden', function () {
 The Bootstrap carousel is a flexible, responsive way to add a slider to your site. In addiotn to being responsive, the content is flexible enough to allow images, iframes, video, or likely anytime of content that you might want.
 
 .Carousel Example
-image::images/carousel.png[]
+image::images/boot_0411.png[]
 
 .Carousel Code Example
 [source, html]
@@ -1084,7 +1084,7 @@ The carousel has two events that you can hook into.
 Typeahead allows you to easily create typeahead inputs in forms. Example, you could preload states in a state field, or using some Javascript, get search results using some ajax calls.
 
 .Typeahead Example
-image::images/typeahead.png[]
+image::images/boot_0412.png[]
 
 ==== Usage
 

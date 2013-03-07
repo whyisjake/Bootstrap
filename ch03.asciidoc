@@ -7,7 +7,7 @@ In addtion to all of the markup provided in the previous chapter, Bootstrap prov
 Dropdown menus are a toggleable, contextual menu for displaying links in a list format. The dropdowns can be used on a variety of different elements, navs, buttons, and more. You can have a single dropdown, or extend the dropdown into another sub-menu.
 
 .Basic Dropdown Menu
-image::images/dropdown.png[]
+image::images/boot_0301.png[]
 
 [source, html]
 ----
@@ -56,7 +56,7 @@ image:images/dropdown-sub.png[]
 Button groups allow multiple buttons to be stacked together. This is useful like the example below when you want to place items like alignment buttons together. Simply, to create a button group, simply wrap a series of anchors or buttons with a class of `.btn` with a `<div>` that has `.btn-group` as a class. 
 
 .Inline Button Group
-image::images/btn-group-new.png[]
+image::images/boot_0302.png[]
 
 .Inline Button Group Code Example
 [source,html]
@@ -71,7 +71,7 @@ image::images/btn-group-new.png[]
 If you have multiple button groups that you want to align on a single line, wrap multiple `.btn-group` with `.btn-toolbar`. For more information about using icons with buttons, follow the examples in chapter 2.
 
 .Button Toolbar
-image::images/btn-toolbar.png[]
+image::images/boot_0303.png[]
 
 .Button Toolbar Code Example
 [source, html]
@@ -100,7 +100,7 @@ image::images/btn-toolbar.png[]
 To make the buttons stack, simply add `.btn-group-vertical` to the `.btn-group` class. 
 
 .Vertical Button Group
-image::images/btn-group-vertical.png[]
+image::images/boot_0304.png[]
 
 .Vertical Button Group Code
 [source, html]
@@ -122,7 +122,7 @@ NOTE: To use a button with a dropdown, they must be individually wrapped in thei
 To add a dropdown to a button, simply wrap a button and a dropdown menu in a `.btn-group`. You can also use a `<span class="caret"></span>` to act as an indicator that the button is a dropwdown. 
 
 .Button with a Dropdown
-image::images/btn-dropdown.png[]
+image::images/boot_0305.png[]
 
 .Button Dropdown Code
 [source,html]
@@ -145,14 +145,14 @@ image::images/btn-dropdown.png[]
 You can use the dropdowns with any button size, `.btn-large` `.btn`, `.btn-small` and `.btn-mini`.
 
 .Button Dropdown Sizes
-image::images/btn-dropdown-sizes.png[]
+image::images/boot_0306.png[]
 
 ==== Split Button Dropdowns
 
 Using the same general styles of the dropdown button, but adding a primary action along with the dropdown, split buttons have the primary action on the left, and the a toggle on the right for the dropdown.
 
 .Split Button Dropdown
-image::images/btn-split-dropdown.png[]
+image::images/boot_0307.png[]
 
 .Split Button Dropdown Code Example
 [source,html]
@@ -175,7 +175,7 @@ jsfiddle::http://jsfiddle.net/vSHkJ/embedded/result/[width="100%", height="300px
 Menus can also be built to dropup, rather then down. To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pullup from the right hand side, add `.pull-right` to the `.dropdown-menu`. Take notice, the caret is now pointed up, as the menu will be going up instead of down.
 
 .Dropup Menu
-image::images/btn-dropup.png[]
+image::images/boot_0308.png[]
 
 .Dropup Menu Code Example
 [source, html]
@@ -204,7 +204,7 @@ Bootstrap also provides a helper class, `.active`. In principal, it generally ad
 To create a tabbed navigation menu, start with a basic unordered list with the base class of `.nav` and add `.nav-tabs`.
 
 .Tabbed Navigation
-image::images/nav-tabs.png[]
+image::images/boot_0309.png[]
 
 .Tabbed Navigation Code Example
 [source, html]
@@ -223,7 +223,7 @@ image::images/nav-tabs.png[]
 To turn the tabs into pills, instead of using the `.nav-tabs` use `.nav-pills`.
 
 .Tabbed Navigation
-image::images/nav-pills.png[]
+image::images/boot_0310.png[]
 
 .Tabbed Navigation Code Example
 [source, html]
@@ -242,7 +242,7 @@ image::images/nav-pills.png[]
 For each of the `.nav` classes, if you add the `.disabled` class, it will create gray link that also disables the hover state. The link is still clickable unless the `href` is removed, with javascript or some other method.
 
 .Disabled Navigation
-image::images/nav-disabled.png[]
+image::images/boot_0311.png[]
 
 .Disabled Navigation Code Example
 [source, html]
@@ -259,7 +259,7 @@ image::images/nav-disabled.png[]
 Both tabs and pills are horizontal by default, to make them stackable, just add the `.nav-stacked` class to make them appear vertically stacked.
 
 .Stacked Tabs
-image::images/stacked-tabs.png[]
+image::images/boot_0312.png[]
 
 .Stacked Tabs Code Example
 [source, html]
@@ -271,7 +271,7 @@ image::images/stacked-tabs.png[]
 
 
 .Stacked Pills
-image::images/stacked-pills.png[]
+image::images/boot_0313.png[]
 
 .Stacked Pills Code Example
 [source, html]
@@ -286,7 +286,7 @@ image::images/stacked-pills.png[]
 Navigation menus share a similir syntax to dropdown menus. By default, you have a list item that has an anchor that works in conjuntion with some `data-` attributes to trigger an unodered list with a `.dropdown-menu` class. 
 
 .Tabbed Navigation with a Dropdown Menu
-image::images/tab-dropdown.png[]
+image::images/boot_0314.png[]
 
 .Tabbed Navigation Dropdown Code Example
 [source, html]
@@ -313,7 +313,7 @@ image::images/tab-dropdown.png[]
 To do the same thing with pills, simply swap the `.nav-tabs` class with `.nav-pills`.
 
 .Pill Navigation with Dropdowns
-image::images/pill-dropdown.png[]
+image::images/boot_0315.png[]
 
 .Pill Navigation Dropdown Code Example
 [source, html]
@@ -338,7 +338,7 @@ image::images/pill-dropdown.png[]
 Navigation lists are useful when you need to display a group of navigation links. This type of interface element is common when building admin interfaces in websites. In the MAKE admin interface, I have one of these on the sidebar of every page with quick links to common pages. A form of this is what that Bootstrap developers use for their documentation. Like all of the lists that we have discusses thus far, this is simply an unordered list with the `.nav` class, and to give it it's specific styling, we add the `.nav-list` class.
 
 .Navigation List
-image::images/nav-list.png[]
+image::images/boot_0316.png[]
 
 .Navigation List Code Example
 [source, html]
@@ -371,7 +371,7 @@ To create a divider, much like an `<hr />`, use an empty `<li>` with a class of 
 Not only can you create a tabbed navigation, but by using the JavaScript plugin, you can also add some interaction by making them tab able to open different windows of content. To make navigation tabs tabbable, create a `.tab-pance with a unique ID for every tab, and then wrap them in `.tab-content`.
 
 .Tabbable Navigation Example
-image::images/tabbable-top.png[]
+image::images/boot_0317.png[]
 
 .Tabble Navigation Code Example
 [source, html]
@@ -401,7 +401,7 @@ If you want to make the tabs fade when switching, add `.fade` to each `.tab-pane
 The tabs are fully positionable, you can have them above, below, or on the sides of the content. 
 
 .Bottom Tabs
-image::images/tab-bottom.png[]
+image::images/boot_0318.png[]
 
 .Bottom Tab Code Example
 [source,html]
@@ -429,7 +429,7 @@ image::images/tab-bottom.png[]
 Tabs on the left get the `.tabs-left` class.
 
 .Left Tabs
-image::images/tab-left.png[]
+image::images/boot_0319.png[]
 
 .Left Tab Code Example
 [source,html]
@@ -457,7 +457,7 @@ image::images/tab-left.png[]
 Tabs on the right get the `.tabs-right` class.
 
 .Right Tabs
-image::images/tab-right.png[]
+image::images/boot_0320.png[]
 
 .Right Tab Code Example
 [source,html]
@@ -490,7 +490,7 @@ NOTE: As a footnote here to the tabbable elements, you can use the markup here t
 The Navbar is a nice feature, and one of the prominant features of Bootstrap sites. At the core, the navbar includes styling for site names, and basic navigation. It can later be extended by adding form specific controls, and specialized dropdowns. To be sure that the navbar is constrained to the width of the content of the page, either place it inside of a `.span12` or the `.container` class.
 
 .Basic Navbar Example
-image::images/navbar.png[]
+image::images/boot_0321.png[]
 
 .Basic Navbar Code Example
 [source, html]
@@ -520,7 +520,7 @@ In the code above, note the `.brand` class, this will give the text a lighter `f
 To add links to the navbar, simply add an unordered list with the class of `.nav`. If you want to add a divider to your links, you can do that by adding an empty list-item with a class of `.divider-vertical`. 
 
 .Nav Links
-image::images/navbar-links.png[]
+image::images/boot_0322.png[]
 
 .Navbar Links Code Example
 [source, html]
@@ -539,7 +539,7 @@ image::images/navbar-links.png[]
 Instead of using the default, class based forms from chapter 2, forms that are in the navbar use the `.navbar-form` class. This ensures that the forms margins are properly set, and match the nav stylings. Of note, `.pull-left`, and `.pull-right` helper classes may help move the form in the proper position. 
 
 .Default Navbar Form
-image::images/navbar-form.png[]
+image::images/boot_0323.png[]
 
 .Default Navbar Form Styling
 [source, html]
@@ -553,7 +553,7 @@ image::images/navbar-form.png[]
 To add rounded corners, taking style cues from the search inputs of iOS devices, instead of using `.navbar-form`, use the `.navbar-search` class. 
 
 .Navbar Search Input
-image::images/navbar-search.png[]
+image::images/boot_0324.png[]
 
 .Navbar Search Input Code Example
 [source, html]
@@ -629,7 +629,7 @@ To create a navbar that scrolls with the page, add the `.navbar-static-top` clas
 Like the rest of Bootstrap, the navbar can be totally responsive. To add the responsive features, the content that you want to be collapsed needs to be wrapped in a `<div>` with `.nav-collapse.collapse` as a class. The collapsing nature is tripped by a button that has a the class of `.btn-navbar` and then features two `data-` elements. The first, `data-toggle` is used to tell the JavaScript what to do with the button, and the second, `data-target` tells which element to toggle. In the example below, three `<spans>` with a class of `.icon-bar` create what I like to call the hamburger button. This will toggle the elements that in the `.nav-collapse` `<div>`. For this to work, the `bootstrap-responsive.css`, and either the `collapse.js` or the full `bootrap.js` files must be included for this feature to work.
 
 .Responsive Navbar
-image::images/navbar-responsive.png[]
+image::images/boot_0325.png[]
 
 .Responsive Navbar Code Example
 [source, html]
@@ -661,7 +661,7 @@ image::images/navbar-responsive.png[]
 To created an inverted navbar, where the background is black, with white text, simply add `.navbar-inverse` to the `.navbar` class. 
 
 .Inverted Navbar
-image::images/navbar-inverse.png[]
+image::images/boot_0326.png[]
 
 .Inverted Navbar Code Example
 [source, html]
@@ -676,7 +676,7 @@ image::images/navbar-inverse.png[]
 Breadcrumbs are a great way to show hierarchy based information for a site. In the case of blogs, it could show the dates of publishing, categories or tags, or for a full CMS, any type of information. A breadcrumb in Bootstrap is simply an unordered list with a class of `.breadcrumb`. There is a also a helper class of `.divider` that mutes the colors and makes the text a little smaller too. You could use forward slashes, arrows, or any divided that you choose. Note that the divider here in the breadcrumbs has slightly differnt markup the the navbar example.
 
 .Breadcrumb Example
-image::images/breadcrumbs.png[]
+image::images/boot_0327.png[]
 
 .Breadcrumb Code Example
 [source, html]
@@ -707,7 +707,7 @@ image::images/breadcrumbs.png[]
 Bootstrap handles pagination like a lot of interface elements, an unordered list, with wrapper `<div>` that has a specific class that identifies the element. In the basic form, adding `.pagination` do the parent `<div>` creates a row of bordered links. Each of the list items can be additionaly styled by using the `.disabled` or `.active` class.
 
 .Basic Pagination Example
-image::images/pagination.png[]
+image::images/boot_0328.png[]
 
 .Basic Pagination Code Exampl
 [source, html]
@@ -725,7 +725,7 @@ image::images/pagination.png[]
 ----
 
 .Pagination with helper classes
-image::images/pagination-centered.png[]
+image::images/boot_0329.png[]
 
 .Pagination with helper classes code examples
 [source, html]
@@ -747,7 +747,7 @@ image::images/pagination-centered.png[]
 In addition to the `.active` and `.disabled` classes for list items, you can also add `.pagination-centerd` to the parent `<div>`. This will center the contents of the div. If you want the items right aligned in the `<div>` add  `.pagination-right`. For sizing, in addition to the normal size, there are three other sizes, applied by adding a class to the wrapper `<div>`. They are: `.pagination-large`, `pagination-small` and `pagination-mini`.
 
 .Pagination Sizes
-image::images/pagination-sizes.png[]
+image::images/boot_0330.png[]
 
 .Pagination Code Example
 [source, html]
@@ -779,7 +779,7 @@ image::images/pagination-sizes.png[]
 If you need to create simple pagination links that go beyond text, the pager can work quite well. Like the pagination links, the markup is an unodered list that sheds the wrapper `<div>`. By default, the links are centered.
 
 .Basic Pager
-image::images/pager.png[]
+image::images/boot_0331.png[]
 
 .Basic Pager Code Example
 [source, html]
@@ -793,7 +793,7 @@ image::images/pager.png[]
 To left/right align the different links, you just need to add the `.previous` and `.next` class to the list-items. Also, like `.pagination` above, you can add the disabled class for a muted look.
 
 .Aligned Page Links
-image::images/pager-aligned.png[]
+image::images/boot_0332.png[]
 
 .Aligned Page Links Code Example
 [source, html]
@@ -813,7 +813,7 @@ image::images/pager-aligned.png[]
 Labels and Badges are great for offering counts, tips, or other markup for pages. Another one of my favorite little Bootstrap touches.
 
 .Labels
-image::images/labels.png[]
+image::images/boot_0333.png[]
 
 .Label Markup
 [source, html]
@@ -831,7 +831,7 @@ image::images/labels.png[]
 Badges are similar to labels, the primary difference is that they have more rounded corners. The colors of badges reflect the same classes as labels.
 
 .Badges
-image::images/badges.png[]
+image::images/boot_0334.png[]
 
 .Badges Code Example
 [source, html]
@@ -850,7 +850,7 @@ image::images/badges.png[]
 In addition to buttons, labels, forms, tables and tabs, Bootstrap has a few more elements for basic page layout. The hero unit is a large, content area that increased the size of headings, and adds a lot of margin for landing page content. To use, simply create a container `<div>` with the class of '.hero-unit'. In addition to a larger `<h1>`, all the `font-weight` is reduced to 200.
 
 .Hero Unit
-image::images/hero-unit.png[]
+image::images/boot_0335.png[]
 
 .Hero Unit Code Example
 [source, html]
@@ -869,7 +869,7 @@ image::images/hero-unit.png[]
 The page header is nice little feature to add appropriate spacing around the headings on a page. This is particulary helpful on a blog archive page where you may have several post titles, and need a way to add distinction to each of them. To use, wrap your heading in a `<div>` with a class of `.page-header`.
 
 .Page Header
-image::images/page-header.png[]
+image::images/boot_0336.png[]
 
 .Page Header Code Example
 [source, html]
@@ -884,7 +884,7 @@ image::images/page-header.png[]
 A lot of sites need a way to layout images in a grid, and Bootstrap has an easy way to do this. At the simplest, you add an `<a>` tag with the class of `.thumbnail` around an image. This adds four pixels of padding, and a grey border. On hover, an animated glow is added around the image.
 
 .Basic Thumbnail
-image::images/thumbnail.png[]
+image::images/boot_0337.png[]
 
 .Thumbnail Code Example
 [source, html]
@@ -897,7 +897,7 @@ image::images/thumbnail.png[]
 To add more content to the markup, as an example, you could add headings, buttons and more, swap the `<a>` tag that has a class of `.thumbnail` to be a `<div>`. Inside of that `<div>`, you can add anything you need. Since this is a `<div>` we can use the default span based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to left.
 
 .Extended Thumbnail
-image::images/thumbnail-group.png[]
+image::images/boot_0338.png[]
 
 .Customizable Code Example
 [source, html]
@@ -926,7 +926,7 @@ Like the modals described in the next chapter, alerts provide a way to style mes
 
 
 .Basic Alert
-image::images/alert.png[]
+image::images/boot_0339.png[]
 
 .Basic Alert Code Example
 [source, html]
@@ -942,12 +942,12 @@ The alert uses the alerts jquery plugin that is covered in chapter 4. To close t
 If you have a longer message in your alert, you can use the `.alert-block` class. This provides a little more padding above and below the content contained in the alert, particulary useful for multi page lines of content.
 
 .Alert Block
-image::images/alert-block.png[]
+image::images/boot_0340.png[]
 
 There are also three other color options, to help provide a more semantic method for the alert. They are added by adding either `.alert-error`, `.alert-success`, or `alert-info`.
 
 .Alert Color Options
-image::images/alert-options.png[]
+image::images/boot_0341.png[]
 
 
 === Progress bars
@@ -958,7 +958,7 @@ The default progress bar has a light background and a blue progress bar. To crea
 
 
 .Default Progress Bar
-image::images/progress-bar.png[]
+image::images/boot_0342.png[]
 
 .Progress Bar Example
 [source, html]
@@ -971,7 +971,7 @@ image::images/progress-bar.png[]
 To create a striped progress bar, just add `.progress-striped` to the container `<div>`. Of note, striped progress bars are not available in Internext Explorer 7 and 8.
 
 .Striped Progress Bar
-image::images/progress-bar-striped.png[]
+image::images/boot_0343.png[]
 
 .Striped Progress Bar Code Example
 [source, html]
@@ -984,7 +984,7 @@ image::images/progress-bar-striped.png[]
 Like the striped version of the progress bar, you can animate the stripes, making them look like the blue light special barbershop pole.
 
 .Animated Progress Bar
-image::images/progress-bar-animated.gif[]
+image::images/boot_0344.png[]
 
 .Animated Progress Bar Code Example
 [source, html]
@@ -997,7 +997,7 @@ image::images/progress-bar-animated.gif[]
 In addition to the blue progress bar, there are options for green, yellow, and red by using the `.bar-success`, `bar-warning`, and `bar-danger` classes. Progress bars can be stacked, indicating a graph of sorts by adding multiple elemnts together like so:
 
 .Stacked Progress Bar
-image::images/progress-bar-stacked.png[]
+image::images/boot_0345.png[]
 
 .Stacked Progress Bar Example
 [source, html]
@@ -1010,19 +1010,19 @@ image::images/progress-bar-stacked.png[]
 ----
 
 .Progress Bar Color Examples
-image::images/progress-bar-colors.png[]
+image::images/boot_0346.png[]
 
 === Media Object
 
 When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelines, and you will see the Media Object. Driven by the Bootstrap community, and based on principles from the oocss[http://oocss.org/] community, the goal of the media element is to make the code for developing these blocks of imformation drastically shorter. Nicole Sullivan-Hass shares a few elemement of the media object like this on her site http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/[stubbornella.org]. The media object is designed to literally save hundreds of lines of code, making it easy to customize.
 
 .Media Object Examples
-image::images/media-object-nicole.png[]
+image::images/boot_0347.png[]
 
 Bootstrap leaves the design and formatting to you, but provides a simple way to get going. Like a lot of other tools in Bootstrap, the markup is light, and the end goal is reached by applying classes to some simple markup. There are two forms to the media object, the `.media`, and the `.media-list`. If you are preparing a list where the items would be part of an unorderded list, use the `.media-list`. Using just `<div>` elements, use the `.media` object.
 
 .Default Media Object
-image::images/media-object.png[]
+image::images/boot_0348.png[]
 
 .Media Object Code Example
 [source, html]
@@ -1046,7 +1046,7 @@ image::images/media-object.png[]
 To use the media list, change the container `<div>` to an `<ul>` and add the class `.media-list`. Since you can nest media objects, it makes it handy markup for comments, or other lists.
 
 .Media List Example
-image::images/media-list.png[]
+image::images/boot_0349.png[]
 
 .Media List Code Example
 [source, html]
@@ -1078,7 +1078,7 @@ Now, at the end of chapter 3, there are a few more components that Bootstrap off
 A well is a container `<div>` that add some styles to appear sunken on the page. I have used them before for blog post meta information, like author, date, categories. To create, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`.
 
 .Well
-image::images/well.png[]
+image::images/boot_0350.png[]
 
 .Well Example
 [source, html]
@@ -1091,7 +1091,7 @@ image::images/well.png[]
 There are two additional classes that can be used in conjuntion with `.well, `.well-large` and `.well-small`. These affect the padding, making the well larger or smaller depending on the class.
 
 .Well Optional Classes
-image::images/well-options.png[]
+image::images/boot_0351.png[]
 
 [source, html]
 ----

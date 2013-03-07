@@ -16,7 +16,7 @@ Starting with Typography, with the default font stack, Bootstrap uses Helvetica 
 ==== Headings
 
 .Headings
-image::images/heading.png[]
+image::images/boot_0201.png[]
 
 All six standard heading levels have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height (for reference, body text is 14 pixels in height by default). In addition, to add an inline sub-heading to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color.
 In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight (i.e., not bold), and gray instead of black.
@@ -52,7 +52,7 @@ To add some emphasis to a paragraph, add `class="lead"`. This will give you larg
 ----------
 
 .Lead Body Copy Classes
-image::images/lead.png[]
+image::images/boot_0202.png[]
 
 
 ===== Emphasis
@@ -90,7 +90,7 @@ Along with `<strong>` and `<em>`, Boootstrap offers a few other classes that can
 --------
 
 .Emphasis Classes
-image::images/emphasis-class.png[]
+image::images/boot_0203.png[]
 
 ===== Abbreviations
 
@@ -104,7 +104,7 @@ The HTML `<abbr>` element provides markup for abbreviations or acronyms, like WW
 --------
 
 .Emphasis Classes
-image::images/abbr.png[]
+image::images/boot_0204.png[]
 
 Add `.initialism` to an `<abbr>` for a slightly smaller font size.
 
@@ -115,7 +115,7 @@ Add `.initialism` to an `<abbr>` for a slightly smaller font size.
 --------
 
 .Emphasis Classes
-image::images/rotflol.png[]
+image::images/boot_0205.png[]
 
 
 ===== Addresses
@@ -143,7 +143,7 @@ Adding `<address>` elements to your page can help screen readers and search engi
 --------
 
 .Address Tag
-image::images/address.png[]
+image::images/boot_0206.png[]
 
 
 ===== Blockquotes
@@ -154,7 +154,7 @@ To add blocks of quoted text to your document--or for any quotation that you wan
 // It is a stylistic suggestion. There is some CSS that supports it. -JS
 
 .Basic Blockquote
-image::images/blockquote.png[]
+image::images/boot_0207.png[]
 
 .Blockquote Markup
 [source, html]
@@ -170,7 +170,7 @@ NOTE: If you want a `<blockquote>` with content that is `right-aligned`, simply 
 
 
 .Pull-Right Blockquote
-image::images/pull-right-blockquote.png[]
+image::images/boot_0208.png[]
 
 ==== Lists
 
@@ -197,7 +197,7 @@ Bootstrap offers support and styling for the three main list types that HTML off
 --------
 
 .Unordered List Example
-image::images/ul.png[]
+image::images/boot_0209.png[]
 
 If you have an ordered list that you would like to remove the bullets from,  add `class="unstyled"` to the opening `<ul>` tag. 
 
@@ -228,7 +228,7 @@ An ordered list is a list that falls in some sort of sequential order, and is pr
 --------
 
 .Ordered List Example
-image::images/ol.png[]
+image::images/boot_0210.png[]
 
 ===== Definition List
 
@@ -252,12 +252,12 @@ A lot of times in markup, you will see people using headings inside an unordered
 --------
 
 .Definition List Example
-image::images/dl.png[]
+image::images/boot_0211.png[]
 
 To change the `<dl>` to a horizontal layout, with the `<dt>` on the left side, and the `<dd>` on the right, simply add `class="dl-horizontal"` to the opening tag.
 
 .Horizontal Definition List Example
-image::images/dlz.png[]
+image::images/boot_0212.png[]
 
 .Heads Up!
 NOTE: Horizontal description lists will truncate terms that are too long to fit in the left column with `text-overflow`. Additionally, in narrower viewports, they will automatically change to the default stacked layout.
@@ -304,7 +304,7 @@ One of my favorite parts of Bootstrap is the nice way that tables are handled. I
 If you want a nice basic table style with just some light padding and  horizontal dividers only, add the base class of `.table` to any table. The basic layout has a top border on all of the `<td>` elements.
 
 .Basic Table Class
-image::images/table-base.png[]
+image::images/boot_0213.png[]
 
 .Table Base Class Example
 [source, html]
@@ -335,28 +335,28 @@ With the base table markup, and adding the `.table` class, there are few additio
 By adding the `.table-striped` class, you will get stripes on rows within the `<tbody>`. This is done via the CSS `:nth-child` selector which is not available on Internet Explorer 7-8. 
 
 .Striped Table Class
-image::images/table-striped.png[]
+image::images/boot_0214.png[]
 
 ===== Bordered Table
 
 If you add the `.table-bordered` class, you will get borders surrounding every element, and rounded corners around the entire table.
 
 .Bordered Table Class
-image::images/table-bordered.png[]
+image::images/boot_0215.png[]
 
 ===== Hover Table
 
 If you add the `.table-hover` class, when you hover over a row, a light grey background will be added to rows while the user hovers over them.
 
 .Hover Table Class
-image::images/table-hover.png[]
+image::images/boot_0216.png[]
 
 ===== Condensed Table
 
 If you add the `.table-condensed` class, padding is cut in half on rows to condense the table. Useful if you want denser information.
 
 .Condensed Table Class
-image::images/table-condensed.png[]
+image::images/boot_0217.png[]
 
 
 ==== Table Row Classes
@@ -374,7 +374,7 @@ If you want to style the table rows, you could add the following classes to chan
 |======================
 
 .Table Row Classes Example
-image::images/tr.png[]
+image::images/boot_0218.png[]
 
 === Forms
 
@@ -384,7 +384,7 @@ The basic form structure comes styled in Bootstrap, without needing to add any e
 
 
 .Basic Form
-image::images/basic-form.png[]
+image::images/boot_0219.png[]
 
 .Basic Form Structure
 [source, html]
@@ -421,7 +421,7 @@ Add `.form-search` to the `form` tag, and then `.search-query` to the `<input>` 
 ----
 
 .Search Form
-image::images/form-search.png[]
+image::images/boot_0220.png[]
 
 ===== Inline Form
 
@@ -445,7 +445,7 @@ To create a form where all of the elements are inline, and labels are along side
 ----
 
 .Inline Form Example
-image::images/form-inline.png[]
+image::images/boot_0221.png[]
 
 ===== Horizontal Form
 
@@ -459,7 +459,7 @@ To create a form that uses the horizontal layout, do the following:
 * Wrap any associated controls in a div with class `controls` for proper alignment
 
 .Horizontal Form Example
-image::images/form-horizontal.png[]
+image::images/boot_0222.png[]
 
 .Horizontal Form Code
 [source, html]
@@ -497,7 +497,7 @@ Bootstrap natively supports the most common form controls. Chief among them, `in
 The most common form text field is the input--this is where users will enter most of the essential form data. Bootstrap offers support for all native HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
 
 .Input Example
-image::images/input.png[]
+image::images/boot_0223.png[]
 
 .Input Code
 [source, html]
@@ -508,7 +508,7 @@ image::images/input.png[]
 .Heads Up!
 NOTE: Both `input` and `textarea` default to a nice blue glow when in the `:active` state.
 
-image::images/input-active.png[]
+image::images/boot_02in01.png[]
 
 
 ===== Textarea
@@ -516,7 +516,7 @@ image::images/input-active.png[]
 The `textarea` is used when you need multiple lines of input. You'll find you mainly modify the `rows` attribute, changing it to the number of rows that you need to support (fewer rows = smaller box, more rows = bigger box).
 
 .Both the `:active`, and the default `textarea`
-image::images/textarea.png[]
+image::images/boot_0224.png[]
 
 .Textarea Example
 [source,html]
@@ -529,7 +529,7 @@ image::images/textarea.png[]
 Checkboxes and radio buttons are great for when you want users to be able to choose from a list of preset options. When building a form, use `checkbox` if you want the user to select any number of options from a list, and `radio` if you want to limit them to just one selection.
 
 .Radio and Checkbox example
-image::images/radio.png[]
+image::images/boot_0225.png[]
 
 .Radio and Checkbox Code Example
 [source,html]
@@ -550,7 +550,7 @@ image::images/radio.png[]
 ----
 
 .Inline Checkboxes
-image::images/radio.png[]
+image::images/boot_0225.png[]
 
 If you want multiple checkboxes to appear on the same line together, simply add the `.inline` class to a series of checkboxes or radios.
 
@@ -575,7 +575,7 @@ A select is used when you want to allow the user to pick from multiple options, 
 // Added another line.
 
 .Select Example
-image::images/select.png[]
+image::images/boot_0227.png[]
 
 .Select Code Example
 [source,html]
@@ -608,7 +608,7 @@ By adding prepended and appended content to an input field, you can add common e
 // touched up this paragraph a bit -NM
 
 .Prepend and Append Example
-image::images/append.png[]
+image::images/boot_0228.png[]
 
 .Prepend and Append Code Example
 [source,html]
@@ -626,7 +626,7 @@ image::images/append.png[]
 If you combine both of them, you simply need to add both the `.input-prepend` and `.input-append` classes to the parent `<div>`.
 
 .Using both the append and prepend
-image::images/both.png[]
+image::images/boot_0229.png[]
 
 .Append and Prepend Code Example
 [source,html]
@@ -641,7 +641,7 @@ image::images/both.png[]
 Rather then using a `<span>`, you can instead use `<button>` with a class of `btn` to attach (surprise!) a button or two to the input.
 
 .Attach multiple buttons to an input
-image::images/multiple.png[]
+image::images/boot_0230.png[]
 
 .Attach Multiple Buttons Code Example
 [source,html]
@@ -656,7 +656,7 @@ image::images/multiple.png[]
 If you are appending a button to a search form, you will get the same nice rounded corners that you would expect. 
 
 .Append Button to Search Form
-image::images/search-appended.png[]
+image::images/boot_0231.png[]
 
 [source,html]
 ----
@@ -677,7 +677,7 @@ image::images/search-appended.png[]
 With the default grid system that is inherent in Bootstrap, you can use the `.span*` system for sizing form controls. In addition to the span column-sizing method, you can also use a handful of classes that take a relative approach to sizing. If you want the input to act as a block level element, you can add `.input-block-level` and it will be the full width of the container element.
 
 .Block Level Input
-image::images/input-block.png[]
+image::images/boot_0232.png[]
 
 [source,html]
 ----
@@ -689,7 +689,7 @@ image::images/input-block.png[]
 
 ===== Relative Input Controls
 
-image::images/input-relative.png[]
+image::images/boot_02in02.png[]
 
 [source,html]
 ----
@@ -708,7 +708,7 @@ NOTE: In future versions of Bootstrap, these input classes will be altered to ma
 
 You can use any `.span` from `.span1` to `.span12` for form control sizing.
 
-image::images/input-span.png[]
+image::images/boot_02in03.png[]
 
 [source,html]
 ----
@@ -729,7 +729,7 @@ image::images/input-span.png[]
 If you want to use multiple inputs on a line, simply use the `.controls-row` modifier class to apply the proper spacing. It floats the inputs to collapse the white space, and set the correct margins, and like the `.row` class, it also clears the float.
 
 .Control Row
-image::images/controls-row.png[]
+image::images/boot_0233.png[]
 
 [source,html]
 ----
@@ -748,7 +748,7 @@ image::images/controls-row.png[]
 If you want to present a form control, but not have it editable, simple add the class `.uneditable-input`.
 
 .Uneditable Input
-image::images/input-uneditable.png[]
+image::images/boot_0234.png[]
 
 [source,html]
 ----
@@ -760,7 +760,7 @@ image::images/input-uneditable.png[]
 At the bottom of a `horizontal-form` you can place the form actions. Then inputs will correctly line up with the floated form controls.
 
 .Form Controls
-image::images/form-controls.png[]
+image::images/boot_0235.png[]
 
 [source,html]
 ----
@@ -775,7 +775,7 @@ image::images/form-controls.png[]
 Bootstrap form controls can have either block or inline text that flows with the inputs.
 
 .Inline Help
-image::images/help-inline.png[]
+image::images/boot_0236.png[]
 
 [source,html]
 ----
@@ -783,7 +783,7 @@ image::images/help-inline.png[]
 ----
 
 .Block Help
-image::images/help-block.png[]
+image::images/boot_0237.png[]
 
 [source,html]
 ----
@@ -813,7 +813,7 @@ input:focus {
 The `<input>` has a small inset `box-shadow`, this gives the appearence that the input sits lower then the page. When `:focus` is applied, an 8px light blue code is applied. The `webkit-transition` tells the browser to apply the effect in a linera manner over 0.2 seconds. Nice and subtle, a great effect. 
 
 .Focused Input
-image::images/input-focused.png[]
+image::images/boot_0238.png[]
 
 [source,html]
 ----
@@ -826,7 +826,7 @@ image::images/input-focused.png[]
 If you need to disable an input, simply add the disabled attribute to not only disable it, but change the styling, and the mouse cursor when it hover over the element.
 
 .Disabled Input
-image::images/input-disabled.png[]
+image::images/boot_0239.png[]
 
 [source,html]
 ----
@@ -838,7 +838,7 @@ image::images/input-disabled.png[]
 Bootstrap includes validation styles for error, warning, info, and success messages. To use, simply add the appropriate class to the surrounding `.control-group`.
 
 .Validation Stats
-image::images/input-validation.png[]
+image::images/boot_0240.png[]
 
 [source,html]
 ----
@@ -900,7 +900,7 @@ NOTE: There are issues with Internet Explorer 9 not cropping background gradient
 If you need larger or smaller buttons, simply add `.btn-large`, `.btn-small`, or `.btn-mini` to links or buttons.
 
 .Different Button Sizes
-image::images/btn-sizes.png[]
+image::images/boot_0241.png[]
 
 [source,html]
 ----
@@ -925,7 +925,7 @@ image::images/btn-sizes.png[]
 If you want to create buttons that display like a `block` level element, simply add the `btn-block` class. These buttons will display at 100% width.
 
 .Block Level Button
-image::images/btn-block.png[]
+image::images/boot_0242.png[]
 
 [source,html]
 ----
@@ -941,7 +941,7 @@ For anchor elements, simply add the class of `.disabled` to the tag, and the lin
 NOTE: The `.disabled` class is being used much like the `.active` class. So, no `.btn` prefix, and remember, this is only for looks, to truly disable the link, you will want to use some javascript to really disable the link.
 
 .Disabled Link
-image::images/disabled-link.png[]
+image::images/boot_0243.png[]
 
 [source,html]
 ----
@@ -952,7 +952,7 @@ image::images/disabled-link.png[]
 For a button, simply add the disabled attribute to the button. This will actually disable the button, so javascript is not directly needed.
 
 .Disabled Button
-image::images/disabled-button.png[]
+image::images/boot_0244.png[]
 
 [source,html]
 ----
@@ -965,7 +965,7 @@ image::images/disabled-button.png[]
 Images have three classes to apply some simple styles. They are `.img-rounded` that adds `border-radius:6px` to give the image rounded corners, `.img-circle` that adds makes the entire image a circle by adding `border-radius:500px` making the image round, and lastly, `ing-polaroid`, that adds a bit of padding and a grey border. 
 
 .Images
-image::images/images.png[]
+image::images/boot_0245.png[]
 
 [source,html]
 ----
@@ -978,7 +978,7 @@ image::images/images.png[]
 
 Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and and form fields. The icons are provided by http://glyphicons.com/[Glyphicons]. 
 
-image::images/icons.png[]
+image::images/boot_02in04.png[]
 
 ==== Glyphicon Attribution
 
@@ -1009,7 +1009,7 @@ If you want to use the white icon, simply add the `.icon-white` class to the tag
 
 Using button groups, conbined with icons, you can create nice interface elements with minimal markup.
 
-image::images/btn-group.png[]
+image::images/boot_02in05.png[]
 
 [source,html]
 ----
@@ -1027,7 +1027,7 @@ image::images/btn-group.png[]
 
 When you are using icons next to a string of text, make sure to add a space to provide the proper alignment of the image. More of navigation code will be covered in the next chapter.
 
-image::images/btn-nav.png[]
+image::images/boot_02in06.png[]
 
 [source, html]
 ----
