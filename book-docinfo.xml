@@ -1,24 +1,61 @@
-<mediaobject role="cover">
-	<imageobject role="front-large" remap="lrg">
-		<imagedata format="PNG" fileref="images/cover.png"/>
-	</imageobject>
-</mediaobject><publisher>
-	<publishername>O'Reilly Media</publishername>
-  <address format="linespecific">
-    <street>1005 Gravenstein Highway</street>
-    <city>Sebastopol</city>
-    <state>CA</state>
-    <postcode>95472</postcode>
-  </address>
-</publisher>
-<author>
-  <firstname>Jake</firstname>
-  <surname>Spurlock</surname>
-  <authorblurb>
-    <para>Geek, designer, HTML+CSS lover. Taker of photos, and sometimes skiing and biking...</para>
-  </authorblurb>
-</author>
-<editor>
-  <firstname>Jake</firstname>
-  <surname>Spurlock</surname>
-</editor>
+
+
+  <othercredit role="proofreader">
+    <firstname>FIX</firstname>
+    <surname>ME!</surname>
+  </othercredit>
+  <othercredit role="interiordesigner">
+    <firstname>David</firstname>
+    <surname>Futato</surname>
+  </othercredit>
+  <othercredit role="illustrator">
+    <firstname>Robert</firstname>
+    <surname>Romano</surname>
+  </othercredit>
+  <othercredit role="coverdesigner">
+    <firstname>Karen</firstname>
+    <surname>Montgomery</surname>
+  </othercredit>
+
+  <!-- All rights reserved. -->
+
+  <publisher>
+    <publishername>O’Reilly Media, Inc.    </publishername>
+    <address format="linespecific">
+      <street>1005 Gravenstein Highway North</street>
+      <city>Sebastopol</city>
+      <state>CA</state>
+      <postcode>95472</postcode>
+    </address>
+  </publisher>
+
+  <legalnotice role="printlocation">
+    <para>Printed in the United States of America.</para>
+  </legalnotice>
+
+  <legalnotice role="printer">
+    <para>[?]</para>
+  </legalnotice>
+
+  <legalnotice role="use">
+    <para>O’Reilly books may be purchased for educational, business, or sales promotional use. Online editions are also available for most 
+          titles (<ulink url="http://my.safaribooksonline.com/?portal=oreilly" role="orm:hideurl:ital">http://my.safaribooksonline.com</ulink>). For more information, contact our corporate/institutional sales department:
+          800-998-9938 or <phrase role="keep-together"><email>corporate@oreilly.com</email></phrase>.</para>
+  </legalnotice>
+
+  <legalnotice role="trademarks">
+    <para>Nutshell Handbook, the Nutshell Handbook logo, and the O’Reilly logo
+          are registered trademarks of O’Reilly Media, Inc. !!FILL THIS IN!!
+          and related trade dress are trademarks of O’Reilly Media, Inc.    </para>
+    <para>Many of the designations used by manufacturers and sellers to distinguish
+          their products are claimed as trademarks. Where those designations appear
+          in this book, and O’Reilly Media, Inc., was aware of a trademark claim,
+          the designations have been printed in caps or initial caps.    </para>
+  </legalnotice>
+
+  <legalnotice role="damages">
+    <para>While every precaution has been taken in the preparation of this book,
+        the publisher and authors assume no responsibility for errors or omissions, 
+        or for damages resulting from the use of the information contained herein.</para>
+  </legalnotice>
+<isbn>9781449343910</isbn><edition>1</edition><author><firstname>Dave</firstname><surname>Winer</surname><authorblurb><para/></authorblurb></author><author><firstname>Jake</firstname><surname>Spurlock</surname><authorblurb><para>Jake Spurlock is a developer for O’Reilly Media where he works for MAKE magazine. MAKE publishes a DIY magazine, produces Maker Faire, and is trying to make the world a better place by teaching people that they can make things. Jake is a Utah native, but a year and a half ago was grafted into the California wine country.</para></authorblurb></author><editor><firstname>Simon</firstname><surname>St. Laurent</surname></editor><editor><firstname>Meghan</firstname><surname>Blanchette</surname></editor><copyright><year>2010</year><holder>Jake Spurlock</holder></copyright><editor role="production"><firstname>Marisa</firstname><surname>LaFleur</surname></editor><editor role="copy"><firstname/><surname/></editor><othercredit role="indexer"><firstname/><surname/></othercredit><printhistory><formalpara><title>First Edition</title><para>May, 2013</para></formalpara></printhistory><revhistory><revision><date>YYYY-MM-DD</date><revremark>First release</revremark></revision></revhistory><legalnotice role="perfect"><para/></legalnotice>
