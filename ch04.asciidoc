@@ -4,7 +4,7 @@ Most of the componants discussed in the previous chapter are just the beginning.
 
 === Overview
 
-Bootstrap cand be included on your site in two forms, either compiled or raw. Bootstrap 2.2.2 the uncompressed file is 59kb, and the minimized version is only 32kb. All of the Bootstrap plugins are accessible entirely using the included data API, with this, you don't need to include a single line of javascript to invoke any of the plugins features. 
+Bootstrap cand be included on your site in two forms, either compiled or raw. Bootstrap 2.2.2 the uncompressed file is 59kb, and the minimized version is only 32kb. All of the Bootstrap plugins are accessible entirely using the included data API, with this, you don't need to include a single line of javascript to invoke any of the plugins features.
 
 Typically, Javascript lies in a either a seperate file, or at the bottom of the page before the closing `</body>` tag. You can either use the `src` atttribute to link to another file, or write the contents of the file between the opening and closing tags.
 
@@ -111,7 +111,7 @@ There are three classes to take note of in the modal. The first is `modal`. This
 ----
 <!-- Button to trigger modal -->
 <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
- 
+
 <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-header">
@@ -151,7 +151,7 @@ Options can either be passed in via data attributes, or with Javascript. To use 
 |Name 		|Type       |Default 	|Description
 |backdrop 	|boolean	|true		|Set to flase if you don't want the modal to be closed when they click outside of the modal.
 |keyboard 	|boolean	|true		|Closes the modal when escape key is pressed, set to false to disable.
-|show 		|boolean	|true		|Shows the modal when initialized. 
+|show 		|boolean	|true		|Shows the modal when initialized.
 |remote 	|path 		|false		|Using the jQuery `.load` method, inject content into the modal body. If an href with a valid URL is added, that will load that content.
 |=======================
 
@@ -204,7 +204,7 @@ If you need specific events during the firing events of Bootstrap's modals, you 
 [options="header"]
 |=======================
 |Event 	|Description
-|show	|Fired after the `show` method is called. 
+|show	|Fired after the `show` method is called.
 |shown	|Fired when the modal has been made visible to the user.
 |hide	|Fired when the `hide` instance method has been called.
 |hidden	|Fired when the modal has finished being hidden from the user.
@@ -226,7 +226,7 @@ The dropdown was covered extensively in chapter 3, but then, the interaction was
 
 To use, add use `data-toggle="dropdown"` to a link or button to toggle the dropdown.
 
-.Dropdown Within Navbar 
+.Dropdown Within Navbar
 image::images/boot_0402.png[]
 
 .Dropdown Code Example with Data Attributes
@@ -294,7 +294,7 @@ image::images/boot_04in01.png[]
 <body data-spy="scroll" data-target=".navbar">...</body>
 ----
 
-In the navbar, you will need to have page anchors that will serve as indicators for the element to spy on. 
+In the navbar, you will need to have page anchors that will serve as indicators for the element to spy on.
 
 .Navbar Setup for Scrollspy
 [source, html]
@@ -376,7 +376,7 @@ image::images/boot_0403.png[]
 	<li><a href="#messages" data-toggle="tab">Messages</a></li>
 	<li><a href="#settings" data-toggle="tab">Settings</a></li>
 </ul>
- 
+
 <div class="tab-content">
 	<div class="tab-pane active" id="home">...</div>
 	<div class="tab-pane" id="profile">...</div>
@@ -387,7 +387,7 @@ image::images/boot_0403.png[]
 
 ==== Usage
 
-To enable the tabs, you can use the Bootstrap Data API, or using Javascript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the the element that has the .tab-pane class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action. 
+To enable the tabs, you can use the Bootstrap Data API, or using Javascript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the the element that has the .tab-pane class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action.
 
 .Enable Tabs via Javascript
 [source, js]
@@ -539,7 +539,7 @@ $('#example').popover(options)
 All options can be passed via the Boostrap Data API, or directly with Javascript.
 
 ++++
-<table class="table table-bordered table-striped">
+<informaltable class="table table-bordered table-striped">
   <thead>
    <tr>
      <th style="width: 100px;">Name</th>
@@ -602,7 +602,7 @@ All options can be passed via the Boostrap Data API, or directly with Javascript
      </td>
    </tr>
   </tbody>
-</table>
+</informaltable>
 ++++
 
 ==== Methods
@@ -654,7 +654,7 @@ $('#element').popover('destroy')
 
 === Alerts
 
-With the Data APi, it is easy to add dismiss functionality to alert messages. 
+With the Data APi, it is easy to add dismiss functionality to alert messages.
 
 image::images/boot_04in02.png[]
 
@@ -873,7 +873,7 @@ You can also use the data attributes to make all content collapsable.
 <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
   simple collapsible
 </button>
- 
+
 <div id="demo" class="collapse in"> … </div>
 ----
 
@@ -894,7 +894,7 @@ $(".collapse").collapse()
 
 ==== Options
 
-Options can be passed via data attributes, or with Javascript. 
+Options can be passed via data attributes, or with Javascript.
 
 [options="header"]
 |=======================
@@ -914,7 +914,7 @@ Activates your content as a collapsible element. Accepts an optional options obj
 .collapse(options)
 ----
 
-===== Toggle 
+===== Toggle
 
 Toggles a collapsible element to shown or hidden.
 
@@ -1093,11 +1093,11 @@ Using data API, you can add sources via the `data-source` attribute. Items shoul
 .Typeahead Code Example
 [source, html]
 ----
-<input 
-	type="text" 
-	class="span3" 
-	data-provide="typeahead" 
-	data-items="4" 
+<input
+	type="text"
+	class="span3"
+	data-provide="typeahead"
+	data-items="4"
 	data-source="[
 		'Alabama',
 		'Alaska',
@@ -1121,14 +1121,14 @@ $('.typeahead').typeahead()
 
 [options="header"]
 |===========================
-|Name       |type           |default                                      |description                                                                                                                                                                                                                                                                                                              
+|Name       |type           |default                                      |description
 |source     |array, function|[ ]                                          |The data source to query against. May be an array of strings or a function. The function is passed two arguments, the `query` value in the input field and the `process` callback. The function may be used synchronously by returning the data source directly or asynchronously via the `process` callback's single argument.
-|items      |number         |8                                            |The max number of items to display in the dropdown.                                                                                                                                                                                                                                                                      
-|minLength  |number         |1                                            |The minimum character length needed before triggering autocomplete suggestions                                                                                                                                                                                                                                           
-|matcher    |function       |case insensitive                             |The method used to determine if a query matches an item. Accepts a single argument, the item against which to test the query. Access the current query with `this.query`. Return a boolean true if query is a match.                                                                                                       
-|sorter     |function       |exact match, case sensitive, case insensitive|Method used to sort autocomplete results. Accepts a single argument items and has the scope of the typeahead instance. Reference the current query with `this.query`.                                                                                                                                                      
-|updater    |function       |returns selected item                        |The method used to return selected item. Accepts a single argument, the item and has the scope of the typeahead instance.                                                                                                                                                                                                
-|highlighter|function       |highlights all default matches               |Method used to highlight autocomplete results. Accepts a single argument item and has the scope of the typeahead instance. Should return html.                                                                                                                                                                           
+|items      |number         |8                                            |The max number of items to display in the dropdown.
+|minLength  |number         |1                                            |The minimum character length needed before triggering autocomplete suggestions
+|matcher    |function       |case insensitive                             |The method used to determine if a query matches an item. Accepts a single argument, the item against which to test the query. Access the current query with `this.query`. Return a boolean true if query is a match.
+|sorter     |function       |exact match, case sensitive, case insensitive|Method used to sort autocomplete results. Accepts a single argument items and has the scope of the typeahead instance. Reference the current query with `this.query`.
+|updater    |function       |returns selected item                        |The method used to return selected item. Accepts a single argument, the item and has the scope of the typeahead instance.
+|highlighter|function       |highlights all default matches               |Method used to highlight autocomplete results. Accepts a single argument item and has the scope of the typeahead instance. Should return html.
 |===========================
 
 
@@ -1146,7 +1146,7 @@ To apply the affix plugin to a `div`, you can use either data attributes, or use
 	...
 </div>
 ----
- 
+
 ==== Options
 
 [options="header"]

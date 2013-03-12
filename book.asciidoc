@@ -1,9 +1,9 @@
 :bookseries: animal
 = Bootstrap
 
-include::ch00.asciidoc[]
+include::foreword.asciidoc[]
 
-include::foreward.asciidoc[]
+include::ch00.asciidoc[]
 
 include::ch01.asciidoc[]
 

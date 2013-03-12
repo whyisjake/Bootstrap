@@ -57,11 +57,11 @@ image::images/boot_0202.png[]
 
 ===== Emphasis
 
-In addition to using the `<small>` tag within headings, as discussed above, you can also use it with body copy. When `<small>` is applied to body text, the font shrinks to 85% of its original size. 
+In addition to using the `<small>` tag within headings, as discussed above, you can also use it with body copy. When `<small>` is applied to body text, the font shrinks to 85% of its original size.
 
 ===== Bold
 
-To add emphasis to text, simply wrap it in a `<strong>` tag. This will add `font-weight-bold` to the selected text. 
+To add emphasis to text, simply wrap it in a `<strong>` tag. This will add `font-weight-bold` to the selected text.
 
 ===== Italics
 
@@ -94,7 +94,7 @@ image::images/boot_0203.png[]
 
 ===== Abbreviations
 
-The HTML `<abbr>` element provides markup for abbreviations or acronyms, like WWW or HTTP. By marking up abbreviations, you can give useful information to browsers, spell checkers, translation systems or search engines. Bootstrap styles `<abbr>` elements with a light dotted border along the bottom, and reveals the full text on hover (as long as you add that text to the `<abbr>` title attribute). 
+The HTML `<abbr>` element provides markup for abbreviations or acronyms, like WWW or HTTP. By marking up abbreviations, you can give useful information to browsers, spell checkers, translation systems or search engines. Bootstrap styles `<abbr>` elements with a light dotted border along the bottom, and reveals the full text on hover (as long as you add that text to the `<abbr>` title attribute).
 
 
 .Abbreviation Example
@@ -120,7 +120,7 @@ image::images/boot_0205.png[]
 
 ===== Addresses
 
-Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text. It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br>` tags to add line breaks to the enclosed address text (for example, to split the street address and city onto separate lines). 
+Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text. It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br>` tags to add line breaks to the enclosed address text (for example, to split the street address and city onto separate lines).
 
 // I added the / to the br tags here to make it valid xhtml, but you can ditch them if you dont want them there. Also added a little extra to the end of the paragraph. -NM
 // I'm going to stick with the <br>. I normally write them the other way, but to stick to the spec, it would be this way.
@@ -148,7 +148,7 @@ image::images/boot_0206.png[]
 
 ===== Blockquotes
 
-To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text, and adds a thick grey border along the left side. To identify the source of the quote, add the `<small>` tag, and inside that, add the source's name wrapped in a `<cite>` tag. When you put it all together, you get something that looks like this: 
+To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text, and adds a thick grey border along the left side. To identify the source of the quote, add the `<small>` tag, and inside that, add the source's name wrapped in a `<cite>` tag. When you put it all together, you get something that looks like this:
 
 // Do they have to use the small tag for the source, or is that just a stylistic suggestion? -NM
 // It is a stylistic suggestion. There is some CSS that supports it. -JS
@@ -174,7 +174,7 @@ image::images/boot_0208.png[]
 
 ==== Lists
 
-Bootstrap offers support and styling for the three main list types that HTML offers: ordered, unordered, and definition lists. An unordered list is a list that doesn't have any particular order, and is traditionally styled with bullets. 
+Bootstrap offers support and styling for the three main list types that HTML offers: ordered, unordered, and definition lists. An unordered list is a list that doesn't have any particular order, and is traditionally styled with bullets.
 
 ===== Unordered List
 
@@ -199,7 +199,7 @@ Bootstrap offers support and styling for the three main list types that HTML off
 .Unordered List Example
 image::images/boot_0209.png[]
 
-If you have an ordered list that you would like to remove the bullets from,  add `class="unstyled"` to the opening `<ul>` tag. 
+If you have an ordered list that you would like to remove the bullets from,  add `class="unstyled"` to the opening `<ul>` tag.
 
 [NOTE]
 =====================================================================
@@ -232,7 +232,7 @@ image::images/boot_0210.png[]
 
 ===== Definition List
 
-The third type of list you get with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having a block level `<li>` element, each list item can consist of both the `<dt>` and the `<dd>` elements. `<dt>` stands for "definition term," and like a dictionary, this is the term (or phrase) that is being defined. Subsequently, the `<dd>` is the definition of the `<dt>`. 
+The third type of list you get with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having a block level `<li>` element, each list item can consist of both the `<dt>` and the `<dd>` elements. `<dt>` stands for "definition term," and like a dictionary, this is the term (or phrase) that is being defined. Subsequently, the `<dd>` is the definition of the `<dt>`.
 
 A lot of times in markup, you will see people using headings inside an unordered list. This works, but maybe isn't the most semantic way to markup the text. A better idea would be to create a `<dl>` and then style the `<dt>` and `<dd>` as you would the heading and the text. That being said, out of the box, Bootstrap offers some clean default styles, and an option for a side-by-side layout of each definition.
 
@@ -264,7 +264,7 @@ NOTE: Horizontal description lists will truncate terms that are too long to fit 
 
 === Code
 
-There are two different key ways to display code with Bootstrap. The first is the `<code>` tag, and the second is with the `<pre>` tag. Generally, if you are going to be displaying code inline, then you should use the `<code>` tag, but if it needs to be displayed as a standalone block element, or if it has multiple lines, then you should use the `<pre>` tag. 
+There are two different key ways to display code with Bootstrap. The first is the `<code>` tag, and the second is with the `<pre>` tag. Generally, if you are going to be displaying code inline, then you should use the `<code>` tag, but if it needs to be displayed as a standalone block element, or if it has multiple lines, then you should use the `<pre>` tag.
 
 [source, html]
 --------
@@ -332,7 +332,7 @@ With the base table markup, and adding the `.table` class, there are few additio
 
 ===== Striped Table
 
-By adding the `.table-striped` class, you will get stripes on rows within the `<tbody>`. This is done via the CSS `:nth-child` selector which is not available on Internet Explorer 7-8. 
+By adding the `.table-striped` class, you will get stripes on rows within the `<tbody>`. This is done via the CSS `:nth-child` selector which is not available on Internet Explorer 7-8.
 
 .Striped Table Class
 image::images/boot_0214.png[]
@@ -361,7 +361,7 @@ image::images/boot_0217.png[]
 
 ==== Table Row Classes
 
-If you want to style the table rows, you could add the following classes to change the background color. 
+If you want to style the table rows, you could add the following classes to change the background color.
 
 .Optional Table Row Classes
 [frame="topbot",options="header"]
@@ -490,7 +490,7 @@ image::images/boot_0222.png[]
 
 ==== Supported Form Controls
 
-Bootstrap natively supports the most common form controls. Chief among them, `input`, `textarea`, `checkbox` and `radio`, and `select`. 
+Bootstrap natively supports the most common form controls. Chief among them, `input`, `textarea`, `checkbox` and `radio`, and `select`.
 
 ===== Inputs
 
@@ -538,7 +538,7 @@ image::images/boot_0225.png[]
   <input type="checkbox" value="">
   Option one is this and that—be sure to include why it's great
 </label>
- 
+
 <label class="radio">
   <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
   Option one is this and that—be sure to include why it's great
@@ -587,7 +587,7 @@ image::images/boot_0227.png[]
   <option>4</option>
   <option>5</option>
 </select>
- 
+
 <select multiple="multiple">
   <option>1</option>
   <option>2</option>
@@ -653,7 +653,7 @@ image::images/boot_0230.png[]
 </div>
 ----
 
-If you are appending a button to a search form, you will get the same nice rounded corners that you would expect. 
+If you are appending a button to a search form, you will get the same nice rounded corners that you would expect.
 
 .Append Button to Search Form
 image::images/boot_0231.png[]
@@ -810,7 +810,7 @@ input:focus {
 }
 ----
 
-The `<input>` has a small inset `box-shadow`, this gives the appearence that the input sits lower then the page. When `:focus` is applied, an 8px light blue code is applied. The `webkit-transition` tells the browser to apply the effect in a linera manner over 0.2 seconds. Nice and subtle, a great effect. 
+The `<input>` has a small inset `box-shadow`, this gives the appearence that the input sits lower then the page. When `:focus` is applied, an 8px light blue code is applied. The `webkit-transition` tells the browser to apply the effect in a linera manner over 0.2 seconds. Nice and subtle, a great effect.
 
 .Focused Input
 image::images/boot_0238.png[]
@@ -871,7 +871,7 @@ One of my favorite features of Bootstrap is the way that buttons are styled. Dav
 
 [quote, Dave Winer, scripting.com]
 ____
-That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984. 
+That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984.
 ____
 
 I like to think that Bootstrap is doing that, unifying the web, and allowing a unified experience of what an interface can look like across the web. With the advent of Bootstrap, you can spot the sites that have taken it up ususally first by the buttons that they use. A grid layout, and many of the other features fade into the background, but buttons, forms and other uniying elements are a key part of Bootstrap. Maybe I'm the only person that does this, but when I come across a site that is using Bootstrap, I want to give a high five to whomever answers the webmaster email at that domain, as they probably just get it. It reminds me of a few years ago I would do the same thing when I would see `wp-content` in the HTML of sites that I would visit.
@@ -882,14 +882,14 @@ Now, buttons, and links can all look alike with Bootstrap, anything that is give
 [options="header"]
 |=======================
 |Buttons                         |Class              |Description
-|image:images/btn.jpg[]          |`btn`              |Standard gray button with gradient
-|image:images/btn-primary.jpg[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons
-|image:images/btn-info.jpg[]     |`btn btn-info`     |Used as an alternative to the default styles
-|image:images/btn-success.jpg[]  |`btn-success`      |Indicates a successful or positive action
-|image:images/btn-warning.jpg[]  |`btn btn-warning`  |Standard gray button with gradient
-|image:images/btn-danger.jpg[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action
-|image:images/btn-inverse.jpg[]  |`btn btn-inverse`  |Alternate dark gray button, not tied to a semantic action or use
-|image:images/btn-link.jpg[]     |`btn btn-link`     |Deemphasize a button by making it look like a link while maintaining button behavior
+|image:images/btn.png[]          |`btn`              |Standard gray button with gradient
+|image:images/btn-primary.png[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons
+|image:images/btn-info.png[]     |`btn btn-info`     |Used as an alternative to the default styles
+|image:images/btn-success.png[]  |`btn-success`      |Indicates a successful or positive action
+|image:images/btn-warning.png[]  |`btn btn-warning`  |Standard gray button with gradient
+|image:images/btn-danger.png[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action
+|image:images/btn-inverse.png[]  |`btn btn-inverse`  |Alternate dark gray button, not tied to a semantic action or use
+|image:images/btn-link.png[]     |`btn btn-link`     |Deemphasize a button by making it look like a link while maintaining button behavior
 |=======================
 
 .Heads Up!
@@ -935,7 +935,7 @@ image::images/boot_0242.png[]
 
 ==== Disabled Button Styling
 
-For anchor elements, simply add the class of `.disabled` to the tag, and the link will drop back in color, and will lose the gradient. 
+For anchor elements, simply add the class of `.disabled` to the tag, and the link will drop back in color, and will lose the gradient.
 
 .Heads Up!
 NOTE: The `.disabled` class is being used much like the `.active` class. So, no `.btn` prefix, and remember, this is only for looks, to truly disable the link, you will want to use some javascript to really disable the link.
@@ -962,7 +962,7 @@ image::images/boot_0244.png[]
 
 === Images
 
-Images have three classes to apply some simple styles. They are `.img-rounded` that adds `border-radius:6px` to give the image rounded corners, `.img-circle` that adds makes the entire image a circle by adding `border-radius:500px` making the image round, and lastly, `ing-polaroid`, that adds a bit of padding and a grey border. 
+Images have three classes to apply some simple styles. They are `.img-rounded` that adds `border-radius:6px` to give the image rounded corners, `.img-circle` that adds makes the entire image a circle by adding `border-radius:500px` making the image round, and lastly, `ing-polaroid`, that adds a bit of padding and a grey border.
 
 .Images
 image::images/boot_0245.png[]
@@ -976,7 +976,7 @@ image::images/boot_0245.png[]
 
 === Icons
 
-Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and and form fields. The icons are provided by http://glyphicons.com/[Glyphicons]. 
+Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and and form fields. The icons are provided by http://glyphicons.com/[Glyphicons].
 
 image::images/boot_02in04.png[]
 

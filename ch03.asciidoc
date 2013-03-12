@@ -36,7 +36,8 @@ Add .pull-right to a .dropdown-menu to right-align the dropdown menu to the pare
 If you would like to add a second layer of dropdowns, simply add `.dropdown-submenu` to any `<li>` in an existing dropdown menu for automatic styling.
 
 ===== Dropdown Submenu
-image:images/dropdown-sub.png[]
+
+image:images/boot_03in01.png[]
 
 [source,html]
 ----
@@ -53,7 +54,7 @@ image:images/dropdown-sub.png[]
 
 === Button Groups
 
-Button groups allow multiple buttons to be stacked together. This is useful like the example below when you want to place items like alignment buttons together. Simply, to create a button group, simply wrap a series of anchors or buttons with a class of `.btn` with a `<div>` that has `.btn-group` as a class. 
+Button groups allow multiple buttons to be stacked together. This is useful like the example below when you want to place items like alignment buttons together. Simply, to create a button group, simply wrap a series of anchors or buttons with a class of `.btn` with a `<div>` that has `.btn-group` as a class.
 
 .Inline Button Group
 image::images/boot_0302.png[]
@@ -97,7 +98,7 @@ image::images/boot_0303.png[]
 </div>
 ----
 
-To make the buttons stack, simply add `.btn-group-vertical` to the `.btn-group` class. 
+To make the buttons stack, simply add `.btn-group-vertical` to the `.btn-group` class.
 
 .Vertical Button Group
 image::images/boot_0304.png[]
@@ -119,7 +120,7 @@ NOTE: To use a button with a dropdown, they must be individually wrapped in thei
 
 === Buttons With Dropdowns
 
-To add a dropdown to a button, simply wrap a button and a dropdown menu in a `.btn-group`. You can also use a `<span class="caret"></span>` to act as an indicator that the button is a dropwdown. 
+To add a dropdown to a button, simply wrap a button and a dropdown menu in a `.btn-group`. You can also use a `<span class="caret"></span>` to act as an indicator that the button is a dropwdown.
 
 .Button with a Dropdown
 image::images/boot_0305.png[]
@@ -195,7 +196,7 @@ jsfiddle::http://jsfiddle.net/DyfSZ/3/embedded/result/[width="100%", height="300
 
 === Navigation Elements
 
-Bootstrap provides a few different opportunities for styling naviagation elements. All of them share the same markup and base class `.nav`. 
+Bootstrap provides a few different opportunities for styling naviagation elements. All of them share the same markup and base class `.nav`.
 
 Bootstrap also provides a helper class, `.active`. In principal, it generally adds distinction to the current element, and sets it apart from the the rest of the navigation elements. You could add this class to the home page links, or add it to the links of the page that you are currently on.
 
@@ -283,7 +284,7 @@ image::images/boot_0313.png[]
 
 ==== Dropdowns
 
-Navigation menus share a similir syntax to dropdown menus. By default, you have a list item that has an anchor that works in conjuntion with some `data-` attributes to trigger an unodered list with a `.dropdown-menu` class. 
+Navigation menus share a similir syntax to dropdown menus. By default, you have a list item that has an anchor that works in conjuntion with some `data-` attributes to trigger an unodered list with a `.dropdown-menu` class.
 
 .Tabbed Navigation with a Dropdown Menu
 image::images/boot_0314.png[]
@@ -398,7 +399,7 @@ If you want to make the tabs fade when switching, add `.fade` to each `.tab-pane
 
 ===== Tab Position
 
-The tabs are fully positionable, you can have them above, below, or on the sides of the content. 
+The tabs are fully positionable, you can have them above, below, or on the sides of the content.
 
 .Bottom Tabs
 image::images/boot_0318.png[]
@@ -484,7 +485,7 @@ image::images/boot_0320.png[]
 
 .Heads Up!
 NOTE: As a footnote here to the tabbable elements, you can use the markup here to control a varierty of things, perhaps outside of the scope of the default usage mechanism. On MAKE's site, I used this to control the navigation, and subnavigation. When you click on the navigation menu, the sub navigation would change and show different links.
-			
+
 === Navbar
 
 The Navbar is a nice feature, and one of the prominant features of Bootstrap sites. At the core, the navbar includes styling for site names, and basic navigation. It can later be extended by adding form specific controls, and specialized dropdowns. To be sure that the navbar is constrained to the width of the content of the page, either place it inside of a `.span12` or the `.container` class.
@@ -517,7 +518,7 @@ In the code above, note the `.brand` class, this will give the text a lighter `f
 
 ==== Nav Links
 
-To add links to the navbar, simply add an unordered list with the class of `.nav`. If you want to add a divider to your links, you can do that by adding an empty list-item with a class of `.divider-vertical`. 
+To add links to the navbar, simply add an unordered list with the class of `.nav`. If you want to add a divider to your links, you can do that by adding an empty list-item with a class of `.divider-vertical`.
 
 .Nav Links
 image::images/boot_0322.png[]
@@ -530,13 +531,13 @@ image::images/boot_0322.png[]
   <li><a href="#">First Link</a></li>
   <li><a href="#">Second Link</a></li>
   <li class="divider-vertical"></li>
-  <li><a href="#">Third Link</a></li> 
+  <li><a href="#">Third Link</a></li>
 </ul>
 ----
 
 ==== Forms
 
-Instead of using the default, class based forms from chapter 2, forms that are in the navbar use the `.navbar-form` class. This ensures that the forms margins are properly set, and match the nav stylings. Of note, `.pull-left`, and `.pull-right` helper classes may help move the form in the proper position. 
+Instead of using the default, class based forms from chapter 2, forms that are in the navbar use the `.navbar-form` class. This ensures that the forms margins are properly set, and match the nav stylings. Of note, `.pull-left`, and `.pull-right` helper classes may help move the form in the proper position.
 
 .Default Navbar Form
 image::images/boot_0323.png[]
@@ -550,7 +551,7 @@ image::images/boot_0323.png[]
 </form>
 ----
 
-To add rounded corners, taking style cues from the search inputs of iOS devices, instead of using `.navbar-form`, use the `.navbar-search` class. 
+To add rounded corners, taking style cues from the search inputs of iOS devices, instead of using `.navbar-form`, use the `.navbar-search` class.
 
 .Navbar Search Input
 image::images/boot_0324.png[]
@@ -565,7 +566,7 @@ image::images/boot_0324.png[]
 
 ==== Navbar Menu Variations
 
-The Bootstrap navbar can be dynamic in it's positioning. By default, it is a block level element that takes its positioning based on its placement in the HTML. With a few helper classes, you can place it either to the top or bottom of the page, or have it scroll statically with the page. 
+The Bootstrap navbar can be dynamic in it's positioning. By default, it is a block level element that takes its positioning based on its placement in the HTML. With a few helper classes, you can place it either to the top or bottom of the page, or have it scroll statically with the page.
 
 ===== Fixed to the top
 
@@ -637,20 +638,20 @@ image::images/boot_0325.png[]
 <div class="header">
 	<div class="navbar-inner">
 		<div class="container">
-			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</a>
-		
+
 			<!-- Leave the brand out if you want it to be shown when other elements are collapsed... -->
 			<a href="#" class="brand">Project Name</a>
-			
+
 			<!-- Everything that you want collapsed, add it to the collapse div. -->
 			<div class="nav-collapse collapse">
 				<!-- .nav, .navbar-search etc... -->
 			</div>
-			
+
 		</div>
 	</div>
 </div>
@@ -658,7 +659,7 @@ image::images/boot_0325.png[]
 
 ===== Inverted Navbar
 
-To created an inverted navbar, where the background is black, with white text, simply add `.navbar-inverse` to the `.navbar` class. 
+To created an inverted navbar, where the background is black, with white text, simply add `.navbar-inverse` to the `.navbar` class.
 
 .Inverted Navbar
 image::images/boot_0326.png[]
@@ -1034,7 +1035,7 @@ image::images/boot_0348.png[]
   <div class="media-body">
     <h4 class="media-heading">Media heading</h4>
     <p>...</p>
- 
+
     <!-- Nested media object -->
     <div class="media">
       ...
@@ -1060,7 +1061,7 @@ image::images/boot_0349.png[]
       <h4 class="media-heading">Media heading</h4>
       <p>...</p>
       ...
- 
+
       <!-- Nested media object -->
       <div class="media">
         ...
@@ -1073,7 +1074,7 @@ image::images/boot_0349.png[]
 
 === Misc
 
-Now, at the end of chapter 3, there are a few more components that Bootstrap offers. There are a few that are layout based, and a few that layout based, and a few that are prodcuction based helper clasees. The first among these are the wells. 
+Now, at the end of chapter 3, there are a few more components that Bootstrap offers. There are a few that are layout based, and a few that layout based, and a few that are prodcuction based helper clasees. The first among these are the wells.
 
 A well is a container `<div>` that add some styles to appear sunken on the page. I have used them before for blog post meta information, like author, date, categories. To create, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`.
 
@@ -1096,7 +1097,7 @@ image::images/boot_0351.png[]
 [source, html]
 ----
 <div class="well well-large">
-                    
+
   Look, I'm in a .well-large!
 
 </div>
