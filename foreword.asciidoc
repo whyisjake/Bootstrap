@@ -1,0 +1,23 @@
+[au="Dave Winer, editor, Scripting News, January 2013, New York, NY"]
+[preface]
+
+Foreword
+--------
+
+I was a software developer before there was a Mac, so I remember something not a lot of programmers do. I remember how the tech industry reacted to it. And for the most part, it was with a fair amount of skepticism. And the interesting thing is that the negative things people say about Bootstrap today sound exactly like the negative things people said about the Mac in 1984. And in both cases, the things that people didn't like were what made them important.
+
+What the Mac realized is that there are a set of things that all software has to do, so why shouldn't they all do them the same way? If they did, software would be easier to develop and debug, but more important -- it would be easier to use. If there was only one way to do menus, then once a user learned how to use the menus of one app, they'd already know how to use the menus of all others. Same with scrollbars, windows, the keyboard, the mouse, printing, sound.
+
+The reason programmers didn't like it, and I was one of them, was that they took what we did and commoditized it. Further, there were limits to the one-size-fits-all approach. There were some apps that didn't take to the UI standards very well. What to do about them? Well, you adapted, that's what you did.
+
+This is a well-known technical process called factoring. If you see yourself doing something over and over, do it one more time, really well, and work on the API so it's really easy and flexible, and that's it. You never do it again. It's how you build ever-taller buildings out of software. And what was the leading-edge five years ago, is baked into the operating system today. Progress. It's a wonderful thing! :-)
+
+The same patterns are observable in the web. In fact, it's kind of sad how much of a repeat it is, how backward today's development environment is compared to the one envisioned by the Mac. But at least Bootstrap is out there doing the factoring. If I want to put up a menu, I can just use their code that does menus. Sure, my menu looks like all the others, but that's a good thing, for users. No need to learn a second or third way to use a menu.
+
+That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984.
+
+Like all important technologies, Bootstrap is "good enough" but not too good. In other words, the designers, Mark Otto and Jacob Thornton, could have factored more than they did, and created something more compact and perhaps more elegant, that wasn't nearly as approachable. The great thing about Bootstrap for a guy like me, who has been busy building software behind websites, is that it solves a whole bunch of problems that we all have when putting a user interface on those sites.
+
+However I think that will turn out to be just the beginning. I see the opportunity for Bootstrap to become an integral part of the web. A toolkit that you can count on being present in every environment you work in. Further, someday, perhaps soon, designers will be able to plug in "skins" for Bootstrap, that transform the appearance of a site without any modification to the code or to its styles or scripts. I don't see any limits to what can be done with Bootstrap. Rather than being a replacement for designers, it creates opportunities for designers to have more power and reach.
+
+These days, part of the maturing process of any new technology is the release of its O'Reilly book. Now Bootstrap has one. The author, Jake Spurlock, a web developer, has built a bunch of sites with Bootstrap, has spoken at conferences about it, and he credits me for getting him started with a series of enthusiastic blog posts I wrote, as I was discovering its power and elegance. Now, I can happily turn you over to Jake's able hands, to show you how the Bootstrap magic works, so you too can help move the web development world forward.
