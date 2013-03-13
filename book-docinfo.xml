@@ -1,8 +1,8 @@
 
 
   <othercredit role="proofreader">
-    <firstname>FIX</firstname>
-    <surname>ME!</surname>
+    <firstname>Marisa</firstname>
+    <surname>LaFleur</surname>
   </othercredit>
   <othercredit role="interiordesigner">
     <firstname>David</firstname>
@@ -58,4 +58,4 @@
         the publisher and authors assume no responsibility for errors or omissions, 
         or for damages resulting from the use of the information contained herein.</para>
   </legalnotice>
-<isbn>9781449343910</isbn><edition>1</edition><author><firstname>Dave</firstname><surname>Winer</surname><authorblurb><para/></authorblurb></author><author><firstname>Jake</firstname><surname>Spurlock</surname><authorblurb><para>Jake Spurlock is a developer for O’Reilly Media where he works for MAKE magazine. MAKE publishes a DIY magazine, produces Maker Faire, and is trying to make the world a better place by teaching people that they can make things. Jake is a Utah native, but a year and a half ago was grafted into the California wine country.</para></authorblurb></author><editor><firstname>Simon</firstname><surname>St. Laurent</surname></editor><editor><firstname>Meghan</firstname><surname>Blanchette</surname></editor><copyright><year>2010</year><holder>Jake Spurlock</holder></copyright><editor role="production"><firstname>Marisa</firstname><surname>LaFleur</surname></editor><editor role="copy"><firstname/><surname/></editor><othercredit role="indexer"><firstname/><surname/></othercredit><printhistory><formalpara><title>First Edition</title><para>May, 2013</para></formalpara></printhistory><revhistory><revision><date>YYYY-MM-DD</date><revremark>First release</revremark></revision></revhistory><legalnotice role="perfect"><para/></legalnotice>
+<isbn>9781449343910</isbn><edition>1</edition><author><firstname>Jake</firstname><surname>Spurlock</surname><authorblurb><para>Jake Spurlock is a developer for O’Reilly Media where he works for MAKE magazine. MAKE publishes a DIY magazine, produces Maker Faire, and is trying to make the world a better place by teaching people that they can make things. Jake is a Utah native, but a year and a half ago was grafted into the California wine country.</para></authorblurb></author><editor><firstname>Simon</firstname><surname>St. Laurent</surname></editor><editor><firstname>Meghan</firstname><surname>Blanchette</surname></editor><copyright><year>2013</year><holder>Jake Spurlock</holder></copyright><editor role="production"><firstname>Marisa</firstname><surname>LaFleur</surname></editor><editor role="copy"><firstname>Christa<firstname/><surname>??<surname/></editor><othercredit role="indexer"><firstname/><surname/></othercredit><printhistory><formalpara><title>First Edition</title><para>May, 2013</para></formalpara></printhistory><revhistory><revision><date>2013-04-24</date><revremark>First release</revremark></revision></revhistory><legalnotice role="perfect"><para/></legalnotice>
