@@ -9,11 +9,11 @@ ____
 In the earlier days of Twitter, engineers used almost any library they were familiar with to meet front-end requirements. Inconsistencies among the individual applications made it difficult to scale and maintain them. Bootstrap began as an answer to these challenges and quickly accelerated during Twitter’s first Hackweek. By the end of Hackweek, we had reached a stable version that engineers could use across the company.
 ____
 
-Since Bootstrap launched in August, 2011 it has taken off in popularity. It has evolved away from being an entirely CSS drivin project to include a host of Javascript plugins, and icons that go hand in hand with forms and buttons. At its base, it allows for responsive web design, and features a robust 12 column, 940px wide grid. One of the highlights is the build tool on [Bootstrap's](http://getbootstrap.com) website where you can customize the build to suit your needs, choosing what CSS and Javascript features that you want to include on your site. All of this, allows front-end web developement to be catapulted forward, building on a stable foundation of forward-looking design, and developement. Getting started with Bootstrap is as simple as dropping some CSS and Javascript into the root of your site. 
+Since Bootstrap launched in August, 2011 it has taken off in popularity. It has evolved away from being an entirely CSS drivin project to include a host of JavaScript plug-ins, and icons that go hand in hand with forms and buttons. At its base, it allows for responsive web design, and features a robust 12 column, 940px wide grid. One of the highlights is the build tool on [Bootstrap's](http://getbootstrap.com) website where you can customize the build to suit your needs, choosing what CSS and JavaScript features that you want to include on your site. All of this, allows front-end web developement to be catapulted forward, building on a stable foundation of forward-looking design, and developement. Getting started with Bootstrap is as simple as dropping some CSS and JavaScript into the root of your site. 
 
-Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the `bootstrap.css` CSS file, and optionally the `bootstrap.js` Javascript file into your website and you are ready to go.
+Starting a project new, Bootstrap comes comes with a handful of useful elements to get you started. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's CSS reset], and get going on my web project. With Bootstrap, you just need to include the `bootstrap.css` CSS file, and optionally the `bootstrap.js` JavaScript file into your website and you are ready to go.
 
-// "the CSS file, and optionally the Javascript file" is a little confusing right off the bat, though you do explain it a bit later. I wasn't sure if this was something I should make and add, or default files that come with bootstrap. Maybe just add a few words to make it a tiny bit clearer? -NM
+// "the CSS file, and optionally the JavaScript file" is a little confusing right off the bat, though you do explain it a bit later. I wasn't sure if this was something I should make and add, or default files that come with bootstrap. Maybe just add a few words to make it a tiny bit clearer? -NM
 // Tried to make this a little more clear. -JS
 
 
@@ -33,7 +33,7 @@ Starting a project new, Bootstrap comes comes with a handful of useful elements 
 	└── README.md
 ----
 
-The Bootstrap download includes three folders: css, js, and img. For simplicity, add these to the root of your project. Included are also minified versions of the CSS and Javascript. Both the uncompressed and the minified versions do not need to be included. For the sake of brevity, I use the uncompressed during development, and then switch to the compressed version in production.
+The Bootstrap download includes three folders: css, js, and img. For simplicity, add these to the root of your project. Included are also minified versions of the CSS and JavaScript. Both the uncompressed and the minified versions do not need to be included. For the sake of brevity, I use the uncompressed during development, and then switch to the compressed version in production.
 
 // It might be cool to have a little screencast here, where you start up a new bootstrap project, and just show a finder window where you walk through the file structure and defaults. -NM
 
@@ -55,7 +55,7 @@ Normally, a web project looks something like this:
 </html>
 -------------
 
-With Bootstrap, we simply include the link to the CSS stylesheet, and the Javascript.
+With Bootstrap, we simply include the link to the CSS stylesheet, and the JavaScript.
 
 .Basic Bootstrap Template
 [source, html]
@@ -80,7 +80,7 @@ With Bootstrap, we simply include the link to the CSS stylesheet, and the Javasc
 By including <!DOCTYPE html>, all modern browsers are put into standards mode.
 ===============================
 
-// Is it important that the Javascript is included in the body, instead of in the head? Also is that Bootstrap comment in the head important? -NM
+// Is it important that the JavaScript is included in the body, instead of in the head? Also is that Bootstrap comment in the head important? -NM
 // Updated -JS
 
 === Global Styles

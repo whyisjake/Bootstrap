@@ -1,6 +1,6 @@
 == Bootstrap Layout Components
 
-In addtion to all of the markup provided in the previous chapter, Bootstrap provides a toolkit of flexible components that can be used in designing application interfaces, web features and more. Each of the plugins are available in a seperate Javascript file, combined all together, or, using the Bootstrap customizer, you can pick and choose which plugins you want. Personally, on the projects that I build, I lump them all together. That way I have options.
+In addtion to all of the markup provided in the previous chapter, Bootstrap provides a toolkit of flexible components that can be used in designing application interfaces, web features and more. Each of the plug-ins are available in a seperate JavaScript file, combined all together, or, using the Bootstrap customizer, you can pick and choose which plug-ins you want. Personally, on the projects that I build, I lump them all together. That way I have options.
 
 === Dropdown Menus
 
@@ -240,7 +240,7 @@ image::images/boot_0310.png[]
 
 ===== Disabled Class
 
-For each of the `.nav` classes, if you add the `.disabled` class, it will create gray link that also disables the hover state. The link is still clickable unless the `href` is removed, with javascript or some other method.
+For each of the `.nav` classes, if you add the `.disabled` class, it will create gray link that also disables the hover state. The link is still clickable unless the `href` is removed, with JavaScript or some other method.
 
 .Disabled Navigation
 image::images/boot_0311.png[]
@@ -953,7 +953,7 @@ image::images/boot_0341.png[]
 
 === Progress bars
 
-The purpose of progress bars is to show that assets are loading, in progress, or that there is action taking place regarding elements on the page. Personally, I think that these elements are more an excercise in markup, and have little purpose beyond that in the Bootstrap framework. That being said, with thousand of people using Bootstrap, there are likely a few outliers that have a good reason. By nature, these are static elements, and need some sort of Javascript interaction to provide any interaction.
+The purpose of progress bars is to show that assets are loading, in progress, or that there is action taking place regarding elements on the page. Personally, I think that these elements are more an excercise in markup, and have little purpose beyond that in the Bootstrap framework. That being said, with thousand of people using Bootstrap, there are likely a few outliers that have a good reason. By nature, these are static elements, and need some sort of JavaScript interaction to provide any interaction.
 
 The default progress bar has a light background and a blue progress bar. To create, add a `<div>` with a class of `.progress`. And then inside, add an empty `<div>` with a class of `.bar`. Add a style attribute with the width in percentage. In the case below, I added `style="60%";` to indicate that the progress bar was at 60%.
 

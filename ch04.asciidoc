@@ -1,31 +1,31 @@
-== Bootstrap Javascript Plugins
+== Bootstrap JavaScript plug-ins
 
-Most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plugins that that extend the features, and can add more interaction to your site. To get started with the Bootstrap Javascript plugins, you don't need to be an advanced Javascript developer. In fact, most of the plugins can be enacted without writing a single line of code by utilizing the Bootstrap data API.
+Most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plug-ins that that extend the features, and can add more interaction to your site. To get started with the Bootstrap JavaScript plug-ins, you don't need to be an advanced JavaScript developer. In fact, most of the plug-ins can be enacted without writing a single line of code by utilizing the Bootstrap data API.
 
 === Overview
 
-Bootstrap cand be included on your site in two forms, either compiled or raw. Bootstrap 2.2.2 the uncompressed file is 59kb, and the minimized version is only 32kb. All of the Bootstrap plugins are accessible entirely using the included data API, with this, you don't need to include a single line of javascript to invoke any of the plugins features.
+Bootstrap cand be included on your site in two forms, either compiled or raw. Bootstrap 2.2.2 the uncompressed file is 59kb, and the minimized version is only 32kb. All of the Bootstrap plug-ins are accessible entirely using the included data API, with this, you don't need to include a single line of JavaScript to invoke any of the plug-ins features.
 
-Typically, Javascript lies in a either a seperate file, or at the bottom of the page before the closing `</body>` tag. You can either use the `src` atttribute to link to another file, or write the contents of the file between the opening and closing tags.
+Typically, JavaScript lies in a either a seperate file, or at the bottom of the page before the closing `</body>` tag. You can either use the `src` atttribute to link to another file, or write the contents of the file between the opening and closing tags.
 
-.Javascript Usage
+.JavaScript Usage
 [source, html]
 ----
-<!-- To reference another Javascript file -->
-<script src="assets/js/javascript.js"></script>
+<!-- To reference another JavaScript file -->
+<script src="assets/js/javaScript.js"></script>
 
-<!-- To write Javascript to the page -->
-<script type="text/javascript">
+<!-- To write JavaScript to the page -->
+<script type="text/javaScript">
 	function js_alert{
 		alert('Page has loaded');
 	}
 </script>
 ----
 
-Generally, it is best to include all Javascript calls into check that ensures that the DOM has been loaded on the page. As the browser parses the page, if you have the Javascript trying to fire earlier, it may miss elements. With jQuery, this is easily done by selecting the `document`, or the entire content of the page, an then applying the `.ready()` method.
+Generally, it is best to include all JavaScript calls into check that ensures that the DOM has been loaded on the page. As the browser parses the page, if you have the JavaScript trying to fire earlier, it may miss elements. With jQuery, this is easily done by selecting the `document`, or the entire content of the page, an then applying the `.ready()` method.
 
 .jQuery Ready Method
-[source, javascript]
+[source, js]
 ----
 $(document).ready(function(){
 	alert('Page has loaded');
@@ -33,9 +33,9 @@ $(document).ready(function(){
 });
 ----
 
-Like I mentioned above, Bootstrap has a data API where you can write data attributes into the HTML of the page. If you need to turn off the data API, you can unbind the attributes by adding this line of Javascript.
+Like I mentioned above, Bootstrap has a data API where you can write data attributes into the HTML of the page. If you need to turn off the data API, you can unbind the attributes by adding this line of JavaScript.
 
-.Disable Bootstrap Javascript Data API
+.Disable Bootstrap JavaScript Data API
 [source, js]
 ----
 $('body').off('.data-api')
@@ -51,7 +51,7 @@ $('body').off('.alert.data-api')
 
 ==== Programattic API
 
-The devlelopers of Bootstrap believe that you should be able to use all of the plugins entirely throught the Javascript API. All public APIs are single, chainable methods, and return the collection acted upon.
+The devlelopers of Bootstrap believe that you should be able to use all of the plug-ins entirely throught the JavaScript API. All public APIs are single, chainable methods, and return the collection acted upon.
 
 [source, js]
 ----
@@ -78,7 +78,7 @@ The transition plugin provides simple transition effects. A few examples include
 
 === Modal
 
-A modal is a child window that layered over its parent window. Typically, the point is to display content from a separate source that can have some interaction without leaving the parent window. They can provide information, interaction, or more for a page.. I have used that as a window for holding slideshows, login/registration information, and more. The Modal plugins is probably one of my favorite Bootstrap features.
+A modal is a child window that layered over its parent window. Typically, the point is to display content from a separate source that can have some interaction without leaving the parent window. They can provide information, interaction, or more for a page.. I have used that as a window for holding slideshows, login/registration information, and more. The Modal plug-ins is probably one of my favorite Bootstrap features.
 
 To create a static example, use the code below.
 
@@ -130,9 +130,9 @@ There are three classes to take note of in the modal. The first is `modal`. This
 
 ==== Using Modal through Data Attributes
 
-Using the Bootstrap Javascript Data API, you simply need to pass a few data attributes to toggle the slideshow. To start with, set `data-toggle="modal"` on the link or button that you want to use to invoke the modal and then `data-target="#foo"` to the ID of the modal that you'd like to use.
+Using the Bootstrap JavaScript Data API, you simply need to pass a few data attributes to toggle the slideshow. To start with, set `data-toggle="modal"` on the link or button that you want to use to invoke the modal and then `data-target="#foo"` to the ID of the modal that you'd like to use.
 
-Using Modal through Javascript
+Using Modal through JavaScript
 
 To call a modal with `id="myModal"` use a single line of JavaScript:
 
@@ -143,7 +143,7 @@ $('#myModal').modal(options)
 
 ==== Modal Options
 
-Options can either be passed in via data attributes, or with Javascript. To use the data attributes, prepend `data-` to the option name, like, `data-backdrop=""`.
+Options can either be passed in via data attributes, or with JavaScript. To use the data attributes, prepend `data-` to the option name, like, `data-backdrop=""`.
 
 .Modal Options
 [options="header"]
@@ -244,7 +244,7 @@ image::images/boot_0402.png[]
 </li>
 ----
 
-If you need to keep links entact, useful if the browser is not enabling Javascript, use the `data-target` attribute along with `href="#"`.
+If you need to keep links entact, useful if the browser is not enabling JavaScript, use the `data-target` attribute along with `href="#"`.
 
 .Dropdown via the `data-target` Attribute
 [source, html]
@@ -260,11 +260,11 @@ If you need to keep links entact, useful if the browser is not enabling Javascri
 </div>
 ----
 
-==== Dropdown Usage via Javascript
+==== Dropdown Usage via JavaScript
 
-To call the dropdown toggle via Javascript, use the following method.
+To call the dropdown toggle via JavaScript, use the following method.
 
-.Dropdown via Javascript
+.Dropdown via JavaScript
 [source, js]
 ----
 $('.dropdown-toggle').dropdown()
@@ -316,9 +316,9 @@ In the navbar, you will need to have page anchors that will serve as indicators 
 </div>
 ----
 
-===== Usage via Javascript
+===== Usage via JavaScript
 
-.Javascript Usage
+.JavaScript Usage
 [source, js]
 ----
 $('#navbar').scrollspy()
@@ -328,7 +328,7 @@ $('#navbar').scrollspy()
 
 ===== .scrollspy('refresh')
 
-When calling the scrollspy via the Javascript method, you will need to call the .refresh method to update the DOM. This is helpful if any elements of the DOM have changed.
+When calling the scrollspy via the JavaScript method, you will need to call the .refresh method to update the DOM. This is helpful if any elements of the DOM have changed.
 
 [source, js]
 ----
@@ -387,9 +387,9 @@ image::images/boot_0403.png[]
 
 ==== Usage
 
-To enable the tabs, you can use the Bootstrap Data API, or using Javascript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the the element that has the .tab-pane class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action.
+To enable the tabs, you can use the Bootstrap Data API, or using JavaScript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the the element that has the .tab-pane class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action.
 
-.Enable Tabs via Javascript
+.Enable Tabs via JavaScript
 [source, js]
 ----
  $('#myTab a').click(function (e) {
@@ -429,7 +429,7 @@ For more information about the jQuery `.on` method, read more at the jQuery webs
 
 === Tooltips
 
-Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the jQuery.tipsy plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap Javascript API.
+Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the jQuery.tipsy plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.
 
 .Tooltip Placement
 image::images/boot_0404.png[]
@@ -450,7 +450,7 @@ $('#example').tooltip(options)
 
 ==== Options
 
-Like all of the plugins, there are options that can be added via the Bootstrap Data API, or invoked via Javascript. All options need to have have `data-` appended to them. So, the `title` option would become `data-title`.
+Like all of the plug-ins, there are options that can be added via the Bootstrap Data API, or invoked via JavaScript. All options need to have have `data-` appended to them. So, the `title` option would become `data-title`.
 
 [options="header"]
 |=======================
@@ -528,7 +528,7 @@ image::images/boot_0405.png[]
 
 ==== Usage
 
-.Enable with Javascript
+.Enable with JavaScript
 [source, js]
 ----
 $('#example').popover(options)
@@ -536,7 +536,7 @@ $('#example').popover(options)
 
 ==== Options
 
-All options can be passed via the Boostrap Data API, or directly with Javascript.
+All options can be passed via the Boostrap Data API, or directly with JavaScript.
 
 ++++
 <informaltable class="table table-bordered table-striped">
@@ -660,7 +660,7 @@ image::images/boot_04in02.png[]
 
 ==== Usage
 
-.Dismiss Via Javascript
+.Dismiss Via JavaScript
 [source, js]
 ----
 $(".alert").alert()
@@ -771,7 +771,7 @@ image::images/boot_0409.png[]
 
 ==== Usage
 
-The `.button` method can be applied to any class or ID that you want. To enable all buttons in the `.nav-tabs` via Javascript, add this code:
+The `.button` method can be applied to any class or ID that you want. To enable all buttons in the `.nav-tabs` via JavaScript, add this code:
 
 [source, js]
 ----
@@ -881,11 +881,11 @@ You can also use the data attributes to make all content collapsable.
 
 ===== Via Data Attributes
 
-Like all of the plugins that use the data attributes API, you can add all needed markup without writing any Javascript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a css selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, add the additional class `.in`.
+Like all of the plug-ins that use the data attributes API, you can add all needed markup without writing any JavaScript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a css selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, add the additional class `.in`.
 
 To add accordion-like group management to a collapsible control, add the data attribute data-parent="#selector".
 
-===== Via Javascript
+===== Via JavaScript
 
 [source, js]
 ----
@@ -894,7 +894,7 @@ $(".collapse").collapse()
 
 ==== Options
 
-Options can be passed via data attributes, or with Javascript.
+Options can be passed via data attributes, or with JavaScript.
 
 [options="header"]
 |=======================
@@ -989,7 +989,7 @@ image::images/boot_0411.png[]
 
 ==== Usage
 
-To implement the carousel, you just need to add the code with the markup above. No need for data atrributes, just simple class based development. To call the carousel with Javascript, you can do it manually with the following code:
+To implement the carousel, you just need to add the code with the markup above. No need for data atrributes, just simple class based development. To call the carousel with JavaScript, you can do it manually with the following code:
 
 [source, js]
 ----
@@ -998,7 +998,7 @@ $('.carousel').carousel()
 
 ==== Options
 
-Options can be passed through data attributes, or through Javascript.
+Options can be passed through data attributes, or through JavaScript.
 
 
 [options="header"]
@@ -1081,7 +1081,7 @@ The carousel has two events that you can hook into.
 
 === Typeahead
 
-Typeahead allows you to easily create typeahead inputs in forms. Example, you could preload states in a state field, or using some Javascript, get search results using some ajax calls.
+Typeahead allows you to easily create typeahead inputs in forms. Example, you could preload states in a state field, or using some JavaScript, get search results using some ajax calls.
 
 .Typeahead Example
 image::images/boot_0412.png[]
@@ -1109,7 +1109,7 @@ Using data API, you can add sources via the `data-source` attribute. Items shoul
 >
 ----
 
-To call directly with Javascript, use the following method.
+To call directly with JavaScript, use the following method.
 
 .Javscipt Method
 [source, js]
@@ -1138,7 +1138,7 @@ The affix plugin allows you to allow a `div` to become affixed to a location on 
 
 ==== Usage
 
-To apply the affix plugin to a `div`, you can use either data attributes, or use Javascript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calcualte the position of the scroll.
+To apply the affix plugin to a `div`, you can use either data attributes, or use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calcualte the position of the scroll.
 
 [source, html]
 ----
