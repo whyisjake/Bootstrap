@@ -103,9 +103,9 @@ image::images/boot_0401.png[]
 </div>
 ----
 
-To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you will see that the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you to create multiple modals on the page, and then have different triggers for each of them. Now, to be clear, you don't load multiple modals at the same time, but can create many on the page to be loaded at different times.
+To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you will see that in the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you to create multiple modals on the page, and then have different triggers for each of them. Now, to be clear, you don't load multiple modals at the same time, but can create many on the page to be loaded at different times.
 
-There are three classes to take note of in the modal. The first is `modal`. This should make sense, but this is identifying the content of the `div` as a modal. The second is `hide`. This tells the browser to hide the content of the `div` until we are ready to invoke it. And last, the `fade` class. When the modal is toggled, it will cause the content to fade in and out.
+There are three classes to take note of in the modal. The first is `modal`. This should make sense, but this is identifying the content of the `<div>` as a modal. The second is `.hide`. This tells the browser to hide the content of the `<div>` until we are ready to invoke it. And last, the `.fade` class. When the modal is toggled, it will cause the content to fade in and out.
 
 [source, html]
 ----
@@ -130,7 +130,7 @@ There are three classes to take note of in the modal. The first is `modal`. This
 
 ==== Using Modal through Data Attributes
 
-Using the Bootstrap JavaScript Data API, you simply need to pass a few data attributes to toggle the slideshow. To start with, set `data-toggle="modal"` on the link or button that you want to use to invoke the modal and then `data-target="#foo"` to the ID of the modal that you'd like to use.
+Using the Bootstrap JavaScript Data API, you simply need to pass a few data attributes to toggle the slideshow. To start with, set `data-toggle="modal"` on the link or button that you want to use to invoke the modal and then set the `data-target="#foo"` to the ID of the modal that you'd like to use.
 
 Using Modal through JavaScript
 
@@ -149,10 +149,10 @@ Options can either be passed in via data attributes, or with JavaScript. To use 
 [options="header"]
 |=======================
 |Name 		|Type       |Default 	|Description
-|backdrop 	|boolean	|true		|Set to flase if you don't want the modal to be closed when they click outside of the modal.
-|keyboard 	|boolean	|true		|Closes the modal when escape key is pressed, set to false to disable.
-|show 		|boolean	|true		|Shows the modal when initialized.
-|remote 	|path 		|false		|Using the jQuery `.load` method, inject content into the modal body. If an href with a valid URL is added, that will load that content.
+|backdrop 	|Boolean	|true		|Set to false if you don't want the modal to be closed when they click outside of the modal.
+|keyboard 	|Boolean	|true		|Closes the modal when escape key is pressed, set to false to disable.
+|show 		|Boolean	|true		|Shows the modal when initialized.
+|remote 	|path 		|false		|Using the jQuery `.load` method, inject content into the modal body. If an `href` with a valid URL is added, that will load that content.
 |=======================
 
 
@@ -198,7 +198,7 @@ $('#myModal').modal('hide')
 
 ==== Events
 
-If you need specific events during the firing events of Bootstrap's modals, you can use the folloing events.
+Bootstrap provides the following events if you need to hook into the function.
 
 .Modal Events
 [options="header"]
@@ -209,6 +209,8 @@ If you need specific events during the firing events of Bootstrap's modals, you 
 |hide	|Fired when the `hide` instance method has been called.
 |hidden	|Fired when the modal has finished being hidden from the user.
 |=======================
+
+As an example, after the modal is hidden, you could cause an alert to fire.
 
 [source, js]
 ----
@@ -222,7 +224,7 @@ $('#myModal').on('hidden', function () {
 
 The dropdown was covered extensively in chapter 3, but then, the interaction was simply glossed over. As a refresher, dropdowns can be added to the the navbar, pills, tabs and buttons.
 
-==== Dropdown Usage via the Data API
+==== Usage
 
 To use, add use `data-toggle="dropdown"` to a link or button to toggle the dropdown.
 
@@ -270,7 +272,7 @@ To call the dropdown toggle via JavaScript, use the following method.
 $('.dropdown-toggle').dropdown()
 ----
 
-==== Methods
+==== Method
 
 The dropdown toggle has a simple method to show or hide the dropdown. There are no options.
 
@@ -282,11 +284,14 @@ $().dropdown('toggle')
 
 === Scrollspy
 
-The scrollspy plugin allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll you can add active classes to the nav bar based on the scroll postion. To add the scrollspy plugin via data attributes, add `data-spy="scroll"` to the element you want to spy on (most typically this would be the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. For this to work, you must have elements in the body of the page that have matching ids of the links that you are spying on.
+The scrollspy plugin allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll you can add `.active` classes to the nav bar based on the scroll postion. To add the scrollspy plugin via data attributes, add `data-spy="scroll"` to the element you want to spy on (most typically this would be the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. For this to work, you must have elements in the body of the page that have matching ids of the links that you are spying on.
 
+.Scrollspy Example
 image::images/boot_04in01.png[]
 
 ==== Usage
+
+For Scrollspy, you will need to add `data-spy="scroll"` to the `<body>` tag, along with `data-target=".navbar"` that references the element that you are spying on.
 
 .Body Configuration for Scrollspy
 [source, html]
@@ -318,13 +323,15 @@ In the navbar, you will need to have page anchors that will serve as indicators 
 
 ===== Usage via JavaScript
 
+If you would rather invoke the scrollspy with Javascript, instead of using the data attributes, you can do so by selecting the element to spy on, and then envoking the `.scrollspy()` function.
+
 .JavaScript Usage
 [source, js]
 ----
 $('#navbar').scrollspy()
 ----
 
-==== Scrollspy Methods
+==== Scrollspy Method
 
 ===== .scrollspy('refresh')
 
@@ -337,15 +344,15 @@ $('[data-spy="scroll"]').each(function () {
 });
 ----
 
-==== Options
+==== Option
 
-Options can be passed via data attributes or JavaScript. For data attributes, append the option name to data-, as in data-offset="".
+Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-`, as in `data-offset=""`.
 
 
-.Scrollspy Options
+.Scrollspy Option
 [options="header"]
 |=======================
-|Name	|type	|default	|description
+|Name	|Type	|Default	|Description
 |offset	|number	|10			|Pixels to offset from top of page when calculating position of scroll.
 |=======================
 
@@ -353,6 +360,7 @@ The offset option is handy when you are using a fixed navbar. You will want to o
 
 ==== Events
 
+.Scrollspy Event
 [options="header"]
 |=======================
 |Event		|Description
@@ -387,7 +395,7 @@ image::images/boot_0403.png[]
 
 ==== Usage
 
-To enable the tabs, you can use the Bootstrap Data API, or using JavaScript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the the element that has the .tab-pane class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action.
+To enable the tabs, you can use the Bootstrap Data API, or using JavaScript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the the element that has the `.tab-pane` class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action.
 
 .Enable Tabs via JavaScript
 [source, js]
@@ -409,6 +417,9 @@ $('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 
 ==== Events
 
+Tabs panes have two different events that can be hooked into.
+
+.Toggleable Tab Events
 [options="header"]
 |=======================
 |Event 	|Description
@@ -425,16 +436,18 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
 })
 ----
 
-For more information about the jQuery `.on` method, read more at the jQuery website. http://api.jquery.com/on/[jQuery .on]
+For information about the jQuery `.on` method, read more at the jQuery website. http://api.jquery.com/on/[jQuery .on]
 
 === Tooltips
 
-Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the jQuery.tipsy plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.
+Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the _jQuery.tipsy_ plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.
 
 .Tooltip Placement
 image::images/boot_0404.png[]
 
 ==== Usage
+
+To add a tooltip, add `rel="tooltip"` to an anchor tag. The title of the anchor will be the text of a tooltip.
 
 .Bootstrap Data API
 [source, js]
@@ -452,15 +465,16 @@ $('#example').tooltip(options)
 
 Like all of the plug-ins, there are options that can be added via the Bootstrap Data API, or invoked via JavaScript. All options need to have have `data-` appended to them. So, the `title` option would become `data-title`.
 
+.Tooltip Options
 [options="header"]
 |=======================
-|Name 		|type 				|default 	|description
-|animation 	|boolean			|true		|apply a css fade transition to the tooltip
-|html 		|boolean			|false		|Insert html into the tooltip. If false, jquery's `text` method will be used to insert content into the dom. Use text if you're worried about XSS attacks.
-|placement	|string/function 	|\'top\'	|how to position the tooltip - top/bottom/left/right
+|Name 		|Type 				|Default 	|Description
+|animation 	|Boolean			|true		|Will apply a css fade transition to the tooltip.
+|html 		|Boolean			|false		|Insert html into the tooltip. If false, jquery's `text` method will be used to insert content into the dom. Use text if you're worried about XSS attacks.
+|placement	|string/function 	|\'top\'	|How to position the tooltip: top, bottom, left, or right.
 |selector	|string				|false		|If a selector is provided, tooltip objects will be delegated to the specified targets.
-|title		|string/function	|''			|default title value if `title` tag isn't present
-|trigger	|string				|\'hover\'	|how tooltip is triggered - click | hover | focus | manual
+|title		|string/function	|''			|The title option is the default title value if `title` attribute isn't present.
+|trigger	|string				|\'hover\'	|The trigger option defines how the tooltip is triggered: click, hover, focus, or manualy.
 |delay 		|number/object		|0 			|delay showing and hiding the tooltip (ms) - does not apply to manual trigger type If a number is supplied, delay is applied to both hide/show Object structure is: `delay: { show: 500, hide: 100 }`
 |=======================
 
@@ -477,7 +491,7 @@ $().tooltip(options)
 ----
 
 
-==== Show
+===== Show
 
 Reveals an element's tooltip.
 
@@ -528,7 +542,8 @@ image::images/boot_0405.png[]
 
 ==== Usage
 
-.Enable with JavaScript
+To enable the popover with JavaScript, use the `.popover()` function, passing in any options that you might need.
+
 [source, js]
 ----
 $('#example').popover(options)
@@ -543,27 +558,27 @@ All options can be passed via the Boostrap Data API, or directly with JavaScript
   <thead>
    <tr>
      <th style="width: 100px;">Name</th>
-     <th style="width: 100px;">type</th>
-     <th style="width: 50px;">default</th>
-     <th>description</th>
+     <th style="width: 100px;">Type</th>
+     <th style="width: 50px;">Default</th>
+     <th>Description</th>
    </tr>
   </thead>
   <tbody>
    <tr>
      <td>animation</td>
-     <td>boolean</td>
+     <td>Boolean</td>
      <td>true</td>
      <td>apply a css fade transition to the tooltip</td>
    </tr>
    <tr>
      <td>html</td>
-     <td>boolean</td>
+     <td>Boolean</td>
      <td>false</td>
      <td>Insert html into the popover. If false, jquery's <code>text</code> method will be used to insert content into the dom. Use text if you're worried about XSS attacks.</td>
    </tr>
    <tr>
      <td>placement</td>
-     <td>string|function</td>
+     <td>string | function</td>
      <td>'right'</td>
      <td>how to position the popover - top | bottom | left | right</td>
    </tr>
@@ -596,8 +611,8 @@ All options can be passed via the Boostrap Data API, or directly with JavaScript
      <td>number | object</td>
      <td>0</td>
      <td>
-      delay showing and hiding the popover (ms) - does not apply to manual trigger type
-      If a number is supplied, delay is applied to both hide/show
+      The delay showing and hiding the popover (ms) - does not apply to manual trigger type.
+      If a number is supplied, delay is applied to both hide/show.
       Object structure is: <code>delay: { show: 500, hide: 100 }</code>
      </td>
    </tr>
@@ -656,9 +671,12 @@ $('#element').popover('destroy')
 
 With the Data APi, it is easy to add dismiss functionality to alert messages.
 
+.Error Alert Message
 image::images/boot_04in02.png[]
 
 ==== Usage
+
+To close an alery, you can either do it manually with the Javascript `.alert()` method or use data attributes in conjunction with an anchor or button.
 
 .Dismiss Via JavaScript
 [source, js]
@@ -672,19 +690,9 @@ $(".alert").alert()
 <a class="close" data-dismiss="alert" href="#">&times;</a>
 ----
 
-==== Methods
+==== Close Method
 
-[source, js]
-----
-$().alert()
-----
-
-To enable all alerts to be ale to be closed, add the above method. To enable alerts to animate out when closed, make sure they have the `.fade` and `.in` class already applied to them.
-
-
-===== Close
-
-Closes an alert.
+To enable all alerts to be ale to be closed, add the following method. To enable alerts to animate out when closed, make sure they have the `.fade` and `.in` class already applied to them.
 
 [source, html]
 ----
@@ -701,6 +709,8 @@ There are two event that can be tied to Bootstrap's alert class.
 |close	|This event fires immediately when the close instance method is called.
 |closed	|This event is fired when the alert has been closed (will wait for css transitions to complete).
 |=======================
+
+As an example, if you wanted to trigger a function after an alert has closed, you could use the following function.
 
 [source, js]
 ----
@@ -755,7 +765,7 @@ image::images/boot_0408.png[]
 
 ==== Radio Buttons
 
-Radio buttons function similarily to checkboxes, the primary difference is that a radio button doesn't allow for multiple selections, only one in the group. To add this function, add `data-toggle="buttons-radio"` for radio style toggling on `btn-group`.
+Radio buttons function similarily to checkboxes, the primary difference is that a radio button doesn't allow for multiple selections, only one button in the group can be selected. To add this function, add `data-toggle="buttons-radio"` for radio style toggling on `btn-group`.
 
 .Radio Buttons
 image::images/boot_0409.png[]
@@ -791,7 +801,7 @@ $().button('toggle')
 
 ===== Loading
 
-Sets button state to loading - disables button and swaps text to loading text. Loading text should be defined on the button element using the data attribute data-loading-text.
+When loading, the button is disabled and the text is changed to the option from `data-loading-text` attribute.
 
 [source, html]
 ----
@@ -829,7 +839,7 @@ To reset the button state, and bring in new content, use the string method.
 
 === Collapse
 
-The collapse plugin makes it easy to make collapsing divs. Whether you use it to build accordian naviation or content boxes, it allows for a lot of content options.
+The collapse plugin makes it easy to make collapsing divisions of the page. Whether you use it to build accordian naviation or content boxes, it allows for a lot of content options.
 
 .Example Accordian
 image::images/boot_0410.png[]
@@ -881,11 +891,13 @@ You can also use the data attributes to make all content collapsable.
 
 ===== Via Data Attributes
 
-Like all of the plug-ins that use the data attributes API, you can add all needed markup without writing any JavaScript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a css selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, add the additional class `.in`.
+Like all of the plug-ins that use the data API, you can add all needed markup without writing any JavaScript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a css selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, add the additional class `.in`.
 
-To add accordion-like group management to a collapsible control, add the data attribute data-parent="#selector".
+To add accordion-like group management to a collapsible control, add the data attribute `data-parent="#selector"`.
 
 ===== Via JavaScript
+
+The collapse method can activated with Javascript too. 
 
 [source, js]
 ----
@@ -896,11 +908,12 @@ $(".collapse").collapse()
 
 Options can be passed via data attributes, or with JavaScript.
 
+.Collapse Options
 [options="header"]
 |=======================
 |Name	|type		|default	|description
 |parent	|selector	|false		|If selector then all collapsible elements under the specified parent will be closed when this collapsible item is shown. (similar to traditional accordion behavior)
-|toggle	|boolean	|true		|Toggles the collapsible element on invocation
+|toggle	|Boolean	|true		|Toggles the collapsible element on invocation
 |=======================
 
 ==== Methods
@@ -948,6 +961,7 @@ Hides a collapsible element.
 
 There are four events that can be hooked into with the collapse plugin.
 
+.Collapse Events
 [options="header"]
 |=======================
 |Event	|Description
@@ -956,6 +970,8 @@ There are four events that can be hooked into with the collapse plugin.
 |hide	| This event is fired immediately when the `hide` method has been called.
 |hidden	|This event is fired when a collapse element has been hidden from the user (will wait for css transitions to complete).
 |=======================
+
+After a `<div>` has been collapsed, you could use the following code to execute a function.
 
 [source, js]
 ----
@@ -1000,10 +1016,10 @@ $('.carousel').carousel()
 
 Options can be passed through data attributes, or through JavaScript.
 
-
+.Carousel Options
 [options="header"]
 |=======================
-|Name		|type	|default	|description
+|Name		|Type	|Default	|Description
 |interval	|number	|5000		|The amount of time to delay between automatically cycling an item. If false, carousel will not automatically cycle.
 |pause		|string	|"hover"	|Pauses the cycling of the carousel on mouseenter and resumes the cycling of the carousel on mouseleave.
 |=======================
@@ -1013,7 +1029,7 @@ Options can be passed through data attributes, or through JavaScript.
 
 ===== Options
 
-Initializes the carousel with an optional options object and starts cycling through items.
+Initializes the carousel with an optional `options` object and starts cycling through items.
 
 [source, js]
 ----
@@ -1070,8 +1086,9 @@ Cycles to the next item.
 
 ==== Events
 
-The carousel has two events that you can hook into.
+The carousel has two events that can be hooked into, the `slide`, and `slid` events.
 
+.Carousel Events
 [options="header"]
 |=======================
 |Event 	|Description
@@ -1081,7 +1098,7 @@ The carousel has two events that you can hook into.
 
 === Typeahead
 
-Typeahead allows you to easily create typeahead inputs in forms. Example, you could preload states in a state field, or using some JavaScript, get search results using some ajax calls.
+Typeahead allows you to easily create typeahead inputs in forms. Example, you could preload states in a state field, or using some JavaScript, get search results using some AJAX calls.
 
 .Typeahead Example
 image::images/boot_0412.png[]
@@ -1119,13 +1136,14 @@ $('.typeahead').typeahead()
 
 ==== Options
 
+.Carousel Options
 [options="header"]
 |===========================
-|Name       |type           |default                                      |description
-|source     |array, function|[ ]                                          |The data source to query against. May be an array of strings or a function. The function is passed two arguments, the `query` value in the input field and the `process` callback. The function may be used synchronously by returning the data source directly or asynchronously via the `process` callback's single argument.
+|Name       |Type           |Default                                      |Description
+|source     |array, function|[ ]                                          |The data source to query against. May be an array of strings or a function. The function is passed through two arguments, the `query` value in the input field and the `process` callback. The function may be used synchronously by returning the data source directly or asynchronously via the `process` callback's single argument.
 |items      |number         |8                                            |The max number of items to display in the dropdown.
 |minLength  |number         |1                                            |The minimum character length needed before triggering autocomplete suggestions
-|matcher    |function       |case insensitive                             |The method used to determine if a query matches an item. Accepts a single argument, the item against which to test the query. Access the current query with `this.query`. Return a boolean true if query is a match.
+|matcher    |function       |case insensitive                             |The method used to determine if a query matches an item. Accepts a single argument, the item against which to test the query. Access the current query with `this.query`. Return a Boolean true if query is a match.
 |sorter     |function       |exact match, case sensitive, case insensitive|Method used to sort autocomplete results. Accepts a single argument items and has the scope of the typeahead instance. Reference the current query with `this.query`.
 |updater    |function       |returns selected item                        |The method used to return selected item. Accepts a single argument, the item and has the scope of the typeahead instance.
 |highlighter|function       |highlights all default matches               |Method used to highlight autocomplete results. Accepts a single argument item and has the scope of the typeahead instance. Should return html.
@@ -1134,11 +1152,11 @@ $('.typeahead').typeahead()
 
 === Affix
 
-The affix plugin allows you to allow a `div` to become affixed to a location on the page. A common example of this is social icons on a page. They will start in a location, but as the page hits a certain mark, the `div` will become locked in place and will stop scrolling with the rest of the page.
+The affix plugin allows you to allow a `<div>` to become affixed to a location on the page. A common example of this is social icons on a page. They will start in a location, but as the page hits a certain mark, the `<div>` will become locked in place and will stop scrolling with the rest of the page.
 
 ==== Usage
 
-To apply the affix plugin to a `div`, you can use either data attributes, or use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calcualte the position of the scroll.
+To apply the affix plugin to a `<div>`, you can use either data attributes, or use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calcualte the position of the scroll.
 
 [source, html]
 ----
@@ -1147,7 +1165,7 @@ To apply the affix plugin to a `div`, you can use either data attributes, or use
 </div>
 ----
 
-==== Options
+==== Option
 
 [options="header"]
 |===========================
