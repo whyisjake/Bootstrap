@@ -105,7 +105,7 @@ In particular, the following default styles give special treatment to typography
 
 [NOTE]
 ====
-Remember, if you don't like the colors or want to change a default, this can be done by changing the globals in any of the .less files. To do this, update the _scaffolding.less_ file, or overwrite colors in your own stylesheet that have on the site.
+Remember, if you don't like the colors or want to change a default, this can be done by changing the globals in any of the .less files. To do this, update the _scaffolding.less_ file, or overwrite colors in your own stylesheet you may have on the site.
 ====
 
 // what is the scaffolding .less file, and what is the users stylesheet? is that different than the default stylesheet? -NM
@@ -113,7 +113,7 @@ Remember, if you don't like the colors or want to change a default, this can be 
 
 === Default Grid System
 
-The default Bootstrap grid (see Figure 1-1) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide depending on your viewport. Below 767px viewports, such as the ones, on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide, an offset 20 pixels to the left. 
+The default Bootstrap grid (see Figure 1-1) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide depending on your viewport. Below 767px viewports, such as the ones, on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide, an offset 20 pixels to the left. An example of the twelve possible columns is in Figure 1-1.
 
 // I think this would be a great place for a jsfiddle, showing a resizable frame using the responsive grid that users can resize and see change. Basically, just an embedded responsive frame. Fallback for print, epub, etc, would be an image showing both default grid and responsive grid. -NM
 
@@ -122,7 +122,7 @@ image::images/boot_0101.png[]
 
 ==== Basic grid HTML
 
-To create a simple layout, create a container with a `<div>` that has a class of '.row' and add the appropriate amount of '.span*' columns. Since we have 12-column grid, we just need the amount of '.span*' columns to equal twelve. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2... we could go on and on, but I think you get the gist.
+To create a simple layout, create a container with a `<div>` that has a class of `.row` and add the appropriate amount of `.span*` columns. Since we have 12-column grid, we just need the amount of `.span*` columns to equal twelve. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2... we could go on and on, but I think you get the gist.
 
 The following code shows .span 8 and .span 4 which adds up to 12:
 
@@ -159,7 +159,7 @@ image::images/boot_0102.png[]
 
 ==== Nesting columns
 
-To nest your content with the default grid, inside of a '.span*', simply add a new '.row' with enough '.span*' that equals the number of spans of the parent container.
+To nest your content with the default grid, inside of a `.span*`, simply add a new `.row` with enough `.span*` that equals the number of spans of the parent container.
 
 // Could be a good place for a challenge/solution. "Given a parent span9, what values could you use in the child row?". Prepopulate the box with everything but the child span*'s, and then the pop-out solution would show the following code. -NM
 
@@ -216,13 +216,11 @@ To nest your content with the default grid, inside of a '.span*', simply add a n
 // ****
 
 
-
-.Nesting Columns
 [source, html]
 ----
 <div class="row">
   <div class="span9">
-    Level 1 column
+    Level 1 of column
     <div class="row">
       <div class="span6">Level 2</div>
       <div class="span3">Level 2</div>
@@ -231,7 +229,7 @@ To nest your content with the default grid, inside of a '.span*', simply add a n
 </div>
 ----
 
-.Nesting Grid
+.Nesting grid
 image::images/boot_0103.png[]
 
 // jsfiddle::http://jsfiddle.net/whyisjake/EEWQ2/embedded/result/[width="100%", height="300px"]
@@ -239,7 +237,7 @@ image::images/boot_0103.png[]
 
 === Fluid Grid System
 
-The fluid grid system uses percents instead of pixels for column widths. It has the same responsive capabilities as our fixed grid system, ensuring proper proportions for key screen resolutions and devices. You can make any row "fluid" by changing .row to .row-fluid. The column classes stay the exact same, making it easy to flip between fixed and fluid grids. To offset, you operate in the same way as the fixed grid system works by adding .offset* to any column to shift by your desired number of columns.
+The fluid grid system uses percents instead of pixels for column widths. It has the same responsive capabilities as our fixed grid system, ensuring proper proportions for key screen resolutions and devices. You can make any row "fluid" by changing `.row` to `.row-fluid`. The column classes stay the exact same, making it easy to flip between fixed and fluid grids. To offset, you operate in the same way as the fixed grid system works by adding .offset* to any column to shift by your desired number of columns.
 
 // I'd love to see some kind of demo of how changing from fixed to fluid changes the display of the website. Could be a video or a couple of jsfiddles. -NM
 
@@ -260,7 +258,7 @@ jsfiddle::http://jsfiddle.net/whyisjake/327R3/embedded/result/[width="100%", hei
 </div>
 ----
 
-Nesting a fluid grid is a little different. Since we are using percentages, each '.row' resets the column count to 12. For example, If you were inside a '.span8', instead of two '.span4' elements to divide the content in half, you would use two '.span6' divs. This is the case for responsive content, as we want the content to fill 100% of the container.
+Nesting a fluid grid is a little different. Since we are using percentages, each `.row` resets the column count to 12. For example, If you were inside a `.span8`, instead of two `.span4` elements to divide the content in half, you would use two '.span6' divs. This is the case for responsive content, as we want the content to fill 100% of the container.
 
 .Nesting Fluid Column Layout
 [source, html]
@@ -275,20 +273,20 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 </div>
 ----
 
-.Nesting Fluid Grid
-image::images/boot_0103.png[]
+.Nesting fluid grid
+image::images/responsive-grid.png[]
 
 // This is a little confusing. Some kind of demo or expanded explanation would be cool, but I'm not sure what just yet. Or maybe just a note about how it's kind of confusing to use the same span number scheme while working with percentages ("span6" = 50% of the parent, or something). -NM
 
 === Container Layouts
 
-To add a fixed width, centered layout to your page, simply wrap the content in '<div class="container">...</div>'. If you would like to use a fluid layout, but want to wrap everything in a container, use the following: '<div class="container-fluid">...</div>'. Using a fluid layout is great when you are building applications, administration screens and other related projects.
+To add a fixed width, centered layout to your page, simply wrap the content in `<div class="container">...</div>`. If you would like to use a fluid layout, but want to wrap everything in a container, use the following: `<div class="container-fluid">...</div>`. Using a fluid layout is great when you are building applications, administration screens and other related projects.
 
 // So the only thing the container adds is centering? Any other benefits worth talking about? (or if you mention any later in the book, you could also just add a cross reference.) If not, I might rename this section "centered layouts", since that's really the essence of the content. -NM
 
 === Responsive Design
 
-To turn on the responsive features of Bootstrap, you need to add a meta tag to the '<head>' of your webpage. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file. An example of required files looks like this:
+To turn on the responsive features of Bootstrap, you need to add a `<meta>` tag to the `<head>` of your webpage. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file. An example of required files looks like this:
 
 // I might add the complete head markup in the example below, just to give people a little extra orientation. Also, why wouldn't they have downloaded the compiled source, and how do they add the CSS file in that case? -NM
 
@@ -350,7 +348,7 @@ To add custom CSS based on the media query, you can either include all rules in 
 @media (max-width: 480px) { ... }
 --------------
 
-For a larger site, you might want to separate them into separate files. In the HTML file, you can call them with the link tag in the head of your document. This is useful for keeping file sizes smaller, but does potentially increase the HTTP requests if being responsive.
+For a larger site, you might want to separate each media query into a seperate CSS file. In the HTML file, you can call them with the link tag in the head of your document. This is useful for keeping file sizes smaller, but does potentially increase the HTTP requests if being responsive. If you are using LESS to compile the CSS, you can have them all processed into one file.
 
 // maybe just spell out that last sentence a bit more, like "this means the server has to serve more files, which could make the response time slower" or something. -NM
 
