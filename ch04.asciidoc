@@ -1,6 +1,6 @@
 == Bootstrap JavaScript plug-ins
 
-Most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plug-ins that that extend the features, and can add more interaction to your site. To get started with the Bootstrap JavaScript plug-ins, you don't need to be an advanced JavaScript developer. In fact, most of the plug-ins can be enacted without writing a single line of code by utilizing the Bootstrap data API.
+Most of the componants discussed in the previous chapter are just the beginning. Bootstrap comes bundled with 13 jQuery plug-ins that that extend the features, and can add more interaction to your site. To get started with Bootstrap's JavaScript plug-ins, you don't need to be an advanced JavaScript developer. In fact, most of the plug-ins can be enacted without writing a single line of code by utilizing the Bootstrap data API.
 
 === Overview
 
@@ -22,7 +22,7 @@ Typically, JavaScript lies in a either a seperate file, or at the bottom of the 
 </script>
 ----
 
-Generally, it is best to include all JavaScript calls into check that ensures that the DOM has been loaded on the page. As the browser parses the page, if you have the JavaScript trying to fire earlier, it may miss elements. With jQuery, this is easily done by selecting the `document`, or the entire content of the page, an then applying the `.ready()` method.
+Generally, it is best to include all JavaScript calls into a check that ensures that the DOM has been loaded on the page. As the browser parses the page, if you have the JavaScript trying to fire earlier, it may miss elements. With jQuery, adding a check is easily done by selecting the `document`, or the entire content of the page, an then applying the `.ready()` method.
 
 .jQuery Ready Method
 [source, js]
@@ -78,7 +78,7 @@ The transition plugin provides simple transition effects. A few examples include
 
 === Modal
 
-A modal is a child window that layered over its parent window. Typically, the point is to display content from a separate source that can have some interaction without leaving the parent window. They can provide information, interaction, or more for a page.. I have used that as a window for holding slideshows, login/registration information, and more. The Modal plug-ins is probably one of my favorite Bootstrap features.
+A modal is a child window that layered over its parent window. Typically, the point is to display content from a separate source that can have some interaction without leaving the parent window. They can provide information, interaction, or more. I have used that as a window for holding slideshows and login/registration information. The Modal plug-ins is probably one of my favorite Bootstrap features.
 
 To create a static example, use the code below.
 

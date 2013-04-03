@@ -1026,7 +1026,7 @@ When you look at social sites like Facebook, Twitter and others, strip away some
 .Media Object Examples
 image::images/boot_0347.png[]
 
-Bootstrap leaves the design and formatting to you, but provides a simple way to get going. Like a lot of other tools in Bootstrap, the markup is light, and the goal of media objects (light markup, easy extendibility) is achieved by applying classes to some simple markup. There are two forms to the media object, the `.media`, and the `.media-list`. If you are preparing a list where the items would be part of an unorderded list, use the `.media-list`. Using just `<div>` elements, use the `.media` object.
+Bootstrap leaves the design and formatting to you, but provides a simple way to get going. Like a lot of other tools in Bootstrap, the goal of media objects (light markup, easy extendability) is achieved by applying classes to some simple markup. There are two forms to the media object, the `.media`, and the `.media-list`. If you are preparing a list where the items would be part of an unorderded list, use the `.media-list`. Using just `<div>` elements, use the `.media` object.
 
 .Default Media Object
 image::images/boot_0348.png[]
@@ -1050,7 +1050,7 @@ image::images/boot_0348.png[]
 </div>
 ----
 
-To use the media list, change the container `<div>` to an `<ul>` and add the class `.media-list`. Since you can nest media objects, it makes it handy markup for comments, or other lists.
+To use the media list, change the container `<div>` to an `<ul>` and add the class `.media-list`. Since you can nest media objects, it makes it handy to markup for comments, or other lists.
 
 .Media List Example
 image::images/boot_0349.png[]
@@ -1082,7 +1082,9 @@ image::images/boot_0349.png[]
 
 Now, at the end of chapter 3, there are a few more components that Bootstrap offers. There are a few that are layout based, and a few that layout based, and a few that are prodcuction based helper clasees. The first among these are the wells.
 
-A well is a container `<div>` that add some styles to appear sunken on the page. I have used them before for blog post meta information, like author, date, categories. To create, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`.
+==== Wells
+
+A well is a container `<div>` that causes the content to appear sunken on the page. I have used them before for blog post meta information, like author, date, categories. To create, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`.
 
 .Well
 image::images/boot_0350.png[]
@@ -1159,7 +1161,7 @@ To float an element to the right, use the `.pull-right` class.
 
 ===== Clearfix
 
-To clear the float of any element, use the `.clearfix` class. When you have to elements that are floated alongside each other that are different sizes, it is necessary to force the following elements below, or to _clear_ the preceding content. You can do this with a simple emty `<div>` the class of `.clearfix`.
+To clear the float of any element, use the `.clearfix` class. When you have two elements that are floated alongside each other that are different sizes, it is necessary to force the following elements in the the code below, or to _clear_ the preceding content. You can do this with a simple empty `<div>` with the class of `.clearfix`.
 
 .Clearfix HTML
 [source, html]
