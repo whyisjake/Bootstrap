@@ -1,4 +1,4 @@
-== Bootstrap Layout Components
+ == Bootstrap Layout Components
 
 In addtion to all of the markup provided in the previous chapter, Bootstrap provides a toolkit of flexible components that can be used in designing application interfaces, web features and more. Each of the plug-ins are available in a seperate JavaScript file, combined all together, or, using the Bootstrap customizer, you can pick and choose which plug-ins you want. Personally, on the projects that I build, I lump them all together. That way I have options.
 
@@ -24,8 +24,9 @@ image::images/boot_0301.png[]
 
 ===== Right align the dropdown
 
-Add .pull-right to a .dropdown-menu to right-align the dropdown menu to the parent object.
+Add `.pull-right` to a `.dropdown-menu` to right-align the dropdown menu to the parent object.
 
+.Right Aligned Dropdown Menu
 [source, html]
 ----
 <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
@@ -33,11 +34,9 @@ Add .pull-right to a .dropdown-menu to right-align the dropdown menu to the pare
 </ul>
 ----
 
-If you would like to add a second layer of dropdowns, simply add `.dropdown-submenu` to any `<li>` in an existing dropdown menu for automatic styling.
-
 ===== Dropdown Submenu
 
-image:images/boot_03in01.png[]
+If you would like to add a second layer of dropdowns, simply add `.dropdown-submenu` to any `<li>` in an existing dropdown menu for automatic styling.
 
 [source,html]
 ----
@@ -52,9 +51,12 @@ image:images/boot_03in01.png[]
 </ul>
 ----
 
+.Dropdown Submenu
+image:images/boot_03in01.png[]
+
 === Button Groups
 
-Button groups allow multiple buttons to be stacked together. This is useful like the example below when you want to place items like alignment buttons together. Simply, to create a button group, simply wrap a series of anchors or buttons with a class of `.btn` with a `<div>` that has `.btn-group` as a class.
+Button groups allow multiple buttons to be stacked together. This is useful like the example below when you want to place items like alignment buttons together. Simply, to create a button group, simply wrap a series of anchors or buttons in a `<div>` that has `.btn-group` as a class.
 
 .Inline Button Group
 image::images/boot_0302.png[]
@@ -69,7 +71,7 @@ image::images/boot_0302.png[]
 </div>
 ----
 
-If you have multiple button groups that you want to align on a single line, wrap multiple `.btn-group` with `.btn-toolbar`. For more information about using icons with buttons, follow the examples in chapter 2.
+If you have multiple button groups that you want to align on a single line, wrap multiple `.btn-group` classes with `.btn-toolbar`. For more information about using icons with buttons, follow the examples in chapter 2.
 
 .Button Toolbar
 image::images/boot_0303.png[]
@@ -113,7 +115,7 @@ image::images/boot_0304.png[]
 
 ==== Button Groups as Radio and Checkboxes
 
-To have the checkboxes function as radio buttons where only one can be selected at a time, or checkboxes where multiple can be selected, you simply need to add some extra markup and the Bootsrap JavaScript will provide the rest. This will be covered in detail in chapter 4.
+To have the checkboxes function as radio buttons where only one can be selected at a time, or checkboxes where multiple can be selected, you simply need to add some extra markup and the Bootsrap's JavaScript will provide the rest. This will be covered in detail in chapter 4.
 
 .Heads Up!
 NOTE: To use a button with a dropdown, they must be individually wrapped in their own `btn-group` within a `btn-toolbar` for proper rendering.
@@ -169,7 +171,7 @@ image::images/boot_0307.png[]
 </div>
 ----
 
-jsfiddle::http://jsfiddle.net/vSHkJ/embedded/result/[width="100%", height="300px"]
+// jsfiddle::http://jsfiddle.net/vSHkJ/embedded/result/[width="100%", height="300px"]
 
 ==== Dropup Menus
 
@@ -192,7 +194,7 @@ image::images/boot_0308.png[]
 </div>
 ----
 
-jsfiddle::http://jsfiddle.net/DyfSZ/3/embedded/result/[width="100%", height="300px"]
+// jsfiddle::http://jsfiddle.net/DyfSZ/3/embedded/result/[width="100%", height="300px"]
 
 === Navigation Elements
 
@@ -240,7 +242,7 @@ image::images/boot_0310.png[]
 
 ===== Disabled Class
 
-For each of the `.nav` classes, if you add the `.disabled` class, it will create gray link that also disables the hover state. The link is still clickable unless the `href` is removed, with JavaScript or some other method.
+For each of the `.nav` classes, if you add the `.disabled` class, it will create gray link that also disables the `:hover` state. The link is still clickable unless the `href` is removed, with JavaScript or some other method.
 
 .Disabled Navigation
 image::images/boot_0311.png[]
@@ -255,7 +257,7 @@ image::images/boot_0311.png[]
 </ul>
 ----
 
-==== Stackable Navs
+==== Stackable Navigation
 
 Both tabs and pills are horizontal by default, to make them stackable, just add the `.nav-stacked` class to make them appear vertically stacked.
 
@@ -347,9 +349,13 @@ image::images/boot_0316.png[]
 <ul class="nav nav-list">
 	<li class="nav-header">List Header</li>
 	<li class="active"><a href="/">Home</a></li>
-	<li><a href="#">Blog</a></li>
-	<li class="divider"></li>
-	<li><a href="#">Contact</a></li>
+	<li><a href="#">Library</a></li>
+  <li><a href="#">Applications</a></li>
+  <li class="nav-header">Another List Header</li>
+  <li><a href="#">Profile</a></li>
+	<li><a href="#">Settings</a></li>
+  <li class="divider"></li>
+  <li><a href="#">Help</a></li>
 </ul>
 ----
 
@@ -369,7 +375,7 @@ To create a divider, much like an `<hr />`, use an empty `<li>` with a class of 
 
 ==== Tabbable Navigation
 
-Not only can you create a tabbed navigation, but by using the JavaScript plugin, you can also add some interaction by making them tab able to open different windows of content. To make navigation tabs tabbable, create a `.tab-pance with a unique ID for every tab, and then wrap them in `.tab-content`.
+Not only can you create a tabbed navigation but by using the JavaScript plugin, you can also add interaction by opening different windows of content. To make navigation tabs, create a `.tab-pane` with a unique ID for every tab, and then wrap them in `.tab-content`.
 
 .Tabbable Navigation Example
 image::images/boot_0317.png[]
@@ -393,7 +399,7 @@ image::images/boot_0317.png[]
 </div>
 ----
 
-jsfiddle::http://jsfiddle.net/JUqAT/embedded/result/[width="100%", height="300px"]
+//jsfiddle::http://jsfiddle.net/JUqAT/embedded/result/[width="100%", height="300px"]
 
 If you want to make the tabs fade when switching, add `.fade` to each `.tab-pane`.
 
@@ -402,7 +408,7 @@ If you want to make the tabs fade when switching, add `.fade` to each `.tab-pane
 The tabs are fully positionable, you can have them above, below, or on the sides of the content.
 
 .Bottom Tabs
-image::images/boot_0318.png[]
+image::images/tab-below.png[]
 
 .Bottom Tab Code Example
 [source,html]
@@ -420,14 +426,14 @@ image::images/boot_0318.png[]
     </div>
   </div>
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-    <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
+    <li class="active"><a href="#tab1" data-toggle="tab">Section A</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section B</a></li>
+    <li><a href="#tab3" data-toggle="tab">Section C</a></li>
   </ul>
 </div>
 ----
 
-Tabs on the left get the `.tabs-left` class.
+Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab content, and the tabs.
 
 .Left Tabs
 image::images/boot_0319.png[]
@@ -436,6 +442,11 @@ image::images/boot_0319.png[]
 [source,html]
 ----
 <div class="tabbable tabs-left">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Section A</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section B</a></li>
+    <li><a href="#tab3" data-toggle="tab">Section C</a></li>
+  </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
       <p>I'm in section A.</p>
@@ -447,23 +458,23 @@ image::images/boot_0319.png[]
       <p>I'm in section C.</p>
     </div>
   </div>
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-    <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
-  </ul>
 </div>
 ----
 
 Tabs on the right get the `.tabs-right` class.
 
 .Right Tabs
-image::images/boot_0320.png[]
+image::images/tabs-right.png[]
 
 .Right Tab Code Example
 [source,html]
 ----
 <div class="tabbable tabs-right">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Section A</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section B</a></li>
+    <li><a href="#tab3" data-toggle="tab">Section C</a></li>
+  </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
       <p>I'm in section A.</p>
@@ -475,11 +486,6 @@ image::images/boot_0320.png[]
       <p>I'm in section C.</p>
     </div>
   </div>
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-    <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
-  </ul>
 </div>
 ----
 
@@ -570,7 +576,7 @@ The Bootstrap navbar can be dynamic in it's positioning. By default, it is a blo
 
 ===== Fixed to the top
 
-If you want the navbar fixed to the top, simply add `.navbar-fixed-top` to the `.navbar` class. To prevent the navbar from sitting on top of other content in the body of the page, add at least 40 pixels of `padding` to the `<body>` tag.
+If you want the navbar fixed to the top, simply add `.navbar-fixed-top` to the `.navbar` class. To prevent the navbar from sitting on top of other content in the body of the page, add at least 40 pixels of padding to the `<body>` tag.
 
 .Fixed Top Navbar
 [source, html]
@@ -589,7 +595,7 @@ If you want the navbar fixed to the top, simply add `.navbar-fixed-top` to the `
 
 ===== Fixed Bottom Navbar
 
-To affix the navbar to the bottom of the page, simply add `.fixed-navbar-bottom` class to the navbar. Once again, to prevent overlap, add at least 40 pixels of `padding` to the `<body>` tag.
+To affix the navbar to the bottom of the page, simply add `.fixed-navbar-bottom` class to the navbar. Once again, to prevent overlap, add at least 40 pixels of padding to the `<body>` tag.
 
 .Fixed Bottom Navbar
 [source, html]
@@ -608,7 +614,7 @@ To affix the navbar to the bottom of the page, simply add `.fixed-navbar-bottom`
 
 ===== Static Top Navbar
 
-To create a navbar that scrolls with the page, add the `.navbar-static-top` class. This class does not require adding the padding to the body.
+To create a navbar that scrolls with the page, add the `.navbar-static-top` class. This class does not require adding the padding to the `<body>`.
 
 .Static Top Navbar
 [source, html]
@@ -627,7 +633,7 @@ To create a navbar that scrolls with the page, add the `.navbar-static-top` clas
 
 ===== Responsive Navbar
 
-Like the rest of Bootstrap, the navbar can be totally responsive. To add the responsive features, the content that you want to be collapsed needs to be wrapped in a `<div>` with `.nav-collapse.collapse` as a class. The collapsing nature is tripped by a button that has a the class of `.btn-navbar` and then features two `data-` elements. The first, `data-toggle` is used to tell the JavaScript what to do with the button, and the second, `data-target` tells which element to toggle. In the example below, three `<spans>` with a class of `.icon-bar` create what I like to call the hamburger button. This will toggle the elements that in the `.nav-collapse` `<div>`. For this to work, the `bootstrap-responsive.css`, and either the `collapse.js` or the full `bootrap.js` files must be included for this feature to work.
+Like the rest of Bootstrap, the navbar can be totally responsive. To add the responsive features, the content that you want to be collapsed needs to be wrapped in a `<div>` with `.nav-collapse.collapse` as a class. The collapsing nature is tripped by a button that has a the class of `.btn-navbar` and then features two `data-` elements. The first, `data-toggle` is used to tell the JavaScript what to do with the button, and the second, `data-target` tells which element to toggle. In the example below, three `<spans>` with a class of `.icon-bar` create what I like to call the hamburger button. This will toggle the elements that are in the `.nav-collapse` `<div>`. For this to work, the _bootstrap-responsive.css_, and either the _collapse.js_ or the full _bootrap.js_ files must be included for this feature to work.
 
 .Responsive Navbar
 image::images/boot_0325.png[]
@@ -674,7 +680,7 @@ image::images/boot_0326.png[]
 
 === Breadcrumbs
 
-Breadcrumbs are a great way to show hierarchy based information for a site. In the case of blogs, it could show the dates of publishing, categories or tags, or for a full CMS, any type of information. A breadcrumb in Bootstrap is simply an unordered list with a class of `.breadcrumb`. There is a also a helper class of `.divider` that mutes the colors and makes the text a little smaller too. You could use forward slashes, arrows, or any divided that you choose. Note that the divider here in the breadcrumbs has slightly differnt markup the the navbar example.
+Breadcrumbs are a great way to show hierarchy based information for a site. In the case of blogs, it could show the dates of publishing, categories or tags. A breadcrumb in Bootstrap is simply an unordered list with a class of `.breadcrumb`. There is a also a helper class of `.divider` that mutes the colors and makes the text a little smaller too. You could use forward slashes, arrows, or any divided that you choose. Note that the divider here in the breadcrumbs has slightly differnt markup the the navbar example.
 
 .Breadcrumb Example
 image::images/boot_0327.png[]
@@ -705,7 +711,7 @@ image::images/boot_0327.png[]
 
 === Pagination
 
-Bootstrap handles pagination like a lot of interface elements, an unordered list, with wrapper `<div>` that has a specific class that identifies the element. In the basic form, adding `.pagination` do the parent `<div>` creates a row of bordered links. Each of the list items can be additionaly styled by using the `.disabled` or `.active` class.
+Bootstrap handles pagination like a lot of other interface elements, an unordered list with wrapper a `<div>` that has a specific class that identifies the element. In the basic form, adding `.pagination` do the parent `<div>` creates a row of bordered links. Each of the list items can be additionaly styled by using the `.disabled` or `.active` class.
 
 .Basic Pagination Example
 image::images/boot_0328.png[]
@@ -715,12 +721,13 @@ image::images/boot_0328.png[]
 ----
 <div class="pagination">
   <ul>
-    <li><a href="#">Prev</a></li>
+    <li><a href="#">&laquo;</a></li>
     <li><a href="#">1</a></li>
     <li><a href="#">2</a></li>
     <li><a href="#">3</a></li>
     <li><a href="#">4</a></li>
-    <li><a href="#">Next</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
   </ul>
 </div>
 ----
@@ -745,7 +752,7 @@ image::images/boot_0329.png[]
 </div>
 ----
 
-In addition to the `.active` and `.disabled` classes for list items, you can also add `.pagination-centerd` to the parent `<div>`. This will center the contents of the div. If you want the items right aligned in the `<div>` add  `.pagination-right`. For sizing, in addition to the normal size, there are three other sizes, applied by adding a class to the wrapper `<div>`. They are: `.pagination-large`, `pagination-small` and `pagination-mini`.
+In addition to the `.active` and `.disabled` classes for list items, you can also add `.pagination-centerd` to the parent `<div>`. This will center the contents of the `<div>`. If you want the items right aligned in the `<div>` add  `.pagination-right`. For sizing, in addition to the normal size, there are three other sizes, applied by adding a class to the wrapper `<div>`. They are: `.pagination-large`, `pagination-small` and `pagination-mini`.
 
 .Pagination Sizes
 image::images/boot_0330.png[]
@@ -791,7 +798,7 @@ image::images/boot_0331.png[]
 </ul>
 ----
 
-To left/right align the different links, you just need to add the `.previous` and `.next` class to the list-items. Also, like `.pagination` above, you can add the disabled class for a muted look.
+To left/right align the different links, you just need to add the `.previous` and `.next` class to the list-items. Also, like `.pagination` in Figure 3-30, you can add the disabled class for a muted look.
 
 .Aligned Page Links
 image::images/boot_0332.png[]
@@ -809,9 +816,9 @@ image::images/boot_0332.png[]
 </ul>
 ----
 
-=== Labels and Badges
+=== Labels
 
-Labels and Badges are great for offering counts, tips, or other markup for pages. Another one of my favorite little Bootstrap touches.
+Labels are great for offering counts, tips, or other markup for pages. Another one of my favorite little Bootstrap touches.
 
 .Labels
 image::images/boot_0333.png[]
@@ -827,7 +834,7 @@ image::images/boot_0333.png[]
 <span class="label label-inverse">Inverse</span>
 ----
 
-==== Badges
+=== Badges
 
 Badges are similar to labels, the primary difference is that they have more rounded corners. The colors of badges reflect the same classes as labels.
 
@@ -848,7 +855,11 @@ image::images/boot_0334.png[]
 
 === Typographic Elements
 
-In addition to buttons, labels, forms, tables and tabs, Bootstrap has a few more elements for basic page layout. The hero unit is a large, content area that increased the size of headings, and adds a lot of margin for landing page content. To use, simply create a container `<div>` with the class of '.hero-unit'. In addition to a larger `<h1>`, all the `font-weight` is reduced to 200.
+In addition to buttons, labels, forms, tables and tabs, Bootstrap has a few more elements for basic page layout. 
+
+==== Hero Unit
+
+The hero unit is a large, content area that increased the size of headings, and adds a lot of margin for landing page content. To use, simply create a container `<div>` with the class of `.hero-unit`. In addition to a larger `<h1>`, all the `font-weight` is reduced to 200.
 
 .Hero Unit
 image::images/boot_0335.png[]
@@ -857,11 +868,9 @@ image::images/boot_0335.png[]
 [source, html]
 ----
 <div class="hero-unit">
-  <h1>Heading</h1>
-  <p>Tagline</p>
-  <p>
-    <a class="btn btn-primary btn-large">Learn more</a>
-  </p>
+  <h1>Hello, World!</h1>
+  <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <p><a class="btn btn-primary btn-large">Learn more</a></p>
 </div>
 ----
 
@@ -882,7 +891,7 @@ image::images/boot_0336.png[]
 
 === Thumbnails
 
-A lot of sites need a way to layout images in a grid, and Bootstrap has an easy way to do this. At the simplest, you add an `<a>` tag with the class of `.thumbnail` around an image. This adds four pixels of padding, and a grey border. On hover, an animated glow is added around the image.
+A lot of sites need a way to layout images in a grid, and Bootstrap has an easy way to do this. To create a thumbnail, add an `<a>` tag with the class of `.thumbnail` around an image. This adds four pixels of padding, and a grey border. On hover, an animated glow is added around the image.
 
 .Basic Thumbnail
 image::images/boot_0337.png[]
@@ -895,7 +904,7 @@ image::images/boot_0337.png[]
 </a>
 ----
 
-To add more content to the markup, as an example, you could add headings, buttons and more, swap the `<a>` tag that has a class of `.thumbnail` to be a `<div>`. Inside of that `<div>`, you can add anything you need. Since this is a `<div>` we can use the default span based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to left.
+Now that you have your basic thumbnail, you can add headings, buttons, and more; just change the <a> tag that has a class of .thumbnail to a <div>. Inside of that `<div>`, you can add anything you need. Since this is a `<div>` we can use the default span based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to left.
 
 .Extended Thumbnail
 image::images/boot_0338.png[]
@@ -923,11 +932,11 @@ image::images/boot_0338.png[]
 
 === Alerts
 
-Like the modals described in the next chapter, alerts provide a way to style messages to the user. The default alert is created by creating a wrapper `<div>` and adding a class of `.alert`.
+Like the modals described in the next chapter, alerts provide a way to style messages to the user. The default alert is added by creating a wrapper `<div>` and adding a class of `.alert`.
 
 
 .Basic Alert
-image::images/boot_0339.png[]
+image::images/alert.png[]
 
 .Basic Alert Code Example
 [source, html]
@@ -938,7 +947,7 @@ image::images/boot_0339.png[]
 </div>
 ----
 
-The alert uses the alerts jquery plugin that is covered in chapter 4. To close the alert, you can use a button that contains the `data-dismiss="alert"` attribute. Mobile Safari, and Mobile Opera browers require an `href="#"` to close.
+The `.alert` uses the alerts jquery plugin that is covered in chapter 4. To close the alert, you can use a button that contains the `data-dismiss="alert"` attribute. Mobile Safari, and Mobile Opera browers require an `href="#"` to close.
 
 If you have a longer message in your alert, you can use the `.alert-block` class. This provides a little more padding above and below the content contained in the alert, particulary useful for multi page lines of content.
 
@@ -953,9 +962,9 @@ image::images/boot_0341.png[]
 
 === Progress bars
 
-The purpose of progress bars is to show that assets are loading, in progress, or that there is action taking place regarding elements on the page. Personally, I think that these elements are more an excercise in markup, and have little purpose beyond that in the Bootstrap framework. That being said, with thousand of people using Bootstrap, there are likely a few outliers that have a good reason. By nature, these are static elements, and need some sort of JavaScript interaction to provide any interaction.
+The purpose of progress bars is to show that assets are loading, in progress, or that there is action taking place regarding elements on the page. Personally, I think that these elements are more an excercise in markup, and have little purpose beyond that in the Bootstrap framework. That being said, thousands of people using Bootstrap, there are likely a few outliers that have a good reason. By nature, these are static elements, and need some sort of JavaScript method to provide any interaction.
 
-The default progress bar has a light background and a blue progress bar. To create, add a `<div>` with a class of `.progress`. And then inside, add an empty `<div>` with a class of `.bar`. Add a style attribute with the width in percentage. In the case below, I added `style="60%";` to indicate that the progress bar was at 60%.
+The default progress bar has a light gray background and a blue progress bar. To create, add a `<div>` with a class of `.progress`. Inside, add an empty `<div>` with a class of `.bar`. Add a style attribute with the width in percentage. In Figure 3-42, I added `style="60%";` to indicate that the progress bar was at 60%.
 
 
 .Default Progress Bar
@@ -1010,17 +1019,14 @@ image::images/boot_0345.png[]
 </div>
 ----
 
-.Progress Bar Color Examples
-image::images/boot_0346.png[]
-
 === Media Object
 
-When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelines, and you will see the Media Object. Driven by the Bootstrap community, and based on principles from the oocss[http://oocss.org/] community, the goal of the media element is to make the code for developing these blocks of imformation drastically shorter. Nicole Sullivan-Hass shares a few elemement of the media object like this on her site http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/[stubbornella.org]. The media object is designed to literally save hundreds of lines of code, making it easy to customize.
+When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelines, and you will see the Media Object. Driven by the Bootstrap community, and based on principles from the http://oocss.org/[oocss] community, the goal of the media object is to make the code for developing these blocks of imformation drastically shorter. Nicole Sullivan-Hass shares a few elemement of the media object similar to Bootstrap's on her site http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/[stubbornella.org]. The media object is designed to literally save hundreds of lines of code, making it easy to customize.
 
 .Media Object Examples
 image::images/boot_0347.png[]
 
-Bootstrap leaves the design and formatting to you, but provides a simple way to get going. Like a lot of other tools in Bootstrap, the markup is light, and the end goal is reached by applying classes to some simple markup. There are two forms to the media object, the `.media`, and the `.media-list`. If you are preparing a list where the items would be part of an unorderded list, use the `.media-list`. Using just `<div>` elements, use the `.media` object.
+Bootstrap leaves the design and formatting to you, but provides a simple way to get going. Like a lot of other tools in Bootstrap, the markup is light, and the goal of media objects (light markup, easy extendibility) is achieved by applying classes to some simple markup. There are two forms to the media object, the `.media`, and the `.media-list`. If you are preparing a list where the items would be part of an unorderded list, use the `.media-list`. Using just `<div>` elements, use the `.media` object.
 
 .Default Media Object
 image::images/boot_0348.png[]
