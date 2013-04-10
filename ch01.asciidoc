@@ -113,7 +113,7 @@ In particular, the following default styles give special treatment to typography
 
 [NOTE]
 ====
-Remember, if you don't like the colors or want to change a default, this can be done by changing the globals in any of the .less files. To do this, update the _scaffolding.less_ file, or overwrite colors in your own stylesheet you may have on the site.
+Remember, if you don't like the colors or want to change a default, this can be done by changing the globals in any of the _.less_ files. To do this, update the _scaffolding.less_ file or overwrite colors in your own stylesheet you may have on the site.
 ====
 
 // what is the scaffolding .less file, and what is the users stylesheet? is that different than the default stylesheet? -NM
@@ -121,18 +121,19 @@ Remember, if you don't like the colors or want to change a default, this can be 
 
 === Default Grid System
 
-The default Bootstrap grid (see Figure 1-1) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide depending on your viewport. Below 767px viewports, such as the ones, on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide, an offset 20 pixels to the left. An example of the twelve possible columns is in Figure 1-1.
+The default Bootstrap grid (see <<figure1-1>>) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide, depending on your viewport. Below 767px viewports, such as the ones on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide and offset 20 pixels to the left. An example of the twelve possible columns is in Figure 1-1.
 
 // I think this would be a great place for a jsfiddle, showing a resizable frame using the responsive grid that users can resize and see change. Basically, just an embedded responsive frame. Fallback for print, epub, etc, would be an image showing both default grid and responsive grid. -NM
 
-.Default Grid
+[[figure1-1]]
+.Default grid
 image::images/boot_0101.png[]
 
-==== Basic grid HTML
+==== Basic Grid HTML
 
-To create a simple layout, create a container with a `<div>` that has a class of `.row` and add the appropriate amount of `.span*` columns. Since we have 12-column grid, we just need the amount of `.span*` columns to equal twelve. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2... we could go on and on, but I think you get the gist.
+To create a simple layout, create a container with a `<div>` that has a class of `.row` and add the appropriate amount of `.span*` columns. Since we have a 12-column grid, we just need the amount of `.span*` columns to equal twelve. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2... we could go on and on, but I think you get the gist.
 
-The following code shows .span 8 and .span 4 which adds up to 12:
+The following code shows `.span8` and `.span4`, which adds up to 12:
 
 [source, html]
 ----
@@ -152,7 +153,7 @@ The following code shows .span 8 and .span 4 which adds up to 12:
 
 ==== Offsetting Columns
 
-You can move columns to the right using the '.offset*' class. Each class moves the span over that width. So an '.offset2' would move a '.span7' over two columns:
+You can move columns to the right using the '.offset*' class. Each class moves the span over that width. So an '.offset2' would move a '.span7' over two columns (see <<figure1-2>>):
 
 [source, html]
 ----
@@ -162,7 +163,8 @@ You can move columns to the right using the '.offset*' class. Each class moves t
 </div>
 ----
 
-.Offset Grid
+[[figure1-2]]
+.Offset grid
 image::images/boot_0102.png[]
 
 ==== Nesting columns
