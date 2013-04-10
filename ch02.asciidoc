@@ -81,11 +81,10 @@ NOTE: You might be thinking, why not just use the `<b>` or `<i>` tags instead of
 
 ==== Emphasis Classes
 
-Along with `<strong>` and `<em>`, Boootstrap offers a few other classes that can be used to provide emphasis. These could be applied to paragraphs, or spans.
+Along with `<strong>` and `<em>`, Bootstrap offers a few other classes that can be used to provide emphasis (see <<figure2-3>>). These could be applied to paragraphs or spans:
 
 // Do these classes have to be applied at the paragraph level, or can they be applied to spans as well? -NM
 
-.Emphasis Classes
 [source, html]
 --------
 <p class="muted">This content is muted</p>
@@ -96,44 +95,43 @@ Along with `<strong>` and `<em>`, Boootstrap offers a few other classes that can
 <p>This content has <em>emphasis</em>, and can be <strong>bold</strong></p>
 --------
 
-.Emphasis Classes
+[[figure2-3]]
+.Emphasis classes
 image::images/boot_0203.png[]
 
 ===== Abbreviations
 
-The HTML `<abbr>` element provides markup for abbreviations or acronyms, like WWW or HTTP. By marking up abbreviations, you can give useful information to browsers, spell checkers, translation systems or search engines. Bootstrap styles `<abbr>` elements with a light dotted border along the bottom, and reveals the full text on hover (as long as you add that text to the `<abbr>` title attribute).
+The HTML `<abbr>` element provides markup for abbreviations or acronyms, like WWW or HTTP (see <<figure2-4>>). By marking up abbreviations, you can give useful information to browsers, spell checkers, translation systems, or search engines. Bootstrap styles `<abbr>` elements with a light dotted border along the bottom and reveals the full text on hover (as long as you add that text to the `<abbr>` title attribute):
 
-
-.Abbreviation Example
 [source, html]
 --------
 <abbr title="Real Simple Syndication">RSS</abbr>
 --------
 
-.Abbreviation Example
+[[figure2-4]]
+.Abbreviation example
 image::images/boot_0204.png[]
 
-Add `.initialism` to an `<abbr>` for a slightly smaller font size.
+Add `.initialism` to an `<abbr>` for a slightly smaller font size (see <<figure2-5>>):
 
-.Abbreviation Example
 [source, html]
 --------
 <abbr title="Real Simple Syndication">RSS</abbr>
 --------
 
-.Abbreviation Example
+[[figure2-5]]
+.Another abbreviation example
 image::images/boot_0205.png[]
 
 
 ===== Addresses
 
-Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text. It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br>` tags to add line breaks to the enclosed address text (for example, to split the street address and city onto separate lines).
+Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text (see <<figure2-6>>). It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br>` tags to add line breaks to the enclosed address text (e.g., to split the street address and city onto separate lines):
 
 // I added the / to the br tags here to make it valid xhtml, but you can ditch them if you dont want them there. Also added a little extra to the end of the paragraph. -NM
 // I'm going to stick with the <br>. I normally write them the other way, but to stick to the spec, it would be this way.
 // http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-br-element
 
-.Address markup
 [source, html]
 --------
 <address>
@@ -149,6 +147,7 @@ Adding `<address>` elements to your page can help screen readers and search engi
 </address>
 --------
 
+[[figure2-6]]
 .Address tag
 image::images/boot_0206.png[]
 
