@@ -154,15 +154,11 @@ image::images/boot_0206.png[]
 
 ===== Blockquotes
 
-To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text, and adds a thick grey border along the left side. To identify the source of the quote, add the `<small>` tag, add the source's name wrapped in a `<cite>` tag. When you put it all together, you get something that looks like Figure 2-7:
+To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text and adds a thick gray border along the left side. To identify the source of the quote, add the `<small>` tag, then add the source's name wrapped in a `<cite>` tag before closing the `</small>` tag. When you put it all together, you get something that looks like <<figure2-7>>:
 
 // Do they have to use the small tag for the source, or is that just a stylistic suggestion? -NM
 // It is a stylistic suggestion. There is some CSS that supports it. -JS
 
-.Basic blockquote
-image::images/boot_0207.png[]
-
-.Blockquote Markup
 [source, html]
 --------
 <blockquote>
@@ -170,6 +166,10 @@ image::images/boot_0207.png[]
 	<small>Developer of RSS, <cite title="Source Title">Dave Winer</cite></small>
 </blockquote>
 --------
+
+[[figure2-7]]
+.Basic blockquote
+image::images/boot_0207.png[]
 
 .Heads Up!
 NOTE: If you want a `<blockquote>` with content that is right aligned, add `.pull-right` to the tag. In addition to the right-aligned text, the entire `blockquote` is floated to the right. This creates nice pull-quotes in your content.
