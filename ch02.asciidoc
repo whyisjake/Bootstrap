@@ -1,6 +1,6 @@
 == Bootstrap CSS
 
-At the core of Bootstrap are a set of basic HTML elements that have been styled in such a way that allow for easy enhancement via classes and user styles.
+At the core of Bootstrap is a set of basic HTML elements that have been styled to allow for easy enhancement via classes and user styles.
 
 // tidied up some of the phrasing throughout this chap. -NM
 
@@ -8,18 +8,18 @@ At the core of Bootstrap are a set of basic HTML elements that have been styled 
 
 === Typography
 
-Starting with Typography, with the default font stack, Bootstrap uses Helvetica Neue, Helvetica, Arial, and sans-serif. These are all standard fonts, and included as defaults on all major computers. If by chance these fonts don't exist, they fall back to `sans-serif`, the catch all to tell the browser to use the default font for the browser. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.
+Starting with typography, Bootstrap uses Helvetica Neue, Helvetica, Arial, and sans-serif in its default font stack. These are all standard fonts and are included as defaults on all major computers. If by chance these fonts don't exist, they fall back to `sans-serif` (the catchall) to tell the browser to use the default font for the browser. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.
 
 //RE: the base font families, maybe just add a few words or a sentence about how these are just standard web/system fonts, and not special font files that live in bootstrap or anything...unless they are... -NM
 // Good point, added another line. -JS
 
 ==== Headings
 
-.Headings
-image::images/boot_0201.png[]
-
 All six standard heading levels have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height (for reference, body text is 14 pixels in height by default). In addition, to add an inline sub-heading to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color.
 In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight (i.e., not bold), and gray instead of black.
+
+.Headings
+image::images/boot_0201.png[]
 
 // Bit weird to call this "adding emphasis"--I usually think of emphasis as bolder or italic or bigger, but not smaller and lighter. Is there another way to describe this effect? -NM
 // I'm now calling it an inline sub-heading. -JS
