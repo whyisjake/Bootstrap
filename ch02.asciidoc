@@ -232,18 +232,18 @@ An ordered list is a list that falls in some sort of sequential order and is pre
 
 <h3>Self-Referential Task List</h3>
 <ol>
-	<li>Turn off the internet.
-	<li>Write the book</li>
+	<li>Turn off the internet.</li>
+	<li>Write the book.</li>
 	<li>... Profit?</li>
 </ol>
 
 --------
 
 [[figure2-10]]
-.Ordered list example
+.Ordered list
 image::images/boot_0210.png[]
 
-===== Definition List
+===== Definition list
 
 The third type of list you get with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having a block level `<li>` element, each list item can consist of both the `<dt>` and the `<dd>` elements. `<dt>` stands for "definition term," and like a dictionary, this is the term (or phrase) that is being defined. Subsequently, the `<dd>` is the definition of the `<dt>`.
 
