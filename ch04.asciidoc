@@ -75,13 +75,11 @@ The transition plugin provides simple transition effects. A few examples include
 
 === Modal
 
-A modal is a child window that is layered over its parent window. Typically, the purpose is to display content from a separate source that can have some interaction without leaving the parent window. They can provide information, interaction, or more. I have used that as a window for holding slideshows and login/registration information. The Modal plug-ins is probably one of my favorite Bootstrap features.
+A modal is a child window that is layered over its parent window. Typically, the purpose is to display content from a separate source that can have some interaction without leaving the parent window. Child windows can provide information, interaction, or more. I use them as a window for holding slideshows and login/registration information. The modal plug-in is probably one of my favorite Bootstrap features.
 
-To create a static example, use the code below.
+To create a static example, use the code in <<example_static_modal>> (and see <<figure4_1>>.
 
-.Static Modal Window
-image::images/boot_0401.png[]
-
+[[example_static_modal]]
 .Static Modal Window Code Example
 [source, html]
 ----
@@ -99,6 +97,10 @@ image::images/boot_0401.png[]
 	</div>
 </div>
 ----
+
+[[figure4_1]]
+.Static Modal Window
+image::images/boot_0401.png[]
 
 To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you will see that in the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you to create multiple modals on the page, and then have different triggers for each of them. Now, to be clear, you don't load multiple modals at the same time, but can create many on the page to be loaded at different times.
 
