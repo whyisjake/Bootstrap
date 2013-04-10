@@ -259,7 +259,8 @@ A lot of times in markup, you will see people using headings inside an unordered
 	<dt>LED</dt>
 	<dd>A light-emitting diode (LED) is a semiconductor light source.</dd>
 	<dt>Servo</dt>
-	<dd>Servos are small, cheap, mass-produced actuators used for radio control and small robotics.</dd>
+	<dd>Servos are small, cheap, mass-produced actuators used for radio
+    control and small robotics.</dd>
 </dl>
 --------
 
@@ -267,9 +268,10 @@ A lot of times in markup, you will see people using headings inside an unordered
 .Definition list
 image::images/boot_0211.png[]
 
-To change the `<dl>` to a horizontal layout, with the `<dt>` on the left side, and the `<dd>` on the right, simply add `class="dl-horizontal"` to the opening tag.
+To change the `<dl>` to a horizontal layout, with the `<dt>` on the left side and the `<dd>` on the right, simply add `class="dl-horizontal"` to the opening tag (see <<figure2-12>>).
 
-.Horizontal Definition List Example
+[[figure2-12]]
+.Horizontal definition list
 image::images/boot_0212.png[]
 
 .Heads Up!
