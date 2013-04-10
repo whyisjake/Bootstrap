@@ -187,15 +187,16 @@ image::images/boot_0208.png[]
 
 ==== Lists
 
-Bootstrap offers support and styling for the three main list types that HTML offers: ordered, unordered, and definition lists. An unordered list is a list that doesn't have any particular order, and is traditionally styled with bullets.
+Bootstrap offers support and styling for the three main list types that HTML offers: ordered, unordered, and definition lists. An unordered list is a list that doesn't have any particular order and is traditionally styled with bullets.
 
-===== Unordered List
+===== Unordered list
 
-.Unordered List Markup
+If you have an ordered list that you would like to remove the bullets from,  add `class="unstyled"` to the opening `<ul>` tag (see <<figure2-9>>):
+
 [source, html]
 --------
 
-<h3>Favorite Outdoor Actvities</h3>
+<h3>Favorite Outdoor Activities</h3>
 <ul>
 	<li>Backpacking in Yosemite</li>
 	<li>Hiking in Arches
@@ -209,25 +210,23 @@ Bootstrap offers support and styling for the three main list types that HTML off
 
 --------
 
-.Unordered List Example
+[[figure2-9]]
+.Unordered list
 image::images/outdoor.png[]
-
-If you have an ordered list that you would like to remove the bullets from,  add `class="unstyled"` to the opening `<ul>` tag.
 
 [NOTE]
 =====================================================================
-Personally, I hold a strong aversion to using the `<br>` tag, and when I want a single spaced line break, I place each line in an unstyled unordered list. As an example, you might want a condensed address box, like the illustration above in Figure 2-6, you could have each line as a `<li>`. In my mind, this is the more semantic way to markup the text.
+Personally, I hold a strong aversion to using the `<br>` tag. When I want a single-spaced line break, I place each line in an unstyled, unordered list. For example, if you want a condensed address box, like in <<figure2-6>>, you could code each line as `<li>`. In my mind, this is a more semantic way to mark up the text.
 =====================================================================
 
 // it seemed like this para belonged in the unordered list section, so i moved it. I also split it, since it seemed like there were two different thoughts there. Also it seems like you're still working out the second thought (which I tagged as a note, because it felt like it was going to be a note to me, but feel free to change). -NM
 
 // Thanks. -JS
 
-===== Ordered List
+===== Ordered list
 
-An ordered list is a list that falls in some sort of sequential order, and is prefaced by numbers rather then bullets. This is handy when you want to build a list of numbered items, like a task list, guide items, or even a list of comments on a blog post.
+An ordered list is a list that falls in some sort of sequential order and is prefaced by numbers rather than bullets (see <<figure2-10>>). This is handy when you want to build a list of numbered items like a task list, guide items, or even a list of comments on a blog post:
 
-.Ordered List Markup
 [source, html]
 --------
 
@@ -240,6 +239,7 @@ An ordered list is a list that falls in some sort of sequential order, and is pr
 
 --------
 
+[[figure2-10]]
 .Ordered list example
 image::images/boot_0210.png[]
 
