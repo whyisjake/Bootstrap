@@ -35,6 +35,10 @@ There are a few different ways to use LESS with Bootstrap (<<figure5_2>>). The f
 .Using Bootstrap with LESS
 image::images/boot_0502.png[]
 
+[[fig5_3]]
+.CodeKit and the Bootstrap code base
+image::images/boot_0503.png[]
+
 LESS is a dynamic stylesheet language for writing CSS. It allows you to write variables, functions, and mixins for your CSS. The Bootstrap _/less/_ folder has a few files, but for setting globals, check the _variables.less_ and _mixins.less_ files.
 
 In the _variables.less_ file, you will find all of the global variables for Bootstrap. Let's say you wanted to change the color of all of the links. You would simply update LESS to compile the CSS, and all of the links would change color.
@@ -58,10 +62,6 @@ In the beginning, I was really hesitant to use LESS. After all, I have been writ
 // Is there a LESS book that O'Reilly publishes?
 // I might know someone to write one... Want to include something like the following line:
 // This book doesn't mean to be the exclusive look at using LESS, for that checkout #### book by ####, which is a great resource for learning more about LESS.
-
-[[fig5_3]]
-.CodeKit and the Bootstrap code base
-image::images/boot_0503.png[]
 
 ==== Text Snippets
 
