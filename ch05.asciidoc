@@ -102,7 +102,7 @@ If you have a vanilla installation of Bootstrap, but want to add a bit of panach
 
 === Built with Bootstrap
 
-If you are looking for even more inspiration, check out http://builtwithbootstrap.com/[Built With Bootstrap], a Tumblr that features screen grabs of user-submitted Bootstrap sites. Fun way to see the varying ways that people are using Bootstrap.
+If you are looking for even more inspiration, check out http://builtwithbootstrap.com/[Built With Bootstrap], a Tumblr that features screen grabs of user-submitted Bootstrap sites. It is a fun way to see the sites using Bootstrap.
 
 === Conclusion
 
