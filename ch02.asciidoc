@@ -448,15 +448,13 @@ Add `.form-search` to the `<form>` tag, and then add `.search-query` to the `<in
 .Search form
 image::images/boot_0220.png[]
 
-===== Inline Form
+===== Inline form
 
-To create a form where all of the elements are inline, and labels are along side, add the class `.form-inline` to the `<form>` tag. To have the label and the input on the same line, use the inline form below.
+To create a form where all of the elements are inline and labels are alongside, add the class `.form-inline` to the `<form>` tag (see <<figure2-21>>). To have the label and the input on the same line, use this inline form code:
 
 // So, does this make just each input and its label inline, or are all the form elements in one long line? -NM
 // All of the labels and inputs are in one line. I thine the screenshot shows the difference between this and the horizontal.
 
-
-.Inline Form Code
 [source, html]
 ----
 <form class="form-inline">
@@ -469,24 +467,25 @@ To create a form where all of the elements are inline, and labels are along side
 </form>
 ----
 
-.Inline Form Example
+[[figure2-21]]
+.Inline form
 image::images/boot_0221.png[]
 
-===== Horizontal Form
+===== Horizontal form
 
-Bootstrap also comes with a pre-baked horizontal form; this one stands apart from the others not only in the amount of markup, but also in the presentation of the form. Traditionally you'd use a table to get a form layout like this, but Bootstrap manages to do it without. Even better, if you're using the responsive CSS, the horizontal form will automatically adapt to smaller layouts by stacking the controls vertically.
+Bootstrap also comes with a prebaked horizontal form; this one stands apart from the others not only in the amount of markup, but also in the presentation of the form. Traditionally you'd use a table to get a form layout like the one shown in <<figure2-22>>, but Bootstrap manages to do it without using tables. Even better, if you're using the responsive CSS, the horizontal form will automatically adapt to smaller layouts by stacking the controls vertically.
 
 To create a form that uses the horizontal layout, do the following:
 
-* Add a class of `form-horizontal` to the parent `<form>` element
-* Wrap labels and controls in a `<div>` with class `control-group`
-* Add a class of `control-label` to the labels
-* Wrap any associated controls in a `<div>` with class `controls` for proper alignment
+* Add a class of `.form-horizontal` to the parent `<form>` element.
+* Wrap labels and controls in a `<div>` with class `.control-group`.
+* Add a class of `.control-label` to the labels.
+* Wrap any associated controls in a `<div>` with class `.controls` for proper alignment.
 
-.Horizontal Form Example
+[[figure2-22]]
+.Horizontal form
 image::images/boot_0222.png[]
 
-.Horizontal Form Code
 [source, html]
 ----
 <form class="form-horizontal">
@@ -515,7 +514,7 @@ image::images/boot_0222.png[]
 
 ==== Supported Form Controls
 
-Bootstrap natively supports the most common form controls. Chief among them, `input`, `textarea`, `checkbox` and `radio`, and `select`.
+Bootstrap natively supports the most common form controls. Chief among them, `input`, `textarea`, `checkbox`, `radio`, and `select`.
 
 ===== Inputs
 
