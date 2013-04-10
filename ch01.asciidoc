@@ -167,9 +167,9 @@ You can move columns to the right using the '.offset*' class. Each class moves t
 .Offset grid
 image::images/boot_0102.png[]
 
-==== Nesting columns
+==== Nesting Columns
 
-To nest your content with the default grid, inside of a `.span*`, simply add a new `.row` with enough `.span*` that equals the number of spans of the parent container.
+To nest your content with the default grid, inside of a `.span*`, simply add a new `.row` with enough `.span*` that it equals the number of spans of the parent container (see <<figure1-3>>):
 
 // Could be a good place for a challenge/solution. "Given a parent span9, what values could you use in the child row?". Prepopulate the box with everything but the child span*'s, and then the pop-out solution would show the following code. -NM
 
@@ -239,6 +239,7 @@ To nest your content with the default grid, inside of a `.span*`, simply add a n
 </div>
 ----
 
+[[figure1-3]]
 .Nesting grid
 image::images/boot_0103.png[]
 
