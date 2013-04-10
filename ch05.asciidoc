@@ -67,7 +67,7 @@ In the beginning, I was really hesitant to use LESS. After all, I have been writ
 
 To rapidly develop Bootstrap sites, I like to use http://www.sublimetext.com/2[Sublime Text 2] and the Bootstrap snippets from https://github.com/devtellect[DEVtellect] on https://github.com/devtellect/sublime-twitter-bootstrap-snippets/[GitHub]. This makes adding any component as easy as adding a keyboard shortcut.
 
-To install the snippets (shown in <<figure5_4>>), clone the git repository into your packages folder.
+To install the snippets (shown in <<figure5_4>>), clone the git repository into your packages folder:
 
 [source, bash]
 ----
@@ -78,12 +78,14 @@ git clone git@github.com:devtellect/sublime-twitter-bootstrap-snippets.git
 .Bootstrap snippets
 image::images/boot_0504.png[]
 
-There are clippings for lots of popular IDEs/Text Editors.
+There are clippings for lots of popular IDEs/text editors.
 
 ==== Photoshop Templates
 
-In addition to snippets, there have been a few Photoshop documents of all of the Bootstrap markup elements. My favorite comes from http://gui.repixdesign.com/#bootstrap[Repix design]. 
+In addition to snippets, there have been a few Photoshop documents of all of the Bootstrap markup elements. My favorite comes from http://gui.repixdesign.com/#bootstrap[Repix Design]. Their website is shown in <<repix_fig>>. 
 
+[[repix_fig]]
+.Repix Design
 image::images/boot_05in01.png[]
 
 *Features:*
