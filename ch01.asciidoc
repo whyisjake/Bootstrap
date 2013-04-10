@@ -41,11 +41,8 @@ The Bootstrap download includes three folders: css, js, and img. For simplicity,
 
 === Basic HTML Template
 
-Normally, a web project looks something like <<example1-1>>.
+Normally, a web project looks something like this:
 
-[[example1-1]]
-.Basic HTML layout
-====
 [source,html]
 ----
 <!DOCTYPE html>
@@ -58,13 +55,9 @@ Normally, a web project looks something like <<example1-1>>.
 	</body>
 </html>
 ----
-====
 
-With Bootstrap, we include the link to the CSS stylesheet and the JavaScript (<<example1-2>>).
+With Bootstrap, we include the link to the CSS stylesheet and the JavaScript:
 
-[[example1-2]]
-.Basic Bootstrap template
-====
 [source, html]
 ----
 <!DOCTYPE html>
@@ -79,7 +72,6 @@ With Bootstrap, we include the link to the CSS stylesheet and the JavaScript (<<
 	</body>
 </html>
 ----
-====
 
 [NOTE]
 ===============================
@@ -337,14 +329,13 @@ At the core, Bootstrap supports five different layouts, each relying on CSS medi
 |Label				|Layout width 	 	|Column width 	|Gutter width
 |Large display 		|1200px and up 	 	|70px  			|30px
 |Default       		|980px and up  	 	|60px			|20px
-|Portrait Tablets 	|768px and above 	|42px			|20px
+|Portrait Tablets 	|768px and up   	|42px			|20px
 |Phones to Tablets 	|767px and below 2+^|Fluid columns, no fixed widths
 |Phones				|480px and below 2+^|Fluid columns, no fixed widths
 |=====================================================================
 
-To add custom CSS based on the media query, you can either include all rules in one CSS file, via the media queries below, or use entirely different CSS files.
+To add custom CSS based on the media query, you can either include all rules in one CSS file via the media queries below, or use entirely different CSS files:
 
-.CSS media queries in the CSS stylesheet
 [source, css]
 --------------
 /* Large desktop */
@@ -360,16 +351,16 @@ To add custom CSS based on the media query, you can either include all rules in 
 @media (max-width: 480px) { ... }
 --------------
 
-For a larger site, you might want to separate each media query into a seperate CSS file. In the HTML file, you can call them with the link tag in the head of your document. This is useful for keeping file sizes smaller, but does potentially increase the HTTP requests if being responsive. If you are using LESS to compile the CSS, you can have them all processed into one file.
+For a larger site, you might want to divide each media query into a seperate CSS file. In the HTML file, you can call them with the `<link>` tag in the head of your document. This is useful for keeping file sizes smaller, but it does potentially increase the HTTP requests if the site is responsive. If you are using LESS to compile the CSS, you can have them all processed into one file:
 
 // maybe just spell out that last sentence a bit more, like "this means the server has to serve more files, which could make the response time slower" or something. -NM
 
-.CSS media queries via the link tag in the HTML <head>
 [source, html]
 ----
 <link rel="stylesheet" href="base.css" />
 <link rel="stylesheet" media="(min-width:1200px)" href="large.css" />
-<link rel="stylesheet" media="(min-width:768px) and (max-width: 979px)" href="tablet.css" />
+<link rel="stylesheet" media="(min-width:768px) and (max-width: 979px)"
+      href="tablet.css" />
 <link rel="stylesheet" media="(max-width: 767px)" href="tablet.css" />
 <link rel="stylesheet" media="(max-width: 480px)" href="phone.css" />
 ----
