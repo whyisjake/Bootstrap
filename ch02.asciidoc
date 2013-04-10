@@ -179,9 +179,9 @@ To add blocks of quoted text to your document--or for any quotation that you wan
 image::images/boot_0207.png[]
 
 .Heads Up!
-NOTE: If you want a `<blockquote>` with content that is right aligned, add `.pull-right` to the tag. In addition to the right-aligned text, the entire `blockquote` is floated to the right. This creates nice pull-quotes in your content.
+NOTE: If you want a `<blockquote>` with content that is right aligned, add `.pull-right` to the tag. In addition to the right-aligned text, the entire `blockquote` is floated to the right. This creates nice pull-quotes in your content, as shown in <<figure2-8>>.
 
-
+[[figure2-8]]
 .Pull right blockquote
 image::images/boot_0208.png[]
 
