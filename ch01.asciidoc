@@ -64,9 +64,9 @@ With Bootstrap, we include the link to the CSS stylesheet and the JavaScript (<<
 
 [[example1-2]]
 .Basic Bootstrap template
+====
 [source, html]
-=============
---------------
+----
 <!DOCTYPE html>
 <html>
 	<head>
@@ -78,8 +78,8 @@ With Bootstrap, we include the link to the CSS stylesheet and the JavaScript (<<
 		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
---------------
-=============
+----
+====
 
 [NOTE]
 ===============================
