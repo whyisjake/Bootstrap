@@ -29,11 +29,11 @@ Generally, it is best to include all JavaScript calls into a check that ensures 
 ----
 $(document).ready(function(){
 	alert('Page has loaded');
-	// Once the page has loaded, and is ready, an alert will fire.
+	// Once the page has loaded and is ready, an alert will fire.
 });
 ----
 
-Like I mentioned above, Bootstrap has a data API where you can write data attributes into the HTML of the page. If you need to turn off the data API, you can unbind the attributes by adding this line of JavaScript.
+As mentioned above, Bootstrap has a data API where you can write data attributes into the HTML of the page. If you need to turn off the data API, you can unbind the attributes by adding this line of JavaScript.
 
 .Disable Bootstrap JavaScript Data API
 [source, js]
