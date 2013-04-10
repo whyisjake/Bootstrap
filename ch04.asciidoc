@@ -220,11 +220,11 @@ $('#myModal').on('hidden', function () {
 
 === Dropdown
 
-The dropdown was covered extensively in chapter 3, but then, the interaction was simply glossed over. As a refresher, dropdowns can be added to the the navbar, pills, tabs and buttons.
+The dropdown was covered extensively in <<bootstrap_layout>>, but the interaction was glossed over. As a refresher, dropdowns can be added to the navbar, pills, tabs, and buttons.
 
 ==== Usage
 
-To use, add use `data-toggle="dropdown"` to a link or button to toggle the dropdown.
+To use a dropdown, add `data-toggle="dropdown"` to a link or button to toggle the dropdown.
 
 .Dropdown Within Navbar
 image::images/boot_0402.png[]
