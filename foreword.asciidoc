@@ -1,4 +1,4 @@
-[au="Dave Winer, auaffil=editor, <emphasis>Scripting News</emphasis>, January 2013, New York, NY"]
+[au="Dave Winer", auaffil="editor, <emphasis>Scripting News</emphasis>, January 2013, New York, NY"]
 [preface]
 
 Foreword
