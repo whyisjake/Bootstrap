@@ -80,7 +80,7 @@ Using Code Examples
 
 The examples in this book are meant to teach basic concepts in small bites. While you may certainly borrow code and reuse it as you see fit, you won't be able to take the code of this book and build a stupendous application instantly (unless perhaps you have an unusual fondness for bacon and cats). You should, however, be able to figure out the steps you need to take to build a great website.
 
-You can download the code from the Examples link on the book's page at link:$$http://shop.oreilly.com/product/0636920027867.do$$[].
+You can download the code from the Examples link on the http://shop.oreilly.com/product/0636920027867.do[book's page].
 
 This book is here to help you get your job done. In general, if this book includes code examples, you may use the code in this book in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
 
@@ -93,9 +93,9 @@ Help This Book Grow
 
 While I hope that you will enjoy reading this book and will learn from it, I also hope that you can contribute to helping other readers learn to use Bootstrap. You can help your fellow readers in a number of ways:
 
-* If you find specific technical problems, bad explanations, or things that can be improved, please report them through the errata system at link:$$http://oreilly.com/catalog/errata.csp?isbn=0636920027867$$[].
+* If you find specific technical problems, bad explanations, or things that can be improved, please report them through the http://oreilly.com/catalog/errata.csp?isbn=0636920027867[errata system].
 
-* If you like (or don't like) the book, please leave reviews. The most visible places to do so are on Amazon.com (or its international sites) and at the O'Reilly page for the book at link:$$http://shop.oreilly.com/product/0636920027867.do$$[]. Detailed explanations of what worked and what didn't work for you (and the broader target audience of programmers new to Bootstrap) are helpful to other readers and to me.
+* If you like (or don't like) the book, please leave reviews. The most visible places to do so are on Amazon.com (or its international sites) and at the http://shop.oreilly.com/product/0636920027867.do[O'Reilly page for the book]. Detailed explanations of what worked and what didn't work for you (and the broader target audience of programmers new to Bootstrap) are helpful to other readers and to me.
 
 * If you find you have much more you want to say about Bootstrap, please consider sharing it, whether on the Web, in a book of your own, in training classes, or in whatever form you find easiest.
 
