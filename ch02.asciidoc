@@ -318,12 +318,8 @@ One of my favorite parts of Bootstrap is the nice way that tables are handled. I
 |======================
 
 
-If you want a nice basic table style with just some light padding and  horizontal dividers only, add the base class of `.table` to any table. The basic layout has a top border on all of the `<td>` elements.
+If you want a nice, basic table style with just some light padding and horizontal dividers, add the base class of `.table` to any table (see <<figure2-13>>). The basic layout has a top border on all of the `<td>` elements:
 
-.Basic Table Class
-image::images/boot_0213.png[]
-
-.Table Base Class Example
 [source, html]
 --------
 <table class="table">
@@ -343,36 +339,44 @@ image::images/boot_0213.png[]
 </table>
 --------
 
+[[figure2-13]]
+.Basic table class
+image::images/boot_0213.png[]
+
 ==== Optional Table Classes
 
-With the base table markup, and adding the `.table` class, there are few additional clases that you can add to style the markup. There are four classes, `.table-striped`, `.table-bordered`, `.table-hover`, and `.table-condensed`.
+Along with the base table markup and the `.table` class, there are a few additional classes that you can use to style the markup. There are four classes: `.table-striped`, `.table-bordered`, `.table-hover`, and `.table-condensed`.
 
-===== Striped Table
+===== Striped table
 
-By adding the `.table-striped` class, you will get stripes on rows within the `<tbody>`. This is done via the CSS `:nth-child` selector which is not available on Internet Explorer 7-8.
+By adding the `.table-striped` class, you will get stripes on rows within the `<tbody>` (see <<figure2-14>>). This is done via the CSS `:nth-child` selector, which is not available on Internet Explorer 7–8.
 
-.Striped Table Class
+[[figure2-14]]
+.Striped table class
 image::images/boot_0214.png[]
 
-===== Bordered Table
+===== Bordered table
 
-If you add the `.table-bordered` class, you will get borders surrounding every element, and rounded corners around the entire table.
+If you add the `.table-bordered` class, you will get borders surrounding every element and rounded corners around the entire table, as shown in <<figure2-15>>.
 
-.Bordered Table Class
+[[figure2-15]]
+.Bordered table class
 image::images/boot_0215.png[]
 
-===== Hover Table
+===== Hover table
 
-If you add the `.table-hover` class, when you hover over a row, a light grey background will be added to rows while the user hovers over them.
+<<figure2-16>> shows the `.table-hover` class. A light gray background will be added to rows while the cursor hovers over them.
 
-.Hover Table Class
+[[figure2-16]]
+.Hover table class
 image::images/boot_0216.png[]
 
-===== Condensed Table
+===== Condensed table
 
-If you add the `.table-condensed` class, padding is cut in half on rows to condense the table. Useful if you want denser information.
+If you add the `.table-condensed` class, as shown in <<figure2-17>>, row padding is cut in half to condense the table. Useful if you want denser information.
 
-.Condensed Table Class
+[[figure2-17]]
+.Condensed table class
 image::images/boot_0217.png[]
 
 
