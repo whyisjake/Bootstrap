@@ -574,7 +574,7 @@ Checkboxes and radio buttons are great when you want users to choose from a list
 .Checkbox and radio buttons
 image::images/boot_0225.png[]
 
-If you want multiple checkboxes to appear on the same line together, add the `.inline` class to a series of checkboxes or radios (see <<figure2-26>>):
+If you want multiple checkboxes to appear on the same line together, add the `.inline` class to a series of checkboxes or radio buttons (see <<figure2-26>>):
 
 [source,html]
 ----
@@ -595,15 +595,11 @@ image::images/inline.png[]
 
 ===== Selects
 
-A select is used when you want to allow the user to pick from multiple options, but by default it only allows one. It’s best to use `<select>` for list options of which the user is familiar such as states or numbers. Use `multiple="multiple"` to allow the user to select more then one option. If you only want the user to choose one option, use `type="radio"`.
+A select is used when you want to allow the user to pick from multiple options, but by default it only allows one (see <<figure2-27>>). It’s best to use `<select>` for list options with which the user is familiar, such as states or numbers. Use `multiple="multiple"` to allow the user to select more than one option. If you only want the user to choose one option, use `type="radio"`:
 
 // Wait...how is this different from radios? -NM
 // Added another line.
 
-.Select Example
-image::images/boot_0227.png[]
-
-.Select Code Example
 [source,html]
 ----
 <select>
@@ -623,20 +619,20 @@ image::images/boot_0227.png[]
 </select>
 ----
 
-==== Extending Form Controls
+[[figure2-27]]
+.Select
+image::images/boot_0227.png[]
+
+==== Extended Form Controls
 
 In addition to the basic form controls listed in the previous section, Bootstrap offers a few other form components to complement the standard HTML form elements; for example, it lets you easily prepend and append content to inputs.
 
-===== Prepended and Appended Inputs
+===== Prepended and appended inputs
 
-By adding prepended and appended content to an input field, you can add common elements to the text users input, like the dollar symbol, the `@` for a Twitter username or anything else that might be common for your application interface. To add extra content before the user input, wrap the prepended input in a `<div>` with class `.input-prepend`. To append input, use the class `.input-append`. Then, within that same `<div>`, place your extra content inside a `<span>` with an `.add-on` class, and place the `<span>` either before or after the `<input>` element.
+By adding prepended and appended content to an input field, you can add common elements to the user's input (see <<figure2-28>>). For example, you can add the dollar symbol, the `@` for a Twitter username, or anything else that might be common for your application interface. To add extra content before the user input, wrap the prepended input in a `<div>` with class `.input-prepend`. To append input, use the class `.input-append`. Then, within that same `<div>`, place your extra content inside a `<span>` with an `.add-on` class, and place the `<span>` either before or after the `<input>` element:
 
 // touched up this paragraph a bit -NM
 
-.Prepend and Append Example
-image::images/boot_0228.png[]
-
-.Prepend and Append Code Example
 [source,html]
 ----
 <div class="input-prepend">
@@ -649,12 +645,12 @@ image::images/boot_0228.png[]
 </div>
 ----
 
-If you combine both of them, you simply need to add both the `.input-prepend` and `.input-append` classes to the parent `<div>`.
+[[figure2-28]]
+.Prepend and append
+image::images/boot_0228.png[]
 
-.Using both the append and prepend
-image::images/boot_0229.png[]
+If you combine both of them, you simply need to add both the `.input-prepend` and `.input-append` classes to the parent `<div>` (see <<figure2-29>>):
 
-.Append and Prepend Code Example
 [source,html]
 ----
 <div class="input-prepend input-append">
@@ -664,12 +660,12 @@ image::images/boot_0229.png[]
 </div>
 ----
 
-Rather then using a `<span>`, you can instead use `<button>` with a class of `.btn` to attach (surprise!) a button or two to the input.
+[[figure2-29]]
+.Using both the append and prepend
+image::images/boot_0229.png[]
 
-.Attach multiple buttons to an input
-image::images/boot_0230.png[]
+Rather than using a `<span>`, you can instead use `<button>` with a class of `.btn` to attach (surprise!) a button or two to the input (see <<figure2-30>>):
 
-.Attach Multiple Buttons Code Example
 [source,html]
 ----
 <div class="input-append">
@@ -679,7 +675,11 @@ image::images/boot_0230.png[]
 </div>
 ----
 
-If you are appending a button to a search form, you will get the same nice rounded corners that you would expect. 
+[[figure2-30]]
+.Attach multiple buttons to an input
+image::images/boot_0230.png[]
+
+If you are appending a button to a search form, you will get the same nice rounded corners that you would expect (see <<figure2-31>>):
 
 [source,html]
 ----
@@ -695,7 +695,8 @@ If you are appending a button to a search form, you will get the same nice round
 </form>
 ----
 
-.Append Button to Search Form
+[[figure2-31]]
+.Append button to search form
 image::images/boot_0231.png[]
 
 ==== Form Control Sizing
