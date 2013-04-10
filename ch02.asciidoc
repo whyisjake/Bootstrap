@@ -518,16 +518,16 @@ Bootstrap natively supports the most common form controls. Chief among them, `in
 
 ===== Inputs
 
-The most common form text field is the input--this is where users will enter most of the essential form data. Bootstrap offers support for all native HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, URL, search, tel, and color.
+The most common form text field is the input--this is where users will enter most of the essential form data (see <<figure2-23>>). Bootstrap offers support for all native HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, URL, search, tel, and color:
 
-.Input Example
-image::images/boot_0223.png[]
-
-.Input Code
 [source, html]
 ----
 <input type="text" placeholder="Text input">
 ----
+
+[[figure2-23]]
+.Input
+image::images/boot_0223.png[]
 
 .Heads Up!
 NOTE: Both `input` and `textarea` default to a nice blue glow when in the `:active` state.
@@ -537,48 +537,45 @@ image::images/boot_02in01.png[]
 
 ===== Textarea
 
-The `textarea` is used when you need multiple lines of input. You'll find you mainly modify the `rows` attribute, changing it to the number of rows that you need to support (fewer rows = smaller box, more rows = bigger box).
+The `textarea` is used when you need multiple lines of input (see <<figure2-24>>). You'll find you mainly modify the `rows` attribute, changing it to the number of rows that you need to support (fewer rows = smaller box, more rows = bigger box):
 
-.Both the `:active`, and the default `textarea`
-image::images/boot_0224.png[]
-
-.Textarea Example
 [source,html]
 ----
 <textarea rows="3"></textarea>
 ----
 
-===== Checkboxes and radios
+[[figure2-24]]
+.Both the `:active` default and the `textarea`
+image::images/boot_0224.png[]
 
-Checkboxes and radio buttons are great for when you want users to be able to choose from a list of preset options. When building a form, use `checkbox` if you want the user to select any number of options from a list, and `radio` if you want to limit them to just one selection.
+===== Checkboxes and radios buttons
 
-.Radio and Checkbox example
-image::images/boot_0225.png[]
+Checkboxes and radio buttons are great when you want users to choose from a list of preset options (see <<figure2-25>>). When building a form, use `checkbox` if you want the user to select any number of options from a list. Use `radio` if you want to limit him to just one selection:
 
-.Radio and Checkbox Code Example
 [source,html]
 ----
 <label class="checkbox">
   <input type="checkbox" value="">
-  Option one is this and that—be sure to include why it's great
+  Option one is this and that—be sure to include why it's great.
 </label>
 
 <label class="radio">
-  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-  Option one is this and that—be sure to include why it's great
+  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" 
+  checked>
+  Option one is this and that—be sure to include why it's great.
 </label>
 <label class="radio">
   <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-  Option two can be something else and selecting it will deselect option one
+  Option two can be something else, and selecting it will deselect option one
 </label>
 ----
 
-.Inline Checkboxes
-image::images/inline.png[]
+[[figure2-25]]
+.Checkbox and radio buttons
+image::images/boot_0225.png[]
 
-If you want multiple checkboxes to appear on the same line together, simply add the `.inline` class to a series of checkboxes or radios.
+If you want multiple checkboxes to appear on the same line together, add the `.inline` class to a series of checkboxes or radios (see <<figure2-26>>):
 
-.Inline checkboxes code example
 [source,html]
 ----
 <label for="option1" class="checkbox inline">
@@ -591,6 +588,10 @@ If you want multiple checkboxes to appear on the same line together, simply add 
   <input id="option3" type="checkbox" id="inlineCheckbox3" value="option3"> 3
 </label>
 ----
+
+[[figure2-26]]
+.Inline checkboxes
+image::images/inline.png[]
 
 ===== Selects
 
