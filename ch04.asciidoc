@@ -299,17 +299,15 @@ image::images/boot_04in01.png[]
 
 ==== Usage
 
-For Scrollspy, you will need to add `data-spy="scroll"` to the `<body>` tag, along with `data-target=".navbar"` that references the element that you are spying on.
+For Scrollspy, you will need to add `data-spy="scroll"` to the `<body>` tag, along with `data-target=".navbar"` that references the element that you are spying on:
 
-.Body Configuration for Scrollspy
 [source, html]
 ----
 <body data-spy="scroll" data-target=".navbar">...</body>
 ----
 
-In the navbar, you will need to have page anchors that will serve as indicators for the element to spy on.
+In the navbar, you will need to have page anchors that will serve as indicators for the element to spy on:
 
-.Navbar Setup for Scrollspy
 [source, html]
 ----
 <div class="navbar">
