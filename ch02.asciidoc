@@ -162,8 +162,15 @@ To add blocks of quoted text to your document--or for any quotation that you wan
 [source, html]
 --------
 <blockquote>
-	<p>That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984.</p>
-	<small>Developer of RSS, <cite title="Source Title">Dave Winer</cite></small>
+	<p>That this is needed, desperately needed, is indicated by the 
+    incredible uptake of Bootstrap. I use it in all the server software
+    I'm working on. And it shows through in the templating language I'm
+    developing, so everyone who uses it will find it's "just there" and
+    works, any time you want to do a Bootstrap technique. Nothing to do,
+    no libraries to include. It's as if it were part of the hardware.
+    Same approach that Apple took with the Mac OS in 1984.</p>
+	<small>Developer of RSS, <cite title="Source Title">Dave Winer</cite>
+    </small>
 </blockquote>
 --------
 
