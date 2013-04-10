@@ -9,8 +9,8 @@ Bootstrap can be included on your site in two forms, either compiled or raw. In 
 Typically, JavaScript lies in a either a separate file or at the bottom of the page before the closing `</body>` tag. You can either use the `src` attribute to link to another file, or you can write the contents of the file between the opening and closing tags.
 
 [[javascript_usage]]
-.JavaScript Usage
 [source, html]
+.JavaScript Usage
 ----
 <!-- To reference another JavaScript file -->
 <script src="assets/js/javaScript.js"></script>
@@ -81,6 +81,7 @@ A modal is a child window that is layered over its parent window. Typically, the
 To create a static example, use the code in <<example_static_modal>> (and see <<figure4_1>>.
 
 [source, html]
+[[example_static_modal]]
 .Static Modal Window Code Example
 ----
 <div class="modal hide fade">
