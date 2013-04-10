@@ -195,9 +195,10 @@ $('#myModal').modal('hide')
 
 ==== Events
 
-Bootstrap provides the following events if you need to hook into the function.
+Bootstrap provides the events listed in <<table_modal_events>> if you need to hook into the function.
 
-.Modal Events
+[[table_modal_events]]
+.Modal events
 [options="header"]
 |=======================
 |Event 	|Description
