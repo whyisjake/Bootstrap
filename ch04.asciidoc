@@ -99,10 +99,10 @@ To create a static example, use the code in <<example_static_modal>> (and see <<
 ----
 
 [[figure4_1]]
-.Static Modal Window
+.Static modal window
 image::images/boot_0401.png[]
 
-To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or an link. If you look in the code below, you will see that in the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. The allows you to create multiple modals on the page, and then have different triggers for each of them. Now, to be clear, you don't load multiple modals at the same time, but can create many on the page to be loaded at different times.
+To invoke the modal window, you need to have some kind of a trigger. Normally I use a button or a link. If you look in the code below, you will see that in the `<a>` tag, the `href="myModal"` is the target of the modal that you want to load on the page. This code allows you to create multiple modals on the page, and then have different triggers for each of them. Now, to be clear, you don't load multiple modals at the same time, but can create many on the page to be loaded at different times.
 
 There are three classes to take note of in the modal. The first is `modal`. This should make sense, but this is identifying the content of the `<div>` as a modal. The second is `.hide`. This tells the browser to hide the content of the `<div>` until we are ready to invoke it. And last, the `.fade` class. When the modal is toggled, it will cause the content to fade in and out.
 
