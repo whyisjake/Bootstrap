@@ -701,25 +701,23 @@ image::images/boot_0231.png[]
 
 ==== Form Control Sizing
 
-With the default grid system that is inherent in Bootstrap, you can use the `.span*` system for sizing form controls. In addition to the span column-sizing method, you can also use a handful of classes that take a relative approach to sizing. If you want the input to act as a block level element, you can add `.input-block-level` and it will be the full width of the container element.
-
-.Block Level Input
-image::images/boot_0232.png[]
+With the default grid system that is inherent in Bootstrap, you can use the `.span*` system for sizing form controls. In addition to the span column-sizing method, you can also use a handful of classes that take a relative approach to sizing. If you want the input to act as a block level element, you can add `.input-block-level` and it will be the full width of the container element, as shown in <<figure2-32>>:
 
 [source,html]
 ----
 <input class="input-block-level" type="text" placeholder=".input-block-level">
 ----
 
+[[figure2-32]]
+.Block level input
+image::images/boot_0232.png[]
+
 // Seems like this section needs to be fleshed out a little bit. -NM
 // Added another line to clear it up a bit. -JS
 
-===== Relative Input Controls
+===== Relative input controls
 
-In addition to using `.span*` for input sizing, you can also use a few different class names. 
-
-.Relative Input Controls
-image::images/boot_02in02.png[]
+In addition to using `.span*` for input sizing, you can also use a few different class names (see <<figure2-33>>):
 
 [source,html]
 ----
@@ -731,15 +729,16 @@ image::images/boot_02in02.png[]
 <input class="input-xxlarge" type="text" placeholder=".input-xxlarge">
 ----
 
+[[figure2-33]]
+.Relative input controls
+image::images/boot_02in02.png[]
+
 .Heads Up!
-NOTE: In future versions of Bootstrap, these input classes will be altered to match the button sizes. For example, `.input-large` will increase the padding and font-size of an input.
+NOTE: In future versions of Bootstrap, these input classes will be altered to match the button sizes. For example, `.input-large` will increase the padding and font size of an input.
 
-===== Grid Sizing
+===== Grid sizing
 
-You can use any `.span` from `.span1` to `.span12` for form control sizing.
-
-.Span Sized Inputs
-image::images/boot_02in03.png[]
+You can use any `.span` from `.span1` to `.span12` for form control sizing (see <<figure2-34>>):
 
 [source,html]
 ----
@@ -757,10 +756,11 @@ image::images/boot_02in03.png[]
 </select>
 ----
 
-If you want to use multiple inputs on a line, simply use the `.controls-row` modifier class to apply the proper spacing. It floats the inputs to collapse the white space, and set the correct margins, and like the `.row` class, it also clears the float.
+[[figure2-34]]
+.Span sized inputs
+image::images/boot_02in03.png[]
 
-.Control Row
-image::images/boot_0233.png[]
+If you want to use multiple inputs on a line, simply use the `.controls-row` modifier class to apply the proper spacing (see <<figure2-35>>). It floats the inputs to collapse the white space; sets the correct margins; and, like the `.row` class, clears the float:
 
 [source,html]
 ----
@@ -773,6 +773,10 @@ image::images/boot_0233.png[]
 </div>
 ...
 ----
+
+[[figure2-35]]
+.Control row
+image::images/boot_0233.png[]
 
 ===== Uneditable Text
 
