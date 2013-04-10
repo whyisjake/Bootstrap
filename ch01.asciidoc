@@ -358,8 +358,8 @@ For a larger site, you might want to divide each media query into a seperate CSS
 [source, html]
 ----
 <link rel="stylesheet" href="base.css" />
-<link rel="stylesheet" media="(min-width:1200px)" href="large.css" />
-<link rel="stylesheet" media="(min-width:768px) and (max-width: 979px)"
+<link rel="stylesheet" media="(min-width: 1200px)" href="large.css" />
+<link rel="stylesheet" media="(min-width: 768px) and (max-width: 979px)"
       href="tablet.css" />
 <link rel="stylesheet" media="(max-width: 767px)" href="tablet.css" />
 <link rel="stylesheet" media="(max-width: 480px)" href="phone.css" />
