@@ -94,7 +94,7 @@ image::images/boot_05in01.png[]
 * Separate layers
 * Vector based
 
-The PSD, is free, but the author requests that you pay with a tweet. Kind a new spin on the free as in free speech mantra of Open Source programming.
+The PSD is free, but the author requests that you pay with a tweet. Kind of a new spin on the free-as-in-free-speech mantra of open source programming.
 
 ==== Themes
 
