@@ -278,11 +278,13 @@ NOTE: Horizontal description lists will truncate terms that are too long to fit 
 
 === Code
 
-There are two different key ways to display code with Bootstrap. The first is the `<code>` tag, and the second is with the `<pre>` tag. Generally, if you are going to be displaying code inline, then you should use the `<code>` tag, but if it needs to be displayed as a standalone block element, or if it has multiple lines, then you should use the `<pre>` tag.
+There are two different key ways to display code with Bootstrap. The first is the `<code>` tag and the second is the `<pre>` tag. Generally, if you are going to be displaying code inline, you should use the `<code>` tag. But if the code needs to be displayed as a stand-alone block element or if it has multiple lines, then you should use the `<pre>` tag:
 
 [source, html]
 --------
-<p>Instead of always using divs, in HTML5, you can use new elements like <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and <code>&lt;footer&gt;</code>. The html should look something like this:</p>
+<p>Instead of always using divs, in HTML5, you can use new elements like 
+<code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and 
+<code>&lt;footer&gt;</code>. The html should look something like this:</p>
 <pre>
   &lt;article&gt;
     &lt;h1&gt;Article Heading&lt;/h1&gt;
@@ -291,7 +293,7 @@ There are two different key ways to display code with Bootstrap. The first is th
 --------
 
 .Heads Up!
-NOTE: Make sure that when you use the `<pre>` and `<code>` tags, you use the unicode variants for the opening and closing tags. `&lt;` and `&gt;`
+WARNING: Make sure that when you use the `<pre>` and `<code>` tags, you use the unicode variants for the opening and closing tags: `&lt;` and `&gt;`.
 
 // Hm I don't think I use the unicode codes for tags inside my code blocks. Is this necessary? What does it do? -NM
 // If you don't use the unicode, the browser will try to use them as normal HTML variants. -JS
@@ -299,8 +301,9 @@ NOTE: Make sure that when you use the `<pre>` and `<code>` tags, you use the uni
 
 === Tables
 
-One of my favorite parts of Bootstrap is the nice way that tables are handled. I do a lot of work looking at and building tables, and the clean layout is great feature that's included in Bootstrap right off the bat. Bootstrap supports the following elements:
+One of my favorite parts of Bootstrap is the nice way that tables are handled. I do a lot of work looking at and building tables, and the clean layout is a great feature that's included in Bootstrap right off the bat. <<table2-1>> lists the various elements supported by Bootstrap.
 
+[[table2-1]]
 .Table elements supported by Bootstrap
 [frame="topbot",options="header"]
 |======================
