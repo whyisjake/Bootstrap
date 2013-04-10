@@ -52,7 +52,7 @@ In the _variables.less_ file, you will find all of the global variables for Boot
 
 Now, all links are changed to a purple color, and buttons and other interface elements that call for @linkColor will be updated throughout your site.
 
-In the beginning, I was really hesitant to use LESS, after all, I have been writing CSS for a long time, and didn't feel the need to change. The nesting alone is such a huge timesaver, I'm really glad to have added it to my workflow. 
+In the beginning, I was really hesitant to use LESS. After all, I have been writing CSS for a long time, and didn't feel the need to change. The nesting alone is such a huge timesaver, I'm really glad to have added it to my workflow. 
 
 
 // Is there a LESS book that O'Reilly publishes?
