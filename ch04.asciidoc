@@ -208,7 +208,7 @@ Bootstrap provides the events listed in <<table_modal_events>> if you need to ho
 |hidden	|Fired when the modal has finished being hidden from the user.
 |=======================
 
-As an example, after the modal is hidden, you could cause an alert to fire.
+As an example, after the modal is hidden, you could cause an alert to fire:
 
 [source, js]
 ----
