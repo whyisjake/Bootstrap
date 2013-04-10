@@ -15,7 +15,7 @@ Starting with typography, Bootstrap uses Helvetica Neue, Helvetica, Arial, and s
 
 ==== Headings
 
-All six standard heading levels have been styled in Bootstrap, with the `<h1>` at 36 pixels high, and the `<h6>` down to 12 pixels in height (for reference, body text is 14 pixels in height by default). See <<figure2-1>>. In addition, to add an inline sub-heading to any of the headings, simply add `<small>` around any of the elements, and you will get smaller text, in a lighter color.
+All six standard heading levels have been styled in Bootstrap, with the `<h1>` at 36 pixels tall, and the `<h6>` down to 12 pixels (for reference, default body text is 14 pixels tall). See <<figure2-1>>. In addition, to add an inline subheading to any of the headings, simply add `<small>` around any of the elements and you will get smaller text in a lighter color.
 In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight (i.e., not bold), and gray instead of black.
 
 [[figure2-1]]
@@ -40,19 +40,25 @@ h1 small {
 // Should all the sections that follow this comment actually be level 4 headings, not level 5? -NM
 // Not sure I follow here... -JS
 
-==== Lead body copy
+==== Lead Body Copy
 
-To add some emphasis to a paragraph, add `class="lead"`. This will give you larger font size, lighter weight, and a taller line height. This is usually used for the first few paragraphs in a section, but can really be used anywhere.
+To add some emphasis to a paragraph, add `class="lead"` (see <<figure2-2>>). This will give you larger font size, lighter weight, and a taller line height. This is generally used for the first few paragraphs in a section, but it can really be used anywhere:
 
 // Added a sentence about historic usage of ledes above. -NM
 
 
 [source, html]
 ----------
-<p class="lead">Bacon ipsum dolor sit amet tri-tip pork loin ball tip frankfurter swine boudin meatloaf shoulder short ribs cow drumstick beef jowl. Meatball chicken sausage tail, kielbasa strip steak turducken venison prosciutto. Chuck filet mignon tri-tip ribeye, flank brisket leberkas. Swine turducken turkey shank, hamburger beef ribs bresaola pastrami venison rump.</p>
+<p class="lead">Bacon ipsum dolor sit amet tri-tip pork loin ball tip frankfurter
+swine boudin meatloaf shoulder short ribs cow drumstick beef jowl.
+Meatball chicken sausage tail, kielbasa strip steak turducken venison prosciutto.
+Chuck filet mignon tri-tip ribeye, flank brisket leberkas. Swine
+turducken turkey shank, hamburger beef ribs bresaola pastrami venison
+rump.</p>
 ----------
 
-.Lead Body Copy Classes
+[[figure2-2]]
+.Lead body copy classes
 image::images/boot_0202.png[]
 
 
