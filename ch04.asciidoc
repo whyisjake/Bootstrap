@@ -127,7 +127,7 @@ There are three classes to take note of in the modal. The first is `.modal`, whi
 </div>
 ----
 
-==== Using Modal through Data Attributes
+==== Usage
 
 Using the Bootstrap JavaScript Data API, you simply need to pass a few data attributes to toggle the slideshow. To start with, set `data-toggle="modal"` on the link or button that you want to use to invoke the modal and then set the `data-target="#foo"` to the ID of the modal that you'd like to use.
 
