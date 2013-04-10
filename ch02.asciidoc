@@ -820,23 +820,25 @@ Bootstrap form controls can have either block or inline text that flows with the
 .Inline help
 image::images/boot_0236.png[]
 
-To add a full width block of content, use the `.help-block` after the `<input>`.
+To add a full width block of content, use the `.help-block` after the `<input>` (see <<figure2-39>>):
 
 [source,html]
 ----
-<input type="text"><span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+<input type="text"><span class="help-block">A longer block of help text that
+breaks onto a new line and may extend beyond one line.</span>
 ----
 
-.Block Help
+[[figure2-39]]
+.Block help
 image::images/boot_0237.png[]
 
 ==== Form Control States
 
-In addition to the `:focus` state, Bootstrap offers styling for disabled inputs, and classes for form validation.
+In addition to the `:focus` state, Bootstrap offers styling for disabled inputs and offers classes for form validation.
 
-===== Input Focus
+===== Input focus
 
-When an input receives `:focus`, that is to say, a user clicks into the input, or tabs into it, the outline of the input is removed, and a `box-shadow` is applied. I remember the firs time that I saw this on Twitter's site, it blew me away, and I had to dig into the code to see how they did it. In WebKit, this accomlished in the following manner:
+When an input receives `:focus` (i.e., a user clicks into the input or tabs onto it), the outline of the input is removed and a `box-shadow` is applied. I remember the first time that I saw this on Twitter's site; it blew me away, and I had to dig into the code to see how they did it. In WebKit, this is accomplished in the following manner:
 
 [source, css]
 ----
@@ -846,39 +848,40 @@ input {
 }
 
 input:focus {
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px 
+                      rgba(82, 168, 236, 0.6);
 }
 ----
 
-The `<input>` has a small inset `box-shadow`, this gives the appearence that the input sits lower then the page. When `:focus` is applied, an 8px light blue border appears. The `webkit-transition` tells the browser to apply the effect in a linera manner over 0.2 seconds. Nice and subtle, a great effect.
+The `<input>` has a small inset `box-shadow`, which gives the appearance that the input sits lower then the page (see <<figure2-40>>). When `:focus` is applied, an 8px light-blue border appears. The `webkit-transition` tells the browser to apply the effect in a linear manner over 0.2 seconds. Nice and subtle; a great effect:
 
-.Focused Input
+[source,html]
+----
+<input class="input-xlarge" id="focusedInput" type="text" 
+              value="This is focused...">
+----
+
+[[figure2-40]]
+.Focused input
 image::images/boot_0238.png[]
 
+===== Disabled input
+
+If you need to disable an input, simply adding the `disabled` attribute will not only disable it; it will also change the styling and the mouse cursor when the cursor hovers over the element (see <<figure2-41>>):
+
 [source,html]
 ----
-<input class="input-xlarge" id="focusedInput" type="text" value="This is focused...">
+<input class="input-xlarge" id="disabledInput" type="text" 
+              placeholder="Disabled input here..." disabled>
 ----
 
-
-===== Disabled Input
-
-If you need to disable an input, simply add the `disabled` attribute to not only disable it, but change the styling, and the mouse cursor when it hover over the element.
-
-.Disabled Input
+[[figure2-41]]
+.Disabled input
 image::images/boot_0239.png[]
 
-[source,html]
-----
-<input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
-----
+===== Validation states
 
-===== Validation States
-
-Bootstrap includes validation styles for error, warning, info, and success messages. To use, simply add the appropriate class to the surrounding `.control-group`.
-
-.Validation Stats
-image::images/boot_0240.png[]
+Bootstrap includes validation styles for error, warning, info, and success messages (see <<figure2-42>>). To use, simply add the appropriate class to the surrounding `.control-group`:
 
 [source,html]
 ----
@@ -905,42 +908,44 @@ image::images/boot_0240.png[]
 </div>
 ----
 
+[[figure2-42]]
+.Validation states
+image::images/boot_0240.png[]
+
 === Buttons
 
-One of my favorite features of Bootstrap is the way that buttons are styled. Dave Winer, inventor of RSS, and big fan of Bootstrap has this to say about it:
+One of my favorite features of Bootstrap is the way that buttons are styled. Dave Winer, inventor of RSS and big fan of Bootstrap, has this to say about it:
 
 [quote, Dave Winer, scripting.com]
 ____
 That this is needed, desperately needed, is indicated by the incredible uptake of Bootstrap. I use it in all the server software I'm working on. And it shows through in the templating language I'm developing, so everyone who uses it will find it's "just there" and works, any time you want to do a Bootstrap technique. Nothing to do, no libraries to include. It's as if it were part of the hardware. Same approach that Apple took with the Mac OS in 1984.
 ____
 
-I like to think that Bootstrap is doing that, unifying the web, and allowing a unified experience of what an interface can look like across the web. With the advent of Bootstrap, you can spot the sites that have taken it up ususally first by the buttons that they use. A grid layout, and many of the other features fade into the background, but buttons, forms and other uniying elements are a key part of Bootstrap. Maybe I'm the only person that does this, but when I come across a site that is using Bootstrap, I want to give a high five to the webmaster at that domain, as they probably "just gets it". I felt the same way a few years ago whenever I saw `wp-content` in the HTML of sites that I visited.
+I like to think that Bootstrap is unifying the Web and allowing a unified experience of what an interface can look like across the Web. With the advent of Bootstrap, you can usually spot the sites that have adopted it by the buttons that they use. A grid layout and many of the other features fade into the background, but buttons, forms, and other unifying elements are a key part of Bootstrap. When I come across a site that is using Bootstrap, I want to give a high five to the webmaster at that domain, since he probably "just gets it." I felt the same way a few years ago whenever I saw `wp-content` in the HTML of sites that I visited.
 
-Now, buttons, and links can all look alike with Bootstrap, anything that is given that class of `btn` will inherit the default look of a grey button with rounded corners. However, you can add color to the buttons by adding extra classes.
+Now, buttons and links can all look alike with Bootstrap. Anything that is given a class of `.btn` will inherit the default look of a gray button with rounded corners. However, you can add color to the buttons by adding extra classes (see <<table2-3>>).
 
-.Button Color Examples
+[[table2-3]]
+.Button color examples
 [options="header"]
 |=======================
 |Buttons                         |Class              |Description
-|image:images/btn.png[]          |`btn`              |Standard gray button with gradient
-|image:images/btn-primary.png[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons
-|image:images/btn-info.png[]     |`btn btn-info`     |Used as an alternative to the default styles
-|image:images/btn-success.png[]  |`btn-success`      |Indicates a successful or positive action
-|image:images/btn-warning.png[]  |`btn btn-warning`  |Indicates caution should be taken with this action
-|image:images/btn-danger.png[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action
-|image:images/btn-inverse.png[]  |`btn btn-inverse`  |Alternate dark gray button, not tied to a semantic action or use
-|image:images/btn-link.png[]     |`btn btn-link`     |Deemphasize a button by making it look like a link while maintaining button behavior
+|image:images/btn.png[]          |`btn`              |Standard gray button with gradient.
+|image:images/btn-primary.png[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons.
+|image:images/btn-info.png[]     |`btn btn-info`     |Used as an alternative to the default styles.
+|image:images/btn-success.png[]  |`btn-success`      |Indicates a successful or positive action.
+|image:images/btn-warning.png[]  |`btn btn-warning`  |Indicates caution should be taken with this action.
+|image:images/btn-danger.png[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action.
+|image:images/btn-inverse.png[]  |`btn btn-inverse`  |Alternate dark-gray button, not tied to a semantic action or use.
+|image:images/btn-link.png[]     |`btn btn-link`     |De-emphasizes a button by making it look like a link while maintaining button behavior.
 |=======================
 
 .Heads Up!
-NOTE: There are issues with buttons not appearing in Internet Explorer 9 because it doesn't crop background gradients on rounded corners. Also, Internet Exporer doesn't work well with disabled button elements. The rendered text is gray with a nasty text-shadow that hasn't been fixed.
+WARNING: There are issues with buttons not appearing in Internet Explorer 9 because it doesn't crop background gradients on rounded corners. Also, Internet Explorer doesn't work well with disabled button elements. The rendered text is gray with a nasty text-shadow that hasn't been fixed.
 
 ==== Button Sizes
 
-If you need larger or smaller buttons, simply add `.btn-large`, `.btn-small`, or `.btn-mini` to links or buttons.
-
-.Different Button Sizes
-image::images/boot_0241.png[]
+If you need larger or smaller buttons, simply add `.btn-large`, `.btn-small`, or `.btn-mini` to links or buttons (see <<figure2-43>>):
 
 [source,html]
 ----
@@ -962,26 +967,26 @@ image::images/boot_0241.png[]
 </p>
 ----
 
-If you want to create buttons that display like a block level element, simply add the `btn-block` class. These buttons will display at 100% width.
+[[figure2-43]]
+.Different button sizes
+image::images/boot_0241.png[]
 
-.Block Level Button
-image::images/boot_0242.png[]
+If you want to create buttons that display like a block level element, simply add the `.btn-block` class (see <<figure2-44>>). These buttons will display at 100% width:
 
 [source,html]
 ----
-<button class="btn btn-large btn-block btn-primary" type="button">Block level button</button>
+<button class="btn btn-large btn-block btn-primary" type="button">Block 
+level button</button>
 <button class="btn btn-large btn-block" type="button">Block level button</button>
 ----
 
+[[figure2-44]]
+.Block level button
+image::images/boot_0242.png[]
+
 ==== Disabled Button Styling
 
-For anchor elements, simply add the class of `.disabled` to the tag, and the link will fade back in color, and will lose the gradient.
-
-.Heads Up!
-NOTE: The `.disabled` class is being used much like the `.active` class. So, no `.btn` prefix, and remember, this is only for looks, to truly disable the link, you will want to use some JavaScript to really disable the link.
-
-.Disabled Link
-image::images/boot_0243.png[]
+For anchor elements, simply add the class of `.disabled` to the tag and the link will fade in color, and lose the gradient (see <<figure2-45>>):
 
 [source,html]
 ----
@@ -989,23 +994,31 @@ image::images/boot_0243.png[]
 <a href="#" class="btn btn-large disabled">Link</a>
 ----
 
-For a button, simply add the `disabled` attribute to the button. This will actually disable the button, so JavaScript is not directly needed.
+[[figure2-45]]
+.Disabled link
+image::images/boot_0243.png[]
 
-.Disabled Button
-image::images/boot_0244.png[]
+[NOTE]
+=====================================================================
+The `.disabled` class is being used much like the `.active` class. So, there's no `.btn` prefix, and remember, this is only for looks. You will need to use some JavaScript to actually disable the link.
+
+=====================================================================
+
+For a button, simply add the `disabled` attribute to the button (see <<figure2-46>>). This will actually disable the button, so JavaScript is not directly needed:
 
 [source,html]
 ----
-<button type="button" class="btn btn-large btn-primary disabled" disabled="disabled">Primary button</button>
+<button type="button" class="btn btn-large btn-primary disabled"
+disabled="disabled">Primary button</button>
 <button type="button" class="btn btn-large" disabled>Button</button>
 ----
+[[figure2-46]]
+.Disabled button
+image::images/boot_0244.png[]
 
 === Images
 
-Images have three classes to apply some simple styles. They are `.img-rounded` that adds `border-radius:6px` to give the image rounded corners, `.img-circle` that adds makes the entire image a circle by adding `border-radius:500px` making the image round, and lastly, `ing-polaroid`, that adds a bit of padding and a grey border.
-
-.Images
-image::images/boot_0245.png[]
+Images have three classes (see <<figure2-47>>) that can be used to apply some simple styles: `.img-rounded` adds `border-radius:6px` to give the image rounded corners, `.img-circle` makes the entire image round by adding `border-radius:500px`, and `.img-polaroid` adds a bit of padding and a gray border:
 
 [source,html]
 ----
@@ -1014,32 +1027,37 @@ image::images/boot_0245.png[]
 <img src="..." class="img-polaroid">
 ----
 
+[[figure2-47]]
+.Images
+image::images/boot_0245.png[]
+
 === Icons
 
-Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and and form fields. The icons are provided by http://glyphicons.com/[Glyphicons].
+Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and form fields. The icons are provided by http://glyphicons.com/[GLYPHICONS] (see <<figure2-48>>).
 
-.Iconcs by Glyphicons
+[[figure2-48]]
+.Icons by GLYPHICONS
 image::images/boot_02in04.png[]
 
-==== Glyphicon Attribution
+==== GLYPHICONS Attribution
 
-Users of Bootstrap are fortunate to use the Glyphicons free of use on Bootstrap projects. The developers have asked that you use a link back to Glyphicons when practical.
+Users of Bootstrap are fortunate to use the GLYPHICONS for free on Bootstrap projects. The developers have asked that you use a link back to GLYPHICONS when practical.
 
 [quote, Bootstrap Documentation, http://getbootstrap.com]
 ____
-Glyphicons Halflings are normally not available for free, but an arrangement between Bootstrap and the Glyphicons creators have made this possible at no cost to you as developers. As a thank you, we ask you to include an optional link back to Glyphicons whenever practical.
+GLYPHICONS Halflings are normally not available for free, but an arrangement between Bootstrap and the GLYPHICONS creators have made this possible at no cost to you as developers. As a thank you, we ask you to include an optional link back to GLYPHICONS whenever practical.
 ____
 
 ==== Usage
 
-To use the icons, simply use an `<i>` tag with the namespaced `.icon-` class. For example, if you wanted to use the edit icon, you would simply add the `.icon-edit` class to the `<i>` tag.
+To use the icons, simply use an `<i>` tag with the namespaced `.icon-` class. For example, if you wante to use the edit icon, you add the `.icon-edit` class to the `<i>` tag:
 
 [source, html]
 ----
 <i class="icon-edit"></i>
 ----
 
-If you want to use the white icon, simply add the `.icon-white` class to the tag.
+If you want to use the white icon, simply add the `.icon-white` class to the tag:
 
 [source, html]
 ----
@@ -1048,10 +1066,7 @@ If you want to use the white icon, simply add the `.icon-white` class to the tag
 
 ===== Button Groups
 
-Using button groups, conbined with icons, you can create nice interface elements with minimal markup.
-
-.Button groups
-image::images/boot_02in05.png[]
+By using button groups combined with icons, you can create nice interface elements with minimal markup (see <<figure2-49>>):
 
 [source,html]
 ----
@@ -1065,19 +1080,25 @@ image::images/boot_02in05.png[]
 </div>
 ----
 
+[[figure2-49]]
+.Button groups
+image::images/boot_02in05.png[]
+
 ===== Navigation
 
-When you are using icons next to a string of text, make sure to add a space to provide the proper alignment of the image. More of navigation code will be covered in the next chapter.
-
-.Basic navigation list
-image::images/boot_02in06.png[]
+When you are using icons next to a string of text, make sure to add a space to provide the proper alignment of the image (see <<figure2-50>>). Navigation code will be covered further in the next chapter:
 
 [source, html]
 ----
 <ul class="nav nav-list">
-  <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+  <li class="active"><a href="#"><i class="icon-home icon-white"></i> 
+  Home</a></li>
   <li><a href="#"><i class="icon-book"></i> Library</a></li>
   <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
   <li><a href="#"><i class="i"></i> Misc</a></li>
 </ul>
 ----
+
+[[figure2-50]]
+.Basic navigation list
+image::images/boot_02in06.png[]
