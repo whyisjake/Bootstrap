@@ -121,7 +121,7 @@ Remember, if you don't like the colors or want to change a default, this can be 
 
 === Default Grid System
 
-The default Bootstrap grid (see <<figure1-1>>) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide, depending on your viewport. Below 767px viewports, such as the ones on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide and offset 20 pixels to the left. An example of the twelve possible columns is in Figure 1-1.
+The default Bootstrap grid (see <<figure1-1>>) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide, depending on your viewport. Below 767px viewports, such as the ones on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide and offset 20 pixels to the left. An example of the twelve possible columns is in <<figure1-1>>.
 
 // I think this would be a great place for a jsfiddle, showing a resizable frame using the responsive grid that users can resize and see change. Basically, just an embedded responsive frame. Fallback for print, epub, etc, would be an image showing both default grid and responsive grid. -NM
 
@@ -153,7 +153,7 @@ The following code shows `.span8` and `.span4`, which adds up to 12:
 
 ==== Offsetting Columns
 
-You can move columns to the right using the '.offset*' class. Each class moves the span over that width. So an '.offset2' would move a '.span7' over two columns (see <<figure1-2>>):
+You can move columns to the right using the `.offset*` class. Each class moves the span over that width. So an `.offset2` would move a `.span7` over two columns (see <<figure1-2>>):
 
 [source, html]
 ----
@@ -248,14 +248,13 @@ image::images/boot_0103.png[]
 
 === Fluid Grid System
 
-The fluid grid system uses percents instead of pixels for column widths. It has the same responsive capabilities as our fixed grid system, ensuring proper proportions for key screen resolutions and devices. You can make any row "fluid" by changing `.row` to `.row-fluid`. The column classes stay the exact same, making it easy to flip between fixed and fluid grids. To offset, you operate in the same way as the fixed grid system works by adding .offset* to any column to shift by your desired number of columns.
+The fluid grid system uses percentages instead of pixels for column widths. It has the same responsive capabilities as our fixed grid system, ensuring proper proportions for key screen resolutions and devices. You can make any row "fluid" by changing `.row` to `.row-fluid`. The column classes stay exactly the same, making it easy to flip between fixed and fluid grids. To offset, you operate in the same way as the fixed grid system—add `.offset*` to any column to shift by your desired number of columns:
 
 // I'd love to see some kind of demo of how changing from fixed to fluid changes the display of the website. Could be a video or a couple of jsfiddles. -NM
 
-jsfiddle::http://jsfiddle.net/whyisjake/327R3/embedded/result/[width="100%", height="600px"]
+//jsfiddle::http://jsfiddle.net/whyisjake/327R3/embedded/result/[width="100%", height="600px"]
 
 
-.Fluid Column Layout
 [source, html]
 ----
 <div class="row-fluid">
@@ -269,9 +268,9 @@ jsfiddle::http://jsfiddle.net/whyisjake/327R3/embedded/result/[width="100%", hei
 </div>
 ----
 
-Nesting a fluid grid is a little different. Since we are using percentages, each `.row` resets the column count to 12. For example, If you were inside a `.span8`, instead of two `.span4` elements to divide the content in half, you would use two '.span6' divs. This is the case for responsive content, as we want the content to fill 100% of the container.
+Nesting a fluid grid is a little different. Since we are using percentages, each `.row` resets the column count to 12. For example, if you were inside a `.span8`, instead of two `.span4` elements to divide the content in half, you would use two `.span6` divs (see <<figure1-4>>). This is the case for responsive content, as we want the content to fill 100% of the container:
 
-.Nesting Fluid Column Layout
+
 [source, html]
 ----
 <div class="row-fluid">
@@ -284,6 +283,7 @@ Nesting a fluid grid is a little different. Since we are using percentages, each
 </div>
 ----
 
+[[figure1-4]]
 .Nesting fluid grid
 image::images/responsive-grid.png[]
 
@@ -291,32 +291,32 @@ image::images/responsive-grid.png[]
 
 === Container Layouts
 
-To add a fixed width, centered layout to your page, simply wrap the content in `<div class="container">...</div>`. If you would like to use a fluid layout, but want to wrap everything in a container, use the following: `<div class="container-fluid">...</div>`. Using a fluid layout is great when you are building applications, administration screens and other related projects.
+To add a fixed-width, centered layout to your page, simply wrap the content in `<div class="container">...</div>`. If you would like to use a fluid layout but want to wrap everything in a container, use the following: `<div class="container-fluid">...</div>`. Using a fluid layout is great when you are building applications, administration screens, and other related projects.
 
 // So the only thing the container adds is centering? Any other benefits worth talking about? (or if you mention any later in the book, you could also just add a cross reference.) If not, I might rename this section "centered layouts", since that's really the essence of the content. -NM
 
 === Responsive Design
 
-To turn on the responsive features of Bootstrap, you need to add a `<meta>` tag to the `<head>` of your webpage. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file. An example of required files looks like this:
+To turn on the responsive features of Bootstrap, you need to add a `<meta>` tag to the `<head>` of your web page. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file. An example of required files looks like this:
 
 // I might add the complete head markup in the example below, just to give people a little extra orientation. Also, why wouldn't they have downloaded the compiled source, and how do they add the CSS file in that case? -NM
 
-.Responsive Meta Tag and CSS
 [source, html]
 ----
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>My amazing Bootstrap site!</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, 
+              initial-scale=1.0">
 		<link href="/css/bootstrap.css" rel="stylesheet">
 		<link href="/css/bootstrap-responsive.css" rel="stylesheet">
 	</head>
 ----
 
-[NOTE]
+[WARNING]
 ===============================
-*Heads up!* If you get started and are finding that the Bootstrap responsive features aren't working, make sure that you have these tags. The responsive features aren't added by default at this time because not everything needs to be responsive. Instead of encouraging developers to remove this feature, the authors of Bootstrap opted that it was best to enable it as needed.
+If you get started and are finding that the Bootstrap responsive features aren't working, make sure that you have these tags. The responsive features aren't added by default at this time because not everything needs to be responsive. Instead of encouraging developers to remove this feature, the authors of Bootstrap opted that it was best to enable it as needed.
 ===============================
 
 // "Not everything needs to be responsive" - that's crazy talk! -NM
