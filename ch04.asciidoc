@@ -22,7 +22,7 @@ Typically, JavaScript lies in a either a separate file or at the bottom of the p
 </script>
 ----
 
-Generally, it is best to include all JavaScript calls into a check that ensures that the DOM has been loaded on the page. If you have the JavaScript trying to fire earlier, it may miss elements. With jQuery, adding a check is easily done by selecting the `document`, or the entire content of the page, an then applying the `.ready()` method.
+Generally, it is best to include all JavaScript calls into a check that ensures that the DOM has been loaded on the page. If you have the JavaScript trying to fire earlier, it may miss elements as the browser parses the page. With jQuery, adding a check is easily done by selecting the `document` or the entire content of the page, and then applying the `.ready()` method.
 
 .jQuery Ready Method
 [source, js]
