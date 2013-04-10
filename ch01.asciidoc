@@ -368,9 +368,9 @@ For a larger site, you might want to divide each media query into a seperate CSS
 
 ===== Helper Classes
 
-Bootstrap also includes a handful of helper classes for doing responsive development. It would be best practice to use these sparingly. A couple of use cases that I have seen involve loading custom elements based on certain layouts. Perhaps you have a really nice header on the main layout, but on mobile you want to pare it down, leaving only a few of the elements. In this scenario, you could use the `.hidden-phone` class to hide either parts, or entire dom elements from the the header.
+Bootstrap also includes a handful of helper classes for doing responsive development. It would be best practice to use these sparingly. A couple of use cases that I have seen involve loading custom elements based on certain layouts. Perhaps you have a really nice header on the main layout, but on mobile you want to pare it down, leaving only a few of the elements. In this scenario, you could use the `.hidden-phone` class to hide either parts or entire dom elements from the header.
 
-.Media Queries Helper Classes
+.Media queries helper classes
 [options="header"]
 |===========================================
 |Class			 |Phones  |Tablets |Desktops
@@ -384,8 +384,6 @@ Bootstrap also includes a handful of helper classes for doing responsive develop
 
 // I'd really love to see a slideshow here, where you see which class is being used, and then see the display on different devices. I envision this showing alongside the text. But I'm not totally sure if that's even feasible right now; a video with the same content could also work. I wouldn't even say narrative was necessary. Or maybe an animated gif? -NM
 
-Regarding mobile development, there are two major ways that you could look at doing development. The mantra that a lot of people are shouting now, is that you should start with mobile, build to that platform, and let the desktop follow. Bootstrap almost forces the opposite, where you would create a full featured desktop site that "just works".
-
-If you are looking for a strictly mobile framework, Bootrap is still a great resource.
+There are two major ways that you could look at doing development. The mantra that a lot of people are shouting now is that you should start with mobile, build to that platform, and let the desktop follow. Bootstrap almost forces the opposite, where you would create a full-featured desktop site that "just works." If you are looking for a strictly mobile framework, Boostrap is still a great resource.
 
 // Just a test...
