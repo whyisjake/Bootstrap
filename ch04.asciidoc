@@ -131,27 +131,25 @@ There are three classes to take note of in the modal. The first is `.modal`, whi
 
 Using the Bootstrap JavaScript Data API, you simply need to pass a few data attributes to toggle the slideshow. To start with, set `data-toggle="modal"` on the link or button that you want to use to invoke the modal and then set the `data-target="#foo"` to the ID of the modal that you'd like to use.
 
-Using Modal through JavaScript
-
-To call a modal with `id="myModal"` use a single line of JavaScript:
+To call a modal with `id="myModal"`, use a single line of JavaScript:
 
 [source, js]
 ----
 $('#myModal').modal(options)
 ----
 
-==== Modal Options
+==== Options
 
-Options can either be passed in via data attributes, or with JavaScript. To use the data attributes, prepend `data-` to the option name, like, `data-backdrop=""`.
+Options can either be passed in via data attributes or with JavaScript. To use the data attributes, prepend `data-` to the option name (e.g., `data-backdrop=""`).
 
-.Modal Options
+.Modal options
 [options="header"]
 |=======================
 |Name 		|Type       |Default 	|Description
-|backdrop 	|Boolean	|true		|Set to false if you don't want the modal to be closed when they click outside of the modal.
-|keyboard 	|Boolean	|true		|Closes the modal when escape key is pressed, set to false to disable.
+|backdrop 	|Boolean	|true		|Set to false if you don't want the modal to be closed when the user clicks outside of the modal.
+|keyboard 	|Boolean	|true		|Closes the modal when escape key is pressed; set to false to disable.
 |show 		|Boolean	|true		|Shows the modal when initialized.
-|remote 	|path 		|false		|Using the jQuery `.load` method, inject content into the modal body. If an `href` with a valid URL is added, that will load that content.
+|remote 	|path 		|false		|Using the jQuery `.load` method, inject content into the modal body. If an `href` with a valid URL is added, it will load that content.
 |=======================
 
 
