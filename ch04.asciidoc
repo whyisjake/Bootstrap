@@ -22,9 +22,8 @@ Typically, JavaScript lies in a either a separate file or at the bottom of the p
 </script>
 ----
 
-Generally, it is best to include all JavaScript calls into a check that ensures that the DOM has been loaded on the page. If you have the JavaScript trying to fire earlier, it may miss elements as the browser parses the page. With jQuery, adding a check is easily done by selecting the `document` or the entire content of the page, and then applying the `.ready()` method.
+Generally, it is best to include all JavaScript calls into a check that ensures that the DOM has been loaded on the page. If you have the JavaScript trying to fire earlier, it may miss elements as the browser parses the page. With jQuery, adding a check is easily done by selecting the `document` or the entire content of the page, and then applying the `.ready()` method:
 
-.jQuery Ready Method
 [source, js]
 ----
 $(document).ready(function(){
@@ -40,17 +39,16 @@ As mentioned above, Bootstrap has a data API where you can write data attributes
 $('body').off('.data-api')
 ----
 
-If you need to disable a single plugin, you can do it programmatically using the namespace of the plugin along with the `data-api` namespace.
+If you need to disable a single plugin, you can do it programmatically using the namespace of the plugin along with the `data-api` namespace:
 
-.Disable an Individual Plugin
 [source, js]
 ----
 $('body').off('.alert.data-api')
 ----
 
-==== Programattic API
+==== Programmatic API
 
-The devlelopers of Bootstrap believe that you should be able to use all of the plug-ins entirely throught the JavaScript API. All public APIs are single, chainable methods, and return the collection acted upon.
+The developers of Bootstrap believe that you should be able to use all of the plug-ins throughout the JavaScript API. All public APIs are single, chainable methods and return the collection acted upon.
 
 [source, js]
 ----
@@ -77,7 +75,7 @@ The transition plugin provides simple transition effects. A few examples include
 
 === Modal
 
-A modal is a child window that layered over its parent window. Typically, the point is to display content from a separate source that can have some interaction without leaving the parent window. They can provide information, interaction, or more. I have used that as a window for holding slideshows and login/registration information. The Modal plug-ins is probably one of my favorite Bootstrap features.
+A modal is a child window that is layered over its parent window. Typically, the purpose is to display content from a separate source that can have some interaction without leaving the parent window. They can provide information, interaction, or more. I have used that as a window for holding slideshows and login/registration information. The Modal plug-ins is probably one of my favorite Bootstrap features.
 
 To create a static example, use the code below.
 
