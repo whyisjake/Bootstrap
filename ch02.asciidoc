@@ -53,8 +53,7 @@ To add some emphasis to a paragraph, add `class="lead"` (see <<figure2-2>>). Thi
 swine boudin meatloaf shoulder short ribs cow drumstick beef jowl.
 Meatball chicken sausage tail, kielbasa strip steak turducken venison prosciutto.
 Chuck filet mignon tri-tip ribeye, flank brisket leberkas. Swine
-turducken turkey shank, hamburger beef ribs bresaola pastrami venison
-rump.</p>
+turducken turkey shank, hamburger beef ribs bresaola pastrami venison rump.</p>
 ----------
 
 [[figure2-2]]
