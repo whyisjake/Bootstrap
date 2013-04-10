@@ -2,16 +2,16 @@
 
 === What Is Bootstrap?
 
-Bootstrap is an open source product from Mark Otto and Jacob Thornton who, when it was initially released were both employees at Twitter. There was a need to standardize the front-end toolsets of engineers across the company. In the launch blog post, Mark Otto introduced the project like this:
+Bootstrap is an open source product from Mark Otto and Jacob Thornton who, when it was initially released, were both employees at Twitter. There was a need to standardize the frontend toolsets of engineers across the company. In the launch blog post, Mark Otto introduced the project like this:
 
 [quote, Mark Otto, https://dev.twitter.com/]
 ____
 In the earlier days of Twitter, engineers used almost any library they were familiar with to meet front-end requirements. Inconsistencies among the individual applications made it difficult to scale and maintain them. Bootstrap began as an answer to these challenges and quickly accelerated during Twitter’s first Hackweek. By the end of Hackweek, we had reached a stable version that engineers could use across the company.
 ____
 
-Since Bootstrap launched in August 2011, it has taken off in popularity. It has evolved from being an entirely CSS driven project to include a host of JavaScript plug-ins and icons that go hand in hand with forms and buttons. At its base, it allows for responsive web design and features a robust 12-column, 940px wide grid. One of the highlights is the build tool on http://getbootstrap.com[Bootstrap's] website, where you can customize the build to suit your needs, choosing which CSS and JavaScript features you want to include on your site. All of this allows front-end web development to be catapulted forward, building on a stable foundation of forward-looking design and developement. Getting started with Bootstrap is as simple as dropping some CSS and JavaScript into the root of your site. 
+Since Bootstrap launched in August 2011, it has taken off in popularity. It has evolved from being an entirely CSS driven project to include a host of JavaScript plug-ins and icons that go hand in hand with forms and buttons. At its base, it allows for responsive web design and features a robust 12-column, 940px-wide grid. One of the highlights is the build tool on http://getbootstrap.com[Bootstrap's website], where you can customize the build to suit your needs, choosing which CSS and JavaScript features you want to include on your site. All of this allows frontend web development to be catapulted forward, building on a stable foundation of forward-looking design and development. Getting started with Bootstrap is as simple as dropping some CSS and JavaScript into the root of your site. 
 
-For someone starting a new project, Bootstrap comes with a handful of useful elements. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's Reset CSS], and get going on my web project. With Bootstrap, you just need to include the _bootstrap.css_ CSS file and, optionally, the _bootstrap.js_ JavaScript file into your website and you are ready to go.
+For someone starting a new project, Bootstrap comes with a handful of useful elements. Normally, when I start a project, I start with tools like http://meyerweb.com/eric/tools/css/reset/[Eric Meyer's Reset CSS] and get going on my web project. With Bootstrap, you just need to include the _bootstrap.css_ CSS file and, optionally, the _bootstrap.js_ JavaScript file into your website and you are ready to go.
 
 // "the CSS file, and optionally the JavaScript file" is a little confusing right off the bat, though you do explain it a bit later. I wasn't sure if this was something I should make and add, or default files that come with bootstrap. Maybe just add a few words to make it a tiny bit clearer? -NM
 // Tried to make this a little more clear. -JS
@@ -39,10 +39,12 @@ The Bootstrap download includes three folders: css, js, and img. For simplicity,
 
 === Basic HTML Template
 
-Normally, a web project looks something like Example 1-1:
+Normally, a web project looks something like <<example1-1>>.
 
-.Basic HTML Layout
+[[example1-1]]
+.Basic HTML layout
 [source,html]
+=============
 -------------
 <!DOCTYPE html>
 <html>
@@ -54,11 +56,14 @@ Normally, a web project looks something like Example 1-1:
 	</body>
 </html>
 -------------
+=============
 
-With Bootstrap, we include the link to the CSS stylesheet and the JavaScript.
+With Bootstrap, we include the link to the CSS stylesheet and the JavaScript (<<example1-2>>).
 
-.Basic Bootstrap Template
+[[example1-2]]
+.Basic Bootstrap template
 [source, html]
+=============
 --------------
 <!DOCTYPE html>
 <html>
@@ -72,6 +77,7 @@ With Bootstrap, we include the link to the CSS stylesheet and the JavaScript.
 	</body>
 </html>
 --------------
+=============
 
 [NOTE]
 ===============================
