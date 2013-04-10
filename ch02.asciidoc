@@ -373,7 +373,7 @@ image::images/boot_0216.png[]
 
 ===== Condensed table
 
-If you add the `.table-condensed` class, as shown in <<figure2-17>>, row padding is cut in half to condense the table. Useful if you want denser information.
+If you add the `.table-condensed` class, as shown in <<figure2-17>>, row padding is cut in half to condense the table. This is useful if you want denser information.
 
 [[figure2-17]]
 .Condensed table class
@@ -382,9 +382,10 @@ image::images/boot_0217.png[]
 
 ==== Table Row Classes
 
-The classes shown in Table 2-2 will allow you to change the background color of your rows.
+The classes shown in <<table2-2>> will allow you to change the background color of your rows (see <<figure2-18>>).
 
-.Optional Table Row Classes
+[[table2-2]]
+.Optional table row classes
 [frame="topbot",options="header"]
 |======================
 |Class         |Description 											|Background color
@@ -394,20 +395,16 @@ The classes shown in Table 2-2 will allow you to change the background color of 
 |`.info`       |Used as an alternative to the default styles.			|Blue
 |======================
 
-.Table Row Classes Example
+[[figure2-18]]
+.Table row classes
 image::images/boot_0218.png[]
 
 === Forms
 
-Another one of the highlights of using Bootstrap is the attention that is paid to forms. As a web developer, one of my least favorite things to do is style forms. Bootstrap makes it easy to do with the simple HTML markup and extended classes for different styles of forms.
+Another one of the highlights of using Bootstrap is the ability to create forms with ease. As a web developer, styling forms is one of my least favorite tasks. Bootstrap makes it easy to with the simple HTML markup and extended classes for different styles of forms.
 
-The basic form structure comes styled in Bootstrap, without needing to add any extra helper classes. If you use the placeholder, it is only supported in newer browsers. In older ones, no text will be displayed.
+The basic form structure comes with Bootstrap; there is no need to add any extra helper classes (see <<figure2-19>>). If you use the placeholder, keep in mind that it is only supported in newer browsers. In older browsers, no placeholder text will be displayed:
 
-
-.Basic Form
-image::images/boot_0219.png[]
-
-.Basic Form Structure
 [source, html]
 ----
 <form>
@@ -423,6 +420,10 @@ image::images/boot_0219.png[]
 	</fieldset>
 </form>
 ----
+
+[[figure2-19]]
+.Basic form
+image::images/boot_0219.png[]
 
 ==== Optional Form Layouts
 
