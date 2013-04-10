@@ -11,6 +11,7 @@ Typically, JavaScript lies in a either a separate file or at the bottom of the p
 [[javascript_usage]]
 [source, html]
 .JavaScript Usage
+====
 ----
 <!-- To reference another JavaScript file -->
 <script src="assets/js/javaScript.js"></script>
@@ -22,6 +23,7 @@ Typically, JavaScript lies in a either a separate file or at the bottom of the p
 	}
 </script>
 ----
+====
 
 Generally, it is best to include all JavaScript calls into a check that ensures that the DOM has been loaded on the page. If you have the JavaScript trying to fire earlier, it may miss elements as the browser parses the page. With jQuery, adding a check is easily done by selecting the `document` or the entire content of the page, and then applying the `.ready()` method:
 
@@ -83,6 +85,7 @@ To create a static example, use the code in <<example_static_modal>> (and see <<
 [source, html]
 [[example_static_modal]]
 .Static Modal Window Code Example
+====
 ----
 <div class="modal hide fade">
 	<div class="modal-header">
@@ -98,6 +101,7 @@ To create a static example, use the code in <<example_static_modal>> (and see <<
 	</div>
 </div>
 ----
+====
 
 [[figure4_1]]
 .Static modal window
@@ -170,7 +174,7 @@ $('#myModal').modal({
 ===== Toggle
 Manually toggles a modal.
 
-.+.modal('toggle')+
+.+.modal(\'toggle'\)+
 [source, js]
 ----
 $('#myModal').modal('toggle')
@@ -179,7 +183,7 @@ $('#myModal').modal('toggle')
 ===== Show
 Manually opens a modal.
 
-.+.modal('show')+
+.+.modal(\'show'\)+
 [source, js]
 ----
 $('#myModal').modal('show')
@@ -188,7 +192,7 @@ $('#myModal').modal('show')
 ===== Hide
 Manually hides a modal.
 
-.+.modal('hide')+
+.+.modal(\'hide'\)+
 [source, js]
 ----
 $('#myModal').modal('hide')
@@ -233,6 +237,7 @@ image::images/boot_0402.png[]
 
 .Dropdown with Data Attributes
 [source, html]
+====
 ----
 <li class="dropdown">
 	<a href="#" id="drop" role="button" class="dropdown-toggle" data-toggle="dropdown">Word <b class="caret"></b></a>
@@ -245,6 +250,7 @@ image::images/boot_0402.png[]
 	</ul>
 </li>
 ----
+====
 
 If you need to keep links entact, useful if the browser is not enabling JavaScript, use the `data-target` attribute along with `href="#"`.
 
