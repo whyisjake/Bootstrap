@@ -80,9 +80,8 @@ A modal is a child window that is layered over its parent window. Typically, the
 
 To create a static example, use the code in <<example_static_modal>> (and see <<figure4_1>>.
 
-[[example_static_modal]]
-.Static Modal Window Code Example
 [source, html]
+.Static Modal Window Code Example
 ----
 <div class="modal hide fade">
 	<div class="modal-header">
