@@ -467,15 +467,19 @@ To add a tooltip, add `rel="tooltip"` to an anchor tag. The title of the anchor 
 
 .Bootstrap Data API
 [source, js]
+====
 ----
 <a href="#" rel="tooltip" title="This is the tooltip">Tooltip Example</a>
 ----
+====
 
-.Javasscript
+.JavaScript
 [source, js]
+====
 ----
 $('#example').tooltip(options)
 ----
+====
 
 ==== Options
 
