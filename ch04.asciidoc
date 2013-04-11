@@ -600,7 +600,7 @@ $().popover(options)
 
 ===== Show
 
-Reveals an elements popover.
+Reveals an element's popover.
 
 [source, js]
 ----
@@ -609,7 +609,7 @@ $('#element').popover('show')
 
 ===== Hide
 
-Hides an elements popover.
+Hides an element's popover.
 
 [source, js]
 ----
@@ -618,7 +618,7 @@ $('#element').popover('hide')
 
 ===== Toggle
 
-Toggles an elements popover.
+Toggles an element's popover.
 
 [source, js]
 ----
@@ -636,9 +636,10 @@ $('#element').popover('destroy')
 
 === Alerts
 
-With the Data APi, it is easy to add dismiss functionality to alert messages.
+With the Data API, it is easy to add dismiss functionality to alert messages (<<error_alert>>).
 
-.Error Alert Message
+[[error_alert]]
+.Error alert message
 image::images/boot_04in02.png[]
 
 ==== Usage
