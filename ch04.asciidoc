@@ -451,11 +451,11 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
 ----
 ====
 
-For information about the jQuery `.on` method, read more at the jQuery website. http://api.jquery.com/on/[jQuery .on]
+For information about the jQuery `.on` method, refer to  http://api.jquery.com/on/[jQuery .on] at the jQuery website.
 
 === Tooltips
 
-Tooltips are useful when you need to describe a link, or perphaps used in conjuction with the `<abbr>` tag, provide the defintion of an abbreviation. The plugin was originally based on the _jQuery.tipsy_ plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.
+Tooltips are useful when you need to describe a link or (used in conjunction with the `<abbr>` tag) provide the definition of an abbreviation. The plugin was originally based on the _jQuery.tipsy_ plugin written by Jason Frame. It has since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.
 
 .Tooltip Placement
 image::images/boot_0404.png[]
