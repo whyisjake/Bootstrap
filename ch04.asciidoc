@@ -823,8 +823,8 @@ image::images/boot_0410.png[]
 
 [[accordioncode]]
 .Accordion
-[source, html]
 ====
+[source, html]
 ----
 <div class="accordion" id="accordion2">
   <div class="accordion-group">
@@ -972,8 +972,8 @@ image::images/boot_0411.png[]
 
 [[carousel_example]]
 .Carousel code example
-[source, html]
 ====
+[source, html]
 ----
 <div id="myCarousel" class="carousel slide">
   <!-- Carousel items -->
