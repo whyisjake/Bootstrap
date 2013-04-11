@@ -577,14 +577,14 @@ All options can be passed via the Bootstrap Data API, or directly with JavaScrip
 .Popover options
 |===========================
 |Name     |Type             |Default|Description                                                                                                                                                                                          
-|animation|boolean          |true   |Apply a CSS fade transition to the tooltip                                                                                                                                                           
-|html     |boolean          |false  |Insert html into the popover. If false, jQuery's +text+ method will be used to insert content into the dom. Use text if you're worried about XSS attacks.                                            
-|placement|string | function|'right'|How to position the popover (i.e., top, bottom, left, right)                                                                                                                                         
+|animation|boolean          |true   |Applies a CSS fade transition to the tooltip                                                                                                                                                           
+|html     |boolean          |false  |Inserts html into the popover. If false, jQuery's +text+ method will be used to insert content into the dom. Use text if you're worried about XSS attacks.                                            
+|placement|string | function|'right'|Specifies how to position the popover (i.e., top, bottom, left, right)                                                                                                                                         
 |selector |string           |false  |If a selector is provided, tooltip objects will be delegated to the specified targets.                                                                                                               
 |trigger  |string           |'click'|How the popover is triggered (i.e., click, hover, focus, manual)                                                                                                                                     
 |title    |string | function|''     |Default title value if 'title' attribute isn't present                                                                                                                                               
 |content  |string | function|''     |Default content value if 'data-content' attribute isn't present                                                                                                                                      
-|delay    |number | object  |0      |Delay showing and hiding the popover (ms)--does not apply to manual trigger type. If a  number is supplied, delay is applied to both hide/show. Object structure is: +delay: {show: 500, hide: 100 }+
+|delay    |number | object  |0      |Delays showing and hiding the popover (ms)--does not apply to manual trigger type. If a  number is supplied, delay is applied to both hide/show. Object structure is: +delay: {show: 500, hide: 100 }+
 |===========================
 
 ==== Methods
