@@ -1098,8 +1098,8 @@ Using data API, you can add sources via the `data-source` attribute. Items shoul
 
 [[typeahead_ex]]
 .Typeahead code example
-[source, html]
 ====
+[source, html]
 ----
 <input
 	type="text"
