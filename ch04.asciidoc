@@ -710,9 +710,10 @@ image::images/boot_0406.png[]
 
 ==== Single Toggle
 
-When clicking on a button with the `data-toggle="button"` attribute, a class of `.active` is added.
+When clicking on a button with the `data-toggle="button"` attribute (<<toggle_button>>), a class of `.active` is added.
 
-.Toggle Button
+[[toggle_button]]
+.Toggle button
 image::images/boot_0407.png[]
 
 [source, html]
@@ -722,9 +723,10 @@ image::images/boot_0407.png[]
 
 ==== Checkbox Buttons
 
-Buttons can work like checkboxes, where you can select many of the options in a button group. To add this function, add `data-toggle="buttons-checkbox"` for checkbox style toggling on `btn-group`.
+Buttons can work like checkboxes (as in <<checkbox_buttons>>), allowing a user to select many of the options in a button group. To add this function, add `data-toggle="buttons-checkbox"` for checkbox style toggling on `.btn-group`.
 
-.Checkbox Buttons
+[[checkbox_buttons]]
+.Checkbox buttons
 image::images/boot_0408.png[]
 
 [source, html]
