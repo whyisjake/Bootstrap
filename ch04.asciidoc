@@ -403,25 +403,29 @@ image::images/boot_0403.png[]
 
 ==== Usage
 
-To enable the tabs, you can use the Bootstrap Data API, or using JavaScript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the the element that has the `.tab-pane` class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action.
+To enable the tabs, you can use the Bootstrap Data API or use JavaScript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the element that has the `.tab-pane` class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action.
 
 .Enable Tabs via JavaScript
 [source, js]
+====
 ----
  $('#myTab a').click(function (e) {
 	e.preventDefault();
 	$(this).tab('show');
 })
 ----
+====
 
 .Example of different ways to activate tabs
 [source, js]
+====
 ----
 $('#myTab a[href="#profile"]').tab('show'); // Select tab by name
 $('#myTab a:first').tab('show'); // Select first tab
 $('#myTab a:last').tab('show'); // Select last tab
 $('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 ----
+====
 
 ==== Events
 
