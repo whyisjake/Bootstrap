@@ -886,9 +886,10 @@ $(".collapse").collapse()
 
 ==== Options
 
-Options can be passed via data attributes, or with JavaScript.
+The options listed in <<collapse_table>> can be passed via data attributes or with JavaScript.
 
-.Collapse Options
+[[collapse_table]]
+.Collapse options
 [options="header"]
 |=======================
 |Name	|type		|default	|description
