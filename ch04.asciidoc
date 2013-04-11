@@ -693,7 +693,7 @@ $('#my-alert').bind('closed', function () {
 
 === Buttons
 
-Buttons were introduced in chapter 3, and you don't need to do anything to make them work as links, and as buttons in forms. There is some additional interaction that you can add with the plugin, notably loading states, and adding toolbar like functionality to button groups.
+Buttons were introduced in <<bootstrap_layout>>, and you don't need to do anything to make them work as links, and as buttons in forms. There is some additional interaction that you can add with the plugin, notably loading states, and adding toolbar like functionality to button groups.
 
 ==== Loading State
 
