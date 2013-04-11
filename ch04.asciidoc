@@ -491,9 +491,9 @@ Like all of the plug-ins, there are options that can be added via the Bootstrap 
 |Name 		|Type 				|Default 	|Description
 |animation 	|Boolean			|true		|Applies a CSS fade transition to the tooltip.
 |html 		|Boolean			|false		|Inserts html into the tooltip. If false, jQuery's `text` method will be used to insert content into the dom. Use text if you're worried about XSS attacks.
-|placement	|string/function 	|\'top\'	|Specifies how to position the tooltip: top, bottom, left, or right.
+|placement	|string/function 	|\'top\'	|Specifies how to position the tooltip (i.e., top, bottom, left, or right).
 |selector	|string				|false		|If a selector is provided, tooltip objects will be delegated to the specified targets.
-|title		|string/function	|''			|The title option is the default title value if `title` attribute isn't present.
+|title		|string/function	|''			|The title option is the default title value if the `title` attribute isn't present.
 |trigger	|string				|\'hover\'	|Defines how the tooltip is triggered: click, hover, focus, or manualy.
 |delay 		|number/object		|0 			|Delays showing and hiding the tooltip (ms)--does not apply to manual trigger type If a number is supplied, delay is applied to both hide/show Object structure is: `delay: { show: 500, hide: 100 }`
 |=======================
@@ -505,7 +505,7 @@ Like all of the plug-ins, there are options that can be added via the Bootstrap 
 
 Attaches a tooltip handler to an element collection.
 
-[source, html]
+[source, js]
 ----
 $().tooltip(options)
 ----
@@ -515,7 +515,7 @@ $().tooltip(options)
 
 Reveals an element's tooltip.
 
-[source, html]
+[source, js]
 ----
 $('#element').tooltip('show')
 ----
