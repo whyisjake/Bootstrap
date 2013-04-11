@@ -646,21 +646,19 @@ image::images/boot_04in02.png[]
 
 To close an alert, you can either do it manually with the JavaScript `.alert()` method or use data attributes in conjunction with an anchor or button.
 
-.Dismiss via JavaScript
+Here is how to dismiss via JavaScript:
+
 [source, js]
-====
 ----
 $(".alert").alert()
 ----
-====
 
-.Dismiss via Data API
+Here is how to dismiss via Data API:
+
 [source, js]
-====
 ----
 <a class="close" data-dismiss="alert" href="#">&times;</a>
 ----
-====
 
 ==== Close Method
 
