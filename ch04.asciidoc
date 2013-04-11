@@ -948,12 +948,12 @@ There are four events that can be hooked into with the collapse plug-in, describ
 |=======================
 |Event	|Description
 |show	|This event fires immediately when the `show` instance method is called.
-|shown	|This event is fired when a collapse element has been made visible to the user (will wait for css transitions to complete).
+|shown	|This event is fired when a collapse element has been made visible to the user (will wait for CSS transitions to complete).
 |hide	| This event is fired immediately when the `hide` method has been called.
-|hidden	|This event is fired when a collapse element has been hidden from the user (will wait for css transitions to complete).
+|hidden	|This event is fired when a collapse element has been hidden from the user (will wait for CSS transitions to complete).
 |=======================
 
-After a `<div>` has been collapsed, you could use the following code to execute a function.
+After a `<div>` has been collapsed, you could use the following code to execute a function:
 
 [source, js]
 ----
@@ -964,7 +964,7 @@ $('#myCollapsible').on('hidden', function () {
 
 === Carousel
 
-The Bootstrap carousel is a flexible, responsive way to add a slider to your site. In addiotn to being responsive, the content is flexible enough to allow images, iframes, video, or likely anytime of content that you might want.
+The Bootstrap carousel is a flexible, responsive way to add a slider to your site. In addition to being responsive, the content is flexible enough to allow images, iframes, videos, or just about any type of content that you might want.
 
 .Carousel Example
 image::images/boot_0411.png[]
