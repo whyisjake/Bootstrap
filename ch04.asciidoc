@@ -575,6 +575,7 @@ $('#example').popover(options)
 All options can be passed via the Bootstrap Data API, or directly with JavaScript.
 
 .Popover options
+[options="header"]
 |===========================
 |Name     |Type             |Default|Description                                                                                                                                                                                          
 |animation|boolean          |true   |Applies a CSS fade transition to the tooltip                                                                                                                                                           
@@ -662,17 +663,18 @@ Here is how to dismiss via Data API:
 
 ==== Close Method
 
-To enable all alerts to be ale to be closed, add the following method. To enable alerts to animate out when closed, make sure they have the `.fade` and `.in` class already applied to them.
+To enable all alerts to be closed, add the following method. To enable alerts to animate out when closed, make sure they have the `.fade` and `.in` class already applied to them.
 
-[source, html]
+[source, js]
 ----
 $(".alert").alert('close')
 ----
 
 ==== Events
 
-There are two event that can be tied to Bootstrap's alert class.
+There are two events that can be tied to Bootstrap's alert class.
 
+.Alert class events
 [options="header"]
 |=======================
 |Event 	|Description
