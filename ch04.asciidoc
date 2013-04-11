@@ -1143,11 +1143,11 @@ $('.typeahead').typeahead()
 
 === Affix
 
-The affix plug-in allows you to allow a `<div>` to become affixed to a location on the page. A common example of this is social icons on a page. They will start in a location, but as the page hits a certain mark, the `<div>` will become locked in place and will stop scrolling with the rest of the page.
+The affix plug-in allows a `<div>` to become affixed to a location on the page. A common example of this is social icons. They will start in a location, but as the page hits a certain mark, the `<div>` will become locked in place and will stop scrolling with the rest of the page.
 
 ==== Usage
 
-To apply the affix plug-in to a `<div>`, you can use either data attributes, or use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calcualte the position of the scroll.
+To apply the affix plug-in to a `<div>`, you can use either data attributes, or you can use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calculate the position of the scroll.
 
 [source, html]
 ----
