@@ -644,19 +644,23 @@ image::images/boot_04in02.png[]
 
 ==== Usage
 
-To close an alery, you can either do it manually with the Javascript `.alert()` method or use data attributes in conjunction with an anchor or button.
+To close an alert, you can either do it manually with the JavaScript `.alert()` method or use data attributes in conjunction with an anchor or button.
 
-.Dismiss Via JavaScript
+.Dismiss via JavaScript
 [source, js]
+====
 ----
 $(".alert").alert()
 ----
+====
 
-.Dismiss Via Data API
+.Dismiss via Data API
 [source, js]
+====
 ----
 <a class="close" data-dismiss="alert" href="#">&times;</a>
 ----
+====
 
 ==== Close Method
 
