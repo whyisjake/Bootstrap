@@ -856,7 +856,7 @@ image::images/boot_0410.png[]
 ----
 ====
 
-You can also use the data attributes to make all content collapsable.
+You can also use the data attributes to make all content collapsible:
 
 [source, html]
 ----
@@ -869,15 +869,15 @@ You can also use the data attributes to make all content collapsable.
 
 ==== Usage
 
-===== Via Data Attributes
+===== Via data attributes
 
-Like all of the plug-ins that use the data API, you can add all needed markup without writing any JavaScript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a css selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, add the additional class `.in`.
+Like all of the plug-ins that use the data API, you can add all needed markup without writing any JavaScript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a CSS selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, include the additional class `.in`.
 
 To add accordion-like group management to a collapsible control, add the data attribute `data-parent="#selector"`.
 
 ===== Via JavaScript
 
-The collapse method can activated with Javascript too. 
+The collapse method can activated with JavaScript as well: 
 
 [source, js]
 ----
