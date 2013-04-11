@@ -940,9 +940,10 @@ Hides a collapsible element.
 
 ==== Events
 
-There are four events that can be hooked into with the collapse plug-in.
+There are four events that can be hooked into with the collapse plug-in, described in <<collapse-events-table>>.
 
-.Collapse Events
+[[collapse-events-table]]
+.Collapse events
 [options="header"]
 |=======================
 |Event	|Description
