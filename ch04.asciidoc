@@ -1161,5 +1161,5 @@ To apply the affix plug-in to a `<div>`, you can use either data attributes, or 
 [options="header"]
 |===========================
 |Name	|Type						|Default	|Description
-|offset	|number/function/object		|10			|Pixels to offset from screen when calculating position of scroll. If a single number is provided, the offset will be applied in both top and left directions. To listen for a single direction, or multiple unique offsets, just provide an object `offset: { x: 10 }`. Use a function when you need to dynamically provide an offset (useful for some responsive designs).
+|offset	|number/function/object		|10			|Pixels to offset from screen when calculating position of scroll. If a single number is provided, the offset will be applied in both top and left directions. To listen for a single direction or multiple unique offsets, just provide an object `offset: { x: 10 }`. Use a function when you need to dynamically provide an offset (useful for some responsive designs).
 |===========================
