@@ -383,6 +383,7 @@ image::images/boot_0403.png[]
 
 .Basic Markup of Toggleable Tabs
 [source, html]
+====
 ----
 <ul class="nav nav-tabs">
 	<li><a href="#home" data-toggle="tab">Home</a></li>
@@ -398,6 +399,7 @@ image::images/boot_0403.png[]
 	<div class="tab-pane" id="settings">...</div>
 </div>
 ----
+====
 
 ==== Usage
 
