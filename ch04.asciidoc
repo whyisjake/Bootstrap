@@ -429,24 +429,27 @@ $('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 
 ==== Events
 
-Tabs panes have two different events that can be hooked into.
+Tabs panes have two different events that can be hooked into, as shown in <<table_toggletab>>.
 
-.Toggleable Tab Events
+[[table_toggletab]]
+.Toggleable tab events
 [options="header"]
 |=======================
 |Event 	|Description
-|show	|This event fires on tab show, but before the new tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available) respectively.
-|shown 	|This event fires on tab show after a tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available) respectively.
+|show	|This event fires on tab show, but before the new tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available), respectively.
+|shown 	|This event fires on tab show after a tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available), respectively.
 |=======================
 
 .Example of shown method
 [source, js]
+====
 ----
 $('a[data-toggle="tab"]').on('shown', function (e) {
 	e.target // activated tab
 	e.relatedTarget // previous tab
 })
 ----
+====
 
 For information about the jQuery `.on` method, read more at the jQuery website. http://api.jquery.com/on/[jQuery .on]
 
