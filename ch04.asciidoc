@@ -757,7 +757,7 @@ image::images/boot_0409.png[]
 
 ==== Usage
 
-The `.button` method can be applied to any class or ID that you want. To enable all buttons in the `.nav-tabs` via JavaScript, add this code:
+The `.button` method can be applied to any class or ID. To enable all buttons in the `.nav-tabs` via JavaScript, add the following code:
 
 [source, js]
 ----
@@ -777,7 +777,7 @@ $().button('toggle')
 
 ===== Loading
 
-When loading, the button is disabled and the text is changed to the option from `data-loading-text` attribute.
+When loading, the button is disabled and the text is changed to the option from the `data-loading-text` attribute.
 
 [source, html]
 ----
