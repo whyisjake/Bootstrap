@@ -679,10 +679,10 @@ There are two events that can be tied to Bootstrap's alert class.
 |=======================
 |Event 	|Description
 |close	|This event fires immediately when the close instance method is called.
-|closed	|This event is fired when the alert has been closed (will wait for css transitions to complete).
+|closed	|This event is fired when the alert has been closed (will wait for CSS transitions to complete).
 |=======================
 
-As an example, if you wanted to trigger a function after an alert has closed, you could use the following function.
+As an example, if you wanted to trigger a function after an alert has closed, you could use this function:
 
 [source, js]
 ----
