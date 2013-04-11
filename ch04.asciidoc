@@ -1073,8 +1073,9 @@ Cycles to the next item.
 
 ==== Events
 
-The carousel has two events that can be hooked into, the `slide`, and `slid` events.
+The carousel has two events that can be hooked into, described in <<table_carousel_events>>.
 
+[[table_carousel_events]]
 .Carousel Events
 [options="header"]
 |=======================
