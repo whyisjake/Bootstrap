@@ -42,7 +42,7 @@ As mentioned above, Bootstrap has a data API where you can write data attributes
 $('body').off('.data-api')
 ----
 
-If you need to disable a single plugin, you can do it programmatically using the namespace of the plugin along with the `data-api` namespace:
+If you need to disable a single plug-in, you can do it programmatically using the namespace of the plug-in along with the `data-api` namespace:
 
 [source, js]
 ----
@@ -58,7 +58,7 @@ The developers of Bootstrap believe that you should be able to use all of the pl
 $('.btn.danger').button('toggle').addClass('active')
 ----
 
-All methods should accept an optional options object, a string which targets a particular method, or nothing (which initiates a plugin with default behavior).
+All methods should accept an optional options object, a string which targets a particular method, or nothing (which initiates a plug-in with default behavior).
 
 [source, js]
 ----
@@ -69,7 +69,7 @@ $("#myModal").modal('show')					// initializes and invokes show immediately
 
 === Transitions
 
-The transition plugin provides simple transition effects. A few examples include:
+The transition plug-in provides simple transition effects. A few examples include:
 
 * Sliding or fading in modals
 * Fading out tabs
@@ -291,7 +291,7 @@ $().dropdown('toggle')
 
 === Scrollspy
 
-The Scrollspy plugin (<<scrollspy_fig>>) allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll, you can add `.active` classes to the navbar based on the scroll position. To add the scrollspy plugin via data attributes, add `data-spy="scroll"` to the element you want to spy on (typically the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. For this to work, you must have elements in the body of the page that have matching IDs of the links that you are spying on.
+The Scrollspy plug-in (<<scrollspy_fig>>) allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll, you can add `.active` classes to the navbar based on the scroll position. To add the Scrollspy plug-in via data attributes, add `data-spy="scroll"` to the element you want to spy on (typically the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. For this to work, you must have elements in the body of the page that have matching IDs of the links that you are spying on.
 
 [[scrollspy_fig]]
 .Scrollspy example
@@ -455,7 +455,7 @@ For information about the jQuery `.on` method, refer to  http://api.jquery.com/o
 
 === Tooltips
 
-Tooltips (<<tooltip_placement>>) are useful when you need to describe a link or (used in conjunction with the `<abbr>` tag) provide the definition of an abbreviation. The plugin was originally based on the _jQuery.tipsy_ plugin written by Jason Frame. Tooltips have since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.
+Tooltips (<<tooltip_placement>>) are useful when you need to describe a link or (used in conjunction with the `<abbr>` tag) provide the definition of an abbreviation. The plug-in was originally based on the _jQuery.tipsy_ plug-in written by Jason Frame. Tooltips have since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.
 
 [[tooltip_placement]]
 .Tooltip placement
@@ -815,7 +815,7 @@ To reset the button state and bring in new content, use the string method.
 
 === Collapse
 
-The collapse plugin makes it easy to make collapsing divisions of the page. Whether you use it to build accordion navigation or content boxes, it allows for a lot of content options. See <<accordionfig>> and <<accordioncode>>.
+The collapse plug-in makes it easy to make collapsing divisions of the page. Whether you use it to build accordion navigation or content boxes, it allows for a lot of content options. See <<accordionfig>> and <<accordioncode>>.
 
 [[accordionfig]]
 .Accordion
@@ -892,9 +892,9 @@ The options listed in <<collapse_table>> can be passed via data attributes or wi
 .Collapse options
 [options="header"]
 |=======================
-|Name	|type		|default	|description
-|parent	|selector	|false		|If selector then all collapsible elements under the specified parent will be closed when this collapsible item is shown. (similar to traditional accordion behavior)
-|toggle	|Boolean	|true		|Toggles the collapsible element on invocation
+|Name	|Type		|Default	|Description
+|parent	|selector	|false		|If selector, then all collapsible elements under the specified parent will be closed when this collapsible item is shown. (Similar to traditional accordion behavior.)
+|toggle	|Boolean	|true		|Toggles the collapsible element on invocation.
 |=======================
 
 ==== Methods
@@ -940,7 +940,7 @@ Hides a collapsible element.
 
 ==== Events
 
-There are four events that can be hooked into with the collapse plugin.
+There are four events that can be hooked into with the collapse plug-in.
 
 .Collapse Events
 [options="header"]
@@ -1133,11 +1133,11 @@ $('.typeahead').typeahead()
 
 === Affix
 
-The affix plugin allows you to allow a `<div>` to become affixed to a location on the page. A common example of this is social icons on a page. They will start in a location, but as the page hits a certain mark, the `<div>` will become locked in place and will stop scrolling with the rest of the page.
+The affix plug-in allows you to allow a `<div>` to become affixed to a location on the page. A common example of this is social icons on a page. They will start in a location, but as the page hits a certain mark, the `<div>` will become locked in place and will stop scrolling with the rest of the page.
 
 ==== Usage
 
-To apply the affix plugin to a `<div>`, you can use either data attributes, or use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calcualte the position of the scroll.
+To apply the affix plug-in to a `<div>`, you can use either data attributes, or use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calcualte the position of the scroll.
 
 [source, html]
 ----
