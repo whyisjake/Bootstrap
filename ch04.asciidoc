@@ -693,13 +693,14 @@ $('#my-alert').bind('closed', function () {
 
 === Buttons
 
-Buttons were introduced in <<bootstrap_layout>>, and you don't need to do anything to make them work as links, and as buttons in forms. There is some additional interaction that you can add with the plugin, notably loading states, and adding toolbar like functionality to button groups.
+Buttons were introduced in <<bootstrap_layout>>. With Bootstrap, you don't need to do anything to make them work as links or as buttons in forms. With this plug-in you can add in some interaction, such as loading states or button groups with toolbar-like functionality.
 
 ==== Loading State
 
-To add a loading state to a button, simply add `data-loading-text="Loading..."` as an attribute to the button. When the button is clicked, the `.disabled` class is added, giving the apearence that it can no longer be clicked.
+To add a loading state to a button (shown in <<loading_button_fig>>), simply add `data-loading-text="Loading..."` as an attribute to the button. When the button is clicked, the `.disabled` class is added, giving the appearance that it can no longer be clicked.
 
-.Loading Button
+[[loading_button_fig]]
+.Loading button
 image::images/boot_0406.png[]
 
 [source, html]
