@@ -991,7 +991,7 @@ image::images/boot_0411.png[]
 
 ==== Usage
 
-To implement the carousel, you just need to add the code with the markup above. No need for data atrributes, just simple class based development. To call the carousel with JavaScript, you can do it manually with the following code:
+To implement the carousel, you just need to add the code with the markup above. There is no need for data attributes, just simple class-based development. You can manually call the carousel with JavaScript, using the following code:
 
 [source, js]
 ----
@@ -1000,9 +1000,10 @@ $('.carousel').carousel()
 
 ==== Options
 
-Options can be passed through data attributes, or through JavaScript.
+Options can be passed through data attributes or through JavaScript. The options are listed in <<carousel_options_table>>.
 
-.Carousel Options
+[[carousel_options_table]]
+.Carousel options
 [options="header"]
 |=======================
 |Name		|Type	|Default	|Description
@@ -1048,7 +1049,7 @@ Cycles the carousel to a particular frame (0 based, similar to an array).
 
 [source, js]
 ----
-.carousel(number)
+.carousel('number')
 ----
 
 ===== Prev
