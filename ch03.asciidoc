@@ -674,7 +674,7 @@ image::images/boot_0325.png[]
 			<!-- Leave the brand out if you want it to be shown when other elements are collapsed... -->
 			<a href="#" class="brand">Project Name</a>
 
-			<!-- Everything that you want collapsed, add it to the collapse div. -->
+			<!-- Everything that you want collapsed, should be added to the collapse div. -->
 			<div class="nav-collapse collapse">
 				<!-- .nav, .navbar-search etc... -->
 			</div>
