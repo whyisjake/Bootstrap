@@ -128,7 +128,7 @@ NOTE: To use a button with a dropdown, it must be individually wrapped in its ow
 
 === Buttons with Dropdowns
 
-To add a dropdown to a button, simply wrap the button and dropdown menu in a `.btn-group`. You can also use a `<span class="caret"></span>` to act as an indicator that the button is a dropwdown.
+To add a dropdown to a button, simply wrap the button and dropdown menu in a `.btn-group`. You can also use `<span class="caret"></span>` to act as an indicator that the button is a dropwdown.
 
 .Button with a Dropdown
 image::images/boot_0305.png[]
