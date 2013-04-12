@@ -358,7 +358,7 @@ Navigation lists are useful when you need to display a group of navigation links
 .Navigation list
 image::images/boot_0316.png[]
 
-.Navigation List Code Example
+.Navigation List
 [source, html]
 ----
 <ul class="nav nav-list">
