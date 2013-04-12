@@ -965,7 +965,7 @@ image::images/boot_0338.png[]
 
 === Alerts
 
-Like the modals described in the next chapter, alerts provide a way to style messages to the user. The default alert is added by creating a wrapper `<div>` and adding a class of `.alert`.
+Like the modals described in <<javascriptplug>>, alerts provide a way to style messages to the user. The default alert is added by creating a wrapper `<div>` and adding a class of `.alert`.
 
 
 .Basic Alert
