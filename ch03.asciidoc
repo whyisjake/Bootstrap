@@ -971,7 +971,7 @@ Like the modals that will be described in <<javascriptplug>>, alerts provide a w
 .Basic alert
 image::images/alert.png[]
 
-.Basic Alert Code Example
+.Basic Alert 
 [source, html]
 ----
 <div class="alert">
