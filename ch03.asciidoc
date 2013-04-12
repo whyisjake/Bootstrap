@@ -184,7 +184,7 @@ image::images/boot_0307.png[]
 
 ==== Dropup Menus
 
-Menus can also be built to dropup rather than down. To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pull up from the right-hand side, add `.pull-right` to the `.dropdown-menu`. Take note, the caret is now pointed up because menu will be going up instead of down.
+Menus can also be built to dropup rather than down. To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pull up from the right-hand side, add `.pull-right` to the `.dropdown-menu`. Take note, the caret is now pointed up because the menu will be going up instead of down.
 
 .Dropup Menu
 image::images/boot_0308.png[]
