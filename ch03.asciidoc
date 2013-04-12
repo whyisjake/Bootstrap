@@ -64,7 +64,6 @@ Button groups allow multiple buttons to be stacked together. This is useful when
 .Inline button group
 image::images/boot_0302.png[]
 
-.Inline Button Group
 [source,html]
 ----
 <div class="btn-group">
