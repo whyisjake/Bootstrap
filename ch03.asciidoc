@@ -432,13 +432,13 @@ image::images/tab-below.png[]
 <div class="tabbable tabs-below">
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
-      <p>I'm in section A.</p>
+      <p>I'm in Section A.</p>
     </div>
     <div class="tab-pane" id="tab2">
-      <p>I'm in section B.</p>
+      <p>I'm in Section B.</p>
     </div>
     <div class="tab-pane" id="tab3">
-      <p>I'm in section C.</p>
+      <p>I'm in Section C.</p>
     </div>
   </div>
   <ul class="nav nav-tabs">
