@@ -159,7 +159,7 @@ image::images/boot_0306.png[]
 
 ==== Split Button Dropdowns
 
-Split button dropdowns use the same general styles of the dropdown button but add a primary action along with the dropdown, split buttons have the primary action on the left, and the a toggle on the right for the dropdown.
+Split button dropdowns use the same general style as the dropdown button but add a primary action along with the dropdown, split buttons have the primary action on the left, and the a toggle on the right for the dropdown.
 
 .Split Button Dropdown
 image::images/boot_0307.png[]
