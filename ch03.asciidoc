@@ -484,7 +484,7 @@ Tabs on the right get the `.tabs-right` class (see <<figure3-20>>).
 .Right tabs
 image::images/tabs-right.png[]
 
-.Right Tab Code Example
+.Right Tab
 [source,html]
 ----
 <div class="tabbable tabs-right">
