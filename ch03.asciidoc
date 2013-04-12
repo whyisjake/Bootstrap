@@ -993,7 +993,7 @@ There are also three other color options to help provide a more semantic method 
 image::images/boot_0341.png[]
 
 
-=== Progress bars
+=== Progress Bars
 
 The purpose of progress bars is to show that assets are loading, in progress, or that there is action taking place regarding elements on the page. Personally, I think that these elements are more an excercise in markup, and have little purpose beyond that in the Bootstrap framework. That being said, thousands of people using Bootstrap, there are likely a few outliers that have a good reason. By nature, these are static elements, and need some sort of JavaScript method to provide any interaction.
 
