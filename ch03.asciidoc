@@ -617,7 +617,7 @@ If you want the navbar fixed to the top, add `.navbar-fixed-top` to the `.navbar
 
 ===== Fixed bottom navbar
 
-To affix the navbar to the bottom of the page, simply add `.fixed-navbar-bottom` class to the navbar. Once again, to prevent overlap, add at least 40 pixels of padding to the `<body>` tag:
+To affix the navbar to the bottom of the page, simply add the `.fixed-navbar-bottom` class to the navbar. Once again, to prevent overlap, add at least 40 pixels of padding to the `<body>` tag:
 
 [source, html]
 ----
