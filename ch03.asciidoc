@@ -420,7 +420,7 @@ If you want to make the tabs fade when switching, add `.fade` to each `.tab-pane
 
 ===== Tab position
 
-The tabs are fully positionable; you can have them above, below, or on the sides of the content.
+The tabs are fully positionable; you can have them above, below, or on the sides of the content (see <<figure3-18>>).
 
 [[figure3-18]]
 .Bottom Tabs
