@@ -580,7 +580,7 @@ image::images/boot_0323.png[]
 
 To add rounded corners, as seen in the search inputs of iOS devices, use the `.navbar-search` class instead of the `.navbar-form`.
 
-.Navbar Search Input
+.Navbar search input
 image::images/boot_0324.png[]
 
 .Navbar Search Input Code Example
