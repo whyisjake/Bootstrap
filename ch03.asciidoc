@@ -389,7 +389,7 @@ To create a divider, much like an `<hr />`, use an empty `<li>` with a class of 
 
 ==== Tabbable Navigation
 
-Not only can you create a tabbed navigation but by using the JavaScript plugin, you can also add interaction by opening different windows of content. To make navigation tabs, create a `.tab-pane` with a unique ID for every tab, and then wrap them in `.tab-content`.
+Not only can you create a tabbed navigation but by using the JavaScript plugin, you can also add interaction by opening different windows of content. To make navigation tabs, create a `.tab-pane` with a unique ID for every tab, and then wrap them in `.tab-content` (see <<figure3-17>>). 
 
 [[figure3-17]]
 .Tabbable navigation example
