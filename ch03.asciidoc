@@ -659,7 +659,7 @@ Like the rest of Bootstrap, the navbar can be totally responsive. To add the res
 .Responsive navbar
 image::images/boot_0325.png[]
 
-.Responsive Navbar Code Example
+.Responsive Navbar
 [source, html]
 ----
 <div class="header">
