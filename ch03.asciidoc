@@ -59,7 +59,7 @@ image:images/boot_03in01.png[]
 
 === Button Groups
 
-Button groups allow multiple buttons to be stacked together. This is useful when you want to place items like alignment buttons together. To create a button group, simply wrap a series of anchors or buttons in a `<div>` that has `.btn-group` as a class. See <<figure3-2>> to see an inline button group.
+Button groups allow multiple buttons to be stacked together. This is useful when you want to place items like alignment buttons together. To create a button group, simply wrap a series of anchors or buttons in a `<div>` that has `.btn-group` as a class. See <<figure3-2>> for an example of an inline button group.
 
 [[figure3-2]]
 .Inline button group
@@ -75,8 +75,9 @@ image::images/boot_0302.png[]
 </div>
 ----
 
-If you have multiple button groups that you want to place on a single line, wrap multiple `.btn-group` classes with `.btn-toolbar`. For more information about using icons with buttons, follow the examples in <<css>>.
+If you have multiple button groups that you want to place on a single line, wrap multiple `.btn-group` classes with `.btn-toolbar`. For more information about using icons with buttons, follow the examples in <<css>>. Also, see 
 
+[[figure3-3]]
 .Button toolbar
 image::images/boot_0303.png[]
 
