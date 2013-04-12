@@ -451,7 +451,7 @@ image::images/tab-below.png[]
 
 Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab content, and the tabs.
 
-.Left Tabs
+.Left tabs
 image::images/boot_0319.png[]
 
 .Left Tab
