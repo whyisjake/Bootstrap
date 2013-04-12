@@ -542,7 +542,7 @@ Note the `.brand` class in the code in <<examplebrand>>, this will give the text
 <a class="brand" href="#">Project name</a>
 ----
 
-==== Nav Links
+==== Navbar Links
 
 To add links to the navbar, simply add an unordered list with the class of `.nav`. If you want to add a divider to your links, you can do that by adding an empty list-item with a class of `.divider-vertical`.
 
