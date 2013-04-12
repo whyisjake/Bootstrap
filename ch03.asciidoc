@@ -702,7 +702,7 @@ image::images/boot_0326.png[]
 
 === Breadcrumbs
 
-Breadcrumbs are a great way to show hierarchy-based information for a site. In the case of blogs, breadcrumbs can show the dates of publishing, categories, or tags. A breadcrumb in Bootstrap is simply an unordered list with a class of `.breadcrumb`. There is a also a helper class of `.divider` that mutes the colors and makes the text a little smaller. You can use forward slashes, arrows, or any divided that you choose. Note that the divider in the breadcrumbs has a slightly different markup the the navbar example (see <<figure3-27>>).
+Breadcrumbs are a great way to show hierarchy-based information for a site. In the case of blogs, breadcrumbs can show the dates of publishing, categories, or tags. A breadcrumb in Bootstrap is simply an unordered list with a class of `.breadcrumb`. There is a also a helper class of `.divider` that mutes the colors and makes the text a little smaller. You can use forward slashes, arrows, or any divided that you choose. Note that the divider in the breadcrumbs has a slightly different markup than the navbar example (see <<figure3-27>>).
 
 [[figure3-27]]
 .Breadcrumb Example
