@@ -884,7 +884,7 @@ image::images/boot_0334.png[]
 
 === Typographic Elements
 
-In addition to buttons, labels, forms, tables and tabs, Bootstrap has a few more elements for basic page layout. 
+In addition to buttons, labels, forms, tables, and tabs, Bootstrap has a few more elements for basic page layout. 
 
 ==== Hero Unit
 
