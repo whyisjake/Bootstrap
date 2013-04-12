@@ -922,10 +922,10 @@ image::images/boot_0336.png[]
 
 === Thumbnails
 
-A lot of sites need a way to layout images in a grid, and Bootstrap has an easy way to do this. To create a thumbnail, add an `<a>` tag with the class of `.thumbnail` around an image. This adds four pixels of padding and a gray border. On hover, an animated glow outline the image.
+A lot of sites need a way to layout images in a grid, and Bootstrap has an easy way to do this. To create a thumbnail, add an `<a>` tag with the class of `.thumbnail` around an image (see <<figure3-37>>). This adds four pixels of padding and a gray border. On hover, an animated glow outline the image.
 
 [[figure3-37]]
-.Basic Thumbnail
+.Basic thumbnail
 image::images/boot_0337.png[]
 
 .Thumbnail
@@ -936,12 +936,13 @@ image::images/boot_0337.png[]
 </a>
 ----
 
-Now that you have your basic thumbnail, you can add headings, buttons, and more; just change the <a> tag that has a class of .thumbnail to a <div>. Inside of that `<div>`, you can add anything you need. Since this is a `<div>` we can use the default span based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to left.
+Now that you have your basic thumbnail, you can add headings, buttons, and more; just change the `<a>` tag that has a class of .thumbnail to a `<div>`. Inside of that `<div>`, you can add anything you need. Since this is a `<div>`, we can use the default span-based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to the left.
 
-.Extended Thumbnail
+[[figure3-38]]
+.Extended thumbnail
 image::images/boot_0338.png[]
 
-.Customizable Code Example
+.Customizable
 [source, html]
 ----
 <ul class="thumbnails">
