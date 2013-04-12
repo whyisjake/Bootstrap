@@ -480,6 +480,7 @@ image::images/boot_0319.png[]
 
 Tabs on the right get the `.tabs-right` class.
 
+[[figure3-20]]
 .Right Tabs
 image::images/tabs-right.png[]
 
