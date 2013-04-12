@@ -374,7 +374,7 @@ image::images/boot_0316.png[]
 </ul>
 ----
 
-===== Horizontal Divider
+===== Horizontal divider
 
 To create a divider, much like an `<hr />`, use an empty `<li>` with a class of `.divider`.
 
