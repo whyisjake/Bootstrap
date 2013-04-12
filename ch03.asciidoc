@@ -756,7 +756,7 @@ image::images/boot_0328.png[]
 </div>
 ----
 
-[figure3-29]]
+[[figure3-29]]
 .Pagination with helper classes
 image::images/boot_0329.png[]
 
