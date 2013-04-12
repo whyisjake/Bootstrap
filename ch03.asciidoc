@@ -395,13 +395,13 @@ Not only can you create a tabbed navigation but by using the JavaScript plugin, 
 .Tabbable navigation example
 image::images/boot_0317.png[]
 
-.Tabble Navigation Code 
+.Tabble Navigation 
 [source, html]
 ----
 <div class="tabbable">
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="#tab1" data-toggle="tab">Meats</a></li>
-		<li><a href="#tab2" data-toggle="tab">More Meats</a></li>
+		<li><a href="#tab2" data-toggle="tab">More Meat</a></li>
 	</ul>
 	<div class="tab-content">
 		<div class="tab-pane active" id="tab1">
@@ -418,7 +418,7 @@ image::images/boot_0317.png[]
 
 If you want to make the tabs fade when switching, add `.fade` to each `.tab-pane`.
 
-===== Tab Position
+===== Tab position
 
 The tabs are fully positionable, you can have them above, below, or on the sides of the content.
 
