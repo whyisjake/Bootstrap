@@ -936,7 +936,7 @@ image::images/boot_0337.png[]
 </a>
 ----
 
-Now that you have your basic thumbnail, you can add headings, buttons, and more; just change the <a> tag that has a class of .thumbnail to a <div>. Inside of that `<div>`, you can add anything you need. Since this is a `<div>` we can use the default span based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to left.
+Now that you have your basic thumbnail, you can add headings, buttons, and more; just change the `<a>` tag that has a class of .thumbnail to a `<div>`. Inside of that `<div>`, you can add anything you need. Since this is a `<div>` we can use the default span based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to left.
 
 .Extended Thumbnail
 image::images/boot_0338.png[]
