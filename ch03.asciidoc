@@ -980,7 +980,7 @@ image::images/alert.png[]
 </div>
 ----
 
-The `.alert` uses the alerts jQuery plugin that is covered in <<javascriptplug>>. To close the alert, you can use a button that contains the `data-dismiss="alert"` attribute. Mobile Safari, and Mobile Opera browers require an `href="#"` to close.
+The `.alert` uses the alerts jQuery plugin that is discussed in <<javascriptplug>>. To close the alert, you can use a button that contains the `data-dismiss="alert"` attribute. Mobile Safari, and Mobile Opera browers require an `href="#"` to close.
 
 If you have a longer message in your alert, you can use the `.alert-block` class. This provides a little more padding above and below the content contained in the alert, particulary useful for multi page lines of content.
 
