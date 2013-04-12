@@ -126,7 +126,7 @@ To have the checkboxes function as radio buttons, where only one option can be s
 .Heads Up!
 NOTE: To use a button with a dropdown, it must be individually wrapped in its own `.btn-group` within a `btn-toolbar` for proper rendering.
 
-=== Buttons With Dropdowns
+=== Buttons with Dropdowns
 
 To add a dropdown to a button, simply wrap a button and a dropdown menu in a `.btn-group`. You can also use a `<span class="caret"></span>` to act as an indicator that the button is a dropwdown.
 
