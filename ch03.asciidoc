@@ -329,7 +329,7 @@ image::images/boot_0314.png[]
 
 To do the same thing with pills, simply swap the `.nav-tabs` class with `.nav-pills`.
 
-.Pill Navigation with Dropdowns
+.Pill navigation with dropdowns
 image::images/boot_0315.png[]
 
 .Pill Navigation Dropdown Code Example
