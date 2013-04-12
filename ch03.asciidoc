@@ -941,7 +941,7 @@ Now that you have your basic thumbnail, you can add headings, buttons, and more;
 .Extended thumbnail
 image::images/boot_0338.png[]
 
-.Customizable Code Example
+.Customizable
 [source, html]
 ----
 <ul class="thumbnails">
