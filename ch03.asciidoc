@@ -271,7 +271,7 @@ image::images/boot_0311.png[]
 
 ==== Stackable Navigation
 
-Both tabs and pills are horizontal by default. To make them appear vertically stacked, just add the `.nav-stacked` class.
+Both tabs and pills are horizontal by default. To make them appear vertically stacked (see <<figure3-12>>, just add the `.nav-stacked` class. 
 
 [[figure3-12]]
 .Stacked tabs
