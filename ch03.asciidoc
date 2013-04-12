@@ -736,6 +736,7 @@ image::images/boot_0327.png[]
 
 Bootstrap handles pagination like a lot of other interface elements, an unordered list, with wrapper a `<div>` that has a specific class that identifies the element. In the basic form, adding `.pagination` to the parent `<div>` creates a row of bordered links. Each of the list items can be additionally styled by using the `.disabled` or `.active` class.
 
+[[figure3-28]]
 .Basic Pagination
 image::images/boot_0328.png[]
 
