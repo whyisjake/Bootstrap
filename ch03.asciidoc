@@ -343,7 +343,7 @@ image::images/boot_0315.png[]
 			Dropdown
 			<b class="caret"></b>
 		</a>
-		<ul class="dropdown-munu">
+		<ul class="dropdown-menu">
 			<!--links-->
 		</ul>
 	</li>
