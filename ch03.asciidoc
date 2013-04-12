@@ -518,7 +518,7 @@ The Navbar is a nice feature, and is one of the prominent features of Bootstrap 
 .Basic Navbar
 image::images/boot_0321.png[]
 
-.Basic Navbar 
+.Basic Navbar
 [source, html]
 ----
 <div class="navbar">
