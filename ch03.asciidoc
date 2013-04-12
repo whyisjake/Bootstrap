@@ -824,7 +824,7 @@ image::images/boot_0331.png[]
 </ul>
 ----
 
-To left/right align the different links, you just need to add the `.previous` and `.next` class to the list-items. Also, like `.pagination` in Figure 3-30, you can add the disabled class for a muted look.
+To left/right align the links, you just need to add the `.previous` and `.next` class to the list-items. Also, like `.pagination` in Figure 3-30, you can add the disabled class for a muted look.
 
 .Aligned Page Links
 image::images/boot_0332.png[]
