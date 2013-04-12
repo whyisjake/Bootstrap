@@ -7,7 +7,7 @@ In addition to all of the markup provided in the previous chapter, Bootstrap pro
 
 Dropdown menus are toggleable, contextual menus for displaying links in a list format. The dropdowns can be used on a variety of different elements, navs, buttons, and more. You can have a single dropdown or extend the dropdown into another submenu.
 
-.Basic Dropdown Menu
+.Basic dropdown menu
 image::images/boot_0301.png[]
 
 [source, html]
