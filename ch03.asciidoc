@@ -536,7 +536,7 @@ image::images/boot_0321.png[]
 
 Note the `.brand` class in the code in <<examplebrand>>, this will give the text a lighter `font-weight` and slightly larger size.
 
-.Brand Class Example
+.Brand Class
 [source, html]
 ----
 <a class="brand" href="#">Project name</a>
