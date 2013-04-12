@@ -352,7 +352,7 @@ image::images/boot_0315.png[]
 
 ==== Navigation Lists
 
-Navigation lists are useful when you need to display a group of navigation links. This type of element is common when building admin interfaces in websites. In the MAKE admin interface, I have one of these on the sidebar of every page with quick links to common pages. A form of this is what that Bootstrap developers use for their documentation. Like all of the lists that we have discusses thus far, this is simply an unordered list with the `.nav` class, and to give it it's specific styling, we add the `.nav-list` class.
+Navigation lists are useful when you need to display a group of navigation links. This type of element is common when building admin interfaces. In the MAKE admin interface, I have one of these on the sidebar of every page with quick links to common pages. A form of this is what that Bootstrap developers use for their documentation. Like all of the lists that we have discusses thus far, this is simply an unordered list with the `.nav` class, and to give it it's specific styling, we add the `.nav-list` class.
 
 .Navigation List
 image::images/boot_0316.png[]
