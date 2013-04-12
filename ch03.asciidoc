@@ -865,7 +865,7 @@ image::images/boot_0333.png[]
 
 === Badges
 
-Badges are similar to labels, the primary difference is that the corners are more rounded corners. The colors of badges reflect the same classes as labels.
+Badges are similar to labels, the primary difference is that the corners are more rounded. The colors of badges reflect the same classes as labels.
 
 .Badges
 image::images/boot_0334.png[]
