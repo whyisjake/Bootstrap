@@ -534,7 +534,7 @@ image::images/boot_0321.png[]
 </div>
 ----
 
-Note the `.brand` class, this will give the text a lighter `font-weight` and slightly larger size.
+Note the `.brand` class in the code in <<examplebrand>>, this will give the text a lighter `font-weight` and slightly larger size.
 
 .Brand Class Example
 [source, html]
