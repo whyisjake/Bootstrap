@@ -1,7 +1,7 @@
 [[bootstrap_layout]]
 == Bootstrap Layout Components
 
-In addtion to all of the markup provided in the previous chapter, Bootstrap provides a toolkit of flexible components that can be used in designing application interfaces, web features and more. Each of the plug-ins are available in a seperate JavaScript file, combined all together, or, using the Bootstrap customizer, you can pick and choose which plug-ins you want. Personally, on the projects that I build, I lump them all together. That way I have options.
+In addition to all of the markup provided in the previous chapter, Bootstrap provides a toolkit of flexible components that can be used in designing application interfaces, web features and more. Each of the plug-ins are available in one seperate JavaScript file, combined all together, or, using the Bootstrap customizer, you can pick and choose which plug-ins you want. Personally, on the projects that I build, I lump them all together. That way I have options.
 
 === Dropdown Menus
 
