@@ -237,7 +237,7 @@ image::images/boot_0309.png[]
 To turn the tabs into pills, use `.nav-pills` instead of `.nav-tabs`. <<figure3-10>> shows pills navigation.
 
 [[figure3-10]]
-.Tabbed Navigation
+.Tabbed navigation
 image::images/boot_0310.png[]
 
 .Tabbed Navigation Code Example
