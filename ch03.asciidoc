@@ -28,7 +28,6 @@ image::images/boot_0301.png[]
 
 Add +.pull-right+ to a +.dropdown-menu+ to right-align the dropdown menu to the parent object:
 
-
 [source, html]
 ----
 <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
