@@ -103,7 +103,7 @@ image::images/boot_0303.png[]
 </div>
 ----
 
-To make the buttons stack, simply add `.btn-group-vertical` to the `.btn-group` class.
+To make the buttons stack, add `.btn-group-vertical` to the `.btn-group` class.
 
 .Vertical Button Group
 image::images/boot_0304.png[]
