@@ -478,10 +478,10 @@ image::images/boot_0319.png[]
 </div>
 ----
 
-Tabs on the right get the `.tabs-right` class.
+Tabs on the right get the `.tabs-right` class (see <<figure3-21>>.
 
 [[figure3-20]]
-.Right Tabs
+.Right tabs
 image::images/tabs-right.png[]
 
 .Right Tab Code Example
