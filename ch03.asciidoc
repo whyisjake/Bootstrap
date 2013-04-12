@@ -815,7 +815,7 @@ If you need to create simple pagination links that go beyond text, the pager can
 .Basic pager
 image::images/boot_0331.png[]
 
-.Basic Pager Code Example
+.Basic Pager Code
 [source, html]
 ----
 <ul class="pager">
