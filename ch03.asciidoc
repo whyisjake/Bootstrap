@@ -152,7 +152,7 @@ image::images/boot_0305.png[]
 </div>
 ----------------------------------------------------------------------
 
-You can use the dropdowns with any button size: `.btn-large`, `.btn`, `.btn-small`, or `.btn-mini`. 
+You can use the dropdowns with any button size: `.btn-large`, `.btn`, `.btn-small`, or `.btn-mini`. <<figure3-6>> shows several examples of different button sizes.
 
 [[figure3-6]]
 .Button dropdown sizes
