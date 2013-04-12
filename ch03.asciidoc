@@ -449,8 +449,9 @@ image::images/tab-below.png[]
 </div>
 ----
 
-Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab content, and the tabs.
+Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab content, and the tabs (see <<figure3-19>>).
 
+[[figure3-19]]
 .Left tabs
 image::images/boot_0319.png[]
 
