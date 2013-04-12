@@ -378,7 +378,6 @@ image::images/boot_0316.png[]
 
 To create a divider, much like an `<hr />`, use an empty `<li>` with a class of `.divider`:
 
-.Horizontal Divider
 [source, html]
 ----
 <ul class="nav-menu">
