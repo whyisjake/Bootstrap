@@ -894,7 +894,7 @@ The hero unit is a large, content area that increases the size of headings and a
 .Hero unit
 image::images/boot_0335.png[]
 
-.Hero Unit Code Example
+.Hero Unit
 [source, html]
 ----
 <div class="hero-unit">
