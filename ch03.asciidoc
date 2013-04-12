@@ -599,7 +599,7 @@ The Bootstrap navbar can be dynamic in its positioning. By default, it is a bloc
 
 ===== Fixed top navbar
 
-If you want the navbar fixed to the top, add `.navbar-fixed-top` to the `.navbar` class. To prevent the navbar from sitting on top of other content in the body of the page, add at least 40 pixels of padding to the `<body>` tag.
+If you want the navbar fixed to the top, add `.navbar-fixed-top` to the `.navbar` class. To prevent the navbar from sitting on top of other content in the body of the page, add at least 40 pixels of padding to the `<body>` tag:
 
 .Fixed Top Navbar
 [source, html]
