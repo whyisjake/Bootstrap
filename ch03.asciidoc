@@ -289,7 +289,7 @@ image::images/boot_0312.png[]
 .Stacked pills
 image::images/boot_0313.png[]
 
-.Stacked Pills Code Example
+.Stacked Pills 
 [source, html]
 ----
 <ul class="nav nav-pills nav-stacked">
