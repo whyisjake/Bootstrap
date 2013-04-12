@@ -478,7 +478,7 @@ image::images/boot_0319.png[]
 </div>
 ----
 
-Tabs on the right get the `.tabs-right` class (see <<figure3-21>>.
+Tabs on the right get the `.tabs-right` class (see <<figure3-21>>).
 
 [[figure3-20]]
 .Right tabs
