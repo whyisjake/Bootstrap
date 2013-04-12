@@ -38,7 +38,7 @@ Add +.pull-right+ to a +.dropdown-menu+ to right-align the dropdown menu to the 
 
 ===== Submenu
 
-If you would like to add a second layer of dropdowns, simply add `.dropdown-submenu` to any `<li>` in an existing dropdown menu for automatic styling. See <<figure3-2>> for what a second layer menu looks like.
+If you would like to add a second layer of dropdowns, simply add `.dropdown-submenu` to any `<li>` in an existing dropdown menu for automatic styling. See <<figure3-in1>> for what a second layer menu looks like.
 
 [source,html]
 ----
@@ -53,7 +53,7 @@ If you would like to add a second layer of dropdowns, simply add `.dropdown-subm
 </ul>
 ----
 
-[[figure3-2]]
+[[figure3-in1]]
 .Dropdown Submenu
 image:images/boot_03in01.png[]
 
