@@ -508,7 +508,7 @@ image::images/tabs-right.png[]
 ----
 
 .Heads Up!
-NOTE: As a footnote here to the tabbable elements, you can use the markup here to control a varierty of things, perhaps outside of the scope of the default usage mechanism. On MAKE's site, I used this to control the navigation, and subnavigation. When you click on the navigation menu, the sub navigation would change and show different links.
+NOTE: As a footnote here to the tabbable elements, you can use the markup here to control a variety of things, perhaps outside of the scope of the default usage mechanism. On MAKE's site, I used this to control the navigation, and subnavigation. When you click on the navigation menu, the sub navigation would change and show different links.
 
 === Navbar
 
