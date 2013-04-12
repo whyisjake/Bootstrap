@@ -154,7 +154,7 @@ image::images/boot_0305.png[]
 
 You can use the dropdowns with any button size: `.btn-large`, `.btn`, `.btn-small`, or `.btn-mini`.
 
-.Button Dropdown Sizes
+.Button dropdown sizes
 image::images/boot_0306.png[]
 
 ==== Split Button Dropdowns
