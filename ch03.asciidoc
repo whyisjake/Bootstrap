@@ -637,7 +637,6 @@ To affix the navbar to the bottom of the page, simply add the `.fixed-navbar-bot
 
 To create a navbar that scrolls with the page, add the `.navbar-static-top` class. This class does not require adding the padding to the `<body>`:
 
-.Static Top Navbar
 [source, html]
 ----
 <div class="navbar navbar-static-top">
