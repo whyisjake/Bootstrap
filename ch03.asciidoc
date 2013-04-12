@@ -810,7 +810,7 @@ image::images/boot_0330.png[]
 
 ==== Pager
 
-If you need to create simple pagination links that go beyond text, the pager can work quite well. Like the pagination links, the markup is an unordered list that sheds the wrapper `<div>`. By default, the links are centered (see <<figure3-31>>
+If you need to create simple pagination links that go beyond text, the pager can work quite well. Like the pagination links, the markup is an unordered list that sheds the wrapper `<div>`. By default, the links are centered (see <<figure3-31>>).
 
 [[figure3-31]]
 .Basic pager
@@ -825,8 +825,9 @@ image::images/boot_0331.png[]
 </ul>
 ----
 
-To left/right align the links, you just need to add the `.previous` and `.next` class to the list-items. Also, like `.pagination` in Figure 3-30, you can add the disabled class for a muted look.
+To left/right align the links, you just need to add the `.previous` and `.next` class to the list-items (see <<figure3-32>>). Also, like `.pagination` in Figure 3-30, you can add the disabled class for a muted look.
 
+[[figure3-32]]
 .Aligned Page Links
 image::images/boot_0332.png[]
 
