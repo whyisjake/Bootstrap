@@ -688,6 +688,7 @@ image::images/boot_0325.png[]
 
 To create an inverted navbar with a black background and white text, simply add `.navbar-inverse` to the `.navbar` class.
 
+[[figure3-26]]
 .Inverted Navbar
 image::images/boot_0326.png[]
 
