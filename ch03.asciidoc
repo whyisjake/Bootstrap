@@ -259,7 +259,7 @@ For each of the `.nav` classes, if you add the `.disabled` class, it will create
 .Disabled navigation
 image::images/boot_0311.png[]
 
-.Disabled Navigation Code Example
+.Disabled Navigation
 [source, html]
 ----
 <ul class="nav nav-pills">
