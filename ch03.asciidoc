@@ -332,7 +332,7 @@ To do the same thing with pills, simply swap the `.nav-tabs` class with `.nav-pi
 .Pill navigation with dropdowns
 image::images/boot_0315.png[]
 
-.Pill Navigation Dropdown Code Example
+.Pill Navigation Dropdown
 [source, html]
 ----
 <ul class="nav nav-pills">
