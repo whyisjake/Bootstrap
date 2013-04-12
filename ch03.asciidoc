@@ -564,7 +564,7 @@ image::images/boot_0322.png[]
 
 ==== Forms
 
-Instead of using the default class-based forms from chapter 2, forms that are in the navbar use the `.navbar-form` class. This ensures that the forms margins are properly set, and match the nav stylings. Of note, `.pull-left`, and `.pull-right` helper classes may help move the form in the proper position.
+Instead of using the default class-based forms from <css>>, forms that are in the navbar use the `.navbar-form` class. This ensures that the forms margins are properly set, and match the nav stylings. Of note, `.pull-left`, and `.pull-right` helper classes may help move the form in the proper position.
 
 .Default Navbar Form
 image::images/boot_0323.png[]
