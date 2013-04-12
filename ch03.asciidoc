@@ -216,6 +216,7 @@ Bootstrap also provides a helper class, `.active`. In principle, it generally ad
 
 To create a tabbed navigation menu, start with a basic unordered list with the base class of `.nav` and add `.nav-tabs`.
 
+[[figure3-9]]
 .Tabbed Navigation
 image::images/boot_0309.png[]
 
