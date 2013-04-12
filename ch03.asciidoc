@@ -134,7 +134,7 @@ To add a dropdown to a button, simply wrap the button and dropdown menu in a `.b
 .Button with a dropdown
 image::images/boot_0305.png[]
 
-.Button Dropdown Code
+.Button Dropdown
 [source,html]
 ----------------------------------------------------------------------
 <div class="btn-group">
