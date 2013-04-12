@@ -890,6 +890,7 @@ In addition to buttons, labels, forms, tables, and tabs, Bootstrap has a few mor
 
 The hero unit is a large, content area that increased the size of headings, and adds a lot of margin for landing page content. To use, simply create a container `<div>` with the class of `.hero-unit`. In addition to a larger `<h1>`, all the `font-weight` is reduced to 200.
 
+[[figure3-35]]
 .Hero Unit
 image::images/boot_0335.png[]
 
