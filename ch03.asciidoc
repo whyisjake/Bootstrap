@@ -35,7 +35,7 @@ Add +.pull-right+ to a +.dropdown-menu+ to right-align the dropdown menu to the 
 </ul>
 ----
 
-===== Dropdown Submenu
+===== Submenu
 
 If you would like to add a second layer of dropdowns, simply add `.dropdown-submenu` to any `<li>` in an existing dropdown menu for automatic styling.
 
