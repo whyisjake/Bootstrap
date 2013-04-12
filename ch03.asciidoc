@@ -234,8 +234,9 @@ image::images/boot_0309.png[]
 
 ==== Basic Pills Navigation
 
-To turn the tabs into pills, use `.nav-pills` instead of `.nav-tabs`.
+To turn the tabs into pills, use `.nav-pills` instead of `.nav-tabs`. See 
 
+[[figure3-10]]
 .Tabbed Navigation
 image::images/boot_0310.png[]
 
