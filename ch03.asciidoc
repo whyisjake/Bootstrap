@@ -23,7 +23,7 @@ image::images/boot_0301.png[]
 
 ==== Options
 
-===== Right align the dropdown
+===== Right-align
 
 Add `.pull-right` to a `.dropdown-menu` to right-align the dropdown menu to the parent object.
 
