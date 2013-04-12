@@ -512,7 +512,7 @@ NOTE: As a footnote here to the tabbable elements, you can use the markup here t
 
 === Navbar
 
-The Navbar is a nice feature, and is one of the prominent features of Bootstrap sites. At its core, the navbar includes styling for site names and basic navigation. It can later be extended by adding form specific controls, and specialized dropdowns. To be sure that the navbar is constrained to the width of the content of the page, either place it inside of a `.span12` or the `.container` class.
+The Navbar is a nice feature, and is one of the prominent features of Bootstrap sites. At its core, the navbar includes styling for site names and basic navigation. It can later be extended by adding form specific controls and specialized dropdowns. To be sure that the navbar is constrained to the width of the content of the page, either place it inside of a `.span12` or the `.container` class.
 
 .Basic Navbar Example
 image::images/boot_0321.png[]
