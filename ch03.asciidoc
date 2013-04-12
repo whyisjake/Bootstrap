@@ -53,7 +53,7 @@ If you would like to add a second layer of dropdowns, simply add `.dropdown-subm
 </ul>
 ----
 
-[[figure3-1]]
+[[figure3-2]]
 .Dropdown Submenu
 image:images/boot_03in01.png[]
 
