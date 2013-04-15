@@ -1128,7 +1128,7 @@ A well is a container `<div>` that causes the content to appear sunken on the pa
 .Well
 image::images/boot_0350.png[]
 
-.Well Example
+.Well
 [source, html]
 ----
 <div class="well">
