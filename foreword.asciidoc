@@ -10,7 +10,7 @@ Apple realized that there is a set of things that all software has to do, so why
 
 The reason programmers didn't like it, (and I was one of them) was that they took what we did and commoditized it. Further, there were limits to the one-size-fits-all approach. There were some apps that didn't take to the UI standards very well. What to do about them? Well, you adapted, that's what you did.((("UIs (user interfaces)", "standardizatin of")))
 
-This is a well-known technical process called factoring. If you see yourself doing something over and over, do it one more time really well, work on the API so it's easy and flexible, and that's it. You never do it again. It's how you build ever-taller buildings out of software. What was the leading edge five years ago is baked into the operating system today. Progress. It's a wonderful thing!
+This is a well-known technical process called factoring. If you see yourself doing something over and over, do it one more time really well, work on the API so it's easy and flexible, and that's it. You never do it again. It's how you build ever-taller buildings out of software. What was the leading edge five years ago is baked into the operating system today. Progress. It's a wonderful thing!((("factoring, definition of)))
 
 The same patterns are observable in the Web. In fact, it's kind of sad how much of a repeat it is, how backward today's development environment is compared to the one envisioned by the Mac. But at least Bootstrap is out there doing the factoring. If I want to put up a menu, I can just use the code that creates menus. Sure, my menu looks like all the others, but that's a good thing for users. There is no need to learn a second or third way to use a menu.
 
