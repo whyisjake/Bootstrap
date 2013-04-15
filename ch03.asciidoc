@@ -1057,13 +1057,13 @@ image::images/boot_0345.png[]
 
 === Media Object
 
-When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelines, and you will see the media object. Driven by the Bootstrap community and based on principles from the http://oocss.org/[oocss community], the goal of the media object is to make the code for developing these blocks of information drastically shorter. Nicole Sullivan-Hass shares a few element of the media object similar to Bootstrap's on her site http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/[stubbornella.org]. The media object is designed to literally save hundreds of lines of code, making it easy to customize. See <<figure3-47>> for an example of this.
+When you look at social sites like Facebook, Twitter and others, strip away some of the formatting from timelines, and you will see the media object. Driven by the Bootstrap community and based on principles from the http://oocss.org/[oocss community], the goal of the media object is to make the code for developing these blocks of information drastically shorter. Nicole Sullivan-Hass shares a few elements of the media object similar to Bootstrap's on her site http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/[stubbornella.org]. The media object is designed to literally save hundreds of lines of code, making it easy to customize. See <<figure3-47>> for an example of this.
 
 [[figure3-47]]
 .Media Object
 image::images/boot_0347.png[]
 
-Bootstrap leaves the design and formatting to you, but provides a simple way to get going. Like a lot of other tools in Bootstrap, the goal of media objects (light markup, easy extendability) is achieved by applying classes to some simple markup. There are two forms to the media object, the `.media`, and the `.media-list`. If you are preparing a list where the items would be part of an unorderded list, use the `.media-list`. Using just `<div>` elements, use the `.media` object.
+Bootstrap leaves the design and formatting to you but provides a simple way to get going. Like a lot of other tools in Bootstrap, the goal of media objects (light markup, easy extendability) is achieved by applying classes to some simple markup. There are two forms to the media object, the `.media`, and the `.media-list`. If you are preparing a list where the items would be part of an unorderded list, use the `.media-list`. Using just `<div>` elements, use the `.media` object.
 
 .Default Media Object
 image::images/boot_0348.png[]
