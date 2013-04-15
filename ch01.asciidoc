@@ -283,7 +283,7 @@ image::images/responsive-grid.png[]
 
 === Container Layouts
 
-To add a fixed-width, centered layout to your page, simply wrap the content in `<div class="container">...</div>`. If you would like to use a fluid layout but want to wrap everything in a container, use the following: `<div class="container-fluid">...</div>`. Using a fluid layout is great when you are building applications, administration screens, and other related projects.(((scaffolding, container layouts)))
+To add a fixed-width, centered layout to your page, simply wrap the content in `<div class="container">...</div>`. If you would like to use a fluid layout but want to wrap everything in a container, use the following: `<div class="container-fluid">...</div>`. Using a fluid layout is great when you are building applications, administration screens, and other related projects.(((scaffolding, container layouts)))(((containers, layouts for)))
 
 // So the only thing the container adds is centering? Any other benefits worth talking about? (or if you mention any later in the book, you could also just add a cross reference.) If not, I might rename this section "centered layouts", since that's really the essence of the content. -NM
 
