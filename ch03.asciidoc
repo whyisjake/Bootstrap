@@ -1011,7 +1011,7 @@ image::images/boot_0342.png[]
 </div>
 ----
 
-To create a striped progress bar, just add `.progress-striped` to the container `<div>`. Of note, striped progress bars are not available in Internet Explorer 7 and 8 (<<figure3-43>>).
+To create a striped progress bar, just add `.progress-striped` to the container `<div>`. Of note, striped progress bars are not available in Internet Explorer 7 and 8 (see <<figure3-43>>).
 
 [[figure3-43]]
 .Striped Progress Bar
