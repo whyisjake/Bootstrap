@@ -90,7 +90,7 @@ With Bootstrap, a number of items come prebuilt. Instead of using the old reset 
 // Is this all in the file that's included in the css folder by default? -NM
 // Fixed. -JS
 
-In particular, the following default styles give special treatment to typography and links(((typography, default styles for)))(((links, default styles for))):
+In particular, the following default styles give special treatment to typography and links(((typography, default styles for)))(((links, default styles for)))((("fonts", seealso="typography"))):
 
 * `margin` has been removed from the body, and content will snug up to the edges of the browser window.
 * `background-color: white;` is applied to the body.
