@@ -40,7 +40,7 @@ I'm a developer and writer who encountered Bootstrap through a post on Dave Wine
 Other Resources
 ~~~~~~~~~~~~~~~
 
-This book may not be the best way for you to learn Bootstrap. It all depends on what you want to learn and why.
+This book may not be the best way for you to learn Bootstrap. It all depends on what you want to learn and why.(((Bootstrap, additional resources)))
 
 If your primary interest is to get started building Bootstrap websites, the http://twitter.github.com/bootstrap/[online documentation] will likely suit you perfectly. The authors, Jacob Thornton and Mark Otto, have been meticulous in providing examples of the codebase, HTML code samples, and more to kick-start your project. It is top notch, and I've used it to gather the structure for this book.
 
