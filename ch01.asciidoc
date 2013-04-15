@@ -35,7 +35,7 @@ For someone starting a new project, Bootstrap comes with a handful of useful ele
 	└── README.md
 ----
 
-The Bootstrap download includes three folders: css, js, and img. For simplicity, add these to the root of your project. Minified versions of the CSS and JavaScript are also included. It is not necessary to include both the uncompressed and the minified versions. For the sake of brevity, I use the uncompressed version during development and then switch to the compressed version in production.
+The Bootstrap download includes three folders: css, js, and img. For simplicity, add these to the root of your project. Minified versions of the CSS and JavaScript are also included. It is not necessary to include both the uncompressed and the minified versions. For the sake of brevity, I use the uncompressed version during development and then switch to the compressed version in production.(((scaffolding, file structure)))(((file structure)))
 
 // It might be cool to have a little screencast here, where you start up a new bootstrap project, and just show a finder window where you walk through the file structure and defaults. -NM
 
