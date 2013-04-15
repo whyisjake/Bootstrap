@@ -1024,7 +1024,7 @@ image::images/boot_0343.png[]
 </div>
 ----
 
-Like the striped version of the progress bar, you can animate the stripes, making it look like the blue light special barbershop pole.
+Like the striped version of the progress bar, you can animate the stripes, making it look like a blue light special barbershop pole.
 
 .Animated Progress Bar
 image::images/boot_0344.png[]
