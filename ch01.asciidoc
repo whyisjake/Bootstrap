@@ -289,7 +289,7 @@ To add a fixed-width, centered layout to your page, simply wrap the content in `
 
 === Responsive Design
 
-To turn on the responsive features of Bootstrap, you need to add a `<meta>` tag to the `<head>` of your web page. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file. An example of required files looks like this(((scaffolding, responsive design)))(((responsive design)))(((Bootstrap, enabling responsive features))):
+To turn on the responsive features of Bootstrap, you need to add a `<meta>` tag to the `<head>` of your web page. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file. An example of required files looks like this(((scaffolding, responsive design)))(((responsive design)))(((Bootstrap, enabling responsive features)))(((meta tags))):
 
 // I might add the complete head markup in the example below, just to give people a little extra orientation. Also, why wouldn't they have downloaded the compiled source, and how do they add the CSS file in that case? -NM
 
