@@ -1025,8 +1025,9 @@ image::images/boot_0343.png[]
 </div>
 ----
 
-Like the striped version of the progress bar, you can animate the stripes, making it look like a blue-light special barbershop pole.
+Like the striped version of the progress bar, you can animate the stripes, making it look like a blue-light special barbershop pole. See <<figure3-44>>.
 
+[[figure3-44]]
 .Animated Progress Bar
 image::images/boot_0344.png[]
 
@@ -1038,8 +1039,9 @@ image::images/boot_0344.png[]
 </div>
 ----
 
-In addition to the blue progress bar, there are options for green, yellow, and red using the `.bar-success`, `.bar-warning`, and `.bar-danger` classes. Progress bars can be stacked, indicating a graph of sorts by adding multiple elements together like so:
+In addition to the blue progress bar, there are options for green, yellow, and red using the `.bar-success`, `.bar-warning`, and `.bar-danger` classes. Progress bars can be stacked, indicating a graph of sorts by adding multiple elements together as shown in <<figure3-45>>:
 
+[[figure3-45]]
 .Stacked Progress Bar
 image::images/boot_0345.png[]
 
