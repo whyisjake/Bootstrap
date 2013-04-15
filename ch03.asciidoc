@@ -1162,9 +1162,8 @@ image::images/boot_0351.png[]
 
 ===== Pull left
 
-To float an element to the left, use the `.pull-left` class.
+To float an element to the left, use the `.pull-left` class:
 
-.Pull Left HTML
 [source, html]
 ----
 <div class="pull-left">
