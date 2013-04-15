@@ -56,7 +56,7 @@ Normally, a web project looks something like this(((scaffolding, HTML templates)
 </html>
 ----
 
-With Bootstrap, we include the link to the CSS stylesheet and the JavaScript:
+With Bootstrap, we include the link to the CSS stylesheet and the JavaScript(((HTML5 Doctype))):
 
 [source, html]
 ----
