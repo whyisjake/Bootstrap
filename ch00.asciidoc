@@ -15,7 +15,7 @@ This books is mostly for people who have a good handle on HTML/CSS and JavaScrip
 Who This Book Is Not For
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-This book is not for people who get all they need out of the Bootstrap online documentation. Like a lot of people, the online docs are where I got started—building my first site with Bootstrap 1.3 and then upgrading it to Bootstrap 1.4. After that, I built a big project with Bootstrap 2.0 and so on. If you are comfortable writing semantic HTML, then jumping into Bootstrap should be easy for you.
+This book is not for people who get all they need out of the Bootstrap online documentation. Like a lot of people, the online docs are where I got started—building my first site with Bootstrap 1.3 and then upgrading it to Bootstrap 1.4. After that, I built a big project with Bootstrap 2.0 and so on. If you are comfortable writing semantic HTML, then jumping into Bootstrap should be easy for you.((("Bootstrap", "prerequisites")))
 
 What This Book Will Do For You
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
