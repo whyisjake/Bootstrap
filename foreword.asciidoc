@@ -8,7 +8,7 @@ I was a software developer before Mac existed, so I remember how the tech indust
 
 Apple realized that there is a set of things that all software has to do, so why shouldn't they all do them the same way? If they did, software would be easier to develop and debug, but more important—it would be easier to use. If there was only one way to create menus, then once a user learned how to use the menus of one app, he would already know how to use the menus of all others. The same is true with scrollbars, windows, the keyboard, the mouse, printing, and sound.
 
-The reason programmers didn't like it, (and I was one of them) was that they took what we did and commoditized it. Further, there were limits to the one-size-fits-all approach. There were some apps that didn't take to the UI standards very well. What to do about them? Well, you adapted, that's what you did.((("UIs (user interfaces)", "standardizatin of")))
+The reason programmers didn't like it, (and I was one of them) was that they took what we did and commoditized it. Further, there were limits to the one-size-fits-all approach. There were some apps that didn't take to the UI standards very well. What to do about them? Well, you adapted, that's what you did.((("UIs (user interfaces)", "standardization of")))
 
 This is a well-known technical process called factoring. If you see yourself doing something over and over, do it one more time really well, work on the API so it's easy and flexible, and that's it. You never do it again. It's how you build ever-taller buildings out of software. What was the leading edge five years ago is baked into the operating system today. Progress. It's a wonderful thing!((("factoring, definition of")))
 
