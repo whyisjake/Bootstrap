@@ -1117,7 +1117,7 @@ image::images/boot_0349.png[]
 ----
 
 
-=== Misc
+=== Miscellaneous
 
 Now, at the end of chapter 3, there are a few more components that Bootstrap offers. There are a few that are layout based, and a few that layout based, and a few that are prodcuction based helper clasees. The first among these are the wells.
 
