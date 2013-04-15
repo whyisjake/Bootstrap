@@ -34,7 +34,7 @@ Why I Wrote This Book
 
 I'm not a Bootstrap expert hoping to create more Bootstrap experts to get a lot of work done.
 
-I'm a developer and writer who encountered Bootstrap through a post on Dave Winer's blog, and I thought it would be cool to apply it to a new site that I was working on. I feel compelled to share some of what I've learned. I'm hoping that the path I followed will work for other people, probably with variations, and that a book written from a beginner's perspective (and vetted by experts) will help more people find and enjoy Bootstrap.
+I'm a developer and writer who encountered Bootstrap through a post on Dave Winer's blog, and I thought it would be cool to apply it to a new site that I was working on. I feel compelled to share some of what I've learned. I'm hoping that the path I followed will work for other people, probably with variations, and that a book written from a beginner's perspective (and vetted by experts) will help more people find and enjoy Bootstrap.((("Winer, Dave")))
 
 
 Other Resources
