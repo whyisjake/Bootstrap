@@ -1205,7 +1205,6 @@ To clear the float of any element, use the `.clearfix` class. When you have two 
 <div class="clearfix"></div>
 ----
 
-.Clearfix CSS
 [source, css]
 ----
 .clearfix {
