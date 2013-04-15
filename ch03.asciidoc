@@ -1123,7 +1123,7 @@ There are a few more Bootstrap components that we have yet to cover in this chap
 
 ==== Wells
 
-A well is a container `<div>` that causes the content to appear sunken on the page. I have used them before for blog post meta information like author, date, and categories. To create, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`.
+A well is a container `<div>` that causes the content to appear sunken on the page. I have used them before for blog post meta information like author, date, and categories. To create a well, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`.
 
 .Well
 image::images/boot_0350.png[]
