@@ -113,7 +113,7 @@ Remember, if you don't like the colors or want to change a default, this can be 
 
 === Default Grid System
 
-The default Bootstrap grid (see <<figure1-1>>) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide, depending on your viewport. Below 767px viewports, such as the ones on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide and offset 20 pixels to the left. An example of the twelve possible columns is in <<figure1-1>>.(((scaffolding, default grid system)))((("grid system, default")))
+The default Bootstrap grid (see <<figure1-1>>) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide, depending on your viewport. Below 767px viewports, such as the ones on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide and offset 20 pixels to the left. An example of the twelve possible columns is in <<figure1-1>>.(((scaffolding, default grid systems)))((("grid systems, default")))
 
 // I think this would be a great place for a jsfiddle, showing a resizable frame using the responsive grid that users can resize and see change. Basically, just an embedded responsive frame. Fallback for print, epub, etc, would be an image showing both default grid and responsive grid. -NM
 
@@ -123,7 +123,7 @@ image::images/boot_0101.png[]
 
 ==== Basic Grid HTML
 
-To create a simple layout, create a container with a `<div>` that has a class of `.row` and add the appropriate amount of `.span*` columns. Since we have a 12-column grid, we just need the amount of `.span*` columns to equal twelve. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2... we could go on and on, but I think you get the gist.
+To create a simple layout, create a container with a `<div>` that has a class of `.row` and add the appropriate amount of `.span*` columns. Since we have a 12-column grid, we just need the amount of `.span*` columns to equal twelve. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2... we could go on and on, but I think you get the gist.(((layouts, creating simple)))
 
 The following code shows `.span8` and `.span4`, which adds up to 12:
 
