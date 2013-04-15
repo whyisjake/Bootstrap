@@ -41,7 +41,7 @@ The Bootstrap download includes three folders: css, js, and img. For simplicity,
 
 === Basic HTML Template
 
-Normally, a web project looks something like this(((scaffolding, HTML template)))(((HTML template)))((("templates", "HTML"))):
+Normally, a web project looks something like this(((scaffolding, HTML templates)))(((HTML templates)))((("templates", "HTML"))):
 
 [source,html]
 ----
