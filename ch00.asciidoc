@@ -49,7 +49,7 @@ If you want to contribute to the work of the open source project, you can submit
 Are You Sure You Want Bootstrap?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you are looking for JavaScript plug-ins, or a CSS reset, Bootstrap may be overkill. If you aren't in love with some of the default interface elements, they can be overwritten easily or you can just strip out the associated tags. If you are looking for an easy way to build fast, responsive websites, Bootstrap is a great way to get going. I use it on all of my projects, and I'm really happy with it.
+If you are looking for JavaScript plug-ins, or a CSS reset, Bootstrap may be overkill. If you aren't in love with some of the default interface elements, they can be overwritten easily or you can just strip out the associated tags. If you are looking for an easy way to build fast, responsive websites, Bootstrap is a great way to get going. I use it on all of my projects, and I'm really happy with it.(((Bootstrap, is it right for you)))
 
 
 Conventions Used in This Book
