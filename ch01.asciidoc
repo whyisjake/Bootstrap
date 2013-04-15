@@ -385,7 +385,7 @@ Bootstrap also includes a handful of helper classes for doing responsive develop
 
 // I'd really love to see a slideshow here, where you see which class is being used, and then see the display on different devices. I envision this showing alongside the text. But I'm not totally sure if that's even feasible right now; a video with the same content could also work. I wouldn't even say narrative was necessary. Or maybe an animated gif? -NM
 
-There are two major ways that you could look at doing development. The mantra that a lot of people are shouting now is that you should start with mobile, build to that platform, and let the desktop follow. Bootstrap almost forces the opposite, where you would create a full-featured desktop site that "just works."(((mobile framework)))
+There are two major ways that you could look at doing development. The mantra that a lot of people are shouting now is that you should start with mobile, build to that platform, and let the desktop follow. Bootstrap almost forces the opposite, where you would create a full-featured desktop site that "just works."(((mobile frameworks)))
 
 If you are looking for a strictly mobile framework, Bootstrap is still a great resource.(((range="endofrange", startref="ix_bootscaff")))
 
