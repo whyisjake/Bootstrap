@@ -1069,7 +1069,7 @@ Bootstrap leaves the design and formatting to you but provides a simple way to g
 .Default media object
 image::images/boot_0348.png[]
 
-.Media Object Code Example
+.Media Object
 [source, html]
 ----
 <div class="media">
