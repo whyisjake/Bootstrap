@@ -334,7 +334,7 @@ At the core, Bootstrap supports five different layouts, each relying on CSS medi
 |Phones				|480px and below 2+^|Fluid columns, no fixed widths
 |=====================================================================
 
-To add custom CSS based on the media query, you can either include all rules in one CSS file via the media queries below, or use entirely different CSS files:
+To add custom CSS based on the media query, you can either include all rules in one CSS file via the media queries below, or use entirely different CSS files((("CSS (Cascading Style Sheets)", "customized layouts"))):
 
 [source, css]
 --------------
