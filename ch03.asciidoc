@@ -1171,7 +1171,6 @@ To float an element to the left, use the `.pull-left` class:
 </div>
 ----
 
-.Pull Left CSS
 [source, css]
 ----
 .pull-left {
