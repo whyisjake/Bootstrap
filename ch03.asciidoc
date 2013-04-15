@@ -1178,7 +1178,7 @@ To float an element to the left, use the `.pull-left` class:
 }
 ----
 
-===== Pull Right
+===== Pull right
 
 To float an element to the right, use the `.pull-right` class:
 
