@@ -4,7 +4,7 @@
 
 === What Is Bootstrap?
 
-Bootstrap is an open source product from Mark Otto and Jacob Thornton who, when it was initially released, were both employees at Twitter. There was a need to standardize the frontend toolsets of engineers across the company. In the launch blog post, Mark Otto introduced the project like this:
+Bootstrap is an open source product from Mark Otto and Jacob Thornton who, when it was initially released, were both employees at Twitter. There was a need to standardize the frontend toolsets of engineers across the company. In the launch blog post, Mark Otto introduced the project like this((("Otto, Mark")))((("Thornton, Jacob")))(((Twitter)))((("UIs (user interfaces)", "standardization of"))):
 
 [quote, Mark Otto, https://dev.twitter.com/]
 ____
