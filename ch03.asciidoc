@@ -1088,7 +1088,7 @@ image::images/boot_0348.png[]
 </div>
 ----
 
-To use media list, change the container `<div>` to an `<ul>` and add the class `.media-list`. Since you can nest media objects, it makes it handy to markup for comments, or other lists.
+To use media list, change the container `<div>` to an `<ul>` and add the class `.media-list`. Since you can nest media objects, it makes it handy to markup for comments or other lists.
 
 .Media List Example
 image::images/boot_0349.png[]
