@@ -145,7 +145,7 @@ The following code shows `.span8` and `.span4`, which adds up to 12:
 
 ==== Offsetting Columns
 
-You can move columns to the right using the `.offset*` class. Each class moves the span over that width. So an `.offset2` would move a `.span7` over two columns (see <<figure1-2>>)(((columns, offsetting)))(((offset grid))):
+You can move columns to the right using the `.offset*` class. Each class moves the span over that width. So an `.offset2` would move a `.span7` over two columns (see <<figure1-2>>)(((columns, offsetting)))(((offset grids))):
 
 [source, html]
 ----
