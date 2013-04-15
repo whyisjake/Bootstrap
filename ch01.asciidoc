@@ -85,7 +85,7 @@ By including <!DOCTYPE html>, all modern browsers are put into standards mode.
 
 === Global Styles
 
-With Bootstrap, a number of items come prebuilt. Instead of using the old reset block that was part of the Bootstrap 1.0 tree, Bootstrap 2.0 uses http://necolas.github.com/normalize.css/[Normalize.css], a project from http://necolas.github.com/normalize.css/[Nicolas Gallagher] that is part of the http://html5boilerplate.com[HTML5 Boilerplate]. This is included in the _bootstrap.css_ file.(((scaffolding, global styles)))(((global styles)))((("styles, global")))
+With Bootstrap, a number of items come prebuilt. Instead of using the old reset block that was part of the Bootstrap 1.0 tree, Bootstrap 2.0 uses http://necolas.github.com/normalize.css/[Normalize.css], a project from http://necolas.github.com/normalize.css/[Nicolas Gallagher] that is part of the http://html5boilerplate.com[HTML5 Boilerplate]. This is included in the _bootstrap.css_ file.(((scaffolding, global styles)))(((global styles)))((("styles, global")))(((defalut sytles)))
 
 // Is this all in the file that's included in the css folder by default? -NM
 // Fixed. -JS
