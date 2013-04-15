@@ -1119,7 +1119,7 @@ image::images/boot_0349.png[]
 
 === Miscellaneous
 
-There are a few more Bootstrap components that we have yet to cover in this chapter. There are a few that are layout based, and a few that layout based, and a few that are prodcuction based helper clasees. The first among these are the wells.
+There are a few more Bootstrap components that we have yet to cover in this chapter. There are a few that are layout based, and a few that are prodcuction based helper clasees. The first among these are the wells.
 
 ==== Wells
 
