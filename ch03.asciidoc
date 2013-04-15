@@ -1139,7 +1139,8 @@ image::images/boot_0350.png[]
 
 There are two additional classes that can be used in conjunction with `.well`: `.well-large` and `.well-small`. These affect the padding, making the well larger or smaller depending on the class.
 
-.Well Optional Classes
+[[figure3-51]]
+.Well opptional classes
 image::images/boot_0351.png[]
 
 [source, html]
