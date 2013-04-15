@@ -1180,9 +1180,8 @@ To float an element to the left, use the `.pull-left` class:
 
 ===== Pull Right
 
-To float an element to the right, use the `.pull-right` class.
+To float an element to the right, use the `.pull-right` class:
 
-.Pull Right CSS
 [source, html]
 ----
 <div class="pull-right">
@@ -1190,7 +1189,6 @@ To float an element to the right, use the `.pull-right` class.
 </div>
 ----
 
-.Pull Right CSS
 [source, css]
 ----
 .pull-right {
