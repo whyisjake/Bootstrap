@@ -283,13 +283,13 @@ image::images/responsive-grid.png[]
 
 === Container Layouts
 
-To add a fixed-width, centered layout to your page, simply wrap the content in `<div class="container">...</div>`. If you would like to use a fluid layout but want to wrap everything in a container, use the following: `<div class="container-fluid">...</div>`. Using a fluid layout is great when you are building applications, administration screens, and other related projects.(((scaffolding, container layouts)))(((containers, layouts for)))
+To add a fixed-width, centered layout to your page, simply wrap the content in `<div class="container">...</div>`. If you would like to use a fluid layout but want to wrap everything in a container, use the following: `<div class="container-fluid">...</div>`. Using a fluid layout is great when you are building applications, administration screens, and other related projects.(((scaffolding, container layouts)))((("containers, layouts for")))
 
 // So the only thing the container adds is centering? Any other benefits worth talking about? (or if you mention any later in the book, you could also just add a cross reference.) If not, I might rename this section "centered layouts", since that's really the essence of the content. -NM
 
 === Responsive Design
 
-To turn on the responsive features of Bootstrap, you need to add a `<meta>` tag to the `<head>` of your web page. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file. An example of required files looks like this:
+To turn on the responsive features of Bootstrap, you need to add a `<meta>` tag to the `<head>` of your web page. If you haven't downloaded the compiled source, you will also need to add the responsive CSS file. An example of required files looks like this(((scaffolding, responsive design)))(((responsive design)))(((Bootstrap, enabling responsive features))):
 
 // I might add the complete head markup in the example below, just to give people a little extra orientation. Also, why wouldn't they have downloaded the compiled source, and how do they add the CSS file in that case? -NM
 
