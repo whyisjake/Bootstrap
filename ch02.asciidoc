@@ -868,7 +868,7 @@ image::images/boot_0238.png[]
 
 ===== Disabled input
 
-If you need to disable an input, simply adding the `disabled` attribute will not only disable it; it will also change the styling and the mouse cursor when the cursor hovers over the element (see <<figure2-41>>):
+If you need to disable an input, simply adding the `disabled` attribute will not only disable it; it will also change the styling and the mouse cursor when the cursor hovers over the element (see <<figure2-41>>)(((disabled input))):
 
 [source,html]
 ----
