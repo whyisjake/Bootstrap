@@ -457,7 +457,7 @@ For information about the jQuery `.on` method, refer to  http://api.jquery.com/o
 
 === Tooltips
 
-Tooltips (<<tooltip_placement>>) are useful when you need to describe a link or (used in conjunction with the `<abbr>` tag) provide the definition of an abbreviation. The plug-in was originally based on the _jQuery.tipsy_ plug-in written by Jason Frame. Tooltips have since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.
+Tooltips (<<tooltip_placement>>) are useful when you need to describe a link or (used in conjunction with the `<abbr>` tag) provide the definition of an abbreviation. The plug-in was originally based on the _jQuery.tipsy_ plug-in written by Jason Frame. Tooltips have since been updated to work without images, animate with a CSS animation, and work with the Bootstrap JavaScript API.(((JavaScript plug-ins, tooltips)))(((tooltips)))
 
 [[tooltip_placement]]
 .Tooltip placement
