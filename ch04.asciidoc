@@ -231,7 +231,7 @@ The dropdown was covered extensively in <<bootstrap_layout>>, but the interactio
 
 ==== Usage
 
-To use a dropdown (<<dropdown_fig>>), add `data-toggle="dropdown"` to a link or button to toggle the dropdown.(((data attributes)))
+To use a dropdown (<<dropdown_fig>>), add `data-toggle="dropdown"` to a link or button to toggle the dropdown.(((data attributes)))(((data-target attribute)))
 
 [[dropdown_fig]]
 .Dropdown within navbar
