@@ -1019,7 +1019,7 @@ image::images/boot_0244.png[]
 
 === Images
 
-Images have three classes (see <<figure2-47>>) that can be used to apply some simple styles: `.img-rounded` adds `border-radius:6px` to give the image rounded corners, `.img-circle` makes the entire image round by adding `border-radius:500px`, and `.img-polaroid` adds a bit of padding and a gray border((("CSS (Cascading Style Sheets)", "images")))(((images))):
+Images have three classes (see <<figure2-47>>) that can be used to apply some simple styles: `.img-rounded` adds `border-radius:6px` to give the image rounded corners, `.img-circle` makes the entire image round by adding `border-radius:500px`, and `.img-polaroid` adds a bit of padding and a gray border((("CSS (Cascading Style Sheets)", "images")))(((images)))(((styles, applied with images))):
 
 [source,html]
 ----
@@ -1034,7 +1034,7 @@ image::images/boot_0245.png[]
 
 === Icons
 
-Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and form fields. The icons are provided by http://glyphicons.com/[GLYPHICONS] (see <<figure2-48>>).
+Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and form fields. The icons are provided by http://glyphicons.com/[GLYPHICONS] (see <<figure2-48>>).((("CSS (Cascading Style Sheets)", "icons")))
 
 [[figure2-48]]
 .Icons by GLYPHICONS
