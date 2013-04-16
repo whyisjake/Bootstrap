@@ -924,7 +924,7 @@ ____
 
 I like to think that Bootstrap is unifying the Web and allowing a unified experience of what an interface can look like across the Web. With the advent of Bootstrap, you can usually spot the sites that have adopted it by the buttons that they use. A grid layout and many of the other features fade into the background, but buttons, forms, and other unifying elements are a key part of Bootstrap. When I come across a site that is using Bootstrap, I want to give a high five to the webmaster at that domain, since he probably "just gets it." I felt the same way a few years ago whenever I saw `wp-content` in the HTML of sites that I visited.((("UIs (user interfaces)", "standardization of")))
 
-Now, buttons and links can all look alike with Bootstrap. Anything that is given a class of `.btn` will inherit the default look of a gray button with rounded corners. However, you can add color to the buttons by adding extra classes (see <<table2-3>>).
+Now, buttons and links can all look alike with Bootstrap. Anything that is given a class of `.btn` will inherit the default look of a gray button with rounded corners. However, you can add color to the buttons by adding extra classes (see <<table2-3>>).(((colors, changing for buttons)))
 
 [[table2-3]]
 .Button color examples
