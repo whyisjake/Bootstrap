@@ -817,7 +817,7 @@ To reset the button state and bring in new content, use the string method.
 
 === Collapse
 
-The collapse plug-in makes it easy to make collapsing divisions of the page. Whether you use it to build accordion navigation or content boxes, it allows for a lot of content options. See <<accordionfig>> and <<accordioncode>>.(((JavaScript plug-ins, collapse)))
+The collapse plug-in makes it easy to make collapsing divisions of the page. Whether you use it to build accordion navigation or content boxes, it allows for a lot of content options. See <<accordionfig>> and <<accordioncode>>.(((JavaScript plug-ins, collapse)))(((collapsing page divisions)))(((accordion navigation)))
 
 [[accordionfig]]
 .Accordion
