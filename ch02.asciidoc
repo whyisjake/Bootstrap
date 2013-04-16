@@ -81,7 +81,7 @@ NOTE: You might be thinking, why not just use the `<b>` or `<i>` tags instead of
 
 ==== Emphasis Classes
 
-Along with `<strong>` and `<em>`, Bootstrap offers a few other classes that can be used to provide emphasis (see <<figure2-3>>). These could be applied to paragraphs or spans:
+Along with `<strong>` and `<em>`, Bootstrap offers a few other classes that can be used to provide emphasis (see <<figure2-3>>). These could be applied to paragraphs or spans(((typography, emphasis classes)))(((emphasis classes))):
 
 // Do these classes have to be applied at the paragraph level, or can they be applied to spans as well? -NM
 
