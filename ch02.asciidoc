@@ -268,7 +268,7 @@ A lot of times in markup, you will see people using headings inside an unordered
 .Definition list
 image::images/boot_0211.png[]
 
-To change the `<dl>` to a horizontal layout, with the `<dt>` on the left side and the `<dd>` on the right, simply add `class="dl-horizontal"` to the opening tag (see <<figure2-12>>).
+To change the `<dl>` to a horizontal layout, with the `<dt>` on the left side and the `<dd>` on the right, simply add `class="dl-horizontal"` to the opening tag (see <<figure2-12>>).(((horizontal definition lists)))
 
 [[figure2-12]]
 .Horizontal definition list
