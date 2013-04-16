@@ -451,7 +451,7 @@ image::images/boot_0220.png[]
 
 ===== Inline form
 
-To create a form where all of the elements are inline and labels are alongside, add the class `.form-inline` to the `<form>` tag (see <<figure2-21>>). To have the label and the input on the same line, use this inline form code:
+To create a form where all of the elements are inline and labels are alongside, add the class `.form-inline` to the `<form>` tag (see <<figure2-21>>). To have the label and the input on the same line, use this inline form code(((forms, inline forms)))(((inline forms))):
 
 // So, does this make just each input and its label inline, or are all the form elements in one long line? -NM
 // All of the labels and inputs are in one line. I thine the screenshot shows the difference between this and the horizontal.
