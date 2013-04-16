@@ -435,7 +435,7 @@ With a few helper classes, you can dynamically update the layout of your form. B
 
 ===== Search form
 
-Add `.form-search` to the `<form>` tag, and then add `.search-query` to the `<input>` for an input box with rounded corners and an inline submit button (see <<figure2-20>>):
+Add `.form-search` to the `<form>` tag, and then add `.search-query` to the `<input>` for an input box with rounded corners and an inline submit button (see <<figure2-20>>)(((forms, search forms)))(((search forms))):
 
 [source, html]
 ----
