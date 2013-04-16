@@ -366,7 +366,7 @@ image::images/boot_0215.png[]
 
 ===== Hover table
 
-<<figure2-16>> shows the `.table-hover` class. A light gray background will be added to rows while the cursor hovers over them.
+<<figure2-16>> shows the `.table-hover` class. A light gray background will be added to rows while the cursor hovers over them.(((hover table class)))
 
 [[figure2-16]]
 .Hover table class
@@ -374,7 +374,7 @@ image::images/boot_0216.png[]
 
 ===== Condensed table
 
-If you add the `.table-condensed` class, as shown in <<figure2-17>>, row padding is cut in half to condense the table. This is useful if you want denser information.
+If you add the `.table-condensed` class, as shown in <<figure2-17>>, row padding is cut in half to condense the table. This is useful if you want denser information.(((condensed table class)))
 
 [[figure2-17]]
 .Condensed table class
