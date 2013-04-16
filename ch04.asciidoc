@@ -966,7 +966,7 @@ $('#myCollapsible').on('hidden', function () {
 
 === Carousel
 
-The Bootstrap carousel (<<carousel_fig>>) is a flexible, responsive way to add a slider to your site. In addition to being responsive, the content is flexible enough to allow images, iframes, videos, or just about any type of content that you might want. The code is shown in <<carousel_example>>.
+The Bootstrap carousel (<<carousel_fig>>) is a flexible, responsive way to add a slider to your site. In addition to being responsive, the content is flexible enough to allow images, iframes, videos, or just about any type of content that you might want. The code is shown in <<carousel_example>>.(((JavaScript plug-ins, carousels)))
 
 [[carousel_fig]]
 .Carousel
