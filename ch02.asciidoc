@@ -383,7 +383,7 @@ image::images/boot_0217.png[]
 
 ==== Table Row Classes
 
-The classes shown in <<table2-2>> will allow you to change the background color of your rows (see <<figure2-18>>).
+The classes shown in <<table2-2>> will allow you to change the background color of your rows(((range="endofrange", startref="ix_CSStabl"))) (see <<figure2-18>>).
 
 [[table2-2]]
 .Optional table row classes
