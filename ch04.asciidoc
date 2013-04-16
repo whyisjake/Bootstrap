@@ -80,7 +80,7 @@ The transition plug-in provides simple transition effects. A few examples includ
 
 === Modal
 
-A modal is a child window that is layered over its parent window. Typically, the purpose is to display content from a separate source that can have some interaction without leaving the parent window. Child windows can provide information, interaction, or more. I use them as a window for holding slideshows and login/registration information. The modal plug-in is probably one of my favorite Bootstrap features.(((JavaScript plug-ins, modals)))(((modals)))
+A modal is a child window that is layered over its parent window. Typically, the purpose is to display content from a separate source that can have some interaction without leaving the parent window. Child windows can provide information, interaction, or more. I use them as a window for holding slideshows and login/registration information. The modal plug-in is probably one of my favorite Bootstrap features.(((JavaScript plug-ins, modals)))(((modals)))((("windows, layered")))(((layered windows)))
 
 To create a static example, use the code in <<example_static_modal>> (and see <<figure4_1>>).
 
