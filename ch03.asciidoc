@@ -888,7 +888,7 @@ In addition to buttons, labels, forms, tables, and tabs, Bootstrap has a few mor
 
 ==== Hero Unit
 
-The hero unit is a large, content area that increases the size of headings and adds a lot of margin for landing page content. To use the hero unit, simply create a container `<div>` with the class of `.hero-unit`. In addition to a larger `<h1>`, the `font-weight` is reduced to 200 (see <<figure3-35>>).(((hero units))) 
+The hero unit is a large, content area that increases the size of headings and adds a lot of margin for landing page content. To use the hero unit, simply create a container `<div>` with the class of `.hero-unit`. In addition to a larger `<h1>`, the `font-weight` is reduced to 200 (see <<figure3-35>>).(((hero units)))(((headings))) 
 
 [[figure3-35]]
 .Hero unit
@@ -906,7 +906,7 @@ image::images/boot_0335.png[]
 
 ==== Page Header
 
-The page header (see <<figure3-36>>) is a nice little feature to add appropriate spacing around the headings on a page. This is particularly helpful on a blog archive page where you may have several post titles and need a way to add distinction to each of them. To use a page header wrap your heading in a `<div>` with a class of `.page-header`. 
+The page header (see <<figure3-36>>) is a nice little feature to add appropriate spacing around the headings on a page. This is particularly helpful on a blog archive page where you may have several post titles and need a way to add distinction to each of them. To use a page header wrap your heading in a `<div>` with a class of `.page-header`.(((page headers))) 
 
 [[figure3-36]]
 .Page header
