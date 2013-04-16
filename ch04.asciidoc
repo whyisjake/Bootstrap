@@ -6,7 +6,7 @@ The components discussed in <<bootstrap_layout>> are just the beginning. Bootstr
 
 === Overview
 
-Bootstrap can be included on your site in two forms, either compiled or raw. In Bootstrap 2.2.2, the uncompressed file is 59KB and the minimized version is only 32KB. All of the Bootstrap plug-ins are accessible using the included data API, with this, you don't need to include a single line of JavaScript to invoke any of the plug-in features.((("JavaScript plug-ins)", id="ix_jsplug", range="startofrange")))
+Bootstrap can be included on your site in two forms, either compiled or raw. In Bootstrap 2.2.2, the uncompressed file is 59KB and the minimized version is only 32KB. All of the Bootstrap plug-ins are accessible using the included data API, with this, you don't need to include a single line of JavaScript to invoke any of the plug-in features.((("JavaScript plug-ins", id="ix_jsplug", range="startofrange")))
 
 Typically, JavaScript lies in a either a separate file or at the bottom of the page before the closing `</body>` tag. You can either use the `src` attribute to link to another file, or you can write the contents of the file between the opening and closing tags.
 
@@ -1149,7 +1149,7 @@ The affix plug-in allows a `<div>` to become affixed to a location on the page. 
 
 ==== Usage
 
-To apply the affix plug-in to a `<div>`, you can use either data attributes, or you can use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calculate the position of the scroll.
+To apply the affix plug-in to a `<div>`, you can use either data attributes, or you can use JavaScript directly. Of note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calculate the position of the scroll.(((range="endofrange", startref="ix_jsplug")))
 
 [source, html]
 ----
