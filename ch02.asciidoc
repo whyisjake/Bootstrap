@@ -1019,7 +1019,7 @@ image::images/boot_0244.png[]
 
 === Images
 
-Images have three classes (see <<figure2-47>>) that can be used to apply some simple styles: `.img-rounded` adds `border-radius:6px` to give the image rounded corners, `.img-circle` makes the entire image round by adding `border-radius:500px`, and `.img-polaroid` adds a bit of padding and a gray border:
+Images have three classes (see <<figure2-47>>) that can be used to apply some simple styles: `.img-rounded` adds `border-radius:6px` to give the image rounded corners, `.img-circle` makes the entire image round by adding `border-radius:500px`, and `.img-polaroid` adds a bit of padding and a gray border((("CSS (Cascading Style Sheets)", "images"))):
 
 [source,html]
 ----
