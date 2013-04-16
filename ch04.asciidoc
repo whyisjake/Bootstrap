@@ -639,7 +639,7 @@ $('#element').popover('destroy')
 
 === Alerts
 
-With the Data API, it is easy to add dismiss functionality to alert messages (<<error_alert>>).(((JavaScript plug-ins, alerts)))(((alerts)))
+With the Data API, it is easy to add dismiss functionality to alert messages (<<error_alert>>).(((JavaScript plug-ins, alerts)))(((alerts)))(((messages)))
 
 [[error_alert]]
 .Error alert message
