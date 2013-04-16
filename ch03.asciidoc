@@ -1123,7 +1123,7 @@ There are a few more Bootstrap components that we have yet to cover in this chap
 
 ==== Wells
 
-A well is a container `<div>` that causes the content to appear sunken on the page (see <<figure3-50>>). I have used wells for blog post meta information like author, date, and categories. To create a well, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`.(((layout components, wells)))
+A well is a container `<div>` that causes the content to appear sunken on the page (see <<figure3-50>>). I have used wells for blog post meta information like author, date, and categories. To create a well, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`.(((layout components, wells)))(((wells)))
 
 [[figure3-50]]
 .Well
@@ -1162,7 +1162,7 @@ image::images/boot_0351.png[]
 
 ===== Pull left
 
-To float an element to the left, use the `.pull-left` class:
+To float an element to the left, use the `.pull-left` class((((((layout components, helper classes)))(((helper classes))):
 
 [source, html]
 ----
