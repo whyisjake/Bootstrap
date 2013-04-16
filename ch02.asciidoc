@@ -275,7 +275,7 @@ To change the `<dl>` to a horizontal layout, with the `<dt>` on the left side an
 image::images/boot_0212.png[]
 
 .Heads Up!
-NOTE: Horizontal description lists will truncate terms that are too long to fit in the left column with `text-overflow`. Additionally, in narrower viewports, they will automatically change to the default stacked layout.
+NOTE: Horizontal description lists will truncate terms that are too long to fit in the left column with `text-overflow`. Additionally, in narrower viewports, they will automatically change to the default stacked layout.(((range="endofrange", startref="ix_CSStypo")))
 
 === Code
 
