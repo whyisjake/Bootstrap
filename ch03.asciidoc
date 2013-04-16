@@ -810,7 +810,7 @@ image::images/boot_0330.png[]
 
 ==== Pager
 
-If you need to create simple pagination links that go beyond text, the pager can work quite well. Like the pagination links, the markup is an unordered list that sheds the wrapper `<div>`. By default, the links are centered (see <<figure3-31>>).
+If you need to create simple pagination links that go beyond text, the pager can work quite well. Like the pagination links, the markup is an unordered list that sheds the wrapper `<div>`. By default, the links are centered (see <<figure3-31>>).(((pagination links)))(((links, pagination links)))
 
 [[figure3-31]]
 .Basic pager
