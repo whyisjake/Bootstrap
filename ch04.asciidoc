@@ -44,7 +44,7 @@ As mentioned above, Bootstrap has a data API where you can write data attributes
 $('body').off('.data-api')
 ----
 
-If you need to disable a single plug-in, you can do it programmatically using the namespace of the plug-in along with the `data-api` namespace:
+If you need to disable a single plug-in, you can do it programmatically using the namespace of the plug-in along with the `data-api` namespace(((JavaScript plug-ins, disabling))):
 
 [source, js]
 ----
