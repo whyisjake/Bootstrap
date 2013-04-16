@@ -350,7 +350,7 @@ Along with the base table markup and the `.table` class, there are a few additio
 
 ===== Striped table
 
-By adding the `.table-striped` class, you will get stripes on rows within the `<tbody>` (see <<figure2-14>>). This is done via the CSS `:nth-child` selector, which is not available on Internet Explorer 7–8.
+By adding the `.table-striped` class, you will get stripes on rows within the `<tbody>` (see <<figure2-14>>). This is done via the CSS `:nth-child` selector, which is not available on Internet Explorer 7–8.(((striped table class)))
 
 [[figure2-14]]
 .Striped table class
