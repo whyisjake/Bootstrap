@@ -9,7 +9,7 @@ At the core of Bootstrap is a set of basic HTML elements that have been styled t
 
 === Typography
 
-Starting with typography, Bootstrap uses Helvetica Neue, Helvetica, Arial, and sans-serif in its default font stack. These are all standard fonts and are included as defaults on all major computers. If by chance these fonts don't exist, they fall back to `sans-serif` (the catchall) to tell the browser to use the default font for the browser. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.((("CSS (Cascading Style Sheets)", "typography", id="ix_CSStypo", range="startofrange")))
+Starting with typography, Bootstrap uses Helvetica Neue, Helvetica, Arial, and sans-serif in its default font stack. These are all standard fonts and are included as defaults on all major computers. If by chance these fonts don't exist, they fall back to `sans-serif` (the catchall) to tell the browser to use the default font for the browser. All body copy has the `font-size` set at 14 pixels, with the `line-height` set at 20 pixels. The `<p>` tag has a `margin-bottom` of 10 pixels, or half the `line-height`.((("CSS (Cascading Style Sheets)", "typography", id="ix_CSStypo", range="startofrange")))(((typography, defaults)))
 
 //RE: the base font families, maybe just add a few words or a sentence about how these are just standard web/system fonts, and not special font files that live in bootstrap or anything...unless they are... -NM
 // Good point, added another line. -JS
