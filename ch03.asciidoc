@@ -120,7 +120,7 @@ image::images/boot_0304.png[]
 
 ==== Button Groups as Radio Buttons and Checkboxes
 
-To have the checkboxes function as radio buttons, where only one option can be selected at a time, or checkboxes, where multiple options can be selected, you simply need to add some extra markup and then Bootstrap's JavaScript will provide the rest. This will be covered in detail in <<javascriptplug>>.
+To have the checkboxes function as radio buttons, where only one option can be selected at a time, or checkboxes, where multiple options can be selected, you simply need to add some extra markup and then Bootstrap's JavaScript will provide the rest. This will be covered in detail in <<javascriptplug>>.(((radio buttons)))(((buttons, radio buttons)))
 
 .Heads Up!
 NOTE: To use a button with a dropdown, it must be individually wrapped in its own `.btn-group` within a `btn-toolbar` for proper rendering.
