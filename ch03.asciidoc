@@ -5,7 +5,7 @@ In addition to all of the markup provided in the previous chapter, Bootstrap pro
 
 === Dropdown Menus
 
-Dropdown menus are toggleable, contextual menus for displaying links in a list format. The dropdowns can be used on a variety of different elements, navs, buttons, and more. You can have a single dropdown or extend the dropdown into another submenu. You can see a basic dropdown menu in <<figure3-1>>.(((layout components, dropdown menus)))(((dropdown menus)))(((menus, dropdown)))
+Dropdown menus are toggleable, contextual menus for displaying links in a list format. The dropdowns can be used on a variety of different elements, navs, buttons, and more. You can have a single dropdown or extend the dropdown into another submenu. You can see a basic dropdown menu in <<figure3-1>>.(((layout components, dropdown menus)))((("dropdown menus", seealso="navigation elements, dropdowns")))(((menus, dropdown)))
 
 [[figure3-1]]
 .Basic dropdown menu
@@ -299,7 +299,7 @@ image::images/boot_0313.png[]
 
 ==== Dropdowns
 
-Navigation menus share a similar syntax with dropdown menus. By default, you have a list item that has an anchor working in conjunction with some `data-` attributes to trigger an unordered list with a `.dropdown-menu` class (see <<figure3-14>>). 
+Navigation menus share a similar syntax with dropdown menus. By default, you have a list item that has an anchor working in conjunction with some `data-` attributes to trigger an unordered list with a `.dropdown-menu` class (see <<figure3-14>>).(((navigation elements, dropdowns))) 
 
 [[figure3-14]]
 .Tabbed navigation with a dropdown menu
