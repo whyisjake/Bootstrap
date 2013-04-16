@@ -551,7 +551,7 @@ $('#element').tooltip('destroy')
 
 === Popover
 
-The popover (<<popover_placement>>) is a sibling of the tooltip, offering an extended view complete with a heading. For the popover to activate, a user just needs to hover the cursor over the element. The content of the popover can be populated entirely using the Bootstrap Data API. This method requires tooltip.
+The popover (<<popover_placement>>) is a sibling of the tooltip, offering an extended view complete with a heading. For the popover to activate, a user just needs to hover the cursor over the element. The content of the popover can be populated entirely using the Bootstrap Data API. This method requires tooltip.(((JavaScript plug-ins, popovers)))(((popovers)))
 
 [[popover_placement]]
 .Popover placement
