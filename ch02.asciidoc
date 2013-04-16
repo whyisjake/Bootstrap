@@ -358,7 +358,7 @@ image::images/boot_0214.png[]
 
 ===== Bordered table
 
-If you add the `.table-bordered` class, you will get borders surrounding every element and rounded corners around the entire table, as shown in <<figure2-15>>.
+If you add the `.table-bordered` class, you will get borders surrounding every element and rounded corners around the entire table, as shown in <<figure2-15>>.(((bordered table class)))
 
 [[figure2-15]]
 .Bordered table class
