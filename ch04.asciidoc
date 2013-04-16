@@ -293,7 +293,7 @@ $().dropdown('toggle')
 
 === Scrollspy
 
-The Scrollspy plug-in (<<scrollspy_fig>>) allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll, you can add `.active` classes to the navbar based on the scroll position. To add the Scrollspy plug-in via data attributes, add `data-spy="scroll"` to the element you want to spy on (typically the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. For this to work, you must have elements in the body of the page that have matching IDs of the links that you are spying on.(((JavaScript plug-ins, scroll position targeting)))(((Scrollspy)))
+The Scrollspy plug-in (<<scrollspy_fig>>) allows you to target sections of the page based on scroll position. In its basic implementation, as you scroll, you can add `.active` classes to the navbar based on the scroll position. To add the Scrollspy plug-in via data attributes, add `data-spy="scroll"` to the element you want to spy on (typically the body) and `data-target=".navbar"` to the navbar that you want to apply the class changes to. For this to work, you must have elements in the body of the page that have matching IDs of the links that you are spying on.(((JavaScript plug-ins, scroll position targeting)))(((Scrollspy plug-in)))
 
 [[scrollspy_fig]]
 .Scrollspy example
