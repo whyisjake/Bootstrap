@@ -922,7 +922,7 @@ image::images/boot_0336.png[]
 
 === Thumbnails
 
-A lot of sites need a way to layout images in a grid, and Bootstrap has an easy way to do this. To create a thumbnail, add an `<a>` tag with the class of `.thumbnail` around an image (see <<figure3-37>>). This adds four pixels of padding and a gray border. On hover, an animated glow outline the image.
+A lot of sites need a way to layout images in a grid, and Bootstrap has an easy way to do this. To create a thumbnail, add an `<a>` tag with the class of `.thumbnail` around an image (see <<figure3-37>>). This adds four pixels of padding and a gray border. On hover, an animated glow outline the image.(((layout components, thumbnails)))(((thumbnails)))
 
 [[figure3-37]]
 .Basic thumbnail
