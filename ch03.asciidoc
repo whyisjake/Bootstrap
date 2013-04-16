@@ -207,7 +207,7 @@ image::images/boot_0308.png[]
 
 === Navigation Elements
 
-Bootstrap provides a few different options for styling navigation elements. All of them share the same markup and base class, `.nav`.
+Bootstrap provides a few different options for styling navigation elements. All of them share the same markup and base class, `.nav`.((("layout components", "navigation elements", id="ix_lcnavelm", range="startofrange")))
 
 Bootstrap also provides a helper class, `.active`. In principle, it generally adds distinction to the current element and to set apart from the rest of the navigation elements. You can add this class to the home page links or add it to the links of the page that the user is currently on.
 
