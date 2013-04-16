@@ -579,7 +579,7 @@ image::images/boot_0323.png[]
 </form>
 ----
 
-To add rounded corners, as seen in the search inputs of iOS devices, use the `.navbar-search` class instead of the `.navbar-form` (see <<figure3-24>>). 
+To add rounded corners, as seen in the search inputs of iOS devices, use the `.navbar-search` class instead of the `.navbar-form` (see <<figure3-24>>).(((search forms)))
 
 [[figure3-24]]
 .Navbar search input
@@ -595,7 +595,7 @@ image::images/boot_0324.png[]
 
 ==== Navbar Menu Variations
 
-The Bootstrap navbar can be dynamic in its positioning. By default, it is a block level element that takes its positioning based on its placement in the HTML. With a few helper classes, you can place it either on the top or bottom of the page, or you can make it scroll statically with the page.
+The Bootstrap navbar can be dynamic in its positioning. By default, it is a block level element that takes its positioning based on its placement in the HTML. With a few helper classes, you can place it either on the top or bottom of the page, or you can make it scroll statically with the page.((("positoning, of navbars")))
 
 ===== Fixed top navbar
 
