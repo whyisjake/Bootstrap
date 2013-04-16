@@ -674,7 +674,7 @@ $(".alert").alert('close')
 
 ==== Events
 
-There are two events that can be tied to Bootstrap's alert class.
+There are two events that can be tied to Bootstrap's alert class.(((JavaScript plug-ins, events)))(((events)))
 
 .Alert class events
 [options="header"]
