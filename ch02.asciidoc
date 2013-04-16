@@ -279,7 +279,7 @@ NOTE: Horizontal description lists will truncate terms that are too long to fit 
 
 === Code
 
-There are two different key ways to display code with Bootstrap. The first is the `<code>` tag and the second is the `<pre>` tag. Generally, if you are going to be displaying code inline, you should use the `<code>` tag. But if the code needs to be displayed as a stand-alone block element or if it has multiple lines, then you should use the `<pre>` tag((("CSS (Cascading Style Sheets)", "displaying code"))):
+There are two different key ways to display code with Bootstrap. The first is the `<code>` tag and the second is the `<pre>` tag. Generally, if you are going to be displaying code inline, you should use the `<code>` tag. But if the code needs to be displayed as a stand-alone block element or if it has multiple lines, then you should use the `<pre>` tag((("CSS (Cascading Style Sheets)", "displaying code")))((("<code> tag", sortas="code tag"))):
 
 [source, html]
 --------
