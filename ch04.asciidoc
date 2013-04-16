@@ -1088,7 +1088,7 @@ The carousel has two events that can be hooked into, described in <<table_carous
 
 === Typeahead
 
-Typeahead allows you to easily create typeahead inputs in forms (<<typeahead_fig>>). For example, you could preload states in a state field or, with some JavaScript, get search results using some AJAX calls.(((JavaScript plug-ins, typeahead)))(((typeahead)))(((autocomplete)))(((forms, typeahead)))(((input, autocomplete/typeahead)))
+Typeahead allows you to easily create typeahead inputs in forms (<<typeahead_fig>>). For example, you could preload states in a state field or, with some JavaScript, get search results using some AJAX calls.(((JavaScript plug-ins, typeahead)))(((typeahead)))(((autocomplete)))(((forms, typeahead)))((("input", "autocomplete/typeahead")))
 
 [[typeahead_fig]]
 .Typeahead
