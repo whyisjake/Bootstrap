@@ -1005,7 +1005,7 @@ The `.disabled` class is being used much like the `.active` class. So, there's n
 
 =====================================================================
 
-For a button, simply add the `disabled` attribute to the button (see <<figure2-46>>). This will actually disable the button, so JavaScript is not directly needed(((range="endofrange", startref="ix_CSSbutt"))):
+For a button, simply add the `disabled` attribute to the button (see <<figure2-46>>). This will actually disable the button, so JavaScript is not directly needed(((range="endofrange", startref="ix_CSSbutt")))(((range="endofrange", startref="ix_butt"))):
 
 [source,html]
 ----
