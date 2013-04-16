@@ -43,7 +43,7 @@ h1 small {
 
 ==== Lead Body Copy
 
-To add some emphasis to a paragraph, add `class="lead"` (see <<figure2-2>>). This will give you larger font size, lighter weight, and a taller line height. This is generally used for the first few paragraphs in a section, but it can really be used anywhere:
+To add some emphasis to a paragraph, add `class="lead"` (see <<figure2-2>>). This will give you larger font size, lighter weight, and a taller line height. This is generally used for the first few paragraphs in a section, but it can really be used anywhere(((typography, lead body copy)))(((lead body copy)))((("paragraphs, adding emphasis to"))):
 
 // Added a sentence about historic usage of ledes above. -NM
 
