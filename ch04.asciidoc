@@ -71,7 +71,7 @@ $("#myModal").modal('show')					// initializes and invokes show immediately
 
 === Transitions
 
-The transition plug-in provides simple transition effects. A few examples include:
+The transition plug-in provides simple transition effects. A few examples include(((JavaScript plug-ins, transitions)))(((transitions))):
 
 * Sliding or fading in modals
 * Fading out tabs
