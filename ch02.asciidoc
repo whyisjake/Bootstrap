@@ -187,7 +187,7 @@ image::images/boot_0208.png[]
 
 ==== Lists
 
-Bootstrap offers support and styling for the three main list types that HTML offers: ordered, unordered, and definition lists. An unordered list is a list that doesn't have any particular order and is traditionally styled with bullets.
+Bootstrap offers support and styling for the three main list types that HTML offers: ordered, unordered, and definition lists. An unordered list is a list that doesn't have any particular order and is traditionally styled with bullets.(((typography, lists)))(((lists)))
 
 ===== Unordered list
 
