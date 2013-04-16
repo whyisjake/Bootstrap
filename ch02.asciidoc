@@ -882,7 +882,7 @@ image::images/boot_0239.png[]
 
 ===== Validation states
 
-Bootstrap includes validation styles for error, warning, info, and success messages (see <<figure2-42>>). To use, simply add the appropriate class to the surrounding `.control-group`:
+Bootstrap includes validation styles for error, warning, info, and success messages (see <<figure2-42>>). To use, simply add the appropriate class to the(((range="endofrange", startref="ix_CSSform"))) surrounding `.control-group`:
 
 [source,html]
 ----
