@@ -987,7 +987,7 @@ image::images/boot_0242.png[]
 
 ==== Disabled Button Styling
 
-For anchor elements, simply add the class of `.disabled` to the tag and the link will fade in color, and lose the gradient (see <<figure2-45>>):
+For anchor elements, simply add the class of `.disabled` to the tag and the link will fade in color, and lose the gradient (see <<figure2-45>>)(((disabled buttons)))(((disabled links)))(((links, disabled))):
 
 [source,html]
 ----
