@@ -810,7 +810,7 @@ image::images/boot_0235.png[]
 
 ===== Help text
 
-Bootstrap form controls can have either block or inline text that flows with the inputs (see <<figure2-38>>)(((help text)))(((block help))):
+Bootstrap form controls can have either block or inline text that flows with the inputs (see <<figure2-38>>)(((help text)))(((block help)))(((inline help))):
 
 [source,html]
 ----
