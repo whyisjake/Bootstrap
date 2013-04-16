@@ -2,7 +2,7 @@
 
 == Bootstrap JavaScript Plug-Ins
 
-The components discussed in <<bootstrap_layout>> are just the beginning. Bootstrap comes bundled with 13 jQuery plug-ins that extend the features and can add more interaction to your site. To get started with Bootstrap's JavaScript plug-ins, you don't need to be an advanced JavaScript developer. In fact, by utilizing Bootstrap Data API, most of the plug-ins can be triggered without writing a single line of code.(((Bootstrap, jQuery plug-ins included in)))(((Bootstrap Data API)))
+The components discussed in <<bootstrap_layout>> are just the beginning. Bootstrap comes bundled with 13 jQuery plug-ins that extend the features and can add more interaction to your site. To get started with Bootstrap's JavaScript plug-ins, you don't need to be an advanced JavaScript developer. In fact, by utilizing Bootstrap Data API, most of the plug-ins can be triggered without writing a single line of code.(((Bootstrap, jQuery plug-ins included in)))(((Bootstrap Data API)))((("plug-ins", seealso="JavaScript plug-ins")))
 
 === Overview
 
