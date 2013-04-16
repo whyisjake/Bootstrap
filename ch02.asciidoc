@@ -64,7 +64,7 @@ image::images/boot_0202.png[]
 
 ==== Emphasis
 
-In addition to using the `<small>` tag within headings, as discussed above, you can also use it with body copy. When `<small>` is applied to body text, the font shrinks to 85% of its original size.(((typography, emphasis)))(((small tag)))
+In addition to using the `<small>` tag within headings, as discussed above, you can also use it with body copy. When `<small>` is applied to body text, the font shrinks to 85% of its original size.(((typography, emphasis)))((("<small> tag", sortas="small tag")))
 
 ==== Bold
 
