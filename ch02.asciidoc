@@ -915,7 +915,7 @@ image::images/boot_0240.png[]
 
 === Buttons
 
-One of my favorite features of Bootstrap is the way that buttons are styled. Dave Winer, inventor of RSS and big fan of Bootstrap, has this to say about it((("CSS (Cascading Style Sheets)", "buttons", id="ix_CSSbutt", range="startofrange")))((("buttons", id="ix_butt", range="startofrange"))):
+One of my favorite features of Bootstrap is the way that buttons are styled. Dave Winer, inventor of RSS and big fan of Bootstrap, has this to say about it((("CSS (Cascading Style Sheets)", "buttons", "styling of", id="ix_CSSbutt", range="startofrange")))((("buttons", id="ix_butt", range="startofrange"))):
 
 [quote, Dave Winer, scripting.com]
 ____
