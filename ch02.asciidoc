@@ -1067,7 +1067,7 @@ If you want to use the white icon, simply add the `.icon-white` class to the tag
 
 ===== Button Groups
 
-By using button groups combined with icons, you can create nice interface elements with minimal markup (see <<figure2-49>>):
+By using button groups combined with icons, you can create nice interface elements with minimal markup (see <<figure2-49>>)(((buttons, button groups))):
 
 [source,html]
 ----
