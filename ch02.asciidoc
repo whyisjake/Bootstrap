@@ -191,7 +191,7 @@ Bootstrap offers support and styling for the three main list types that HTML off
 
 ===== Unordered list
 
-If you have an ordered list that you would like to remove the bullets from,  add `class="unstyled"` to the opening `<ul>` tag (see <<figure2-9>>)(((unordered lists)))(((bulleted lists))):
+If you have an ordered list that you would like to remove the bullets from,  add `class="unstyled"` to the opening `<ul>` tag (see <<figure2-9>>)(((unordered lists)))(((bulleted lists)))(((line breaks)))((("<br> tag", sortas="br tag"))):
 
 [source, html]
 --------
