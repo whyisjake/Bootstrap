@@ -68,7 +68,7 @@ In addition to using the `<small>` tag within headings, as discussed above, you 
 
 ==== Bold
 
-To add emphasis to text, simply wrap it in a `<strong>` tag. This will add `font-weight:bold;` to the selected text.
+To add emphasis to text, simply wrap it in a `<strong>` tag. This will add `font-weight:bold;` to the selected text.(((typography, bold)))(((bold)))(((strong tag)))
 
 ==== Italics
 
