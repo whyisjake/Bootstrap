@@ -695,7 +695,7 @@ $('#my-alert').bind('closed', function () {
 
 === Buttons
 
-Buttons were introduced in <<bootstrap_layout>>. With Bootstrap, you don't need to do anything to make them work as links or as buttons in forms. With this plug-in you can add in some interaction, such as loading states or button groups with toolbar-like functionality.(((JavaScript plug-ins, buttons)))(((buttons, interactive)))
+Buttons were introduced in <<bootstrap_layout>>. With Bootstrap, you don't need to do anything to make them work as links or as buttons in forms. With this plug-in you can add in some interaction, such as loading states or button groups with toolbar-like functionality.(((JavaScript plug-ins, buttons)))(((buttons, interactive)))(((loading states)))
 
 ==== Loading State
 
@@ -725,7 +725,7 @@ image::images/boot_0407.png[]
 
 ==== Checkbox Buttons
 
-Buttons can work like checkboxes (as in <<checkbox_buttons>>), allowing a user to select many of the options in a button group. To add this function, add `data-toggle="buttons-checkbox"` for checkbox style toggling on `.btn-group`.
+Buttons can work like checkboxes (as in <<checkbox_buttons>>), allowing a user to select many of the options in a button group. To add this function, add `data-toggle="buttons-checkbox"` for checkbox style toggling on `.btn-group`.(((checkboxes)))
 
 [[checkbox_buttons]]
 .Checkbox buttons
@@ -742,7 +742,7 @@ image::images/boot_0408.png[]
 
 ==== Radio Buttons
 
-Radio buttons (<<radio_fig>>) function similarily to checkboxes. The primary difference is that a radio button doesn't allow for multiple selections--only one button in the group can be selected. To add radio-style toggling on `btn-group`, add `data-toggle="buttons-radio"`. 
+Radio buttons (<<radio_fig>>) function similarily to checkboxes. The primary difference is that a radio button doesn't allow for multiple selections--only one button in the group can be selected. To add radio-style toggling on `btn-group`, add `data-toggle="buttons-radio"`.(((radio buttons)))(((buttons, radio buttons))) 
 
 [[radio_fig]]
 .Radio buttons
