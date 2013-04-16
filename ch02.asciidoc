@@ -839,7 +839,7 @@ In addition to the `:focus` state, Bootstrap offers styling for disabled inputs 
 
 ===== Input focus
 
-When an input receives `:focus` (i.e., a user clicks into the input or tabs onto it), the outline of the input is removed and a `box-shadow` is applied. I remember the first time that I saw this on Twitter's site; it blew me away, and I had to dig into the code to see how they did it. In WebKit, this is accomplished in the following manner(((input focus)))(((focus)))(((WebKit)))(((box-shadow text))):
+When an input receives `:focus` (i.e., a user clicks into the input or tabs onto it), the outline of the input is removed and a `box-shadow` is applied. I remember the first time that I saw this on Twitter's site; it blew me away, and I had to dig into the code to see how they did it. In WebKit, this is accomplished in the following manner(((input focus)))(((focused input)))(((WebKit)))(((box-shadow text))):
 
 [source, css]
 ----
