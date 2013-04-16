@@ -245,7 +245,7 @@ image::images/boot_0210.png[]
 
 ===== Definition list
 
-The third type of list you get with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having a block level `<li>` element, each list item can consist of both the `<dt>` and the `<dd>` elements. `<dt>` stands for "definition term," and like a dictionary, this is the term (or phrase) that is being defined. Subsequently, the `<dd>` is the definition of the `<dt>`.(((definition lists)))
+The third type of list you get with Bootstrap is the definition list. The definition list differs from the ordered and unordered list in that instead of just having a block level `<li>` element, each list item can consist of both the `<dt>` and the `<dd>` elements. `<dt>` stands for "definition term," and like a dictionary, this is the term (or phrase) that is being defined. Subsequently, the `<dd>` is the definition of the `<dt>`.(((definition lists)))((("<dt> tag", sortas="dt tag)))((("<dd> tag", sortas="dd tag")))
 
 A lot of times in markup, you will see people using headings inside an unordered list. This works, but may not be the most semantic way to mark up the text. A better method would be creating a `<dl>` and then styling the `<dt>` and `<dd>` as you would the heading and the text (see <<figure2-11>>). That being said, Bootstrap offers some clean default styles and an option for a side-by-side layout of each definition:
 
