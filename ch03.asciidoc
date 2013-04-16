@@ -159,7 +159,7 @@ image::images/boot_0306.png[]
 
 ==== Split Button Dropdowns
 
-Split button dropdowns use the same general style as the dropdown button but add a primary action along with the dropdown. Split buttons have the primary action on the left and a toggle on the right that displays the dropdown. See <<figure3-7>> for an example of a split button dropdown. 
+Split button dropdowns use the same general style as the dropdown button but add a primary action along with the dropdown. Split buttons have the primary action on the left and a toggle on the right that displays the dropdown. See <<figure3-7>> for an example of a split button dropdown.(((split button dropdowns)))(((buttons, split button dropdowns))) 
 
 [[figure3-7]]
 .Split button dropdown
@@ -183,7 +183,7 @@ image::images/boot_0307.png[]
 
 ==== Dropup Menus
 
-Menus can also be built to dropup rather than down. To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pull up from the right-hand side, add `.pull-right` to the `.dropdown-menu`. Take note, the caret is now pointed up because the menu will be going up instead of down. See <<figure3-8>> for an example of a dropup menu.
+Menus can also be built to dropup rather than down. To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pull up from the right-hand side, add `.pull-right` to the `.dropdown-menu`. Take note, the caret is now pointed up because the menu will be going up instead of down. See <<figure3-8>> for an example of a dropup menu.(((dropup menus)))(((menus, dropup)))
 
 [[figure3-8]]
 .Dropup menu
