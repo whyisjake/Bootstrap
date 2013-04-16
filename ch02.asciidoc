@@ -519,7 +519,7 @@ Bootstrap natively supports the most common form controls. Chief among them, `in
 
 ===== Inputs
 
-The most common form text field is the input--this is where users will enter most of the essential form data (see <<figure2-23>>). Bootstrap offers support for all native HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, URL, search, tel, and color(((input types)))(((HTML5 input types))):
+The most common form text field is the input--this is where users will enter most of the essential form data (see <<figure2-23>>). Bootstrap offers support for all native HTML5 input types: text, password, datetime, datetime-local, date, month, time, week, number, email, URL, search, tel, and color(((input types)))(((HTML5 input types)))(((data input))):
 
 [source, html]
 ----
