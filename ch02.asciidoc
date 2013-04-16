@@ -383,7 +383,7 @@ image::images/boot_0217.png[]
 
 ==== Table Row Classes
 
-The classes shown in <<table2-2>> will allow you to change the background color of your rows (see <<figure2-18>>).(((range="endofrange", startref="ix_CSStabl")))(((range="endofrange", startref="ix_tabls")))(((table row classes)))((("rows, changing color of")))
+The classes shown in <<table2-2>> will allow you to change the background color of your rows (see <<figure2-18>>).(((range="endofrange", startref="ix_CSStabl")))(((range="endofrange", startref="ix_tabls")))(((table row classes)))((("rows, changing color of")))(((row classes)))
 
 [[table2-2]]
 .Optional table row classes
@@ -402,7 +402,7 @@ image::images/boot_0218.png[]
 
 === Forms
 
-Another one of the highlights of using Bootstrap is the ability to create forms with ease. As a web developer, styling forms is one of my least favorite tasks. Bootstrap makes it easy to with the simple HTML markup and extended classes for different styles of forms.
+Another one of the highlights of using Bootstrap is the ability to create forms with ease. As a web developer, styling forms is one of my least favorite tasks. Bootstrap makes it easy to with the simple HTML markup and extended classes for different styles of forms.((("CSS (Cascading Style Sheets)", "forms", id="ix_CSSform", range="startofrange")))
 
 The basic form structure comes with Bootstrap; there is no need to add any extra helper classes (see <<figure2-19>>). If you use the placeholder, keep in mind that it is only supported in newer browsers. In older browsers, no placeholder text will be displayed:
 
