@@ -302,7 +302,7 @@ WARNING: Make sure that when you use the `<pre>` and `<code>` tags, you use the 
 
 === Tables
 
-One of my favorite parts of Bootstrap is the nice way that tables are handled. I do a lot of work looking at and building tables, and the clean layout is a great feature that's included in Bootstrap right off the bat. <<table2-1>> lists the various elements supported by Bootstrap.((("CSS (Cascading Style Sheets)", "tables", id="ix_CSStabl", range="startofrange")))
+One of my favorite parts of Bootstrap is the nice way that tables are handled. I do a lot of work looking at and building tables, and the clean layout is a great feature that's included in Bootstrap right off the bat. <<table2-1>> lists the various elements supported by Bootstrap.((("CSS (Cascading Style Sheets)", "tables", id="ix_CSStabl", range="startofrange")))((("tables", id="ix_tabls", range="startofrange")))
 
 [[table2-1]]
 .Table elements supported by Bootstrap
@@ -383,7 +383,7 @@ image::images/boot_0217.png[]
 
 ==== Table Row Classes
 
-The classes shown in <<table2-2>> will allow you to change the background color of your rows(((range="endofrange", startref="ix_CSStabl"))) (see <<figure2-18>>).
+The classes shown in <<table2-2>> will allow you to change the background color of your rows (see <<figure2-18>>).(((range="endofrange", startref="ix_CSStabl")))
 
 [[table2-2]]
 .Optional table row classes
