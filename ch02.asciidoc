@@ -402,7 +402,7 @@ image::images/boot_0218.png[]
 
 === Forms
 
-Another one of the highlights of using Bootstrap is the ability to create forms with ease. As a web developer, styling forms is one of my least favorite tasks. Bootstrap makes it easy to with the simple HTML markup and extended classes for different styles of forms.((("CSS (Cascading Style Sheets)", "forms", id="ix_CSSform", range="startofrange")))
+Another one of the highlights of using Bootstrap is the ability to create forms with ease. As a web developer, styling forms is one of my least favorite tasks. Bootstrap makes it easy to with the simple HTML markup and extended classes for different styles of forms.((("CSS (Cascading Style Sheets)", "forms", id="ix_CSSform", range="startofrange")))(((forms, basic layout)))(((placeholder text)))
 
 The basic form structure comes with Bootstrap; there is no need to add any extra helper classes (see <<figure2-19>>). If you use the placeholder, keep in mind that it is only supported in newer browsers. In older browsers, no placeholder text will be displayed:
 
