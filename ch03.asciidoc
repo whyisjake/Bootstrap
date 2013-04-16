@@ -127,7 +127,7 @@ NOTE: To use a button with a dropdown, it must be individually wrapped in its ow
 
 === Buttons with Dropdowns
 
-To add a dropdown to a button, simply wrap the button and dropdown menu in a `.btn-group`. You can also use `<span class="caret"></span>` to act as an indicator that the button is a dropdown. See <<figure3-5>> for an example of this.(((layout components, buttons with dropdowns)))(((dropdown menus)))(((buttons, with dropdowns)))
+To add a dropdown to a button, simply wrap the button and dropdown menu in a `.btn-group`. You can also use `<span class="caret"></span>` to act as an indicator that the button is a dropdown. See <<figure3-5>> for an example of this.(((layout components, buttons with dropdowns)))(((dropdown menus)))(((buttons, with dropdowns)))(((menus, dropdown)))
 
 [[figure3-5]]
 .Button with a dropdown
@@ -352,7 +352,7 @@ image::images/boot_0315.png[]
 
 ==== Navigation Lists
 
-Navigation lists are useful when you need to display a group of navigation links. This type of element is common when building admin interfaces. In the MAKE admin interface, for example, I have one of these on the sidebar of every page with quick links to common pages. Bootstrap developers use a form of this for their documentation. Like all of the lists that we have discussed thus far, navigation lists are unordered lists with the `.nav` class. To give it its specific styling, we add the `.nav-list` class. See <<figure3-16>> for an example of a navigation list.
+Navigation lists are useful when you need to display a group of navigation links. This type of element is common when building admin interfaces. In the MAKE admin interface, for example, I have one of these on the sidebar of every page with quick links to common pages. Bootstrap developers use a form of this for their documentation. Like all of the lists that we have discussed thus far, navigation lists are unordered lists with the `.nav` class. To give it its specific styling, we add the `.nav-list` class. See <<figure3-16>> for an example of a navigation list.(((navigation elements, navigation lists)))
 
 [[figure3-16]]
 .Navigation list
