@@ -1,7 +1,7 @@
 [[css]]
 == Bootstrap CSS
 
-At the core of Bootstrap is a set of basic HTML elements that have been styled to allow for easy enhancement via classes and user styles.
+At the core of Bootstrap is a set of basic HTML elements that have been styled to allow for easy enhancement via classes and user styles.((("HTML elements", seealso="CSS (Cascading Style Sheets)")))
 
 // tidied up some of the phrasing throughout this chap. -NM
 
