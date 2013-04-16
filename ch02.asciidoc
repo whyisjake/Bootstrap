@@ -551,7 +551,7 @@ image::images/boot_0224.png[]
 
 ===== Checkboxes and radios buttons
 
-Checkboxes and radio buttons are great when you want users to choose from a list of preset options (see <<figure2-25>>). When building a form, use `checkbox` if you want the user to select any number of options from a list. Use `radio` if you want to limit him to just one selection:
+Checkboxes and radio buttons are great when you want users to choose from a list of preset options (see <<figure2-25>>). When building a form, use `checkbox` if you want the user to select any number of options from a list. Use `radio` if you want to limit him to just one selection(((checkbox form controls)))(((radio buttons)))(((buttons, radio buttons))):
 
 [source,html]
 ----
