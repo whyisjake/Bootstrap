@@ -227,7 +227,7 @@ $('#myModal').on('hidden', function () {
 
 === Dropdown
 
-The dropdown was covered extensively in <<bootstrap_layout>>, but the interaction was glossed over. As a refresher, dropdowns can be added to the navbar, pills, tabs, and buttons.(((JavaScript plug-ins, dropdowns)))(((dropdown menus)))(((menus, dropdown)))(((buttons, with dropdowns)))(((navbars)))(((pills navigation)))
+The dropdown was covered extensively in <<bootstrap_layout>>, but the interaction was glossed over. As a refresher, dropdowns can be added to the navbar, pills, tabs, and buttons.(((JavaScript plug-ins, dropdowns)))(((dropdown menus)))(((menus, dropdown)))(((buttons, with dropdowns)))(((navbars)))(((pills navigation)))(((tabbable navigation)))
 
 ==== Usage
 
