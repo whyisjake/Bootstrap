@@ -538,7 +538,7 @@ image::images/boot_02in01.png[]
 
 ===== Textarea
 
-The `textarea` is used when you need multiple lines of input (see <<figure2-24>>). You'll find you mainly modify the `rows` attribute, changing it to the number of rows that you need to support (fewer rows = smaller box, more rows = bigger box):
+The `textarea` is used when you need multiple lines of input (see <<figure2-24>>). You'll find you mainly modify the `rows` attribute, changing it to the number of rows that you need to support (fewer rows = smaller box, more rows = bigger box)((("textarea input type))):
 
 [source,html]
 ----
