@@ -98,7 +98,7 @@ The PSD is free, but the author requests that you pay with a tweet. Kind of a ne
 
 ==== Themes
 
-If you have a vanilla installation of Bootstrap, but want to add a bit of panache, there are few different ways to find free, and premium themes for Bootstrap. My two favorites are https://wrapbootstrap.com/[{Wrap}Bootstrap], and http://bootswatch.com/[Bootswatch]. Both have some great options, and make it easy to get a new style on your site.(((range="endofrange", startref="ix_BScus")))(((Bootstrap, themes for)))(((Bootswatch)))(((WrapBootstrap)))
+If you have a vanilla installation of Bootstrap, but want to add a bit of panache, there are few different ways to find free, and premium themes for Bootstrap. My two favorites are https://wrapbootstrap.com/[{Wrap}Bootstrap], and http://bootswatch.com/[Bootswatch]. Both have some great options, and make it easy to get a new style on your site.(((range="endofrange", startref="ix_BScus")))(((Bootstrap, themes for)))(((WrapBootstrap)))(((Bootswatch)))
 
 === Built with Bootstrap
 
