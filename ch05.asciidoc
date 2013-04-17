@@ -82,7 +82,7 @@ There are clippings for lots of popular IDEs/text editors.
 
 ==== Photoshop Templates
 
-In addition to snippets, there have been a few Photoshop documents of all of the Bootstrap markup elements. My favorite comes from http://gui.repixdesign.com/#bootstrap[Repix Design]. Their website is shown in <<repix_fig>>. 
+In addition to snippets, there have been a few Photoshop documents of all of the Bootstrap markup elements. My favorite comes from http://gui.repixdesign.com/#bootstrap[Repix Design]. Their website is shown in <<repix_fig>>.(((Photoshop templates)))((("templates", "Photoshop"))) 
 
 [[repix_fig]]
 .Repix Design
