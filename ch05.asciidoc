@@ -106,4 +106,4 @@ If you are looking for even more inspiration, check out http://builtwithbootstra
 
 === Conclusion
 
-As you can see, whatever the project, Bootstrap can fill the needs of just about any Web project. Its blend of responsive framework, extensive JavaScript plug-ins, and robust interface components make developing easy, fast, and feature rich. It has been great working with Bootstrap over the last year, and I look forward to the future development of the project. Cheers, kudos, and all of the accolades to Jacob Thornton and Mark Otto for creating a project that is so versatile and fun to develop around.
+As you can see, whatever the project, Bootstrap can fill the needs of just about any Web project. Its blend of responsive framework, extensive JavaScript plug-ins, and robust interface components make developing easy, fast, and feature rich. It has been great working with Bootstrap over the last year, and I look forward to the future development of the project. Cheers, kudos, and all of the accolades to Jacob Thornton and Mark Otto for creating a project that is so versatile and fun to develop around.((("Thornton, Jacob")))((("Otto, Mark")))
