@@ -25,7 +25,7 @@ When you use the customize page (<<figure5_1>>), you decide what components you 
 .Customize page
 image::images/boot_0501.png[]
 
-Lastly, you can configure the LESS variables. Everything from column count to typography colors can be modified here. With these options, you can cater Bootstrap to your needs.
+Lastly, you can configure the LESS variables. Everything from column count to typography colors can be modified here. With these options, you can cater Bootstrap to your needs.(((LESS variables)))
 
 ==== Using LESS
 
