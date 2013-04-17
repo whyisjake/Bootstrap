@@ -74,7 +74,7 @@ image::images/boot_0302.png[]
 </div>
 ----
 
-If you have multiple button groups that you want to place on a single line, wrap multiple `.btn-group` classes with `.btn-toolbar`. For more information about using icons with buttons, follow the examples in <<css>>. Also, see <<figure3-3>> for an example a button toolbar.(((buttons, button toolbars)))(((toolbars, button toolbars))) 
+If you have multiple button groups that you want to place on a single line, wrap multiple `.btn-group` classes with `.btn-toolbar`. For more information about using icons with buttons, follow the examples in <<css>>. Also, see <<figure3-3>> for an example a button toolbar.(((buttons, button toolbars)))((("toolbars, button toolbars"))) 
 
 [[figure3-3]]
 .Button toolbar
