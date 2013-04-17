@@ -626,7 +626,7 @@ image::images/boot_0227.png[]
 
 ==== Extended Form Controls
 
-In addition to the basic form controls listed in the previous section, Bootstrap offers a few other form components to complement the standard HTML form elements; for example, it lets you easily prepend and append content to inputs.(((forms, extended form controls)))((("controls, for forms")))((("input, prepending/appending")))(((prepending user input)))(((appending user input)))
+In addition to the basic form controls listed in the previous section, Bootstrap offers a few other form components to complement the standard HTML form elements; for example, it lets you easily prepend and append content to inputs.(((forms, extended form controls)))((("controls, for forms")))((("input", "prepending/appending")))(((prepending user input)))(((appending user input)))
 
 ===== Prepended and appended inputs
 
