@@ -595,7 +595,7 @@ image::images/boot_0324.png[]
 
 ==== Navbar Menu Variations
 
-The Bootstrap navbar can be dynamic in its positioning. By default, it is a block level element that takes its positioning based on its placement in the HTML. With a few helper classes, you can place it either on the top or bottom of the page, or you can make it scroll statically with the page.((("positoning, of navbars")))
+The Bootstrap navbar can be dynamic in its positioning. By default, it is a block level element that takes its positioning based on its placement in the HTML. With a few helper classes, you can place it either on the top or bottom of the page, or you can make it scroll statically with the page.((("positioning, of navbars")))
 
 ===== Fixed top navbar
 
