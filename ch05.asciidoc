@@ -41,7 +41,7 @@ image::images/boot_0503.png[]
 
 LESS is a dynamic stylesheet language for writing CSS. It allows you to write variables, functions, and mixins for your CSS. The Bootstrap _/less/_ folder has a few files, but for setting globals, check the _variables.less_ and _mixins.less_ files.
 
-In the _variables.less_ file, you will find all of the global variables for Bootstrap. Let's say you wanted to change the color of all of the links. You would simply update LESS to compile the CSS, and all of the links would change color.
+In the _variables.less_ file, you will find all of the global variables for Bootstrap. Let's say you wanted to change the color of all of the links. You would simply update LESS to compile the CSS, and all of the links would change color.(((colors, changing for links)))(((links, changing color of)))
 
 [source, css]
 ----
