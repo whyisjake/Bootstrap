@@ -25,11 +25,11 @@ When you use the customize page (<<figure5_1>>), you decide what components you 
 .Customize page
 image::images/boot_0501.png[]
 
-Lastly, you can configure the LESS variables. Everything from column count to typography colors can be modified here. With these options, you can cater Bootstrap to your needs.(((LESS variables)))
+Lastly, you can configure the LESS variables. Everything from column count to typography colors can be modified here. With these options, you can cater Bootstrap to your needs.(((LESS stylesheet variables)))
 
 ==== Using LESS
 
-There are a few different ways to use LESS with Bootstrap (<<figure5_2>>). The first, and perhaps the easiest, is to use a preprocessor like CodeKit (<<fig5_3>>) or SimpLESS. Using these tools, you can set them up to watch certain files or folders. Then when you save any of those files, they build the master CSS files. In addition to using traditional CSS techniques, you can use advanced features like mixins and functions to dynamically change the look of your site just by changing some variables.
+There are a few different ways to use LESS with Bootstrap (<<figure5_2>>). The first, and perhaps the easiest, is to use a preprocessor like CodeKit (<<fig5_3>>) or SimpLESS. Using these tools, you can set them up to watch certain files or folders. Then when you save any of those files, they build the master CSS files. In addition to using traditional CSS techniques, you can use advanced features like mixins and functions to dynamically change the look of your site just by changing some variables.(((CodeKit preprocessor)))(((SimpLESS preprocessor)))
 
 [[figure5_2]]
 .Using Bootstrap with LESS
