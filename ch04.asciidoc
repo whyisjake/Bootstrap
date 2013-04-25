@@ -660,8 +660,9 @@ $(".alert").alert('close')
 
 ==== Events
 
-There are two events that can be tied to Bootstrap's +alert+ class.
+There are two events that can be tied to Bootstrap's +alert+ class that you can see in
 
+[[table4-8]]
 .Alert class events
 [options="header"]
 |=======================
