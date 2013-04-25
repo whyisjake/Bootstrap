@@ -710,7 +710,7 @@ With the default grid system that is inherent in Bootstrap, you can use the `.sp
 ----
 
 [[figure2-32]]
-.Block level input
+.Block-level input
 image::images/boot_0232.png[]
 
 // Seems like this section needs to be fleshed out a little bit. -NM
