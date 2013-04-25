@@ -252,7 +252,7 @@ image::images/boot_0402.png[]
 </li>
 ----
 
-If you need to keep links intact (which is useful if the browser is not enabling JavaScript), use the `data-target` attribute along with `href="#"`.
+If you need to keep links intact (which is useful if the browser is not enabling JavaScript), use the `data-target` attribute along with `href="#"`:
 
 [source, html]
 ----
