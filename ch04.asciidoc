@@ -377,7 +377,7 @@ The offset option is handy when you are using a fixed navbar. You will want to o
 
 === Toggleable Tabs
 
-Tabbable tabs were introduced in <<bootstrap_layout>>. By combining a few data attributes, you can easily create a tabbed interface (<<toggle_figure>>). To do so, create the nav interface, and then wrap the content of the tabs inside a `<div>` with a class of `.tab-content`.(((JavaScript plug-ins, toggleable tabs)))(((toggleable tabs)))(((tabbed navigation)))
+Tabbable tabs were introduced in <<bootstrap_layout>>. By combining a few data attributes, you can easily create a tabbed interface (<<toggle_figure>>). To do so, create the nav interface, and then wrap the content of the tabs inside a `<div>` with a class of `.tab-content`.(((JavaScript plugins, toggleable tabs)))(((toggleable tabs)))(((tabbed navigation)))
 
 [[toggle_figure]]
 .Toggleable tabs
