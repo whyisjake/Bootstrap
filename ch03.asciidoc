@@ -213,7 +213,6 @@ To create a tabbed navigation menu, start with a basic unordered list with the b
 .Tabbed navigation
 image::images/boot_0309.png[]
 
-.Tabbed Navigation Code
 [source, html]
 ----
 <ul class="nav nav-tabs">
