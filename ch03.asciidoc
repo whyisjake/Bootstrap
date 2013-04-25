@@ -381,7 +381,6 @@ Not only can you create a tabbed navigation, but by using the JavaScript plugin,
 .Tabbable navigation example
 image::images/boot_0317.png[]
 
-.Tabble Navigation 
 [source, html]
 ----
 <div class="tabbable">
