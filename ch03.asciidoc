@@ -1004,7 +1004,7 @@ image::images/boot_0344.png[]
 In addition to the blue progress bar, there are options for green, yellow, and red using the `.bar-success`, `.bar-warning`, and `.bar-danger` classes. Progress bars can be stacked, indicating a graph of sorts by adding multiple elements together as shown in <<figure3-45>>:
 
 [[figure3-45]]
-.Stacked Progress Bar
+.Stacked progress bar
 image::images/boot_0345.png[]
 
 [source, html]
