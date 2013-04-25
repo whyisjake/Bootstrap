@@ -895,7 +895,6 @@ A lot of sites need a way to lay out images in a grid, and Bootstrap has an easy
 .Basic thumbnail
 image::images/boot_0337.png[]
 
-.Thumbnail
 [source, html]
 ----
 <a href="#" class="thumbnail">
