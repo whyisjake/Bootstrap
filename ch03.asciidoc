@@ -79,7 +79,6 @@ If you have multiple button groups that you want to place on a single line, wrap
 .Button toolbar
 image::images/boot_0303.png[]
 
-.Button Toolbar
 [source, html]
 ----
 <div class="btn-toolbar">
