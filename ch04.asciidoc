@@ -37,7 +37,7 @@ $(document).ready(function(){
 });
 ----
 
-As mentioned above, Bootstrap has a Data API where you can write data attributes into the HTML of the page. If you need to turn off the data API, you can unbind the attributes by adding the following line of JavaScript:
+As mentioned above, Bootstrap has a Data API where you can write data attributes into the HTML of the page. If you need to turn off the Data API, you can unbind the attributes by adding the following line of JavaScript:
 
 [source, js]
 ----
