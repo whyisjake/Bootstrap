@@ -75,7 +75,7 @@ To add emphasis to text, simply wrap it in a `<strong>` tag. This will add `font
 For italics, wrap your content in the `<em>` tag. The term "em" derives from the word "emphasis" and is meant to add stress to your text.(((typography, italics)))(((italics)))((("<em> tag", sortas="em tag")))((("<i> tag", sortas="i tag")))((("<b> tag", sortas="b tag")))
 
 .Heads Up!
-NOTE: You might be thinking, why not just use the `<b>` or `<i>` tags instead of `<em>` or `<strong>`. In HTML5, `<b>` is meant to highlight words or phrases without conveying additional importance--for example, key terms or names--while `<i>` is mostly for voice, technical terms, internal dialogue, etc. For more information about the semantic changes to `<b>` and `<i>`, check out http://www.w3.org/International/questions/qa-b-and-i-tags[W3.org's article].
+NOTE: You might be thinking, why not just use the `<b>` or `<i>` tags instead of `<em>` or `<strong>`? In HTML5, `<b>` is meant to highlight words or phrases without conveying additional importance--for example, key terms or names--while `<i>` is mostly for voice, technical terms, internal dialogue, etc. For more information about the semantic changes to `<b>` and `<i>`, check out http://www.w3.org/International/questions/qa-b-and-i-tags[W3.org's article].
 
 // I added some stuff to this note. -NM
 
