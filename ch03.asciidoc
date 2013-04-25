@@ -661,7 +661,7 @@ image::images/boot_0325.png[]
 </div>
 ----
 
-===== Inverted Navbar
+===== Inverted navbar
 
 To create an inverted navbar with a black background and white text, simply add `.navbar-inverse` to the `.navbar` class (see <<figure3-26>>).(((range="endofrange", startref="ix_lcnavbar")))(((range="endofrange", startref="ix_navbar")))(((inverted navbars)))
 
@@ -669,7 +669,7 @@ To create an inverted navbar with a black background and white text, simply add 
 .Inverted navbar
 image::images/boot_0326.png[]
 
-.Inverted navbar
+.Inverted Navbar
 [source, html]
 ----
 <div class="navbar navbar-inverse">
