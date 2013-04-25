@@ -439,7 +439,6 @@ Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab 
 .Left tabs
 image::images/boot_0319.png[]
 
-.Left Tab
 [source,html]
 ----
 <div class="tabbable tabs-left">
