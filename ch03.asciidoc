@@ -684,7 +684,6 @@ Breadcrumbs are a great way to show hierarchy-based information for a site. In t
 .Breadcrumb
 image::images/boot_0327.png[]
 
-.Breadcrumb
 [source, html]
 ----
 <ul class="breadcrumb">
