@@ -942,7 +942,7 @@ Now, buttons and links can all look alike with Bootstrap. Anything that is given
 |=======================
 
 .Heads Up!
-WARNING: There are issues with buttons not appearing in Internet Explorer 9 because it doesn't crop background gradients on rounded corners. Also, Internet Explorer doesn't work well with disabled button elements. The rendered text is gray with a nasty text-shadow that hasn't been fixed.(((Internet Explorer 9)))
+WARNING: There are issues with buttons not appearing in Internet Explorer 9 because it doesn't crop background gradients on rounded corners. Also, Internet Explorer doesn't work well with disabled button elements. The rendered text is gray with a nasty text shadow that hasn't been fixed.(((Internet Explorer 9)))
 
 ==== Button Sizes
 
