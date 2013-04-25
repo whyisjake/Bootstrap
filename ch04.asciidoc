@@ -419,7 +419,6 @@ $('#myTab a:last').tab('show'); // Select last tab
 $('#myTab li:eq(2) a').tab('show'); // Select third tab (0-indexed)
 ----
 
-
 ==== Events
 
 Tabs panes have two different events that can be hooked into, as shown in <<table_toggletab>>.
