@@ -515,7 +515,7 @@ image::images/boot_0222.png[]
 
 ==== Supported Form Controls
 
-Bootstrap natively supports the most common form controls. Chief among them, `input`, `textarea`, `checkbox`, `radio`, and `select`.(((forms, form controls)))((("controls, for forms")))
+Bootstrap natively supports the most common form controls. Chief among them are, `input`, `textarea`, `checkbox`, `radio`, and `select`.(((forms, form controls)))((("controls, for forms")))
 
 ===== Inputs
 
