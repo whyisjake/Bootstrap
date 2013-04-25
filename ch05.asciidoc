@@ -29,7 +29,7 @@ Lastly, you can configure the LESS variables. Everything from column count to ty
 
 ==== Using LESS
 
-There are a few different ways to use LESS with Bootstrap (<<figure5_2>>). The first, and perhaps the easiest, is to use a preprocessor like CodeKit (<<fig5_3>>) or SimpLESS. You can use these tools to watch certain files or folders.  Then when you save any of those files, they build the master CSS files. In addition to using traditional CSS techniques, you can use advanced features like mixins and functions to dynamically change the look of your site just by changing some variables.(((CodeKit preprocessor)))(((SimpLESS preprocessor)))
+There are a few different ways to use LESS with Bootstrap (<<figure5_2>>). The first, and perhaps the easiest, is to use a preprocessor like CodeKit (<<fig5_3>>) or SimpLESS. You can use these tools to watch certain files or folders. Then when you save any of those files, they build the master CSS files. In addition to using traditional CSS techniques, you can use advanced features like mixins and functions to dynamically change the look of your site just by changing some variables.(((CodeKit preprocessor)))(((SimpLESS preprocessor)))
 
 [[figure5_2]]
 .Using Bootstrap with LESS
@@ -54,7 +54,7 @@ In the _variables.less_ file, you will find all of the global variables for Boot
 @linkColorHover:	darken(@linkColor, 15%);
 ----
 
-Now, all links are changed to a purple color, and buttons and other interface elements that call for @linkColor will be updated throughout your site.
+Now, all links are changed to a purple color, and buttons and other interface elements that call for +@linkColor+ will be updated throughout your site.
 
 In the beginning, I was really hesitant to use LESS. After all, I have been writing CSS for a long time, and I didn't feel the need to change. The nesting alone is such a huge timesaver that I'm really glad to have added it to my workflow. 
 
