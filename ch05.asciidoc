@@ -92,7 +92,7 @@ Here are the features:
 
 * Adjustable colors
 * Separate layers
-* Vector based
+* Vector-based
 
 The PSD is free, but the author requests that you pay with a tweet. Kind of a new spin on the free-as-in-free-speech mantra of open source programming.(((WrapBootstrap)))(((Bootswatch)))(((Bootstrap, themes for)))(((themes)))
 
