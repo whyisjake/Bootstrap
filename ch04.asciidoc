@@ -573,7 +573,7 @@ All options can be passed via the Bootstrap Data API, or directly with JavaScrip
 |trigger  |string           |'click'|How the popover is triggered (i.e., click, hover, focus, manual)                                                                                                                                     
 |title    |string | function|''     |Default title value if 'title' attribute isn't present                                                                                                                                               
 |content  |string | function|''     |Default content value if 'data-content' attribute isn't present                                                                                                                                      
-|delay    |number | object  |0      |Delays showing and hiding the popover (ms)--does not apply to manual trigger type. If a  number is supplied, delay is applied to both hide/show. Object structure is: +delay: \{show: 500, hide: 100 \}+.
+|delay    |number | object  |0      |Delays showing and hiding the popover in ms--does not apply to manual trigger type. If a  number is supplied, delay is applied to both hide/show. Object structure is: +delay: \{show: 500, hide: 100 \}+.
 |===========================
 
 ==== Methods
