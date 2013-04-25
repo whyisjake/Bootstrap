@@ -816,7 +816,7 @@ image::images/boot_0332.png[]
 
 === Labels
 
-Labels are great for offering counts, tips, or other markup for pages. Another one of my favorite little Bootstrap touches. <<figure3-33>> shows some labels that can be used.(((layout components, labels)))(((labels)))
+Labels are great for offering counts, tips, or other markup for pages. They're another of my favorite little Bootstrap touches. <<figure3-33>> shows some labels that can be used.(((layout components, labels)))(((labels)))
 
 [[figure3-33]]
 .Labels
