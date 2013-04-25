@@ -1116,6 +1116,9 @@ $('.typeahead').typeahead()
 
 ==== Options
 
+See <<table4-13>> for a list of options.
+
+[[table4-13]]
 .Carousel options
 [options="header"]
 |===========================
