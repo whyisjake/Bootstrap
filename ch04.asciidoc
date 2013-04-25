@@ -455,23 +455,17 @@ image::images/boot_0404.png[]
 
 ==== Usage
 
-To add a tooltip, add `rel="tooltip"` to an anchor tag. The title of the anchor will be the text of a tooltip. The following two examples show how to do this in the Bootstrap Data API and JavaScript, respectively.
+To add a tooltip, add `rel="tooltip"` to an anchor tag. The title of the anchor will be the text of a tooltip. The following two examples show how to do this in the Bootstrap Data API and JavaScript, respectively:
 
-.Bootstrap Data API
-====
 [source, js]
 ----
 <a href="#" rel="tooltip" title="This is the tooltip">Tooltip Example</a>
 ----
-====
 
-.JavaScript
-====
 [source, js]
 ----
 $('#example').tooltip(options)
 ----
-====
 
 ==== Options
 
