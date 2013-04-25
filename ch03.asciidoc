@@ -822,7 +822,6 @@ Labels are great for offering counts, tips, or other markup for pages. They're a
 .Labels
 image::images/boot_0333.png[]
 
-.Label Markup
 [source, html]
 ----
 <span class="label">Default</span>
