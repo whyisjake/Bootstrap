@@ -873,7 +873,7 @@ You can also use the data attributes to make all content collapsible:
 
 ===== Via data attributes
 
-Like all of the plug-ins that use the data API, you can add all needed markup without writing any JavaScript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a CSS selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, include the additional class `.in`.
+Like all of the plugins that use the data API, you can add all needed markup without writing any JavaScript. Add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of a collapsible element. The `data-target` attribute will accept a CSS selector to apply the collapse to. Be sure to add the class `.collapse` to the collapsible element. If you'd like it to default open, include the additional class `.in`.
 
 To add accordion-like group management to a collapsible control, add the data attribute `data-parent="#selector"`.
 
