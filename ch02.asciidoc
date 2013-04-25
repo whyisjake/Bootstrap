@@ -1051,7 +1051,7 @@ ____
 
 ==== Usage
 
-To use the icons, simply use an `<i>` tag with the namespaced `.icon-` class. For example, if you wante to use the edit icon, you add the `.icon-edit` class to the `<i>` tag:
+To use the icons, simply use an `<i>` tag with the namespaced `.icon-` class. For example, if you want to use the edit icon, you add the `.icon-edit` class to the `<i>` tag:
 
 [source, html]
 ----
