@@ -329,8 +329,8 @@ At the core, Bootstrap supports five different layouts, each relying on CSS medi
 |Label				|Layout width 	 	|Column width 	|Gutter width
 |Large display 		|1200px and up 	 	|70px  			|30px
 |Default       		|980px and up  	 	|60px			|20px
-|Portrait Tablets 	|768px and up   	|42px			|20px
-|Phones to Tablets 	|767px and below 2+^|Fluid columns, no fixed widths
+|Portrait tablets 	|768px and up   	|42px			|20px
+|Phones to tablets 	|767px and below 2+^|Fluid columns, no fixed widths
 |Phones				|480px and below 2+^|Fluid columns, no fixed widths
 |=====================================================================
 
