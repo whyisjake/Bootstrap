@@ -346,7 +346,7 @@ image::images/boot_0213.png[]
 
 ==== Optional Table Classes
 
-Along with the base table markup and the `.table` class, there are a few additional classes that you can use to style the markup. There are four classes: `.table-striped`, `.table-bordered`, `.table-hover`, and `.table-condensed`.
+Along with the base table markup and the `.table` class, there are a few additional classes that you can use to style the markup. These four classes are: `.table-striped`, `.table-bordered`, `.table-hover`, and `.table-condensed`.
 
 ===== Striped table
 
