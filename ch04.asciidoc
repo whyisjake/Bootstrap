@@ -346,9 +346,9 @@ $('[data-spy="scroll"]').each(function () {
 
 ==== Options
 
-Options can be passed via data attributes or JavaScript. For data attributes, prepend the option name to `data-`, as in `data-offset=""`.
+Options can be passed via data attributes or JavaScript. For data attributes, prepend the option name to `data-`, as in `data-offset=""` (see <<table4-3>>).
 
-
+[[table4-3]]
 .Scrollspy option
 [options="header"]
 |=======================
