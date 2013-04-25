@@ -53,7 +53,7 @@ $('body').off('.alert.data-api')
 
 ==== Programmatic API
 
-The developers of Bootstrap believe that you should be able to use all of the plugins throughout the JavaScript API. All public APIs are single, chainable methods and return the collection acted upon.(((JavaScript plugsins, programmatic API)))(((programmatic API)))
+The developers of Bootstrap believe that you should be able to use all of the plugins throughout the JavaScript API. All public APIs are single, chainable methods and return the collection acted upon.(((JavaScript plugins, programmatic API)))(((programmatic API)))
 
 [source, js]
 ----
