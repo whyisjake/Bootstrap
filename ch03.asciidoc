@@ -715,7 +715,6 @@ Bootstrap handles pagination like a lot of other interface elements, an unordere
 .Basic Pagination
 image::images/boot_0328.png[]
 
-.Basic Pagination
 [source, html]
 ----
 <div class="pagination">
