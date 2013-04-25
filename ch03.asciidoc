@@ -669,7 +669,7 @@ To create an inverted navbar with a black background and white text, simply add 
 .Inverted navbar
 image::images/boot_0326.png[]
 
-.Inverted Navbar
+.Inverted navbar
 [source, html]
 ----
 <div class="navbar navbar-inverse">
