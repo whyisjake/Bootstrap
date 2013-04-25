@@ -948,6 +948,7 @@ The `.alert` uses the alerts jQuery plugin that is discussed in <<javascriptplug
 
 If you have a longer message in your alert, you can use the `.alert-block` class. This provides a little more padding above and below the content contained in the alert, which is particularly useful for multi-page lines of content.
 
+[[figure3-40]]
 .Alert block
 image::images/boot_0340.png[]
 
