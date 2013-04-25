@@ -633,7 +633,7 @@ image::images/boot_04in02.png[]
 
 ==== Usage
 
-To close an alert, you can either do it manually with the JavaScript `.alert()` method or use data attributes in conjunction with an anchor or button.
+You can either do it manually with the JavaScript `.alert()` method or use data attributes in conjunction with an anchor or button.
 
 Here is how to dismiss via JavaScript:
 
