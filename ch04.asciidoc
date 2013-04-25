@@ -377,8 +377,6 @@ Tabbable tabs were introduced in <<bootstrap_layout>>. By combining a few data a
 .Toggleable tabs
 image::images/boot_0403.png[]
 
-.Basic markup of toggleable tabs
-====
 [source, html]
 ----
 <ul class="nav nav-tabs">
@@ -395,7 +393,6 @@ image::images/boot_0403.png[]
 	<div class="tab-pane" id="settings">...</div>
 </div>
 ----
-====
 
 ==== Usage
 
