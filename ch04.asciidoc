@@ -238,7 +238,6 @@ To use a dropdown (<<dropdown_fig>>), add `data-toggle="dropdown"` to a link or 
 .Dropdown within navbar
 image::images/boot_0402.png[]
 
-====
 [source, html]
 ----
 <li class="dropdown">
@@ -252,7 +251,6 @@ image::images/boot_0402.png[]
 	</ul>
 </li>
 ----
-====
 
 If you need to keep links intact (which is useful if the browser is not enabling JavaScript), use the `data-target` attribute along with `href="#"`.
 
