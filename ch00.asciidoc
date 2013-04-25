@@ -44,7 +44,7 @@ This book may not be the best way for you to learn Bootstrap. It all depends on 
 
 If your primary interest is to get started building Bootstrap websites, the http://twitter.github.com/bootstrap/[online documentation] will likely suit you perfectly. The authors, Jacob Thornton and Mark Otto, have been meticulous in providing examples of the codebase, HTML code samples, and more to kickstart your project. It is top notch, and I've used it to gather the structure for this book.((("Thornton, Jacob")))((("Otto, Mark")))
 
-If you want to contribute to the work of the open source project, you can submit pull requests or use the issue tracker on the http://github.com/twitter/bootstrap/[GitHub project], for updates, downloads, documentation, and more.
+If you want to contribute to the work of the open source project, you can submit pull requests or use the issue tracker on the http://github.com/twitter/bootstrap/[GitHub project] for updates, downloads, documentation, and more.
 
 Are You Sure You Want Bootstrap?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
