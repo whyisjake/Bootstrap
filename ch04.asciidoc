@@ -344,7 +344,7 @@ $('[data-spy="scroll"]').each(function () {
 });
 ----
 
-==== Option
+==== Options
 
 Options can be passed via data attributes or JavaScript. For data attributes, prepend the option name to `data-`, as in `data-offset=""`.
 
