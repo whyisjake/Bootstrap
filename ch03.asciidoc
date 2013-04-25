@@ -531,7 +531,6 @@ To add links to the navbar, simply add an unordered list with a class of `.nav`.
 .Nav links
 image::images/boot_0322.png[]
 
-.Navbar Links
 [source, html]
 ----
 <ul class="nav">
