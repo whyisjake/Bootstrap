@@ -1042,7 +1042,7 @@ image::images/boot_02in04.png[]
 
 ==== GLYPHICONS Attribution
 
-Users of Bootstrap are fortunate to use the GLYPHICONS for free on Bootstrap projects. The developers have asked that you use a link back to GLYPHICONS when practical.
+Users of Bootstrap are fortunate to use the GLYPHICONS for free on Bootstrap projects. The developers have asked that you link back to GLYPHICONS when practical.
 
 [quote, Bootstrap Documentation, http://getbootstrap.com]
 ____
