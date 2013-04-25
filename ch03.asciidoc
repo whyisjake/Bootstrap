@@ -1054,7 +1054,6 @@ To use media list, change the container `<div>` to an `<ul>` and add the class `
 .Media list example
 image::images/boot_0349.png[]
 
-.Media list code
 [source, html]
 ----
 <ul class="media-list">
