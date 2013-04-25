@@ -1087,7 +1087,7 @@ image::images/boot_02in05.png[]
 
 ===== Navigation
 
-When you are using icons next to a string of text, make sure to add a space to provide the proper alignment of the image (see <<figure2-50>>). Navigation code will be covered further in the next chapter:
+When you are using icons next to a string of text, make sure to add a space to provide the proper alignment of the image (see <<figure2-50>>). Navigation code will be covered further in the next chapter.
 
 [source, html]
 ----
