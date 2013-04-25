@@ -863,7 +863,6 @@ The hero unit is a large content area that increases the size of headings and ad
 .Hero unit
 image::images/boot_0335.png[]
 
-.Hero Unit
 [source, html]
 ----
 <div class="hero-unit">
