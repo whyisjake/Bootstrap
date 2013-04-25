@@ -126,7 +126,7 @@ image::images/boot_0205.png[]
 
 ===== Addresses
 
-Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text (see <<figure2-6>>). It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br>` tags to add line breaks to the enclosed address text (e.g., to split the street address and city onto separate lines)(((typography, addresses)))(((addresses)))((("<address> tag", sortas="address elements")))(((phone numbers)))(((email addresses))):
+Adding `<address>` elements to your page can help screen readers and search engines locate any physical addresses and phone numbers in the text (see <<figure2-7>>). It can also be used to mark up email addresses. Since the `<address>` defaults to `display:block;` you'll need to use `<br>` tags to add line breaks to the enclosed address text (e.g., to split the street address and city onto separate lines)(((typography, addresses)))(((addresses)))((("<address> tag", sortas="address elements")))(((phone numbers)))(((email addresses))):
 
 // I added the / to the br tags here to make it valid xhtml, but you can ditch them if you dont want them there. Also added a little extra to the end of the paragraph. -NM
 // I'm going to stick with the <br>. I normally write them the other way, but to stick to the spec, it would be this way.
