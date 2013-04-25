@@ -184,7 +184,6 @@ Menus can also be built to drop up rather than down. To make this change, simply
 .Dropup menu
 image::images/boot_0308.png[]
 
-.Dropup Menu
 [source, html]
 ----
 <div class="btn-group dropup">
