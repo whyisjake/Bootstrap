@@ -835,7 +835,7 @@ image::images/boot_0237.png[]
 
 ==== Form Control States
 
-In addition to the `:focus` state, Bootstrap offers styling for disabled inputs and offers classes for form validation.(((forms, form control states)))
+In addition to the `:focus` state, Bootstrap offers styling for disabled inputs and classes for form validation.(((forms, form control states)))
 
 ===== Input focus
 
