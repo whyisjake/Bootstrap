@@ -9,7 +9,7 @@ Bootstrap is a front-end framework for building responsive websites. Whether it 
 Who This Book Is For
 ~~~~~~~~~~~~~~~~~~~~
 
-This books is mostly for people who have a good handle on HTML/CSS and JavaScript, and are curious about building responsive sites, adding the Bootstrap JavaScript plug-ins, or building sites faster by using this popular open source framework.
+This book is mostly for people who have a good handle on HTML/CSS and JavaScript, and are curious about building responsive sites, adding the Bootstrap JavaScript plug-ins, or building sites faster by using this popular open source framework.
 
 
 Who This Book Is Not For
