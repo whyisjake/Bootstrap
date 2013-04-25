@@ -549,7 +549,7 @@ The `textarea` is used when you need multiple lines of input (see <<figure2-24>>
 .Both the :active default and the textarea
 image::images/boot_0224.png[]
 
-===== Checkboxes and radios buttons
+===== Checkboxes and radio buttons
 
 Checkboxes and radio buttons are great when you want users to choose from a list of preset options (see <<figure2-25>>). When building a form, use `checkbox` if you want the user to select any number of options from a list. Use `radio` if you want to limit him to just one selection(((checkboxes)))(((radio buttons)))(((buttons, radio buttons))):
 
