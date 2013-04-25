@@ -6,7 +6,7 @@ The components discussed in <<bootstrap_layout>> are just the beginning. Bootstr
 
 === Overview
 
-Bootstrap can be included on your site in two forms, either compiled or raw. In Bootstrap 2.2.2, the uncompressed file is 59KB and the minimized version is only 32KB. All of the Bootstrap plugins are accessible using the included data API, with this, you don't need to include a single line of JavaScript to invoke any of the plug-in features.((("JavaScript plug-ins", id="ix_jsplug", range="startofrange")))(((JavaScript plug-ins, usage)))
+Bootstrap can be included on your site in two forms, either compiled or raw. In Bootstrap 2.2.2, the uncompressed file is 59KB and the minimized version is only 32KB. All of the Bootstrap plugins are accessible using the included data API, with this, you don't need to include a single line of JavaScript to invoke any of the plugin features.((("JavaScript plug-ins", id="ix_jsplug", range="startofrange")))(((JavaScript plug-ins, usage)))
 
 Typically, JavaScript lies in a either a separate file or at the bottom of the page before the closing `</body>` tag. You can either use the `src` attribute to link to another file, or you can write the contents of the file between the opening and closing tags.
 
