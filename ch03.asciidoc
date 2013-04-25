@@ -564,7 +564,6 @@ To add rounded corners, as seen in the search inputs of iOS devices, use the `.n
 .Navbar search input
 image::images/boot_0324.png[]
 
-.Navbar Search Input
 [source, html]
 ----
 <form class="navbar-search"  accept-charset="utf-8">
