@@ -399,7 +399,7 @@ Here's the basic markup for toggleable tabs:
 
 To enable the tabs, you can use the Bootstrap Data API or use JavaScript directly. With the Data API, you need to add `data-toggle` to the anchors. The anchor targets will activate the element that has the `.tab-pane` class and relative ID. Alternatively, `data-target=""` may be used instead of `href="#"` to apply the same action.
 
-To enable tabs via JavaScript
+To enable tabs via JavaScript use this code:
 
 [source, js]
 ----
