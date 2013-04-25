@@ -836,6 +836,7 @@ image::images/boot_0333.png[]
 
 Badges are similar to labels; the primary difference is that the corners are more rounded. The colors of badges reflect the same classes as labels.(((layout components, badges)))(((badges)))
 
+[[figure3-34]]
 .Badges
 image::images/boot_0334.png[]
 
