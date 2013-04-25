@@ -254,7 +254,7 @@ image::images/boot_0402.png[]
 
 If you need to keep links intact (which is useful if the browser is not enabling JavaScript), use the `data-target` attribute along with `href="#"`.
 
-.Dropdown via the `data-target` Attribute
+.Dropdown via the `data-target` attribute
 ====
 [source, html]
 ----
