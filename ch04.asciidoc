@@ -471,7 +471,7 @@ $('#example').tooltip(options)
 
 Like all of the plugins, there are options that can be added via the Bootstrap Data API or invoked via JavaScript. All options need to have `data-` prepended to them. So, the `title` option would become `data-title`.
 
-[[table4-6>>
+[[table4-6]]
 .Tooltip options
 [options="header"]
 |=======================
