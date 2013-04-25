@@ -1139,7 +1139,7 @@ The affix plugin allows a `<div>` to become affixed to a location on the page. A
 
 ==== Usage
 
-To apply the affix plugin to a `<div>`, you can use either data attributes, or you can use JavaScript directly. Note, you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calculate the position of the scroll.(((range="endofrange", startref="ix_jsplug")))
+To apply the affix plugin to a `<div>`, you can use either data attributes, or you can use JavaScript directly. Note that you must position the element so that it can be affixed to the page. Position is controlled by the `data-spy` attribute, using either  `affix`, `affix-top`, or `affix-bottom`. You then use the `data-offset` to calculate the position of the scroll.(((range="endofrange", startref="ix_jsplug")))
 
 [source, html]
 ----
