@@ -88,7 +88,7 @@ In addition to snippets, there have been a few Photoshop documents of all of the
 .Repix design
 image::images/boot_05in01.png[]
 
-*Features:*
+Here are the features:
 
 * Adjustable colors
 * Separate layers
