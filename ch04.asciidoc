@@ -360,6 +360,7 @@ The offset option is handy when you are using a fixed navbar. You will want to o
 
 ==== Event
 
+[[table4-4]]
 .Scrollspy event
 [options="header"]
 |=======================
