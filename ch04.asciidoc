@@ -1065,7 +1065,7 @@ Cycles to the next item.
 The carousel has two events that can be hooked into, described in <<table_carousel_events>>.
 
 [[table_carousel_events]]
-.Carousel Events
+.Carousel events
 [options="header"]
 |=======================
 |Event 	|Description
