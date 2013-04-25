@@ -734,7 +734,6 @@ image::images/boot_0328.png[]
 .Pagination with helper classes
 image::images/boot_0329.png[]
 
-.Pagination with helper classes
 [source, html]
 ----
 
