@@ -485,7 +485,7 @@ $('#example').tooltip(options)
 
 ==== Options
 
-Like all of the plug-ins, there are options that can be added via the Bootstrap Data API or invoked via JavaScript. All options need to have `data-` prepended to them. So, the `title` option would become `data-title`.
+Like all of the plugins, there are options that can be added via the Bootstrap Data API or invoked via JavaScript. All options need to have `data-` prepended to them. So, the `title` option would become `data-title`.
 
 .Tooltip options
 [options="header"]
@@ -551,7 +551,7 @@ $('#element').tooltip('destroy')
 
 === Popover
 
-The popover (<<popover_placement>>) is a sibling of the tooltip, offering an extended view complete with a heading. For the popover to activate, a user just needs to hover the cursor over the element. The content of the popover can be populated entirely using the Bootstrap Data API. This method requires tooltip.(((JavaScript plug-ins, popovers)))(((popovers)))
+The popover (<<popover_placement>>) is a sibling of the tooltip, offering an extended view complete with a heading. For the popover to activate, a user just needs to hover the cursor over the element. The content of the popover can be populated entirely using the Bootstrap Data API. This method requires tooltip.(((JavaScript plugins, popovers)))(((popovers)))
 
 [[popover_placement]]
 .Popover placement
