@@ -976,7 +976,7 @@ If you want to create buttons that display like a block-level element, simply ad
 
 [source,html]
 ----
-<button class="btn btn-large btn-block btn-primary" type="button">Block 
+<button class="btn btn-large btn-block btn-primary" type="button">Block- 
 level button</button>
 <button class="btn btn-large btn-block" type="button">Block level button</button>
 ----
