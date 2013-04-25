@@ -566,8 +566,8 @@ All options can be passed via the Bootstrap Data API, or directly with JavaScrip
 [options="header"]
 |===========================
 |Name     |Type             |Default|Description                                                                                                                                                                                          
-|animation|boolean          |true   |Applies a CSS fade transition to the tooltip.                                                                                                                                                           
-|html     |boolean          |false  |Inserts html into the popover. If false, jQuery's +text+ method will be used to insert content into the dom. Use text if you're worried about XSS attacks.                                            
+|animation|Boolean          |true   |Applies a CSS fade transition to the tooltip.                                                                                                                                                           
+|html     |Boolean          |false  |Inserts html into the popover. If false, jQuery's +text+ method will be used to insert content into the dom. Use text if you're worried about XSS attacks.                                            
 |placement|string | function|'right'|Specifies how to position the popover (i.e., top, bottom, left, right)                                                                                                                                         
 |selector |string           |false  |If a selector is provided, tooltip objects will be delegated to the specified targets.                                                                                                               
 |trigger  |string           |'click'|How the popover is triggered (i.e., click, hover, focus, manual)                                                                                                                                     
