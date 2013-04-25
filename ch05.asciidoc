@@ -4,7 +4,7 @@
 
 Like a lot of great open source projects, the power of Bootstrap comes not just from the developers at the core of the project but also from the development community that supports it. http://github.com[GitHub] is a large code repository for projects, and at time of writing, Bootstrap is the most popular project. With over 42,000 stars and over 10,000 forks, the project is bustling with activity. As I mentioned in <<scaffolding>>, if you want to use Bootstrap, you can simply download the _.zip_ archive from the site, or you can download using `git`.((("GitHub code repository")))
 
-For the uninitated, `git` is a free and open source version-control system. Bootstrap and a host of other projects manage everything using GitHub, which is an online code repository for `git` projects. To download the source for Bootstrap, run the following commands from the command(((Bootstrap, downloading))) line:
+For the uninitated, `git` is a free and open source version control system. Bootstrap and a host of other projects manage everything using GitHub, which is an online code repository for `git` projects. To download the source for Bootstrap, run the following commands from the command(((Bootstrap, downloading))) line:
 
 [source, bash]
 ----
