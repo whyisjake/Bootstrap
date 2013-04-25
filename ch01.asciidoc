@@ -105,7 +105,7 @@ In particular, the following default styles give special treatment to typography
 
 [NOTE]
 ====
-Remember, if you don't like the colors or want to change a default, this can be done by changing the globals in any of the _.less_ files. To do this, update the _scaffolding.less_ file or overwrite colors in your own stylesheet you may have on the site.
+Remember, if you don't like the colors or want to change a default, this can be done by changing the globals in any of the _.less_ files. To do this, update the _scaffolding.less_ file or overwrite colors in your own stylesheet.
 ====
 
 // what is the scaffolding .less file, and what is the users stylesheet? is that different than the default stylesheet? -NM
