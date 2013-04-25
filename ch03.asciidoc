@@ -550,7 +550,6 @@ Instead of using the default class-based forms from <<css>>, forms that are in t
 .Default navbar form
 image::images/boot_0323.png[]
 
-.Default Navbar Form Styling
 [source, html]
 ----
 <form class="navbar-form pull-left">
