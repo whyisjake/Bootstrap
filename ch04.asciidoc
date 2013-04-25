@@ -410,7 +410,7 @@ To enable tabs via JavaScript use this code:
 ----
 
 
-.Example of different ways to activate tabs
+Here's an example of different ways to activate tabs
 ====
 [source, js]
 ----
