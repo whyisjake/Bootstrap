@@ -288,7 +288,7 @@ image::images/boot_0313.png[]
 
 ==== Dropdowns
 
-Navigation menus share a similar syntax with dropdown menus. By default, you have a list item that has an anchor working in conjunction with some `data-` attributes to trigger an unordered list with a `.dropdown-menu` class (see <<figure3-14>> an image of a tabbed dropdown).(((navigation elements, dropdowns))) 
+Navigation menus share a similar syntax with dropdown menus. By default, you have a list item that has an anchor working in conjunction with some `data-` attributes to trigger an unordered list with a `.dropdown-menu` class (see <<figure3-14>> for an image of a tabbed dropdown).(((navigation elements, dropdowns))) 
 
 [[figure3-14]]
 .Tabbed navigation with a dropdown menu
