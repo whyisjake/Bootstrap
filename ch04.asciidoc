@@ -60,7 +60,7 @@ The developers of Bootstrap believe that you should be able to use all of the pl
 $('.btn.danger').button('toggle').addClass('active')
 ----
 
-All methods should accept an optional options object, a string which targets a particular method, or nothing (which initiates a plug-in with default behavior).
+All methods should accept an optional options object, a string which targets a particular method, or nothing (which initiates a plugin with default behavior).
 
 [source, js]
 ----
