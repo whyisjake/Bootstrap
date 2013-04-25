@@ -86,7 +86,7 @@ To create a static example, use the code in <<example_static_modal>> (and see <<
 
 [[example_static_modal]]
 .Static modal window code example
-====
+
 [source, html]
 ----
 <div class="modal hide fade">
@@ -103,7 +103,7 @@ To create a static example, use the code in <<example_static_modal>> (and see <<
 	</div>
 </div>
 ----
-====
+
 
 [[figure4_1]]
 .Static modal window
