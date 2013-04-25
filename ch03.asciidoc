@@ -294,7 +294,6 @@ Navigation menus share a similar syntax with dropdown menus. By default, you hav
 .Tabbed navigation with a dropdown menu
 image::images/boot_0314.png[]
 
-.Tabbed Navigation Dropdown
 [source, html]
 ----
 <ul class="nav nav-tabs">
