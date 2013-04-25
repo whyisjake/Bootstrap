@@ -161,7 +161,6 @@ Split button dropdowns use the same general style as the dropdown button but add
 .Split button dropdown
 image::images/boot_0307.png[]
 
-.Split Button Dropdown
 [source,html]
 ----
 <div class="btn-group">
