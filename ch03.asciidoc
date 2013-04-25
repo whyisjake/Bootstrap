@@ -960,7 +960,7 @@ image::images/boot_0341.png[]
 
 === Progress Bars
 
-The purpose of progress bars is to show that assets are loading, in progress, or that there is action taking place regarding elements on the page. Personally, I think that these elements are just an exercise in markup and have little purpose beyond that in the Bootstrap framework. That being said, among the thousands of people using Bootstrap, there are likely a few outliers that have a good reason for building progress bars. By nature, these are static elements that need some sort of JavaScript method to provide any interaction.(((layout components, progress bars)))(((progress bars)))
+The purpose of progress bars is to show that assets are loading, in progress, or that there is action taking place regarding elements on the page. Personally, I think that these elements are just an exercise in markup and have little purpose beyond that in the Bootstrap framework. That being said, among the thousands of people using Bootstrap, there are likely a few outliers who have a good reason for building progress bars. By nature, these are static elements that need some sort of JavaScript method to provide any interaction.(((layout components, progress bars)))(((progress bars)))
 
 The default progress bar has a light gray background and a blue progress bar. To create it, add a `<div>` with a class of `.progress`. Inside, add an empty `<div>` with a class of `.bar`. Add a style attribute with the width expressed as a percentage. In <<figure3-42>>, I added `style="60%";` to indicate that the progress bar was at 60%.
 
