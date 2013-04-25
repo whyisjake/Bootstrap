@@ -756,7 +756,6 @@ In addition to the `.active` and `.disabled` classes for list items, you can add
 .Pagination Sizes
 image::images/boot_0330.png[]
 
-.Pagination
 [source, html]
 ----
 <div class="pagination pagination-large">
