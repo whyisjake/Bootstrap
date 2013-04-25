@@ -20,7 +20,7 @@ This book is not for people who get all they need out of the Bootstrap online do
 What This Book Will Do For You
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have some background in writing HTML/CSS and JavaScript, this book will help you get off the ground writing some flexible code for responsive websites. In practical terms, the concepts and code syntax should come easily as it follows the patterns for writing semantic HTML and CSS.
+If you have some background in writing HTML/CSS and JavaScript, this book will help you get off the ground writing some flexible code for responsive websites. In practical terms, the concepts and code syntax should come easily, as it follows the patterns for writing semantic HTML and CSS.
 
 
 How This Book Works
