@@ -64,9 +64,9 @@ All methods should accept an optional options object, a string which targets a p
 
 [source, js]
 ----
-$("#myModal").modal()		// initialized with defaults
+$("#myModal").modal()	// initialized with defaults
 $("#myModal").modal({ keyboard: false })	// initialized with no keyboard
-$("#myModal").modal('show')	  	    // initializes and invokes show immediately
+$("#myModal").modal('show')	   // initializes and invokes show immediately
 ----
 
 === Transitions
