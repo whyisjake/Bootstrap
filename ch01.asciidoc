@@ -113,7 +113,7 @@ Remember, if you don't like the colors or want to change a default, this can be 
 
 === Default Grid System
 
-The default Bootstrap grid (see <<figure1-1>>) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide, depending on your viewport. Below 767px viewports, such as the ones on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide and offset 20 pixels to the left. An example of the twelve possible columns is in <<figure1-1>>.(((scaffolding, default grid systems)))((("grid systems, default")))
+The default Bootstrap grid (see <<figure1-1>>) system utilizes 12 columns, making for a 940px-wide container without responsive features enabled. With the responsive CSS file added, the grid adapts to be 724px or 1170px wide, depending on your viewport. Below 767px viewports, such as the ones on tablets and smaller devices, the columns become fluid and stack vertically. At the default width, each column is 60 pixels wide and offset 20 pixels to the left. An example of the 12 possible columns is in <<figure1-1>>.(((scaffolding, default grid systems)))((("grid systems, default")))
 
 // I think this would be a great place for a jsfiddle, showing a resizable frame using the responsive grid that users can resize and see change. Basically, just an embedded responsive frame. Fallback for print, epub, etc, would be an image showing both default grid and responsive grid. -NM
 
