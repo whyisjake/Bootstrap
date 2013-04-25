@@ -559,8 +559,9 @@ $('#example').popover(options)
 
 ==== Options
 
-All options can be passed via the Bootstrap Data API, or directly with JavaScript.
+All options can be passed via the Bootstrap Data API, or directly with JavaScript (see <<table4-7>>).
 
+[[table4-7]]
 .Popover options
 [options="header"]
 |===========================
