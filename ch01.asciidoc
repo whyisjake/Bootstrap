@@ -308,7 +308,7 @@ To turn on the responsive features of Bootstrap, you need to add a `<meta>` tag 
 
 [WARNING]
 ===============================
-If you get started and are finding that the Bootstrap responsive features aren't working, make sure that you have these tags. The responsive features aren't added by default at this time because not everything needs to be responsive. Instead of encouraging developers to remove this feature, the authors of Bootstrap decided that it was best to enable it as needed.
+If you get started and find that the Bootstrap responsive features aren't working, make sure that you have these tags. The responsive features aren't added by default at this time because not everything needs to be responsive. Instead of encouraging developers to remove this feature, the authors of Bootstrap decided that it was best to enable it as needed.
 ===============================
 
 // "Not everything needs to be responsive" - that's crazy talk! -NM
