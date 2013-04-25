@@ -942,7 +942,7 @@ Hides a collapsible element.
 
 ==== Events
 
-There are four events that can be hooked into with the collapse plug-in, described in <<collapse-events-table>>.
+There are four events that can be hooked into with the collapse plugin, described in <<collapse-events-table>>.
 
 [[collapse-events-table]]
 .Collapse events
