@@ -968,7 +968,6 @@ The default progress bar has a light gray background and a blue progress bar. To
 .Default progress bar
 image::images/boot_0342.png[]
 
-.Progress Bar
 [source, html]
 ----
 <div class="progress">
