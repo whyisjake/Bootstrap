@@ -1034,7 +1034,7 @@ Stops the carousel from cycling through items.
 
 ===== Number
 
-Cycles the carousel to a particular frame (0 based, similar to an array).
+Cycles the carousel to a particular frame (0-based, similar to an array).
 
 [source, js]
 ----
