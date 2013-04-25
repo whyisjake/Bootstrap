@@ -53,7 +53,7 @@ If you would like to add a second layer of dropdowns, simply add `.dropdown-subm
 ----
 
 [[figure3-in1]]
-.Dropdown Submenu
+.Dropdown menu and Submenu
 image:images/boot_03in01.png[]
 
 === Button Groups
