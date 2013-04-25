@@ -546,7 +546,7 @@ The `textarea` is used when you need multiple lines of input (see <<figure2-24>>
 ----
 
 [[figure2-24]]
-.Both the `:active` default and the `textarea`
+.Both the :active default and the textarea
 image::images/boot_0224.png[]
 
 ===== Checkboxes and radios buttons
