@@ -695,7 +695,7 @@ $('#my-alert').bind('closed', function () {
 
 === Buttons
 
-Buttons were introduced in <<bootstrap_layout>>. With Bootstrap, you don't need to do anything to make them work as links or as buttons in forms. With this plug-in you can add in some interaction, such as loading states or button groups with toolbar-like functionality.(((JavaScript plug-ins, buttons)))(((buttons, interactive)))(((loading states)))
+Buttons were introduced in <<bootstrap_layout>>. With Bootstrap, you don't need to do anything to make them work as links or as buttons in forms. With this plugin you can add in some interaction, such as loading states or button groups with toolbar-like functionality.(((JavaScript plug-ins, buttons)))(((buttons, interactive)))(((loading states)))
 
 ==== Loading State
 
