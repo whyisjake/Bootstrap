@@ -11,7 +11,7 @@ For the uninitated, `git` is a free and open source version control system. Boot
 $ git clone https://github.com/twitter/bootstrap.git
 ----
 
-Cloning Bootstrap will give you a full download of all the files--not just the CSS/JavaScript but also all of the documentation pages and the LESS files for the dynamic JavaScript elements.
+Cloning Bootstrap will give you a full download of all the files--not just the CSS/JavaScript, but also all of the documentation pages and the LESS files for the dynamic JavaScript elements.
 
 If desired, using the LESS files, you can compile your own version of Bootstrap with the features or customizations that you need. 
 
