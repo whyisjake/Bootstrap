@@ -880,7 +880,6 @@ The page header (see <<figure3-36>>) is a nice little feature to add appropriate
 .Page header
 image::images/boot_0336.png[]
 
-.Page Header
 [source, html]
 ----
 <div class="page-header">
