@@ -1145,7 +1145,7 @@ $('.typeahead').typeahead()
 
 === Affix
 
-The affix plugin allows a `<div>` to become affixed to a location on the page. A common example of this is social icons. They will start in a location, but as the page hits a certain mark, the `<div>` will become locked in place and will stop scrolling with the rest of the page.(((JavaScript plug-ins, affix)))(((affix plug-in)))(((social icons)))(((icons)))
+The affix plugin allows a `<div>` to become affixed to a location on the page. A common example of this is social icons. They will start in a location, but as the page hits a certain mark, the `<div>` will become locked in place and will stop scrolling with the rest of the page.(((JavaScript plugins, affix)))(((affix plug-in)))(((social icons)))(((icons)))
 
 ==== Usage
 
