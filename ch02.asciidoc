@@ -982,7 +982,7 @@ level button</button>
 ----
 
 [[figure2-44]]
-.Block level button
+.Block-level button
 image::images/boot_0242.png[]
 
 ==== Disabled Button Styling
