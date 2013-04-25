@@ -854,7 +854,7 @@ input:focus {
 }
 ----
 
-The `<input>` has a small inset `box-shadow`, which gives the appearance that the input sits lower then the page (see <<figure2-40>>). When `:focus` is applied, an 8px light-blue border appears. The `webkit-transition` tells the browser to apply the effect in a linear manner over 0.2 seconds. Nice and subtle; a great effect:
+The `<input>` has a small inset `box-shadow`, which gives the appearance that the input sits lower than the page (see <<figure2-40>>). When `:focus` is applied, an 8px light-blue border appears. The `webkit-transition` tells the browser to apply the effect in a linear manner over 0.2 seconds. Nice and subtle; a great effect:
 
 [source,html]
 ----
