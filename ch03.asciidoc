@@ -981,7 +981,6 @@ To create a striped progress bar, just add `.progress-striped` to the container 
 .Striped progress bar
 image::images/boot_0343.png[]
 
-.Striped Progress Bar
 [source, html]
 ----
 <div class="progress progress-striped">
