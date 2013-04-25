@@ -3,7 +3,7 @@
 Preface
 -------
 
-Bootstrap is a front-end framework for building responsive websites. Whether it is application frameworks, blogs, or other CMS applications, Bootstrap can be a good fit, as it can be as vanilla as you like. Its combination of HTML, CSS, and JavaScript make it easy to build robust sites without adding a lot of code. With a default grid system, layouts come together with ease, and the styling of buttons, navs, and tables make basic markup look great from the get-go. A dozen or so JavaScript plug-ins catapult you into adding interactive elements to your site.((("Bootstrap", "overview of")))
+Bootstrap is a front-end framework for building responsive websites. Whether it is application frameworks, blogs, or other CMS applications, Bootstrap can be a good fit, as it can be as vanilla as you like. Its combination of HTML, CSS, and JavaScript make it easy to build robust sites without adding a lot of code. With a default grid system, layouts come together with ease, and the styling of buttons, navs, and tables make basic markup look great from the get-go. A dozen or so JavaScript plugins catapult you into adding interactive elements to your site.((("Bootstrap", "overview of")))
 
 
 Who This Book Is For
