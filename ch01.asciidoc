@@ -123,7 +123,7 @@ image::images/boot_0101.png[]
 
 ==== Basic Grid HTML
 
-To create a simple layout, create a container with a `<div>` that has a class of `.row` and add the appropriate amount of `.span*` columns. Since we have a 12-column grid, we just need the amount of `.span*` columns to equal twelve. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2... we could go on and on, but I think you get the gist.(((layouts, creating simple)))
+To create a simple layout, create a container with a `<div>` that has a class of `.row` and add the appropriate amount of `.span*` columns. Since we have a 12-column grid, we just need the amount of `.span*` columns to equal 12. We could use a 3-6-3 layout, 4-8, 3-5-4, 2-8-2... we could go on and on, but I think you get the gist.(((layouts, creating simple)))
 
 The following code shows `.span8` and `.span4`, which adds up to 12:
 
