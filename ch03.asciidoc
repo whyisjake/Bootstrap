@@ -500,8 +500,6 @@ The navbar is a nice feature, and is one of the prominent features of Bootstrap 
 .Basic navbar
 image::images/boot_0321.png[]
 
-[[examplebrand]]
-
 [source, html]
 ----
 <div class="navbar">
