@@ -1100,7 +1100,7 @@ image::images/boot_0412.png[]
 
 ==== Usage
 
-Using Data API, you can add sources via the `data-source` attribute. Items should be listed in either a JSON array or a function.
+Using Data API, you can add sources via the `data-source` attribute. Items should be listed in either a JSON array or a function:
 
 [source, html]
 ----
