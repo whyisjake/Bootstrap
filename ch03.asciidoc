@@ -182,7 +182,7 @@ Here's the code for a split button dropdown:
 
 ==== Dropup Menus
 
-Menus can also be built to drop up rather than down. To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pull up from the righthand side, add `.pull-right` to the `.dropdown-menu`. Take note: the caret is now pointed up because the menu will be going up instead of down. See <<figure3-8>> for an example of a dropup menu.(((dropup menus)))(((menus, dropup)))
+Menus can also be built to drop up rather than down (see <<figure3-8>>). To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pull up from the righthand side, add `.pull-right` to the `.dropdown-menu`. Take note: the caret is now pointed up because the menu will be going up instead of down. (((dropup menus)))(((menus, dropup)))
 
 [[figure3-8]]
 .Dropup menu
