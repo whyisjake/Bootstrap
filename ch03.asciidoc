@@ -58,7 +58,7 @@ image::images/boot_03in01.png[]
 
 === Button Groups
 
-Button groups allow multiple buttons to be stacked together. This is useful when you want to place items like alignment buttons together. To create a button group, simply wrap a series of anchors or buttons in a `<div>` that has `.btn-group` as a class: (((buttons, button groups)))(((layout components, button groups)))(((inline button groups)))
+Button groups allow multiple buttons to be stacked together See <<figure3-2>>. This is useful when you want to place items like alignment buttons together. To create a button group, simply wrap a series of anchors or buttons in a `<div>` that has `.btn-group` as a class: (((buttons, button groups)))(((layout components, button groups)))(((inline button groups)))
 
 [source,html]
 ----
