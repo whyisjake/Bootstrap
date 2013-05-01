@@ -950,7 +950,8 @@ The following code shows how to extend and add more to the thumbnail:
         <h3>Meats</h3>
         <p>Bacon ipsum dolor sit amet sirloin pancetta shoulder tongue doner, 
            shank sausage.</p>
-        <p><a href="#" class="btn btn-primary">Eat now!</a> <a href="#" class="btn">Later...</a></p>
+        <p><a href="#" class="btn btn-primary">Eat now!</a> <a href="#" 
+           class="btn">Later...</a></p>
       </div>
     </div>
   </li>
