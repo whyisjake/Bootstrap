@@ -1023,7 +1023,7 @@ To create a striped progress bar (see <<figure3-43>>),footnote:[Striped progress
 .Striped progress bar
 image::images/boot_0343.png[]
 
-Like the striped version of the progress bar, you can animate the stripes (see <<figure3-44>> to show static image of this), making it look like a blue light special barbershop pole.
+Like the striped version of the progress bar, you can animate the stripes (see <<figure3-44>> to show an image of this), making it look like a blue light special barbershop pole.
 
 [[figure3-44]]
 .Animated progress bar
