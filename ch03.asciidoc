@@ -666,7 +666,8 @@ Use the following code to create a responsive navbar:
       are collapsed... -->
       <a href="#" class="brand">Project Name</a>
 
-      <!-- Everything that you want collapsed, should be added to the collapse div. -->
+      <!-- Everything that you want collapsed, should be added to the collapse 
+      div. -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search etc... -->
       </div>
