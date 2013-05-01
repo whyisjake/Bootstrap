@@ -159,6 +159,7 @@ Options can either be passed in via data attributes or with JavaScript. To use t
 
 
 ==== Methods
+Here are some useful methods for using modals.
 
 ===== Options
 Activates your content as a modal. Accepts an optional options object.
