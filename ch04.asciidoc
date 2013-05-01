@@ -1102,9 +1102,6 @@ image::images/boot_0412.png[]
 
 Using Data API, you can add sources via the `data-source` attribute. Items should be listed in either a JSON array or a function.
 
-[[typeahead_ex]]
-.Typeahead code example
-====
 [source, html]
 ----
 <input
