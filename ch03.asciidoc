@@ -104,11 +104,7 @@ image::images/boot_0303.png[]
 
 For more information about using icons with buttons, follow the examples in <<css>>.
 
-To stack the buttons vertically (see <<figure3-4>>), add `.btn-group-vertical` to the `.btn-group` class. (((buttons, vertical buttons)))
-
-[[figure3-4]]
-.Vertical button group
-image::images/boot_0304.png[]
+To stack the buttons vertically (see <<figure3-4>>), add `.btn-group-vertical` to the `.btn-group` class: (((buttons, vertical buttons)))
 
 [source, html]
 ----
@@ -116,6 +112,10 @@ image::images/boot_0304.png[]
   ...
 </div>
 ----
+
+[[figure3-4]]
+.Vertical button group
+image::images/boot_0304.png[]
 
 ==== Button Groups as Radio Buttons and Checkboxes
 
