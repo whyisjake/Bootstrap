@@ -84,7 +84,7 @@ You can download the code from the Examples link on the http://shop.oreilly.com/
 
 This book is here to help you get your job done. In general, if this book includes code examples, you may use the code in this book in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
 
-We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: "_Bootstrap: Responsive Web Development_, by Jake Spurlock (O'Reilly). Copyright 2013 Jake Spurlock, 978-1-4493-4391-0."
+We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: "_Bootstrap_, by Jake Spurlock (O'Reilly). Copyright 2013 Jake Spurlock, 978-1-4493-4391-0."
 
 If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at pass:[<email>permissions@oreilly.com</email>].
 
