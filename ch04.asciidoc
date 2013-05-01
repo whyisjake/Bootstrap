@@ -109,7 +109,8 @@ There are three classes to take note of in the modal. The first is `.modal`, whi
 [source, html]
 ----
 <!-- Button to trigger modal -->
-<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo 
+modal</a>
 
 <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
