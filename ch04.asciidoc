@@ -490,6 +490,8 @@ Like all of the plugins, there are options that can be added via the Bootstrap D
 
 ==== Methods
 
+Here are some useful methods for tooltips.
+
 ===== Options
 
 Attaches a tooltip handler to an element collection.
