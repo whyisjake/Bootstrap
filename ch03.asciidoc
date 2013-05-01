@@ -932,7 +932,7 @@ Use the following code to create a thumbnail:
 </a>
 ----
 
-Now that you have your basic thumbnail, you can add headings, buttons, and more; just change the `<a>` tag that has a class of `.thumbnail` to a `<div>`. Inside of that `<div>`, you can add anything you need. Since this is a `<div>`, we can use the default span-based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to the left. See <<figure3-38>> for an image of this in action.
+Now that you have your basic thumbnail, you can add headings, buttons, and more as shown in <<figure3-38>>; just change the `<a>` tag that has a class of `.thumbnail` to a `<div>`. Inside of that `<div>`, you can add anything you need. Since this is a `<div>`, we can use the default span-based naming convention for sizing. If you want to group multiple images, place them in an unordered list, and each list item will be floated to the left.
 
 [[figure3-38]]
 .Extended thumbnail
