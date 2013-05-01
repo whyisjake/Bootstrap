@@ -1125,16 +1125,16 @@ There are a few more Bootstrap components that we have yet to cover in this chap
 
 A well is a container `<div>` that causes the content to appear sunken on the page (see <<figure3-50>>). I have used wells for blog post meta information like author, date, and categories. To create a well, simply wrap the content that you would like to appear in the well with a `<div>` containing the class of `.well`:(((layout components, wells)))(((wells)))
 
-[[figure3-50]]
-.Well
-image::images/boot_0350.png[]
-
 [source, html]
 ----
 <div class="well">
   ...
 </div>
 ----
+
+[[figure3-50]]
+.Well
+image::images/boot_0350.png[]
 
 There are two additional classes that can be used in conjunction with `.well`: `.well-large` and `.well-small`. These affect the padding, making the well larger or smaller depending on the class (see <<figure3-51>>). 
 
