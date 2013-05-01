@@ -823,7 +823,7 @@ The collapse plugin makes it easy to make collapsing divisions of the page (see 
 .Accordion
 image::images/boot_0410.png[]
 
-The following code creates a collapsible group:
+The following code creates collapsible groups:
 
 [source, html]
 ----
