@@ -976,7 +976,7 @@ The Bootstrap carousel (<<carousel_fig>>) is a flexible, responsive way to add a
 .Carousel
 image::images/boot_0411.png[]
 
-The following code creates the Bootstrap carousel:
+The following code is used to create the Bootstrap carousel:
 
 [source, html]
 ----
