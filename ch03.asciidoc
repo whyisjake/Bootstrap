@@ -184,10 +184,6 @@ Here's the code for a split button dropdown:
 
 Menus can also be built to drop up rather than down (see <<figure3-8>>). To make this change, simply add `.dropup` to the `.btn-group` container. To have the button pull up from the righthand side, add `.pull-right` to the `.dropdown-menu` (take note: the caret is now pointed up because the menu will be going up instead of down): (((dropup menus)))(((menus, dropup)))
 
-[[figure3-8]]
-.Dropup menu
-image::images/boot_0308.png[]
-
 [source, html]
 ----
 <div class="btn-group dropup">
@@ -201,7 +197,9 @@ image::images/boot_0308.png[]
 </div>
 ----
 
-
+[[figure3-8]]
+.Dropup menu
+image::images/boot_0308.png[]
 
 // jsfiddle::http://jsfiddle.net/DyfSZ/3/embedded/result/[width="100%", height="300px"]
 
