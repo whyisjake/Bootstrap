@@ -335,7 +335,7 @@ If you would rather invoke the scrollspy with JavaScript instead of using the da
 $('#navbar').scrollspy()
 ----
 
-==== .scrollspy('refresh') Method
+==== .scrollspy(\'refresh\') Method
 
 When calling the scrollspy via the JavaScript method, you need to call the +.refresh+ method to update the DOM. This is helpful if any elements of the DOM have changed.
 
