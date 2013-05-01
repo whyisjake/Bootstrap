@@ -249,7 +249,7 @@ image::images/boot_0310.png[]
 
 ===== Disabled class
 
-For each of the `.nav` classes, if you add the `.disabled` class, it will create a gray link that also disables the `:hover` state (see <<figure3-11>>). (((disabled links)))(((links, disabled)))
+For each of the `.nav` classes, if you add the `.disabled` class, it will create a gray link that also disables the `:hover` state (see <<figure3-11>>): (((disabled links)))(((links, disabled)))
 
 [source, html]
 ----
