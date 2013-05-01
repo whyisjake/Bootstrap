@@ -53,7 +53,7 @@ If you would like to add a second layer of dropdowns (see <<figure3-in1>>), simp
 ----
 
 [[figure3-in1]]
-.Dropdown menu and Submenu
+.Dropdown menu and submenu
 image::images/boot_03in01.png[]
 
 === Button Groups
