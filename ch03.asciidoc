@@ -249,7 +249,9 @@ image::images/boot_0310.png[]
 
 ===== Disabled class
 
-For each of the `.nav` classes, if you add the `.disabled` class, it will create a gray link that also disables the `:hover` state (see <<figure3-11>>). The link is still clickable unless the `href` is removed with JavaScript or some other method.  for an example of disabled navigation.(((disabled links)))(((links, disabled)))
+For each of the `.nav` classes, if you add the `.disabled` class, it will create a gray link that also disables the `:hover` state (see <<figure3-11>>). (((disabled links)))(((links, disabled)))
+
+The link is still clickable unless the `href` is removed with JavaScript or some other method. 
 
 [[figure3-11]]
 .Disabled navigation
