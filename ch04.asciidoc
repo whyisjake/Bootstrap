@@ -310,19 +310,19 @@ In the navbar, you will need to have page anchors that will serve as indicators 
 [source, html]
 ----
 <div class="navbar">
-	<div class="navbar-inner">
-		<div class="container">
-			<a class="brand" href="#">Jake's BBQ</a>
-			<div class="nav-collapse">
-				<ul class="nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#pork">Pork</a></li>
-					<li><a href="#beef">Beef</a></li>
-					<li><a href="#chicken">Chicken</a></li>
-				</ul>
-			</div><!-- /.nav-collapse -->
-		</div>
-	</div><!-- /navbar-inner -->
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="#">Jake's BBQ</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#pork">Pork</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#chicken">Chicken</a></li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div>
+  </div><!-- /navbar-inner -->
 </div>
 ----
 
