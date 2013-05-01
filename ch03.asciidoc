@@ -966,10 +966,6 @@ The following code shows how to extend and add more to the thumbnail:
 
 Like the modals that will be described in <<javascriptplug>>, alerts provide a way to style messages to the user (see <<figure3-39>>). The default alert is added by creating a wrapper `<div>` and adding a class of `.alert`: (((layout components, alerts)))(((alerts)))(((messages)))
 
-[[figure3-39]]
-.Basic alert
-image::images/alert.png[]
-
 [source, html]
 ----
 <div class="alert">
@@ -977,6 +973,10 @@ image::images/alert.png[]
     <strong>Warning!</strong> Not to be alarmist, but you have now been alerted.
 </div>
 ----
+
+[[figure3-39]]
+.Basic alert
+image::images/alert.png[]
 
 The `.alert` uses the alerts jQuery plugin that is discussed in <<javascriptplug>>. To close the alert, you can use a button that contains the `data-dismiss="alert"` attribute. Mobile Safari and Mobile Opera browsers require an `href="#"` to close.
 
