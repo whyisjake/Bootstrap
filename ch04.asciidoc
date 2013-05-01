@@ -583,6 +583,8 @@ All options can be passed via the Bootstrap Data API, or directly with JavaScrip
 
 ==== Methods
 
+Here are some useful methods for popovers.
+
 ===== Options
 
 Initializes popovers for an element collection.
