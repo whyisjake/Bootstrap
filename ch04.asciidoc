@@ -435,8 +435,6 @@ Tabs panes have two different events that can be hooked into, as shown in <<tabl
 |shown 	|This event fires on tab show after a tab has been shown. Use `event.target` and `event.relatedTarget` to target the active tab and the previous active tab (if available), respectively.
 |=======================
 
-.Example of shown method
-====
 [source, js]
 ----
 $('a[data-toggle="tab"]').on('shown', function (e) {
@@ -444,7 +442,6 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
 	e.relatedTarget // previous tab
 })
 ----
-====
 
 For information about the jQuery `.on` method, refer to  http://api.jquery.com/on/[jQuery .on] at the jQuery website.
 
