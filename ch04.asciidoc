@@ -11,7 +11,6 @@ Bootstrap can be included on your site in two forms, either compiled or raw. In 
 Typically, JavaScript lies in a either a separate file or at the bottom of the page before the closing `</body>` tag. You can either use the `src` attribute to link to another file, or you can write the contents of the file between the opening and closing tags.
 
 [[javascript_usage]]
-.JavaScript usage
 ====
 [source, html]
 ----
