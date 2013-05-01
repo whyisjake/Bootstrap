@@ -258,7 +258,8 @@ If you need to keep links intact (which is useful if the browser is not enabling
 [source, html]
 ----
 <div class="dropdown">
-  <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+  <a class="dropdown-toggle" id="dLabel" role="button" 
+  data-toggle="dropdown" data-target="#" href="/page.html">
     Dropdown
     <b class="caret"></b>
   </a>
