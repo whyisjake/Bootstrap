@@ -855,7 +855,6 @@ image::images/boot_0410.png[]
 ...
 ----
 
-
 You can also use the data attributes to make all content collapsible:
 
 [source, html]
