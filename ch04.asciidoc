@@ -1018,11 +1018,11 @@ Options can be passed through data attributes or through JavaScript. The options
 
 ==== Methods
 
-The following methods are useful to use with carousel.  
+The following methods are useful carousel code.  
 
 ===== Options
 
-Initializes the carousel with an optional `options` object and starts cycling through items.
+Initializes the carousel with an optional `options` object and starts cycling through items:
 
 [source, js]
 ----
@@ -1033,7 +1033,7 @@ $('.carousel').carousel({
 
 ===== Cycle
 
-Cycles through the carousel items from left to right.
+Cycles through the carousel items from left to right:
 
 [source, js]
 ----
@@ -1042,7 +1042,7 @@ Cycles through the carousel items from left to right.
 
 ===== Pause
 
-Stops the carousel from cycling through items.
+Stops the carousel from cycling through items:
 
 [source, js]
 ----
@@ -1051,7 +1051,7 @@ Stops the carousel from cycling through items.
 
 ===== Number
 
-Cycles the carousel to a particular frame (0-based, similar to an array).
+Cycles the carousel to a particular frame (0-based, similar to an array):
 
 [source, js]
 ----
@@ -1060,7 +1060,7 @@ Cycles the carousel to a particular frame (0-based, similar to an array).
 
 ===== Prev
 
-Cycles to the previous item.
+Cycles to the previous item:
 
 [source, js]
 ----
@@ -1069,7 +1069,7 @@ Cycles to the previous item.
 
 ===== Next
 
-Cycles to the next item.
+Cycles to the next item:
 
 [source, js]
 ----
@@ -1079,7 +1079,7 @@ Cycles to the next item.
 
 ==== Events
 
-The carousel has two events that can be hooked into, described in <<table_carousel_events>>.
+The carousel has two events that can be hooked into, described in <<table_carousel_events>>:
 
 [[table_carousel_events]]
 .Carousel events
