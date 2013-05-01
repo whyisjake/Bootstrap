@@ -667,7 +667,7 @@ $(".alert").alert('close')
 
 ==== Events
 
-There are two events that can be tied to Bootstrap's +alert+ class that you can see in <<table4-8>>.
+There are two events that can be tied to Bootstrap's +alert+ class as shown in <<table4-8>>.
 
 [[table4-8]]
 .Alert class events
@@ -693,16 +693,19 @@ Buttons were introduced in <<bootstrap_layout>>. With Bootstrap, you don't need 
 
 ==== Loading State
 
-To add a loading state to a button (shown in <<loading_button_fig>>), simply add `data-loading-text="Loading..."` as an attribute to the button. When the button is clicked, the `.disabled` class is added, giving the appearance that it can no longer be clicked.
+To add a loading state to a button (shown in <<loading_button_fig>>), simply add `data-loading-text="Loading..."` as an attribute to the button:
+
+[source, html]
+----
+<button type="button" class="btn btn-primary" data-loading-text="Loading...">
+Submit!</button>
+----
+
+When the button is clicked, the `.disabled` class is added, giving the appearance that it can no longer be clicked.
 
 [[loading_button_fig]]
 .Loading button
 image::images/boot_0406.png[]
-
-[source, html]
-----
-<button type="button" class="btn btn-primary" data-loading-text="Loading...">Submit!</button>
-----
 
 ==== Single Toggle
 
