@@ -211,7 +211,7 @@ Bootstrap also provides a helper class, `.active`. In principle, it generally ad
 
 ==== Tabular Navigation
 
-To create a tabbed navigation menu, start with a basic unordered list with the base class of `.nav` and add `.nav-tabs`: (((navigation elements, tabular)))(((tabbed navigation)))
+To create a tabbed navigation menu (see <<figure3-9>>), start with a basic unordered list with the base class of `.nav` and add `.nav-tabs`: (((navigation elements, tabular)))(((tabbed navigation)))
 
 [[figure3-9]]
 .Tabbed navigation
