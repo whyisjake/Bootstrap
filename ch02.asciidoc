@@ -971,9 +971,9 @@ If you need larger or smaller buttons, simply add `.btn-large`, `.btn-small`, or
 [[figure2-43]]
 .Different button sizes
 image::images/boot_0241.png[]
-
+++++
 <?hard-pagebreak?>
-
+++++
 If you want to create buttons that display like a block-level element, simply add the `.btn-block` class (see <<figure2-44>>). These buttons will display at 100% width:
 
 [source,html]
