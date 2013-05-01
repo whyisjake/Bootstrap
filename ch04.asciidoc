@@ -587,7 +587,7 @@ Here are some useful methods for popovers.
 
 ===== Options
 
-Initializes popovers for an element collection.
+Initializes popovers for an element collection:
 
 [source, js]
 ----
@@ -596,7 +596,7 @@ $().popover(options)
 
 ===== Show
 
-Reveals an element's popover.
+Reveals an element's popover:
 
 [source, js]
 ----
@@ -605,7 +605,7 @@ $('#element').popover('show')
 
 ===== Hide
 
-Hides an element's popover.
+Hides an element's popover:
 
 [source, js]
 ----
@@ -614,7 +614,7 @@ $('#element').popover('hide')
 
 ===== Toggle
 
-Toggles an element's popover.
+Toggles an element's popover:
 
 [source, js]
 ----
@@ -623,7 +623,7 @@ $('#element').popover('toggle')
 
 ===== Destroy
 
-Hides and destroys an element's popover.
+Hides and destroys an element's popover:
 
 [source, js]
 ----
