@@ -300,10 +300,6 @@ image::images/boot_0313.png[]
 
 Navigation menus share a similar syntax with dropdown menus (see <<figure3-14>>). By default, you have a list item that has an anchor working in conjunction with some `data-` attributes to trigger an unordered list with a `.dropdown-menu` class: (((navigation elements, dropdowns))) 
 
-[[figure3-14]]
-.Tabbed navigation with a dropdown menu
-image::images/boot_0314.png[]
-
 [source, html]
 ----
 <ul class="nav nav-tabs">
@@ -324,6 +320,10 @@ image::images/boot_0314.png[]
 	</li>
 </ul>
 ----
+
+[[figure3-14]]
+.Tabbed navigation with a dropdown menu
+image::images/boot_0314.png[]
 
 To do the same thing with pills, simply swap the `.nav-tabs` class with `.nav-pills`.
 
