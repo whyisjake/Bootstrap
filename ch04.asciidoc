@@ -896,8 +896,8 @@ The options listed in <<collapse_table>> can be passed via data attributes or wi
 [options="header"]
 |=======================
 |Name	|Type		|Default	|Description
-|parent	|selector	|false		|If selector, then all collapsible elements under the specified parent will be closed when 
-this collapsible item is shown. (Similar to traditional accordion behavior.)
+|parent	|selector	|false		|If selector, then all collapsible elements under the specified parent will be closed when this 
+collapsible item is shown. (Similar to traditional accordion behavior.)
 |toggle	|Boolean	|true		|Toggles the collapsible element on invocation.
 |=======================
 
