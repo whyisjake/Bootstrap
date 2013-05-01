@@ -903,9 +903,11 @@ collapsible item is shown. (Similar to traditional accordion behavior.)
 
 ==== Methods
 
+The following methods are useful to use with collapsible elements.
+
 ===== Options
 
-Activates your content as a collapsible element. Accepts an optional options object.
+Activates your content as a collapsible element. Accepts an optional options object:
 
 [source, js]
 ----
@@ -914,7 +916,7 @@ Activates your content as a collapsible element. Accepts an optional options obj
 
 ===== Toggle
 
-Toggles a collapsible element to shown or hidden.
+Toggles a collapsible element to shown or hidden:
 
 [source, js]
 ----
@@ -926,7 +928,7 @@ $('#myCollapsible').collapse({
 
 ===== Show
 
-Shows a collapsible element.
+Shows a collapsible element:
 
 [source, js]
 ----
@@ -935,7 +937,7 @@ Shows a collapsible element.
 
 ===== Hide
 
-Hides a collapsible element.
+Hides a collapsible element:
 
 [source, js]
 ----
@@ -944,7 +946,7 @@ Hides a collapsible element.
 
 ==== Events
 
-There are four events that can be hooked into with the collapse plugin, described in <<collapse-events-table>>.
+There are four events that can be hooked into with the collapse plugin, described in <<collapse-events-table>>:
 
 [[collapse-events-table]]
 .Collapse events
