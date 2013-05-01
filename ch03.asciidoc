@@ -283,7 +283,7 @@ Here's the code for stacked tabs:
 .Stacked tabs
 image::images/boot_0312.png[]
 
-Here's the code for stacked pills
+Here's the code for stacked pills:
 
 [source, html]
 ----
