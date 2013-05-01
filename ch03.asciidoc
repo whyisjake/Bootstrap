@@ -258,14 +258,13 @@ For each of the `.nav` classes, if you add the `.disabled` class, it will create
   <li class="disabled"><a href="#">Home</a></li>
   ...
 </ul>
-----
-
-The link is still clickable unless the `href` is removed with JavaScript or some other method. 
+---- 
 
 [[figure3-11]]
 .Disabled navigation
 image::images/boot_0311.png[]
 
+The link is still clickable unless the `href` is removed with JavaScript or some other method.
 
 ==== Stackable Navigation
 
