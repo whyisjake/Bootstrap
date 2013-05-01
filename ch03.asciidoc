@@ -823,6 +823,8 @@ To left- or right-align the links, you just need to add the `.previous` and `.ne
 .Aligned page links
 image::images/boot_0332.png[]
 
+The following is the code for aligning page links:
+
 [source, html]
 ----
 <ul class="pager">
