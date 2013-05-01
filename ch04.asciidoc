@@ -843,7 +843,8 @@ The following code creates collapsible groups:
   </div>
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" 
+      href="#collapseTwo">
         Collapsible Group Item #2
       </a>
     </div>
