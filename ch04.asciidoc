@@ -739,11 +739,7 @@ image::images/boot_0408.png[]
 
 ==== Radio Buttons
 
-Radio buttons (<<radio_fig>>) function similarily to checkboxes. The primary difference is that a radio button doesn't allow for multiple selections--only one button in the group can be selected. To add radio-style toggling on `btn-group`, add `data-toggle="buttons-radio"`.(((radio buttons)))(((buttons, radio buttons))) 
-
-[[radio_fig]]
-.Radio buttons
-image::images/boot_0409.png[]
+Radio buttons (<<radio_fig>>) function similarily to checkboxes. The primary difference is that a radio button doesn't allow for multiple selections--only one button in the group can be selected. To add radio-style toggling on `btn-group`, add `data-toggle="buttons-radio"`: (((radio buttons)))(((buttons, radio buttons))) 
 
 [source, html]
 ----
@@ -753,6 +749,10 @@ image::images/boot_0409.png[]
   <button type="button" class="btn btn-primary">Right</button>
 </div>
 ----
+
+[[radio_fig]]
+.Radio buttons
+image::images/boot_0409.png[]
 
 ==== Usage
 
