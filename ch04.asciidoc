@@ -782,7 +782,8 @@ When loading, the button is disabled and the text is changed to the option from 
 
 [source, html]
 ----
-<button type="button" class="btn" data-loading-text="loading stuff..." >...</button>
+<button type="button" class="btn" data-loading-text="loading stuff..." >...
+</button>
 ----
 
 ===== Reset
