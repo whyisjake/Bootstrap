@@ -1142,7 +1142,7 @@ There are two additional classes that can be used in conjunction with `.well`: `
 .Well optional classes
 image::images/boot_0351.png[]
 
-Here is some code to use the well classes:
+The following code uses the well classes:
 
 [source, html]
 ----
