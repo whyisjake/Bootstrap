@@ -98,7 +98,6 @@ To create a static example, use this code:
 </div>
 ----
 
-
 [[figure4_1]]
 .Static modal window
 image::images/boot_0401.png[]
