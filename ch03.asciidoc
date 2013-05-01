@@ -163,6 +163,8 @@ Split button dropdowns (see <<figure3-7>>) use the same general style as the dro
 .Split button dropdown
 image::images/boot_0307.png[]
 
+Here's the code for a split button dropdown:
+
 [source,html]
 ----
 <div class="btn-group">
