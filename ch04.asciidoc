@@ -765,7 +765,7 @@ $('.nav-tabs').button()
 
 ==== Methods
 
-The following methods are some useful to use with buttons.
+The following methods are useful to use with buttons.
 
 ===== Toggle
 
