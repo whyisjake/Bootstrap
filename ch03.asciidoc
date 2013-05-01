@@ -986,7 +986,7 @@ If you have a longer message in your alert, you can use the `.alert-block` class
 .Alert block
 image::images/boot_0340.png[]
 
-There are also three other color options as shown in << to help provide a more semantic method for the alert. They are added by using either `.alert-error`, `.alert-success`, or `.alert-info`.
+There are also three other color options as shown in <<figure3-41>> to help provide a more semantic method for the alert. They are added by using either `.alert-error`, `.alert-success`, or `.alert-info`.
 
 [[figure3-41]]
 .Alert color options
