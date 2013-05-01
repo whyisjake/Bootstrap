@@ -1018,6 +1018,8 @@ Options can be passed through data attributes or through JavaScript. The options
 
 ==== Methods
 
+The following methods are useful to use with carousel.  
+
 ===== Options
 
 Initializes the carousel with an optional `options` object and starts cycling through items.
