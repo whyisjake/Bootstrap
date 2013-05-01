@@ -536,7 +536,7 @@ Note the `.brand` class in the code. This will give the text a lighter `font-wei
 
 ==== Navbar Links
 
-To add links to the navbar, simply add an unordered list with a class of `.nav`. If you want to add a divider to your links, you can do that by adding an empty list item with a class of `.divider-vertical`. See <<figure3-22>> for an example of links in a navbar.(((links, navbar links)))
+To add links to the navbar (See <<figure3-22>>), simply add an unordered list with a class of `.nav`. If you want to add a divider to your links, you can do that by adding an empty list item with a class of `.divider-vertical`. (((links, navbar links)))
 
 [[figure3-22]]
 .Nav links
