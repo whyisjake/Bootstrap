@@ -726,10 +726,6 @@ image::images/boot_0327.png[]
 
 Bootstrap handles pagination like a lot of other interface elements, an unordered list, with wrapper a `<div>` that has a specific class that identifies the element. In the basic form, adding `.pagination` to the parent `<div>` creates a row of bordered links. Each of the list items can be additionally styled by using the `.disabled` or `.active` class. See <<figure3-28>> and <<figure3-29>> for examples of this.(((layout components, pagination)))(((pagination)))
 
-[[figure3-28]]
-.Basic pagination
-image::images/boot_0328.png[]
-
 [source, html]
 ----
 <div class="pagination">
@@ -745,9 +741,9 @@ image::images/boot_0328.png[]
 </div>
 ----
 
-[[figure3-29]]
-.Pagination with helper classes
-image::images/boot_0329.png[]
+[[figure3-28]]
+.Basic pagination
+image::images/boot_0328.png[]
 
 [source, html]
 ----
@@ -764,6 +760,10 @@ image::images/boot_0329.png[]
   </ul>
 </div>
 ----
+
+[[figure3-29]]
+.Pagination with helper classes
+image::images/boot_0329.png[]
 
 In addition to the `.active` and `.disabled` classes for list items, you can add `.pagination-centered` to the parent `<div>`. This will center the contents of the `<div>`. If you want the items right-aligned in the `<div>`, add  `.pagination-right`. For sizing, in addition to the normal size, there are three other sizes that can be applied by adding a class to the wrapper `<div>`: `.pagination-large`, `.pagination-small`, and `.pagination-mini` (see <<figure3-30>>).(((right alignment)))
 
