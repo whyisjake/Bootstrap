@@ -422,6 +422,8 @@ The tabs are fully positionable; you can have them above, below, or on the sides
 .Bottom tabs
 image::images/tab-below.png[]
 
+Here's the code for positioning tabs:
+
 [source,html]
 ----
 <div class="tabbable tabs-below">
@@ -444,11 +446,7 @@ image::images/tab-below.png[]
 </div>
 ----
 
-Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab content and the tabs (see <<figure3-19>>).
-
-[[figure3-19]]
-.Left tabs
-image::images/boot_0319.png[]
+Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab content and the tabs (see <<figure3-19>>):
 
 [source,html]
 ----
