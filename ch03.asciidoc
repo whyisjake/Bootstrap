@@ -73,7 +73,7 @@ Button groups allow multiple buttons to be stacked together (see <<figure3-2>>).
 .Left, middle, and right button group
 image::images/boot_0302.png[]
 
-If you have multiple button groups (see <<figure3-3>>) that you want to place on a single line, wrap multiple `.btn-group` classes with `.btn-toolbar`:(((buttons, button toolbars)))((("toolbars, button toolbars"))) 
+If you have multiple button groups (see <<figure3-3>>) that you want to place on a single line, wrap multiple `.btn-group` classes with `.btn-toolbar`: (((buttons, button toolbars)))((("toolbars, button toolbars"))) 
 
 [source, html]
 ----
