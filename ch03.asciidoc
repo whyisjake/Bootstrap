@@ -676,11 +676,7 @@ Use the following code to create a responsive navbar:
 
 ===== Inverted navbar
 
-To create an inverted navbar with a black background and white text, simply add `.navbar-inverse` to the `.navbar` class (see <<figure3-26>>):(((range="endofrange", startref="ix_lcnavbar")))(((range="endofrange", startref="ix_navbar")))(((inverted navbars)))
-
-[[figure3-26]]
-.Inverted navbar
-image::images/boot_0326.png[]
+To create an inverted navbar with a black background and white text, simply add `.navbar-inverse` to the `.navbar` class (see <<figure3-26>>): (((range="endofrange", startref="ix_lcnavbar")))(((range="endofrange", startref="ix_navbar")))(((inverted navbars)))
 
 [source, html]
 ----
@@ -688,6 +684,10 @@ image::images/boot_0326.png[]
 	...
 </div>
 ----
+
+[[figure3-26]]
+.Inverted navbar
+image::images/boot_0326.png[]
 
 === Breadcrumbs
 
