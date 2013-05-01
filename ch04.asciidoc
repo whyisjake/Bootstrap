@@ -548,7 +548,8 @@ image::images/boot_0405.png[]
 
 [source, html]
 ----
-<a href="#" class="btn" rel="popover" title="Using Popover" data-content="Just add content to the data-content attribute.">Click Me!</a>
+<a href="#" class="btn" rel="popover" title="Using Popover" 
+data-content="Just add content to the data-content attribute.">Click Me!</a>
 ----
 
 
