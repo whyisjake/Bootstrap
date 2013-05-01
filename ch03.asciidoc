@@ -1010,11 +1010,7 @@ The default progress bar has a light gray background and a blue progress bar as 
 .Default progress bar
 image::images/boot_0342.png[]
 
-To create a striped progress bar (see <<figure3-43>>), just add `.progress-striped` to the container `<div>`. Striped progress bars are not available in Internet Explorer 7 and 8.
-
-[[figure3-43]]
-.Striped progress bar
-image::images/boot_0343.png[]
+To create a striped progress bar (see <<figure3-43>>), just add `.progress-striped` to the container `<div>`: 
 
 [source, html]
 ----
@@ -1022,6 +1018,12 @@ image::images/boot_0343.png[]
   <div class="bar" style="width: 20%;"></div>
 </div>
 ----
+
+Striped progress bars are not available in Internet Explorer 7 and 8.
+
+[[figure3-43]]
+.Striped progress bar
+image::images/boot_0343.png[]
 
 Like the striped version of the progress bar, you can animate the stripes, making it look like a blue light special barbershop pole. See <<figure3-44>>.
 
