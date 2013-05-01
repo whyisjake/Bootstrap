@@ -17,7 +17,7 @@ If desired, using the LESS files, you can compile your own version of Bootstrap 
 
 === Customizing Bootstrap
 
-You can download the source, or if you want to easily customize a few of the colors, sizing, or plug-ins, you can cater the Bootstrap to your needs via the http://twitter.github.com/bootstrap/customize.html[Bootstrap website].((("Bootstrap", "customizing", id="ix_BScus", range="startofrange")))
+You can download the source, or if you want to easily customize a few of the colors, sizing, or plugins, you can cater the Bootstrap to your needs via the http://twitter.github.com/bootstrap/customize.html[Bootstrap website].((("Bootstrap", "customizing", id="ix_BScus", range="startofrange")))
 
 When you use the customize page (<<figure5_1>>), you decide what components you need. For example, you might choose to leave off all of the responsive features, or maybe you would like to leave off the button classes that conflict with styles that you already have. You can also opt out of any of the jQuery plug-ins. If you know that you aren't going to be using the modals or the carousel, you can leave it out of the build so that you have a smaller file to request.
 
