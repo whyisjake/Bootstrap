@@ -1063,7 +1063,7 @@ When you look at social sites like Facebook, Twitter, and others, and strip away
 .Media object
 image::images/boot_0347.png[]
 
-Bootstrap leaves the design and formatting to you but provides a simple way to get going. Like a lot of other tools in Bootstrap, the goal of media objects (light markup, easy extendability) is achieved by applying classes to some simple markup. There are two forms to the media object: `.media` and `.media-list`. If you are preparing a list where the items will be part of an unordered list, use `.media-list`. If you are using only just `<div>` elements, use the `.media` object (see <<figure3-48>>). 
+Bootstrap leaves the design and formatting to you but provides a simple way to get going. Like a lot of other tools in Bootstrap, the goal of media objects (light markup, easy extendability) is achieved by applying classes to some simple markup. There are two forms to the media object: `.media` and `.media-list`. <<figure3-48>> shows the former form. If you are preparing a list where the items will be part of an unordered list, use `.media-list`. If you are using only just `<div>` elements, use the `.media` object: 
 
 [[figure3-48]]
 .Default media object
