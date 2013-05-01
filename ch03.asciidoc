@@ -845,7 +845,7 @@ Labels are great for offering counts, tips, or other markup for pages. They're a
 .Labels
 image::images/boot_0333.png[]
 
-Here's the code for using labels:
+Here's the code to use these labels:
 
 [source, html]
 ----
