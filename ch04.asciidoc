@@ -709,16 +709,16 @@ image::images/boot_0406.png[]
 
 ==== Single Toggle
 
-When clicking on a button with the `data-toggle="button"` attribute (<<toggle_button>>), a class of `.active` is added.
-
-[[toggle_button]]
-.Toggle button
-image::images/boot_0407.png[]
+When clicking on a button with the `data-toggle="button"` attribute (<<toggle_button>>), a class of `.active` is added:
 
 [source, html]
 ----
 <button type="button" class="btn btn-primary" data-toggle="button">Toggle</button>
 ----
+
+[[toggle_button]]
+.Toggle button
+image::images/boot_0407.png[]
 
 ==== Checkbox Buttons
 
