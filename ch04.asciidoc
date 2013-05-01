@@ -144,7 +144,7 @@ $('#myModal').modal(options)
 
 ==== Options
 
-Options can either be passed in via data attributes or with JavaScript. To use the data attributes, prepend `data-` to the option name (e.g., `data-backdrop=""`). See <<table1>>.
+Options can either be passed in via data attributes or with JavaScript. To use the data attributes, prepend `data-` to the option name (e.g., `data-backdrop=""`). See <<table1>> for descriptions of some modal options.
 
 [[table1]]
 .Modal options
