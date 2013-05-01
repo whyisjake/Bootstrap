@@ -1142,6 +1142,8 @@ There are two additional classes that can be used in conjunction with `.well`: `
 .Well optional classes
 image::images/boot_0351.png[]
 
+The following code shows the well classes:
+
 [source, html]
 ----
 <div class="well well-large">
