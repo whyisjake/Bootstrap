@@ -1019,11 +1019,11 @@ To create a striped progress bar (see <<figure3-43>>), just add `.progress-strip
 </div>
 ----
 
-Striped progress bars are not available in Internet Explorer 7 and 8.
-
 [[figure3-43]]
 .Striped progress bar
 image::images/boot_0343.png[]
+
+Striped progress bars are not available in Internet Explorer 7 and 8.
 
 Like the striped version of the progress bar, you can animate the stripes, making it look like a blue light special barbershop pole. See <<figure3-44>>.
 
