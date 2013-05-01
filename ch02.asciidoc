@@ -1042,6 +1042,8 @@ Bootstrap bundles 140 icons into one sprite that can be used with buttons, links
 .Icons by GLYPHICONS
 image::images/boot_02in04.png[]
 
+<?hard-pagebreak?>
+
 ==== GLYPHICONS Attribution
 
 Users of Bootstrap are fortunate to use the GLYPHICONS for free on Bootstrap projects. The developers have asked that you link back to GLYPHICONS when practical.
