@@ -765,6 +765,8 @@ $('.nav-tabs').button()
 
 ==== Methods
 
+The following methods are some useful to use with buttons.
+
 ===== Toggle
 
 Toggles push state. Gives the button the appearance that it has been activated.
