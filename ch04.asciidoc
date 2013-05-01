@@ -10,8 +10,7 @@ Bootstrap can be included on your site in two forms, either compiled or raw. In 
 
 Typically, JavaScript lies in a either a separate file or at the bottom of the page before the closing `</body>` tag. You can either use the `src` attribute to link to another file, or you can write the contents of the file between the opening and closing tags.
 
-[[javascript_usage]]
-====
+
 [source, html]
 ----
 <!-- To reference another JavaScript file -->
@@ -24,7 +23,6 @@ Typically, JavaScript lies in a either a separate file or at the bottom of the p
 	}
 </script>
 ----
-====
 
 Generally, it is best to include all JavaScript calls into a check that ensures that the DOM has been loaded on the page. If you have the JavaScript trying to fire earlier, it may miss elements as the browser parses the page. With jQuery, adding a check is easily done by selecting the `document` or the entire content of the page, and then applying the `.ready()` method:
 
