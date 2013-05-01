@@ -964,7 +964,7 @@ The following code shows how to extend and add more to the thumbnail:
 
 === Alerts
 
-Like the modals that will be described in <<javascriptplug>>, alerts provide a way to style messages to the user. The default alert is added by creating a wrapper `<div>` and adding a class of `.alert` (see <<figure3-39>>).(((layout components, alerts)))(((alerts)))(((messages)))
+Like the modals that will be described in <<javascriptplug>>, alerts provide a way to style messages to the user (see <<figure3-39>>). The default alert is added by creating a wrapper `<div>` and adding a class of `.alert`.(((layout components, alerts)))(((alerts)))(((messages)))
 
 [[figure3-39]]
 .Basic alert
