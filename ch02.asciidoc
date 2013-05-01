@@ -17,7 +17,17 @@ Starting with typography, Bootstrap uses Helvetica Neue, Helvetica, Arial, and s
 ==== Headings
 
 All six standard heading levels have been styled in Bootstrap, with the `<h1>` at 36 pixels tall, and the `<h6>` down to 12 pixels (for reference, default body text is 14 pixels tall). See <<figure2-1>>. In addition, to add an inline subheading to any of the headings, simply add `<small>` around any of the elements and you will get smaller text in a lighter color.
-In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight (i.e., not bold), and gray instead of black.(((typography, headings)))(((headings)))(((inline subheadings)))((("<small> tag", sortas="small tag")))
+In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight (i.e., not bold), and gray instead of black: (((typography, headings)))(((headings)))(((inline subheadings)))((("<small> tag", sortas="small tag")))
+
+[source, css]
+----------
+h1 small {
+    font-size:24px;
+	font-weight:normal;
+	line-height:1;
+	color:#999;
+	}
+----------
 
 [[figure2-1]]
 .Headings
@@ -27,16 +37,6 @@ image::images/boot_0201.png[]
 // I'm now calling it an inline sub-heading. -JS
 
 // Added a place holder above for body text font size, to give the heading sizes a frame of reference. Also tweaked the last sentence to make it a little clearer. -NM
-
-[source, css]
-----------
-h1 small {
-	font-size:24px;
-	font-weight:normal;
-	line-height:1;
-	color:#999;
-	}
-----------
 
 // Should all the sections that follow this comment actually be level 4 headings, not level 5? -NM
 // Not sure I follow here... -JS
