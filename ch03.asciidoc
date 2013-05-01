@@ -470,6 +470,10 @@ Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab 
 </div>
 ----
 
+[[figure3-19]]
+.Left tabs
+image::images/boot_0319.png[]
+
 Tabs on the right get the `.tabs-right` class (see <<figure3-20>>).
 
 [[figure3-20]]
