@@ -747,7 +747,7 @@ Here's the code for basic pagination:
 .Basic pagination
 image::images/boot_0328.png[]
 
-And here's the code for pagination using the helper classes:
+And here's the code for pagination using helper classes:
 
 [source, html]
 ----
