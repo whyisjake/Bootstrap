@@ -722,11 +722,7 @@ image::images/boot_0407.png[]
 
 ==== Checkbox Buttons
 
-Buttons can work like checkboxes (as in <<checkbox_buttons>>), allowing a user to select many of the options in a button group. To add this function, add `data-toggle="buttons-checkbox"` for checkbox style toggling on `.btn-group`.(((checkboxes)))
-
-[[checkbox_buttons]]
-.Checkbox buttons
-image::images/boot_0408.png[]
+Buttons can work like checkboxes (as in <<checkbox_buttons>>), allowing a user to select many of the options in a button group. To add this function, add `data-toggle="buttons-checkbox"` for checkbox style toggling on `.btn-group`: (((checkboxes)))
 
 [source, html]
 ----
@@ -736,6 +732,10 @@ image::images/boot_0408.png[]
   <button type="button" class="btn btn-primary">Right</button>
 </div>
 ----
+
+[[checkbox_buttons]]
+.Checkbox buttons
+image::images/boot_0408.png[]
 
 ==== Radio Buttons
 
