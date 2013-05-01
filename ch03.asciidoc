@@ -662,7 +662,8 @@ Use the following code to create a responsive navbar:
         <span class="icon-bar"></span>
       </a>
       
-      <!-- Leave the brand out if you want it to be shown when other elements are collapsed... -->
+      <!-- Leave the brand out if you want it to be shown when other elements 
+      are collapsed... -->
       <a href="#" class="brand">Project Name</a>
 
       <!-- Everything that you want collapsed, should be added to the collapse div. -->
