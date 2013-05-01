@@ -1029,6 +1029,8 @@ Like the striped version of the progress bar, you can animate the stripes (see <
 .Animated progress bar
 image::images/boot_0344.png[]
 
+Here's the code to make the progress bar animated:
+
 [source, html]
 ----
 <div class="progress progress-striped active">
