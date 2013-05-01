@@ -865,6 +865,8 @@ Badges are similar to labels; the primary difference is that the corners are mor
 .Badges
 image::images/boot_0334.png[]
 
+The following code shows how to use badges:
+
 [source, html]
 ----
 <span class="badge">1</span>
