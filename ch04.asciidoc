@@ -862,7 +862,8 @@ You can also use the data attributes to make all content collapsible:
 
 [source, html]
 ----
-<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+<button type="button" class="btn btn-danger" data-toggle="collapse" 
+data-target="#demo">
   simple collapsible
 </button>
 
