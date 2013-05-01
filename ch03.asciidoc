@@ -1044,6 +1044,8 @@ In addition to the blue progress bar, there are options for green, yellow, and r
 .Stacked progress bar
 image::images/boot_0345.png[]
 
+The following code shows this stacked-look progress bar:
+
 [source, html]
 ----
 <div class="progress">
