@@ -1161,6 +1161,8 @@ The following code uses the well classes:
 
 ==== Helper Classes
 
+Here are some helper classes that might come in handy.
+
 ===== Pull left
 
 To float an element to the left, use the `.pull-left` class(((layout components, helper classes)))(((helper classes)))(((elements, floating left/right))):
