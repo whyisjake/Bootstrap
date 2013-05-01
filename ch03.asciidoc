@@ -507,11 +507,7 @@ NOTE: As a footnote to the tabbable elements, you can use the markup here to con
 
 === Navbar
 
-The navbar is a nice feature, and is one of the prominent features of Bootstrap sites (see <<figure3-21>>). At its core, the navbar includes styling for site names and basic navigation. It can later be extended by adding form-specific controls and specialized dropdowns. To be sure that the navbar is constrained to the width of the content of the page, either place it inside of a `.span12` or the `.container` class.((("layout components", "navbars", id="ix_lcnavbar", range="startofrange")))((("navbars", id="ix_navbar", range="startofrange"))) 
-
-[[figure3-21]]
-.Basic navbar
-image::images/boot_0321.png[]
+The navbar is a nice feature, and is one of the prominent features of Bootstrap sites (see <<figure3-21>>). At its core, the navbar includes styling for site names and basic navigation. It can later be extended by adding form-specific controls and specialized dropdowns. To be sure that the navbar is constrained to the width of the content of the page, either place it inside of a `.span12` or the `.container` class: ((("layout components", "navbars", id="ix_lcnavbar", range="startofrange")))((("navbars", id="ix_navbar", range="startofrange"))) 
 
 [source, html]
 ----
@@ -526,6 +522,10 @@ image::images/boot_0321.png[]
   </div>
 </div>
 ----
+
+[[figure3-21]]
+.Basic navbar
+image::images/boot_0321.png[]
 
 Note the `.brand` class in the code. This will give the text a lighter `font-weight` and slightly larger size.
 
