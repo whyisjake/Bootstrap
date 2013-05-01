@@ -232,10 +232,6 @@ image::images/boot_0309.png[]
 
 To turn the tabs into pills (see <<figure3-10>>), use `.nav-pills` instead of `.nav-tabs`: (((navigation elements, basic pills navigation)))(((basic pills navigation)))(((pills navigation)))
 
-[[figure3-10]]
-.Tabbed navigation
-image::images/boot_0310.png[]
-
 [source, html]
 ----
 <ul class="nav nav-pills">
@@ -246,6 +242,10 @@ image::images/boot_0310.png[]
   <li><a href="#">Messages</a></li>
 </ul>
 ----
+
+[[figure3-10]]
+.Tabbed navigation
+image::images/boot_0310.png[]
 
 ===== Disabled class
 
