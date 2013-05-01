@@ -923,7 +923,7 @@ A lot of sites need a way to lay out images in a grid, and Bootstrap has an easy
 .Basic thumbnail
 image::images/boot_0337.png[]
 
-Here's the code to create a thumbnail:
+Use the following code to create a thumbnail:
 
 [source, html]
 ----
