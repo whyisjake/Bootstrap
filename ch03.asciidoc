@@ -1093,6 +1093,8 @@ To use media list (shown in <<figure3-49>>), change the container `<div>` to an 
 .Media list example
 image::images/boot_0349.png[]
 
+The following is the code to create a media list:
+
 [source, html]
 ----
 <ul class="media-list">
