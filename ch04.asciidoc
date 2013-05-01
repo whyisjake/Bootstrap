@@ -823,9 +823,7 @@ The collapse plugin makes it easy to make collapsing divisions of the page (see 
 .Accordion
 image::images/boot_0410.png[]
 
-[[accordioncode]]
-.Accordion
-====
+
 [source, html]
 ----
 <div class="accordion" id="accordion2">
@@ -856,7 +854,7 @@ image::images/boot_0410.png[]
 </div>
 ...
 ----
-====
+
 
 You can also use the data attributes to make all content collapsible:
 
