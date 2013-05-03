@@ -1010,7 +1010,7 @@ For anchor elements, simply add the class of `.disabled` to the tag and the link
 
 [[figure2-45]]
 .Disabled link
-image::images/boot_0243.png[height=".3in"]
+image::images/boot_0243.png[height=".5in"]
 
 [NOTE]
 =====================================================================
@@ -1028,7 +1028,7 @@ disabled="disabled">Primary button</button>
 ----
 [[figure2-46]]
 .Disabled button
-image::images/boot_0244.png[height=".3in"]
+image::images/boot_0244.png[height=".5in"]
 
 === Images
 
@@ -1043,7 +1043,7 @@ Images have three classes (see <<figure2-47>>) that can be used to apply some si
 
 [[figure2-47]]
 .Images
-image::images/boot_0245.png[width="4.2in", height=".6"]
+image::images/boot_0245.png[width="3in", height=".6"]
 
 === Icons
 
