@@ -774,7 +774,7 @@ And here's the code for pagination using helper classes:
 .Pagination with helper classes
 image::images/boot_0329.png[]
 
-In addition to the `.active` and `.disabled` classes for list items, you can add `.pagination-centered` to the parent `<div>`. This will center the contents of the `<div>`. If you want the items right-aligned in the `<div>`, add  `.pagination-right`. For sizing, in addition to the normal size, there are three other sizes that can be applied by adding a class to the wrapper `<div>`: `.pagination-large`, `.pagination-small`, and `.pagination-mini` (see <<figure3-30>> for an image of this): (((right alignment)))
+In addition to the `.active` and `.disabled` classes for list items, you can add `.pagination-centered` to the parent `<div>`. This will center the contents of the `<div>`. If you want the items right-aligned in the `<div>`, add  `.pagination-right`. For sizing, in addition to the normal size, there are three other sizes that can be applied by adding a class to the wrapper `<div>`: `.pagination-large`, `.pagination-small`, and `.pagination-mini` (see <<figure3-30>>): (((right alignment)))
 
 [source, html]
 ----
