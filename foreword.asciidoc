@@ -5,7 +5,7 @@
       <surname>Winer</surname>
     </author>
     <affiliation>
-    <emphasis>editor,</emphasis> Scripting News<emphasis>, January 2013, New York</emphasis>s
+    <emphasis>editor,</emphasis> Scripting News<emphasis>, January 2013, New York</emphasis>
     </affiliation>
    </prefaceinfo>
 ++++
