@@ -457,7 +457,7 @@ Tooltips (<<tooltip_placement>>) are useful when you need to describe a link or 
 
 [[tooltip_placement]]
 .Tooltip placement
-image::images/boot_0404.png[]
+image::images/boot_0404.png[scale="85"]
 
 ==== Usage
 
