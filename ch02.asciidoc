@@ -936,11 +936,11 @@ Now, buttons and links can all look alike with Bootstrap. Anything that is given
 |=======================
 |Buttons                         |Class              |Description
 |image:images/btn.png[]          |`btn`              |Standard gray button with gradient
-|image:images/btn-primary.png[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons 
-|image:images/btn-info.png[]     |`btn btn-info`     |Used as an alternative to the default styles
-|image:images/btn-success.png[]  |`btn-success`      |Indicates a successful or positive action
-|image:images/btn-warning.png[]  |`btn btn-warning`  |Indicates caution should be taken with this action
-|image:images/btn-danger.png[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action
+|image:images/btn-primary.png[]  |`btn btn-primary`  |Provides extra visual weight and identifies the primary action in a set of buttons (blue)
+|image:images/btn-info.png[]     |`btn btn-info`     |Used as an alternative to the default styles (light blue)
+|image:images/btn-success.png[]  |`btn-success`      |Indicates a successful or positive action (green)
+|image:images/btn-warning.png[]  |`btn btn-warning`  |Indicates caution should be taken with this action (orange)
+|image:images/btn-danger.png[]   |`btn btn-danger`   |Indicates a dangerous or potentially negative action (red)
 |image:images/btn-inverse.png[]  |`btn btn-inverse`  |Alternate dark-gray button, not tied to a semantic action or use
 |image:images/btn-link.png[]     |`btn btn-link`     |De-emphasizes a button by making it look like a link while maintaining button behavior
 |=======================
@@ -1044,7 +1044,7 @@ Bootstrap bundles 140 icons into one sprite that can be used with buttons, links
 .Icons by GLYPHICONS
 image::images/boot_02in04.png[]
 
-<?hard-pagebreak?>
+
 
 ==== GLYPHICONS Attribution
 
