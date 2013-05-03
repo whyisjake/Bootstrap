@@ -384,7 +384,7 @@ To create a divider, much like an `<hr />`, use an empty `<li>` with a class((("
 
 [[figure3-16]]
 .Navigation list
-image::images/boot_0316.png[width="3.8in", height="3.9in"]
+image::images/boot_0316.png[]
 
 ==== Tabbable Navigation
 
