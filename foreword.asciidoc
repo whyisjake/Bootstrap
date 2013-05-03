@@ -1,15 +1,7 @@
 ++++
  <prefaceinfo>
-    <author>
-      <firstname>Dave</firstname>
-      <surname>Winer</surname>
-    </author>
-    
-    <affiliation>
-   editor
-    </affiliation>
-    
-   </prefaceinfo>
+
+ </prefaceinfo>
 ++++
 [preface]
 
