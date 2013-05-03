@@ -4,9 +4,11 @@
       <firstname>Dave</firstname>
       <surname>Winer</surname>
     </author>
+    
     <affiliation>
-    <emphasis>editor,</emphasis> Scripting News<emphasis>, January 2013, New York</emphasis>
+   editor
     </affiliation>
+    
    </prefaceinfo>
 ++++
 [preface]
