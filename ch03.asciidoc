@@ -648,7 +648,7 @@ Like the rest of Bootstrap, the navbar can be totally responsive as shown in <<f
 
 [[figure3-25]]
 .Responsive navbar
-image::images/boot_0325.png[width="2.5in"]
+image::images/boot_0325.png[width="3.5in"]
 
 Use the following code to create a responsive navbar:
 
