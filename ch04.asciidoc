@@ -547,7 +547,7 @@ The popover (see <<popover_placement>>) is a sibling of the tooltip, offering an
 
 [[popover_placement]]
 .Popover placement
-image::images/boot_0405.png[width="3.5in"]
+image::images/boot_0405.png[width="3.7in"]
 
 Use the following code for popover placement:
 
