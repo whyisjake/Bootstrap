@@ -345,7 +345,7 @@ If you want a nice, basic table style with just some light padding and horizonta
 
 [[figure2-13]]
 .Basic table class
-image::images/boot_0213.png[width="3in"]
+image::images/boot_0213.png[width="3.4in"]
 
 ==== Optional Table Classes
 
