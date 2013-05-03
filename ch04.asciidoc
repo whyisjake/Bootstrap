@@ -8,7 +8,7 @@ The components discussed in <<bootstrap_layout>> are just the beginning. Bootstr
 
 Bootstrap can be included on your site in two forms, either compiled or raw. In Bootstrap 2.2.2, the uncompressed file is 59KB and the minimized version is only 32KB. All of the Bootstrap plugins are accessible using the included Data API. With this, you don't need to include a single line of JavaScript to invoke any of the plugin features.((("JavaScript plugins", id="ix_jsplug", range="startofrange")))(((JavaScript plugins, usage)))
 
-Typically, JavaScript lies in a either a separate file or at the bottom of the page before the closing `</body>` tag. You can either use the `src` attribute to link to another file, or you can write the contents of the file between the opening and closing tags.
+Typically, JavaScript lies in a either a separate file or at the bottom of the page before the closing `</body>` tag. You can either use the `src` attribute to link to another file, or you can write the contents of the file between the opening and closing tags:
 
 [source, html]
 ----
@@ -78,14 +78,14 @@ The transition plugin provides simple transition effects. A few examples include
 
 A modal is a child window that is layered over its parent window (see <<figure4_1>>). Typically, the purpose is to display content from a separate source that can have some interaction without leaving the parent window. Child windows can provide information, interaction, or more. I use them as a window for holding slideshows and login/registration information. The modal plugin is probably one of my favorite Bootstrap features.(((JavaScript plugins, modal windows)))(((modal windows)))((("windows, layered")))(((layered windows)))(((child windows)))(((parent windows)))(((slideshows)))(((login/registration information)))
 
-To create a static example, use this code:
+To create a static modal window, use this code:
 
 [source, html]
 ----
 <div class="modal hide fade">
   <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
-    </button>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+    &times;</button>
     <h3>Modal header</h3>
   </div>
   <div class="modal-body">
@@ -213,6 +213,10 @@ Bootstrap provides the events listed in <<table_modal_events>> if you need to ho
 |hide	|Fired when the `hide` instance method has been called.
 |hidden	|Fired when the modal has finished being hidden from the user.
 |=======================
+
+++++
+<?hard-pagebreak?>
+++++
 
 As an example, after the modal is hidden, you could cause an alert to fire:
 
