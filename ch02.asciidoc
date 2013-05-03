@@ -16,7 +16,7 @@ Starting with typography, Bootstrap uses Helvetica Neue, Helvetica, Arial, and s
 
 ==== Headings
 
-All six standard heading levels have been styled in Bootstrap, with the `<h1>` at 36 pixels tall, and the `<h6>` down to 12 pixels (for reference, default body text is 14 pixels tall). See <<figure2-1>>. In addition, to add an inline subheading to any of the headings, simply add `<small>` around any of the elements and you will get smaller text in a lighter color.
+All six standard heading levels have been styled in Bootstrap (see <<figure2-1>>), with the `<h1>` at 36 pixels tall, and the `<h6>` down to 12 pixels (for reference, default body text is 14 pixels tall). In addition, to add an inline subheading to any of the headings, simply add `<small>` around any of the elements and you will get smaller text in a lighter color.
 In the case of the `<h1>`, the small text is 24 pixels tall, normal font weight (i.e., not bold), and gray instead of black: (((typography, headings)))(((headings)))(((inline subheadings)))((("<small> tag", sortas="small tag")))
 
 [source, css]
