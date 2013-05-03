@@ -325,7 +325,7 @@ Navigation menus share a similar syntax with dropdown menus (see <<figure3-14>>)
 
 [[figure3-14]]
 .Tabbed navigation with a dropdown menu
-image::images/boot_0314.png[width="2.9in"]
+image::images/boot_0314.png[width="3.1in"]
 
 To do the same thing with pills (<<figure3-15>>), simply swap the `.nav-tabs` class with `.nav-pills`:
 
