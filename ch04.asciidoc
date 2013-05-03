@@ -284,7 +284,7 @@ $('.dropdown-toggle').dropdown()
 
 ==== Method
 
-The dropdown toggle has a simple method to show or hide the dropdown. There are no options.
+The dropdown toggle has a simple method to show or hide the dropdown. There are no options:
 
 [source, js]
 ----
