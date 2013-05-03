@@ -371,7 +371,7 @@ Navigation lists are useful when you need to display a group of navigation links
 
 [[figure3-16]]
 .Navigation list
-image::images/boot_0316.png[]
+image::images/boot_0316.png[scale="90"]
 
 ===== Horizontal divider
 
