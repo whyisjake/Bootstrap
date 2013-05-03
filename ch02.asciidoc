@@ -430,7 +430,7 @@ The basic form structure comes with Bootstrap; there is no need to add any extra
 
 [[figure2-19]]
 .Basic form
-image::images/boot_0219.png[width="2.9in"]
+image::images/boot_0219.png[width="3.3in"]
 
 ==== Optional Form Layouts
 
