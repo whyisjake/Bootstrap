@@ -300,6 +300,10 @@ There are two different key ways to display code with Bootstrap. The first is th
 </pre>
 --------
 
+++++
+<?hard-pagebreak?>
+++++
+
 .Heads Up!
 WARNING: Make sure that when you use the `<pre>` and `<code>` tags, you use the unicode variants for the opening and closing tags: `&lt;` and `&gt;`.
 
