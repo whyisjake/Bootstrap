@@ -1,6 +1,5 @@
 [au="Dave Winer", auaffil="editor, role:[Scripting News], January 2013, New York"]
 [preface]
-
 Foreword
 --------
 
