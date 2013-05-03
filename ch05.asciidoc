@@ -19,6 +19,10 @@ If desired, using the LESS files, you can compile your own version of Bootstrap 
 
 You can download the source, or if you want to easily customize a few of the colors, sizing, or plugins, you can cater the Bootstrap to your needs via the http://twitter.github.com/bootstrap/customize.html[Bootstrap website].((("Bootstrap", "customizing", id="ix_BScus", range="startofrange")))
 
+++++
+<?hard-pagebreak?>
+++++
+
 When you use the customize page (<<figure5_1>>), you decide what components you need. For example, you might choose to leave off all of the responsive features, or maybe you would like to leave off the button classes that conflict with styles that you already have. You can also opt out of any of the jQuery plugins. If you know that you aren't going to be using the modals or the carousel, you can leave it out of the build so that you have a smaller file to request.
 
 [[figure5_1]]
@@ -65,9 +69,9 @@ In the beginning, I was really hesitant to use LESS. After all, I have been writ
 
 ==== Text Snippets
 
-To rapidly develop Bootstrap sites, I like to use http://www.sublimetext.com/2[Sublime Text 2] and the Bootstrap snippets from https://github.com/devtellect[DEVtellect] on https://github.com/devtellect/sublime-twitter-bootstrap-snippets/[GitHub]. This makes adding any component as easy as adding a keyboard shortcut.(((text snippets)))(((Sublime Text 2)))(((snippets)))
+To rapidly develop Bootstrap sites, I like to use http://www.sublimetext.com/2[Sublime Text 2] and the Bootstrap snippets (shown in <<figure5_4>>) from https://github.com/devtellect[DEVtellect] on https://github.com/devtellect/sublime-twitter-bootstrap-snippets/[GitHub]. This makes adding any component as easy as adding a keyboard shortcut.(((text snippets)))(((Sublime Text 2)))(((snippets)))
 
-To install the snippets (shown in <<figure5_4>>), clone the git repository into your packages folder:
+To install the snippets, clone the git repository into your packages folder:
 
 [source, bash]
 ----
