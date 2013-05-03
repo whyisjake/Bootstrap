@@ -11,6 +11,8 @@ Dropdown menus are toggleable, contextual menus for displaying links in a list f
 .Basic dropdown menu
 image::images/boot_0301.png[]
 
+The following code creates a basic dropdown menu:
+
 [source, html]
 ----
 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
@@ -346,7 +348,7 @@ To do the same thing with pills (<<figure3-15>>), simply swap the `.nav-tabs` cl
 
 [[figure3-15]]
 .Pill navigation with dropdowns
-image::images/boot_0315.png[]
+image::images/boot_0315.png[scale="90"]
 
 ==== Navigation Lists
 
