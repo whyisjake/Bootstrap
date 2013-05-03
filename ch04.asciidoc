@@ -364,6 +364,10 @@ Options can be passed via data attributes or JavaScript. For data attributes, pr
 
 The offset option is handy when you are using a fixed navbar. You will want to offset the scroll by about 50 pixels so that it reads at the correct time (see <<table4-4>>).
 
+++++
+<?hard-pagebreak?>
+++++
+
 ==== Event
 
 [[table4-4]]
