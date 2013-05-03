@@ -116,7 +116,8 @@ Add `.initialism` to an `<abbr>` for a slightly smaller font size (see <<figure2
 
 [source, html]
 --------
-<abbr title="rolling on the floor, laughing out loud">That joke had me ROTFLOL</abbr>
+<abbr title="rolling on the floor, laughing out loud">That joke had me ROTFLOL
+</abbr>
 --------
 
 [[figure2-5]]
