@@ -149,6 +149,6 @@ Watch us on YouTube: link:$$http://www.youtube.com/oreillymedia$$[]
 Acknowledgments
 ~~~~~~~~~~~~~~~
 
-Many thanks to Dave Winer for introducing me to Bootstrap in the first place, and to Simon St. Laurent for the opportunity to write this book. Detailed feedback from my friends Roseanne Fallin and Tony Quartorolo has made it possible; I hope that this book can get readers started on the right track. I would also like to thank Melissa Morgan for letting me take a few risks and develop the way that I like at MAKE.
+Many thanks to Dave Winer for introducing me to Bootstrap in the first place, and to Simon St. Laurent for the opportunity to write this book. Detailed feedback from my friends Roseanne Fallin and Tony Quartorolo has made it possible; I hope that this book can get readers started on the right track. I would also like to thank Melissa Morgan for letting me take a few risks and develop the way that I like at _MAKE_.
 
 In particular, thanks to my wonderful wife, Melissa, for putting up with me and encouraging me to finish. And thanks to my son, Rush, for understanding that I needed to "work" and to my daughter, Hailey, for the warm smiles and huge hugs. I love my family, and am so glad for everything they offer me.
