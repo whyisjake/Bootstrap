@@ -154,7 +154,7 @@ image::images/boot_0206.png[scale="85"]
 
 ===== Blockquotes
 
-To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text and adds a thick gray border along the left side. To identify the source of the quote, add the `<small>` tag, then add the source's name wrapped in a `<cite>` tag before closing the `</small>` tag.(((typography, block quotes)))(((block quotes)))(((quotes)))((("<blockquote> tag", sortas="blockquote tag"))) 
+To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text and adds a thick gray border along the left side. To identify the source of the quote, add the `<small>` tag, then add the source's name wrapped in a `<cite>` tag before closing the `</small>` tag: (((typography, block quotes)))(((block quotes)))(((quotes)))((("<blockquote> tag", sortas="blockquote tag"))) 
 
 // Do they have to use the small tag for the source, or is that just a stylistic suggestion? -NM
 // It is a stylistic suggestion. There is some CSS that supports it. -JS
