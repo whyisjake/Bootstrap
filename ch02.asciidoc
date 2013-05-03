@@ -121,7 +121,7 @@ Add `.initialism` to an `<abbr>` for a slightly smaller font size (see <<figure2
 
 [[figure2-5]]
 .Another abbreviation example
-image::images/boot_0205.png[]
+image::images/boot_0205.png[scale=""90]
 
 
 ===== Addresses
@@ -149,12 +149,12 @@ Adding `<address>` elements to your page can help screen readers and search engi
 
 [[figure2-6]]
 .Address tag
-image::images/boot_0206.png[]
+image::images/boot_0206.png[scale="85"]
 
 
 ===== Blockquotes
 
-To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text and adds a thick gray border along the left side. To identify the source of the quote, add the `<small>` tag, then add the source's name wrapped in a `<cite>` tag before closing the `</small>` tag. When you put it all together, you get something that looks(((typography, block quotes)))(((block quotes)))(((quotes)))((("<blockquote> tag", sortas="blockquote tag"))) like <<figure2-7>>:
+To add blocks of quoted text to your document--or for any quotation that you want to set apart from the main text flow--add the `<blockquote>` tag around the text. For best results, and for line breaks, wrap each subsection in a `<p>` tag. Bootstrap's default styling indents the text and adds a thick gray border along the left side. To identify the source of the quote, add the `<small>` tag, then add the source's name wrapped in a `<cite>` tag before closing the `</small>` tag.(((typography, block quotes)))(((block quotes)))(((quotes)))((("<blockquote> tag", sortas="blockquote tag"))) 
 
 // Do they have to use the small tag for the source, or is that just a stylistic suggestion? -NM
 // It is a stylistic suggestion. There is some CSS that supports it. -JS
@@ -173,6 +173,8 @@ To add blocks of quoted text to your document--or for any quotation that you wan
     </small>
 </blockquote>
 --------
+
+When you put it all together, you get something that looks like <<figure2-7>>.
 
 [[figure2-7]]
 .Basic blockquote
