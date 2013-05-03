@@ -369,10 +369,6 @@ Navigation lists are useful when you need to display a group of navigation links
 </ul>
 ----
 
-[[figure3-16]]
-.Navigation list
-image::images/boot_0316.png[width="3.8in", height="3.9in"]
-
 ===== Horizontal divider
 
 To create a divider, much like an `<hr />`, use an empty `<li>` with a class((("dividers, horizontal")))(((horizontal dividers))) of `.divider`:
@@ -380,11 +376,15 @@ To create a divider, much like an `<hr />`, use an empty `<li>` with a class((("
 [source, html]
 ----
 <ul class="nav-menu">
-	...
+    ...
 	<li class="divider"></li>
 	....
 </ul>
 ----
+
+[[figure3-16]]
+.Navigation list
+image::images/boot_0316.png[width="3.8in", height="3.9in"]
 
 ==== Tabbable Navigation
 
