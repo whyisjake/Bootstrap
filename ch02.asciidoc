@@ -121,7 +121,7 @@ Add `.initialism` to an `<abbr>` for a slightly smaller font size (see <<figure2
 
 [[figure2-5]]
 .Another abbreviation example
-image::images/boot_0205.png[width="2.5in"]
+image::images/boot_0205.png[width="2.7in"]
 
 
 ===== Addresses
@@ -149,7 +149,7 @@ Adding `<address>` elements to your page can help screen readers and search engi
 
 [[figure2-6]]
 .Address tag
-image::images/boot_0206.png[width="2.5in"]
+image::images/boot_0206.png[width="2.7in"]
 
 
 ===== Blockquotes
