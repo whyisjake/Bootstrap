@@ -1,6 +1,6 @@
 [colophon]
 = Colophon
 
-The animal on the cover of _FILL IN TITLE_ is FILL IN DESCRIPTION.
+The animal on the cover of _Bootstrap_ is the Finnhorse.
 
-The cover image is from FILL IN CREDITS. The cover font is Adobe ITC Garamond. The text font is Adobe Minion Pro; the heading font is Adobe Myriad Condensed; and the code font is Dalton Maag's Ubuntu Mono.
+The cover image is from a loose plate of german origin, exact source unknown. The cover font is Adobe ITC Garamond. The text font is Adobe Minion Pro; the heading font is Adobe Myriad Condensed; and the code font is Dalton Maag's Ubuntu Mono.
