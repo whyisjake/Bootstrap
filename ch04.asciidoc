@@ -719,7 +719,8 @@ When clicking on a button with the `data-toggle="button"` attribute (<<toggle_bu
 
 [source, html]
 ----
-<button type="button" class="btn btn-primary" data-toggle="button">Toggle</button>
+<button type="button" class="btn btn-primary" data-toggle="button">Toggle
+</button>
 ----
 
 [[toggle_button]]
