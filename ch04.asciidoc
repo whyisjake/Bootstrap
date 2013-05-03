@@ -377,18 +377,12 @@ The offset option is handy when you are using a fixed navbar. You will want to o
 
 === Toggleable Tabs
 
-Tabbable tabs were introduced in <<bootstrap_layout>>. By combining a few data attributes, you can easily create a tabbed interface (<<toggle_figure>>). To do so, create the nav interface, and then wrap the content of the tabs inside a `<div>` with a class of `.tab-content`.(((JavaScript plugins, toggleable tabs)))(((toggleable tabs)))(((tabbed navigation)))
-
-[[toggle_figure]]
-.Toggleable tabs
-image::images/boot_0403.png[]
-
-Here's the basic markup for toggleable tabs:
+Tabbable tabs were introduced in <<bootstrap_layout>>. By combining a few data attributes, you can easily create a tabbed interface (<<toggle_figure>>). To do so, create the nav interface, and then wrap the content of the tabs inside a `<div>` with a class of `.tab-content`: (((JavaScript plugins, toggleable tabs)))(((toggleable tabs)))(((tabbed navigation)))
 
 [source, html]
 ----
 <ul class="nav nav-tabs">
-	<li><a href="#home" data-toggle="tab">Home</a></li>
+    <li><a href="#home" data-toggle="tab">Home</a></li>
 	<li><a href="#profile" data-toggle="tab">Profile</a></li>
 	<li><a href="#messages" data-toggle="tab">Messages</a></li>
 	<li><a href="#settings" data-toggle="tab">Settings</a></li>
@@ -401,6 +395,11 @@ Here's the basic markup for toggleable tabs:
 	<div class="tab-pane" id="settings">...</div>
 </div>
 ----
+
+[[toggle_figure]]
+.Toggleable tabs
+image::images/boot_0403.png[]
+
 
 ==== Usage
 
