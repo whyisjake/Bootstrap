@@ -497,7 +497,7 @@ Here are some useful methods for tooltips.
 
 ===== Options
 
-Attaches a tooltip handler to an element collection.
+Attaches a tooltip handler to an element collection:
 
 [source, js]
 ----
@@ -507,7 +507,7 @@ $().tooltip(options)
 
 ===== Show
 
-Reveals an element's tooltip.
+Reveals an element's tooltip:
 
 [source, js]
 ----
@@ -516,7 +516,7 @@ $('#element').tooltip('show')
 
 ===== Hide
 
-Hides an element's tooltip.
+Hides an element's tooltip:
 
 [source, js]
 ----
@@ -525,7 +525,7 @@ $('#element').tooltip('hide')
 
 ===== Toggle
 
-Toggles an element's tooltip.
+Toggles an element's tooltip:
 
 [source, js]
 ----
@@ -534,7 +534,7 @@ $('#element').tooltip('toggle')
 
 ===== Destroy
 
-Hides and destroys an element's tooltip.
+Hides and destroys an element's tooltip:
 
 [source, js]
 ----
