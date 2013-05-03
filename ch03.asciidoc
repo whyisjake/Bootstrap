@@ -348,7 +348,7 @@ To do the same thing with pills (<<figure3-15>>), simply swap the `.nav-tabs` cl
 
 [[figure3-15]]
 .Pill navigation with dropdowns
-image::images/boot_0315.png[width="2.5in"]
+image::images/boot_0315.png[width="3in"]
 
 ==== Navigation Lists
 
