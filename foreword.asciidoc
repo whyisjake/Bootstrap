@@ -1,16 +1,14 @@
-----
+pass:[
  <prefaceinfo>
     <author>
       <firstname>Dave</firstname>
       <surname>Winer</surname>
-    </author>
-    
+    </author>   
     <affiliation>
     <emphasis>editor,</emphasis> Scripting News<emphasis>, January 2013, New York</emphasis>
     </affiliation>
-    
    </prefaceinfo>
-----
+]
 [preface]
 
 Foreword
