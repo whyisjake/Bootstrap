@@ -150,7 +150,7 @@ Adding `<address>` elements to your page can help screen readers and search engi
 
 [[figure2-6]]
 .Address tag
-image::images/boot_0206.png[width="2.7in"]
+image::images/boot_0206.png[width="2.8in"]
 
 
 ===== Blockquotes
