@@ -996,7 +996,7 @@ level button</button>
 
 [[figure2-44]]
 .Block-level button
-image::images/boot_0242.png[]
+image::images/boot_0242.png[height="3in"]
 
 ==== Disabled Button Styling
 
