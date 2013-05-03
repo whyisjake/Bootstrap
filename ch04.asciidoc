@@ -550,6 +550,8 @@ The popover (see <<popover_placement>>) is a sibling of the tooltip, offering an
 .Popover placement
 image::images/boot_0405.png[scale="90"]
 
+Use the following code for popover placement:
+
 [source, html]
 ----
 <a href="#" class="btn" rel="popover" title="Using Popover" 
@@ -559,7 +561,7 @@ data-content="Just add content to the data-content attribute.">Click Me!</a>
 
 ==== Usage
 
-To enable the popover with JavaScript, use the `.popover()` function, passing in any options that you might need.
+To enable the popover with JavaScript, use the `.popover()` function, passing in any options that you might need:
 
 [source, js]
 ----
