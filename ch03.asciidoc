@@ -448,7 +448,7 @@ Here's the code for positioning tabs:
 </div>
 ----
 
-Tabs on the left get the `.tabs-left` class. For this, you need to swap the tab content and the tabs (see <<figure3-19>>):
+Tabs on the left (see <<figure3-19>>) get the `.tabs-left` class. For this, you need to swap the tab content and the tabs:
 
 [source,html]
 ----
