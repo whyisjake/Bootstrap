@@ -1030,7 +1030,7 @@ Like the striped version of the progress bar, you can animate the stripes (see <
 
 [[figure3-44]]
 .Animated progress bar
-image::images/boot_0344.png[width="3in"]
+image::images/boot_0344.png[]
 
 Here's the code to animate the progress bar:
 
