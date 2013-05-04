@@ -1045,7 +1045,7 @@ In addition to the blue progress bar, there are options for green, yellow, and r
 
 [[figure3-45]]
 .Stacked progress bar
-image::images/boot_0345.png[width="2.7in"]
+image::images/boot_0345.png[width="2.4in"]
 
 Use the following code to create a stacked progress bar:
 
