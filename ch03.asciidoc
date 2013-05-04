@@ -1030,7 +1030,7 @@ Like the striped version of the progress bar, you can animate the stripes (see <
 
 [[figure3-44]]
 .Animated progress bar
-image::images/boot_0344.png[]
+image::images/boot_0344.png[width="3in"]
 
 Here's the code to animate the progress bar:
 
@@ -1045,7 +1045,7 @@ In addition to the blue progress bar, there are options for green, yellow, and r
 
 [[figure3-45]]
 .Stacked progress bar
-image::images/boot_0345.png[]
+image::images/boot_0345.png[width="3in"]
 
 Use the following code to create a stacked progress bar:
 
