@@ -452,7 +452,7 @@ $('a[data-toggle="tab"]').on('shown', function (e) {
 })
 ----
 
-For information about the jQuery `.on` method, refer to  http://api.jquery.com/on/[jQuery .on] at the jQuery website.
+Read more about the jQuery `.on` method http://api.jquery.com/on/[here].
 
 === Tooltips
 
