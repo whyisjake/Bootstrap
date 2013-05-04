@@ -996,7 +996,7 @@ level button</button>
 
 [[figure2-44]]
 .Block-level button
-image::images/boot_0242.png[height="1in"]
+image::images/boot_0242.png[height="1.3in"]
 
 ==== Disabled Button Styling
 
@@ -1010,7 +1010,7 @@ For anchor elements, simply add the class of `.disabled` to the tag and the link
 
 [[figure2-45]]
 .Disabled link
-image::images/boot_0243.png[height=".5in"]
+image::images/boot_0243.png[height=".3in"]
 
 [NOTE]
 =====================================================================
@@ -1028,7 +1028,7 @@ disabled="disabled">Primary button</button>
 ----
 [[figure2-46]]
 .Disabled button
-image::images/boot_0244.png[height=".8in"]
+image::images/boot_0244.png[height=".3in"]
 
 === Images
 
