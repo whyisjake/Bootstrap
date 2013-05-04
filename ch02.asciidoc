@@ -1028,7 +1028,7 @@ disabled="disabled">Primary button</button>
 ----
 [[figure2-46]]
 .Disabled button
-image::images/boot_0244.png[height=".5in"]
+image::images/boot_0244.png[height=".8in"]
 
 === Images
 
