@@ -1010,7 +1010,7 @@ For anchor elements, simply add the class of `.disabled` to the tag and the link
 
 [[figure2-45]]
 .Disabled link
-image::images/boot_0243.png[height=".3in"]
+image::images/boot_0243.png[height=".4in"]
 
 [NOTE]
 =====================================================================
