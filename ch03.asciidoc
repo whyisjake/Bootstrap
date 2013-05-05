@@ -1041,7 +1041,7 @@ Here's the code to animate the progress bar:
 </div>
 ----
 
-In addition to the blue progress bar, there are options for green, yellow, and red using the `.bar-success`, `.bar-warning`, and `.bar-danger` classes. Progress bars can be stacked, indicating a graph of sorts by adding multiple elements together, as shown in <<figure3-45>>, using this code:
+In addition to the blue progress bar, there are options for green, yellow, and red using the `.bar-success`, `.bar-warning`, and `.bar-danger` classes. Progress bars can be stacked (see <<figure3-45>>), indicating a graph of sorts by adding multiple elements together using this code:
 
 [source, html]
 ----
