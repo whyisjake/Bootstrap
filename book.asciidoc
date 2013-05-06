@@ -15,7 +15,7 @@ include::ch04.asciidoc[]
 
 include::ch05.asciidoc[]
 
-include::colo.asciidoc[]
-
 [index]
 = Index
+
+include::colo.asciidoc[]
