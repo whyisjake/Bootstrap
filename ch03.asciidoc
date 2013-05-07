@@ -346,7 +346,7 @@ To do the same thing with pills (<<figure3-15>>), simply swap the `.nav-tabs` cl
 
 [[figure3-15]]
 .Pill navigation with dropdowns
-image::images/boot_0315.png[width="3.7in"]
+image::images/boot_0315.png[width="3.8in"]
 
 ==== Navigation Lists
 
@@ -392,7 +392,8 @@ Not only can you create a tabbed navigation, but by using the JavaScript plugin,
 ----
 <div class="tabbable">
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab1" data-toggle="tab">Meats</a></li>
+		<li class="active"><a href="#tab1" data-toggle="tab">Meats</a>
+        </li>
 		<li><a href="#tab2" data-toggle="tab">More Meat</a></li>
 	</ul>
 	<div class="tab-content">
