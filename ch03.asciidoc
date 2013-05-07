@@ -802,7 +802,7 @@ In addition to the `.active` and `.disabled` classes for list items, you can add
 ----
 
 [[figure3-30]]
-.Pagination Sizes
+.Pagination sizes
 image::images/boot_0330.png[]
 
 ==== Pager
