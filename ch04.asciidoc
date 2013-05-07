@@ -812,7 +812,7 @@ String in this method is referring to any string declared by the user:
 $().button('string')
 ----
 
-To reset the button state and bring in new content, use the string method.
+To reset the button state and bring in new content, use the string method:
 
 [source, html]
 ----
