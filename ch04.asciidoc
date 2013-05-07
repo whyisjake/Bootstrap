@@ -786,7 +786,7 @@ $().button('toggle')
 
 ===== Loading
 
-When loading, the button is disabled and the text is changed to the option from the `data-loading-text` attribute.
+When loading, the button is disabled and the text is changed to the option from the `data-loading-text` attribute:
 
 [source, html]
 ----
