@@ -1047,7 +1047,7 @@ image::images/boot_0245.png[width="2.85in", height=".45"]
 
 === Icons
 
-Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and form fields. The icons are provided by http://glyphicons.com/[GLYPHICONS] (see <<figure2-48>>).((("CSS (Cascading Style Sheets)", "icons")))(((icons)))(((GLYPHICONS)))((("<i> tag", sortas="i tag")))
+Bootstrap bundles 140 icons into one sprite that can be used with buttons, links, navigation, and form fields. The icons are provided by http://glyphicons.com/[GLYPHICONS]; see <<figure2-48>>.((("CSS (Cascading Style Sheets)", "icons")))(((icons)))(((GLYPHICONS)))((("<i> tag", sortas="i tag")))
 
 [[figure2-48]]
 .Icons by GLYPHICONS
