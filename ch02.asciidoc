@@ -769,7 +769,7 @@ You can use any `.span` from `.span1` to `.span12` for form control sizing (see 
 ----
 
 [[figure2-34]]
-.Span sized inputs
+.Span-sized inputs
 image::images/boot_02in03.png[]
 
 If you want to use multiple inputs on a line, simply use the `.controls-row` modifier class to apply the proper spacing (see <<figure2-35>>). It floats the inputs to collapse the white space; sets the correct margins; and, like the `.row` class, clears the float:
