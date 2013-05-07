@@ -730,7 +730,7 @@ image::images/boot_0327.png[]
 
 === Pagination
 
-Bootstrap handles pagination like a lot of other interface elements, an unordered list, with wrapper a `<div>` that has a specific class that identifies the element. In the basic form, adding `.pagination` to the parent `<div>` creates a row of bordered links. Each of the list items can be additionally styled by using the `.disabled` or `.active` class. See Figures pass:[<link linkend="figure3-28">3-29</link> and <link linkend="figure3-29">3-30 </xref>] for examples of this.(((layout components, pagination)))(((pagination)))
+Bootstrap handles pagination like a lot of other interface elements, an unordered list, with wrapper a `<div>` that has a specific class that identifies the element. In the basic form, adding `.pagination` to the parent `<div>` creates a row of bordered links. Each of the list items can be additionally styled by using the `.disabled` or `.active` class. See Figures pass:[<link linkend="figure3-28">3-29</link> and <link linkend="figure3-29">3-30 </link>] for examples of this.(((layout components, pagination)))(((pagination)))
 
 Here's the code for basic pagination:
 
