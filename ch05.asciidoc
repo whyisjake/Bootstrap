@@ -69,7 +69,7 @@ In the beginning, I was really hesitant to use LESS. After all, I have been writ
 
 ==== Text Snippets
 
-To rapidly develop Bootstrap sites, I like to use http://www.sublimetext.com/2[Sublime Text 2] and the Bootstrap snippets (shown in <<figure5_4>>) from https://github.com/devtellect[DEVtellect] on https://github.com/devtellect/sublime-twitter-bootstrap-snippets/[GitHub]. This makes adding any component as easy as adding a keyboard shortcut.(((text snippets)))(((Sublime Text 2)))(((snippets)))
+To rapidly develop Bootstrap sites, I like to use http://www.sublimetext.com/2[Sublime Text 2] and the Bootstrap snippets (shown in <<figure5_4>>) from DEVtellect on https://github.com/devtellect/sublime-twitter-bootstrap-snippets/[GitHub]. This makes adding any component as easy as adding a keyboard shortcut.(((text snippets)))(((Sublime Text 2)))(((snippets)))
 
 [[figure5_4]]
 .Bootstrap snippets
