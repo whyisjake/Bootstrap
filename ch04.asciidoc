@@ -777,7 +777,7 @@ The following methods are useful to use with buttons.
 
 ===== Toggle
 
-Toggles push state. Gives the button the appearance that it has been activated.
+Toggles push state. Gives the button the appearance that it has been activated:
 
 [source, js]
 ----
