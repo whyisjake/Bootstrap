@@ -1091,7 +1091,7 @@ Bootstrap leaves the design and formatting to you but provides a simple way to g
 .Default media object
 image::images/boot_0348.png[]
 
-To use media list (shown in <<figure3-49>>), change the container `<div>` to an `<ul>` and add the class `.media-list`. Since you can nest media objects, it is handy to markup for comments or other lists .
+To use media list (shown in <<figure3-49>>), change the container `<div>` to an `<ul>` and add the class `.media-list`. Since you can nest media objects, it is handy to markup for comments or other lists.
 
 [[figure3-49]]
 .Media list example
