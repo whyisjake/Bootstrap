@@ -796,7 +796,7 @@ When loading, the button is disabled and the text is changed to the option from 
 
 ===== Reset
 
-Resets button state, bringing the original content back to the text. This method is useful when you need to return the button back to the primary state.
+Resets button state, bringing the original content back to the text. This method is useful when you need to return the button back to the primary state:
 
 [source, js]
 ----
