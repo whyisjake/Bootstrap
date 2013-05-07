@@ -73,7 +73,7 @@ To rapidly develop Bootstrap sites, I like to use http://www.sublimetext.com/2[S
 
 [[figure5_4]]
 .Bootstrap snippets
-image::images/boot_0504.png[width="4.5in"]
+image::images/boot_0504.png[width="4.6in"]
 
 To install the snippets, clone the git repository into your packages folder:
 
