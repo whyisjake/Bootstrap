@@ -805,7 +805,7 @@ $().button('reset')
 
 ===== String
 
-String in this method is referring to any string declared by the user.
+String in this method is referring to any string declared by the user:
 
 [source, js]
 ----
