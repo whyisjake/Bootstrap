@@ -542,7 +542,7 @@ The most common form text field is the input--this is where users will enter mos
 image::images/boot_0223.png[]
 
 .Heads Up!
-NOTE: Both `input` and `textarea` default to a nice blue glow when in the role:[<phrase role="keep-together"><literal>:active</literal></phrase>] state.
+NOTE: Both `input` and `textarea` default to a nice blue glow when in the pass:[<phrase role="keep-together"><literal>:active</literal></phrase>] state.
 
 image::images/boot_02in01.png[]
 
