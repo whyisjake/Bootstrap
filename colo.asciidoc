@@ -7,4 +7,4 @@ The vast majority of Finnhorses are a chestnut color, with a very small percenta
 
 Today, most Finnhorses are used for harness racing and other recreational purposes.  It was originally the only horse used for racing in Finland, but after the middle of the 20th century, other horses were introduced into the sport. The horse is also used frequently at riding schools and for therapy.   
 
-The cover image is from a loose plate of german origin, exact source unknown. The cover font is Adobe ITC Garamond. The text font is Adobe Minion Pro; the heading font is Adobe Myriad Condensed; and the code font is Dalton Maag's Ubuntu Mono.
+The cover image is from a loose plate of German origin, exact source unknown. The cover font is Adobe ITC Garamond. The text font is Adobe Minion Pro; the heading font is Adobe Myriad Condensed; and the code font is Dalton Maag's Ubuntu Mono.
