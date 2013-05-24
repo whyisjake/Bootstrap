@@ -305,11 +305,15 @@ There are two different key ways to display code with Bootstrap. The first is th
 ++++
 
 .Heads Up!
-WARNING: Make sure that when you use the `<pre>` and `<code>` tags, you use the unicode variants for the opening and closing tags: `&lt;` and `&gt;`.
+WARNING: Make sure that when you use the `<pre>` and `<code>` tags, you should use the HTML entities for `<` and `>` inside these tags: `&lt;` and `&gt;`.
 
 // Hm I don't think I use the unicode codes for tags inside my code blocks. Is this necessary? What does it do? -NM
 // If you don't use the unicode, the browser will try to use them as normal HTML variants. -JS
-
+// There is no such thing as Unicode variants of HTML tags.  These HTML entities are defined by
+ the HTML spec to represent various characters would otherwise be represented as parts of tags.  You
+ cam also use numeric HTML entities to represent Unicode characters, but it is much easier to just
+ set the charset appropriately and type the characters in.  This idea codes from HTML's ancestor SGML
+ and is carried through to XML as well.
 
 === Tables
 
