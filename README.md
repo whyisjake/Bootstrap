@@ -1,3 +1,5 @@
+![Bootstrap Cover](https://raw.githubusercontent.com/whyisjake/Bootstrap/master/images/cover.png)
+
 Bootstrap - Responsive Web Development
 =========
 
